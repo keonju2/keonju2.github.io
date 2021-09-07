@@ -4,6 +4,22 @@
         xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
     <url>
+        <loc>https://keonju2.github.io/python-statement.html</loc>
+        
+        <lastmod>2021-09-07T07:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
         <loc>https://keonju2.github.io/python-basic.html</loc>
         
         <lastmod>2021-09-07T07:00:00+09:00</lastmod>
@@ -20,9 +36,25 @@
     </url>
     
     <url>
-        <loc>https://keonju2.github.io/jekyll-basic.html</loc>
+        <loc>https://keonju2.github.io/R-basic.html</loc>
         
         <lastmod>2021-09-07T07:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>https://keonju2.github.io/python-webcrawling.html</loc>
+        
+        <lastmod>2021-09-07T03:10:00+09:00</lastmod>
         
 
         
