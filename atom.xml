@@ -61,25 +61,5 @@
       </item>
       
     
-      
-      <item>
-        <title>웹크롤링 (1)-urllib사용을 통한 크롤링</title>
-        
-          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python 강좌는 여러 절로 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
-&lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-basic&quot;&gt;Python 강좌(1) - Python 기본&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-statement&quot;&gt;Python 강좌(2) - Python 기본&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-webcrawling&quot;&gt;Python 강좌(3) - Python 기본&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        
-        <pubDate>Tue, 07 Sep 2021 03:10:00 +0900</pubDate>
-        <link>
-        https://keonju2.github.io/python-webcrawling</link>
-        <guid isPermaLink="true">https://keonju2.github.io/python-webcrawling</guid>
-      </item>
-      
-    
   </channel>
 </rss>
