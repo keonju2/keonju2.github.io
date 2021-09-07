@@ -13,6 +13,7 @@
           <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python 강좌는 여러 절로 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic&quot;&gt;Python 강좌(1) - Python 기본&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-webcrawling&quot;&gt;Python 강좌(2) - Python 기본&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 </description>
@@ -29,6 +30,7 @@
         <title>Python 강좌(1) - Python 기본</title>
         
           <description>&lt;p&gt;파이썬 첫 글 연습&lt;/p&gt;
+
 </description>
         
         <pubDate>Tue, 07 Sep 2021 07:00:00 +0900</pubDate>
