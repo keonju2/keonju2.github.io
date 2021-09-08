@@ -8,56 +8,73 @@
     
       
       <item>
-        <title>Python 강좌(2) - Python 기본</title>
+        <title>웹크롤링 (1)-urllib사용을 통한 크롤링</title>
         
-          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python 강좌는 여러 절로 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;웹크롤링 관련 글&lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-basic&quot;&gt;Python 강좌(1) - Python 기본&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-statement&quot;&gt;Python 강좌(2) - Python 기본&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-webcrawling&quot;&gt;Python 강좌(3) - Python 기본&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./programming-webcrawling1&quot;&gt;웹크롤링 (1)-urllib사용을 통한 크롤링&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Wed, 08 Sep 2021 03:10:00 +0900</pubDate>
+        <link>
+        https://keonju2.github.io/programming-webcrawling1</link>
+        <guid isPermaLink="true">https://keonju2.github.io/programming-webcrawling1</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>스터디 연습글</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;스터디 게시글 목록&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./study-first&quot;&gt;스터디 연습글&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 </description>
         
         <pubDate>Tue, 07 Sep 2021 07:00:00 +0900</pubDate>
         <link>
-        https://keonju2.github.io/python-statement</link>
-        <guid isPermaLink="true">https://keonju2.github.io/python-statement</guid>
+        https://keonju2.github.io/study-first</link>
+        <guid isPermaLink="true">https://keonju2.github.io/study-first</guid>
       </item>
       
     
       
       <item>
-        <title>Python 강좌(1) - Python 기본</title>
+        <title>자격증 게시판 연습글</title>
         
-          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python 강좌는 여러 절로 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;자격증 공부 정리&lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-basic&quot;&gt;Python 강좌(1) - Python 기본&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-statement&quot;&gt;Python 강좌(2) - Python 기본&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-webcrawling&quot;&gt;Python 강좌(3) - Python 기본&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./license-first&quot;&gt;자격증 관련 연습글&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 </description>
         
         <pubDate>Tue, 07 Sep 2021 07:00:00 +0900</pubDate>
         <link>
-        https://keonju2.github.io/python-basic</link>
-        <guid isPermaLink="true">https://keonju2.github.io/python-basic</guid>
+        https://keonju2.github.io/license-first</link>
+        <guid isPermaLink="true">https://keonju2.github.io/license-first</guid>
       </item>
       
     
       
       <item>
-        <title>R 강좌(1) - R 기본</title>
+        <title>project 연습글</title>
         
-          <description>&lt;p&gt;파이썬 첫 글 연습&lt;/p&gt;
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;project 게시글 목록&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./project-first&quot;&gt;project 연습글&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 </description>
         
         <pubDate>Tue, 07 Sep 2021 07:00:00 +0900</pubDate>
         <link>
-        https://keonju2.github.io/R-basic</link>
-        <guid isPermaLink="true">https://keonju2.github.io/R-basic</guid>
+        https://keonju2.github.io/project-first</link>
+        <guid isPermaLink="true">https://keonju2.github.io/project-first</guid>
       </item>
       
     

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
+  <link href="https://keonju2.github.io/tag/license/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="https://keonju2.github.io/" rel="alternate" type="text/html" />
+  <updated>2021-09-08T14:11:29+09:00</updated>
+  <id>https://keonju2.github.io/tag/license/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">주건나’s Blog | </title>
+  
+
+  
+    <subtitle>데이터 사이언티스트를 꿈꾸는 블로그입니다.</subtitle>
+  
+
+  
+
+  
+    
+      
+    
+  
+
+  
+  
+
+  
+    <entry>
+      <title type="html">자격증 게시판 연습글</title>
+      <link href="https://keonju2.github.io/license-first" rel="alternate" type="text/html" title="자격증 게시판 연습글" />
+      <published>2021-09-07T07:00:00+09:00</published>
+      <updated>2021-09-07T07:00:00+09:00</updated>
+      <id>https://keonju2.github.io/license-first</id>
+      <content type="html" xml:base="https://keonju2.github.io/license-first">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;자격증 공부 정리&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./license-first&quot;&gt;자격증 관련 연습글&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;자격증 첫 글 연습&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>주건나</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="license" />
+      
+
+      
+        <summary type="html">자격증 공부 정리 자격증 관련 연습글</summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>

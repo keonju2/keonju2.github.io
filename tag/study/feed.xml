@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
+  <link href="https://keonju2.github.io/tag/study/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="https://keonju2.github.io/" rel="alternate" type="text/html" />
+  <updated>2021-09-08T14:11:29+09:00</updated>
+  <id>https://keonju2.github.io/tag/study/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">주건나’s Blog | </title>
+  
+
+  
+    <subtitle>데이터 사이언티스트를 꿈꾸는 블로그입니다.</subtitle>
+  
+
+  
+
+  
+    
+      
+    
+  
+
+  
+  
+
+  
+    <entry>
+      <title type="html">스터디 연습글</title>
+      <link href="https://keonju2.github.io/study-first" rel="alternate" type="text/html" title="스터디 연습글" />
+      <published>2021-09-07T07:00:00+09:00</published>
+      <updated>2021-09-07T07:00:00+09:00</updated>
+      <id>https://keonju2.github.io/study-first</id>
+      <content type="html" xml:base="https://keonju2.github.io/study-first">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;스터디 게시글 목록&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./study-first&quot;&gt;스터디 연습글&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;스터디 게시판 첫 글 연습&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>주건나</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="study" />
+      
+
+      
+        <summary type="html">스터디 게시글 목록 스터디 연습글</summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>

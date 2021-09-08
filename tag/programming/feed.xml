@@ -1,4 +1,43 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://keonju2.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://keonju2.github.io/" rel="alternate" type="text/html" /><updated>2021-09-08T14:11:29+09:00</updated><id>https://keonju2.github.io/feed.xml</id><title type="html">주건나’s Blog</title><subtitle>데이터 사이언티스트를 꿈꾸는 블로그입니다.</subtitle><entry><title type="html">웹크롤링 (1)-urllib사용을 통한 크롤링</title><link href="https://keonju2.github.io/programming-webcrawling1" rel="alternate" type="text/html" title="웹크롤링 (1)-urllib사용을 통한 크롤링" /><published>2021-09-08T03:10:00+09:00</published><updated>2021-09-08T03:10:00+09:00</updated><id>https://keonju2.github.io/programming-webcrawling1</id><content type="html" xml:base="https://keonju2.github.io/programming-webcrawling1">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;웹크롤링 관련 글&lt;/span&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
+  <link href="https://keonju2.github.io/tag/programming/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="https://keonju2.github.io/" rel="alternate" type="text/html" />
+  <updated>2021-09-08T14:11:29+09:00</updated>
+  <id>https://keonju2.github.io/tag/programming/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">주건나’s Blog | </title>
+  
+
+  
+    <subtitle>데이터 사이언티스트를 꿈꾸는 블로그입니다.</subtitle>
+  
+
+  
+
+  
+    
+      
+    
+  
+
+  
+  
+
+  
+    <entry>
+      <title type="html">웹크롤링 (1)-urllib사용을 통한 크롤링</title>
+      <link href="https://keonju2.github.io/programming-webcrawling1" rel="alternate" type="text/html" title="웹크롤링 (1)-urllib사용을 통한 크롤링" />
+      <published>2021-09-08T03:10:00+09:00</published>
+      <updated>2021-09-08T03:10:00+09:00</updated>
+      <id>https://keonju2.github.io/programming-webcrawling1</id>
+      <content type="html" xml:base="https://keonju2.github.io/programming-webcrawling1">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;웹크롤링 관련 글&lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./programming-webcrawling1&quot;&gt;웹크롤링 (1)-urllib사용을 통한 크롤링&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -577,19 +616,32 @@ Mozilla/5.0 (Windows; U; Windows NT 6.0; de-DE) AppleWebKit/533.20.25 (KHTML, li
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;/div&gt;</content><author><name>주건나</name></author><category term="programming" /><summary type="html">웹크롤링 관련 글 웹크롤링 (1)-urllib사용을 통한 크롤링</summary></entry><entry><title type="html">project 연습글</title><link href="https://keonju2.github.io/project-first" rel="alternate" type="text/html" title="project 연습글" /><published>2021-09-07T07:00:00+09:00</published><updated>2021-09-07T07:00:00+09:00</updated><id>https://keonju2.github.io/project-first</id><content type="html" xml:base="https://keonju2.github.io/project-first">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;project 게시글 목록&lt;/span&gt;&lt;/p&gt;
-&lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./project-first&quot;&gt;project 연습글&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;/div&gt;</content>
 
-&lt;p&gt;프로젝트 게시판 첫 글 연습&lt;/p&gt;</content><author><name>주건나</name></author><category term="project" /><summary type="html">project 게시글 목록 project 연습글</summary></entry><entry><title type="html">자격증 게시판 연습글</title><link href="https://keonju2.github.io/license-first" rel="alternate" type="text/html" title="자격증 게시판 연습글" /><published>2021-09-07T07:00:00+09:00</published><updated>2021-09-07T07:00:00+09:00</updated><id>https://keonju2.github.io/license-first</id><content type="html" xml:base="https://keonju2.github.io/license-first">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;자격증 공부 정리&lt;/span&gt;&lt;/p&gt;
-&lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./license-first&quot;&gt;자격증 관련 연습글&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+      
+      
+      
+      
+      
 
-&lt;p&gt;자격증 첫 글 연습&lt;/p&gt;</content><author><name>주건나</name></author><category term="license" /><summary type="html">자격증 공부 정리 자격증 관련 연습글</summary></entry><entry><title type="html">스터디 연습글</title><link href="https://keonju2.github.io/study-first" rel="alternate" type="text/html" title="스터디 연습글" /><published>2021-09-07T07:00:00+09:00</published><updated>2021-09-07T07:00:00+09:00</updated><id>https://keonju2.github.io/study-first</id><content type="html" xml:base="https://keonju2.github.io/study-first">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;스터디 게시글 목록&lt;/span&gt;&lt;/p&gt;
-&lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./study-first&quot;&gt;스터디 연습글&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+      <author>
+          <name>주건나</name>
+        
+        
+      </author>
 
-&lt;p&gt;스터디 게시판 첫 글 연습&lt;/p&gt;</content><author><name>주건나</name></author><category term="study" /><summary type="html">스터디 게시글 목록 스터디 연습글</summary></entry></feed>
+      
+
+      
+        <category term="programming" />
+      
+
+      
+        <summary type="html">웹크롤링 관련 글 웹크롤링 (1)-urllib사용을 통한 크롤링</summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>
