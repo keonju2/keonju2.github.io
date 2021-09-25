@@ -1,0 +1,1234 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <!-- Document Settings -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- Base Meta -->
+    <!-- dynamically fixing the title for tag/author pages -->
+
+
+
+    <title>캐글 (1)-GDSC 2주차 과제</title>
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Styles'n'Scripts -->
+    <link rel="stylesheet" type="text/css" href="/assets/built/screen.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/built/screen.edited.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/built/syntax.css" />
+    
+    <!-- custom.css -->
+    <link rel="stylesheet" type="text/css" href="/assets/built/custom.css" />
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- 웹폰트 추가-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/nanumgothic.css">
+
+    <!-- syntax.css 추가-->
+    <link rel="stylesheet" type="text/css" href="/assets/built/syntax.css" />
+
+    <!-- highlight.js -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+    <style>.hljs { background: none; }</style>
+
+    <!--[if IE]>
+        <style>
+            p, ol, ul{
+                width: 100%;
+            }
+            blockquote{
+                width: 100%;
+            }
+        </style>
+    <![endif]-->
+    
+    <!-- This tag outputs SEO meta+structured data and other important settings -->
+    <meta name="description" content="데이터 사이언티스트를 꿈꾸는 블로그입니다." />
+    <link rel="shortcut icon" href="https://keonju2.github.io/assets/built/images/favicon.jpg" type="image/png" />
+    <link rel="canonical" href="https://keonju2.github.io/programming-kaggle1" />
+    <meta name="referrer" content="no-referrer-when-downgrade" />
+
+     <!--title below is coming from _includes/dynamic_title-->
+    <meta property="og:site_name" content="주건나's Blog" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="캐글 (1)-GDSC 2주차 과제" />
+    <meta property="og:description" content="kaggle 관련 글 캐글 (1)-GDSC 2주차 과제 GDSC ML파트 2주차 과제로 캐글 필사과제를 진행하였다. https://www.kaggle.com/subinium/simple-matplotlib-visualization-tips/notebook 해당과정을 필사하였으며 영어로 되어있는 부분은 다시 정리해서 적었다. Table of Contents Setting dpi figsize title Alignments subplots, tight_layout subplot2grid add_axes add_gridspec Colormap diverging qualitative sequential scientific Text &amp; Annotate &amp; Patch parameter text example patches" />
+    <meta property="og:url" content="https://keonju2.github.io/programming-kaggle1" />
+    <meta property="og:image" content="https://keonju2.github.io/assets/built/images/kaggle-logo.png" />
+    <meta property="article:publisher" content="https://www.facebook.com/monkeykeonju" />
+    <meta property="article:author" content="https://www.facebook.com/monkeykeonju" />
+    <meta property="article:published_time" content="2021-09-25T10:00:00+09:00" />
+    <meta property="article:modified_time" content="2021-09-25T10:00:00+09:00" />
+    <meta property="article:tag" content="Programming" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="캐글 (1)-GDSC 2주차 과제" />
+    <meta name="twitter:description" content="kaggle 관련 글 캐글 (1)-GDSC 2주차 과제 GDSC ML파트 2주차 과제로 캐글 필사과제를 진행하였다. https://www.kaggle.com/subinium/simple-matplotlib-visualization-tips/notebook 해당과정을 필사하였으며 영어로 되어있는 부분은 다시 정리해서 적었다. Table of Contents Setting dpi figsize title Alignments subplots, tight_layout subplot2grid add_axes add_gridspec Colormap diverging qualitative sequential scientific Text &amp; Annotate &amp; Patch parameter text example patches" />
+    <meta name="twitter:url" content="https://keonju2.github.io/" />
+    <meta name="twitter:image" content="https://keonju2.github.io/assets/built/images/kaggle-logo.png" />
+    <meta name="twitter:label1" content="Written by" />
+    <meta name="twitter:data1" content="주건나's Blog" />
+    <meta name="twitter:label2" content="Filed under" />
+    <meta name="twitter:data2" content="Programming" />
+    <meta name="twitter:site" content="@" />
+    <meta name="twitter:creator" content="@" />
+    <meta property="og:image:width" content="1400" />
+    <meta property="og:image:height" content="933" />
+
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Website",
+    "publisher": {
+        "@type": "Organization",
+        "name": "주건나's Blog",
+        "logo": "https://keonju2.github.io/"
+    },
+    "url": "https://keonju2.github.io/programming-kaggle1",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://keonju2.github.io/assets/built/images/kaggle-logo.png",
+        "width": 2000,
+        "height": 666
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://keonju2.github.io/programming-kaggle1"
+    },
+    "description": "kaggle 관련 글 캐글 (1)-GDSC 2주차 과제 GDSC ML파트 2주차 과제로 캐글 필사과제를 진행하였다. https://www.kaggle.com/subinium/simple-matplotlib-visualization-tips/notebook 해당과정을 필사하였으며 영어로 되어있는 부분은 다시 정리해서 적었다. Table of Contents Setting dpi figsize title Alignments subplots, tight_layout subplot2grid add_axes add_gridspec Colormap diverging qualitative sequential scientific Text &amp; Annotate &amp; Patch parameter text example patches"
+}
+    </script>
+
+    <!-- <script type="text/javascript" src="https://demo.ghost.io/public/ghost-sdk.min.js?v=724281a32e"></script>
+    <script type="text/javascript">
+    ghost.init({
+    	clientId: "ghost-frontend",
+    	clientSecret: "f84a07a72b17"
+    });
+    </script> -->
+
+    <meta name="generator" content="Jekyll 3.6.2" />
+    <link rel="alternate" type="application/rss+xml" title="캐글 (1)-GDSC 2주차 과제" href="/feed.xml" />
+
+
+</head>
+<body class="post-template">
+
+    <div class="site-wrapper">
+        <!-- All the main content gets inserted here, index.hbs, post.hbs, etc -->
+        <!-- default -->
+
+<!-- The tag above means: insert everything in this file
+into the {body} of the default.hbs template -->
+
+<header class="site-header outer">
+    <div class="inner">
+        <nav class="site-nav">
+    <div class="site-nav-left">
+        
+            
+                <a class="site-nav-logo" href="https://keonju2.github.io/">주건나's Blog</a>
+            
+        
+        
+            <ul class="nav" role="menu">
+    <li class="nav-home" role="menuitem"><a href="/">Home</a></li>
+    <li class="nav-about" role="menuitem"><a href="/about/">About</a></li>
+    <li class="nav-R" role="menuitem"><a href="/tag/programming/">프로그래밍 언어</a></li>
+    <li class="nav-python" role="menuitem"><a href="/tag/project/">프로젝트</a></li>
+    <li class="nav-python" role="menuitem"><a href="/tag/license/">자격증</a></li>
+    <li class="nav-python" role="menuitem"><a href="/tag/study/">이론 공부</a></li>
+    <li class="nav-archive" role="menuitem">
+        <a href="/archive.html">All Posts</a>
+    </li>
+    <li class="nav-archive" role="menuitem">
+        <a href="/author_archive.html">Tag별 Posts</a>
+    </li>
+</ul>
+        
+    </div>
+    <div class="site-nav-right">
+        <div class="social-links">
+            
+                <a class="social-link social-link-fb" href="https://facebook.com/monkeykeonju" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M19 6h5V0h-5c-3.86 0-7 3.14-7 7v3H8v6h4v16h6V16h5l1-6h-6V7c0-.542.458-1 1-1z"/></svg>
+</a>
+            
+            
+        </div>
+        
+            <a class="subscribe-button" href="#subscribe">Search</a>
+        
+    </div>
+</nav>
+
+    </div>
+</header>
+
+<!-- Everything inside the #post tags pulls data from the post -->
+<!-- #post -->
+
+<main id="site-main" class="site-main outer" role="main">
+    <div class="inner">
+
+        <article class="post-full  tag-programming post tag-programming ">
+
+            <header class="post-full-header">
+                <section class="post-full-meta">
+                    <time class="post-full-meta-date" datetime="25 September 2021">25 September 2021</time>
+                    
+                        <span class="date-divider">/</span>
+                        
+                            
+                               <a href='/tag/programming/'>PROGRAMMING</a>
+                            
+                        
+                    
+                </section>
+                <h1 class="post-full-title">캐글 (1)-GDSC 2주차 과제</h1>
+            </header>
+            <!--
+            
+            <figure class="post-full-image" style="background-image: url(/assets/built/images/kaggle-logo.png)">
+            </figure>
+            
+             -->
+            <section class="post-full-content">
+                <div class="kg-card-markdown">
+                    <p><span class="table-of-contents-list">kaggle 관련 글</span></p>
+<ul class="table-of-contents-list">
+    <li><a href="./programming-kaggle1">캐글 (1)-GDSC 2주차 과제</a></li>
+</ul>
+<h1 id="gdsc-ml파트-2주차-과제로-캐글-필사과제를-진행하였다">GDSC ML파트 2주차 과제로 캐글 필사과제를 진행하였다.</h1>
+
+<p><a href="https://www.kaggle.com/subinium/simple-matplotlib-visualization-tips/notebook">https://www.kaggle.com/subinium/simple-matplotlib-visualization-tips/notebook</a></p>
+
+<p>해당과정을 필사하였으며 영어로 되어있는 부분은 다시 정리해서 적었다.</p>
+
+<ol>
+  <li>Table of Contents
+    <blockquote>
+      <p>Setting
+dpi
+figsize
+title</p>
+    </blockquote>
+  </li>
+  <li>Alignments
+    <blockquote>
+      <p>subplots, tight_layout
+subplot2grid
+add_axes
+add_gridspec</p>
+    </blockquote>
+  </li>
+  <li>Colormap
+    <blockquote>
+      <p>diverging
+qualitative
+sequential
+scientific</p>
+    </blockquote>
+  </li>
+  <li>Text &amp; Annotate &amp; Patch
+    <blockquote>
+      <p>parameter
+text example
+patches example</p>
+    </blockquote>
+  </li>
+  <li>Details &amp; Example
+    <blockquote>
+      <p>font weight, color, size, etc
+Horizontal and Vertical (barplot)
+Border(edge) color and thickness
+Main Color &amp; Sub Color
+Transparency
+Span</p>
+    </blockquote>
+  </li>
+  <li>MEME
+    <blockquote>
+      <p>xkcd style</p>
+    </blockquote>
+  </li>
+</ol>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="n">np</span>
+<span class="kn">import</span> <span class="nn">matplotlib</span> <span class="k">as</span> <span class="n">mpl</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="n">plt</span>
+<span class="c1">#matplotlib.pyplot 모듈의 각각의 함수를 사용해서 간편하게 그래프를 만들고 변화를 줄 수 있습니다.
+</span><span class="kn">import</span> <span class="nn">matplotlib.gridspec</span> <span class="k">as</span> <span class="n">gridspec</span>
+<span class="c1"># gridspec 에는 Figure 내에서 격자 모양의 패턴으로여러 Axes 레이아웃하는 데 도움이되는 클래스가 포함되어 있습니다.
+</span><span class="kn">import</span> <span class="nn">seaborn</span> <span class="k">as</span> <span class="n">sns</span>
+<span class="c1"># Seaborn은 Matplotlib에 기반하여 제작된 파이썬 데이터 시각화 모듈
+</span><span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">"Matplotlib Version :</span><span class="si">{</span><span class="n">mpl</span><span class="p">.</span><span class="n">__version__</span><span class="si">}</span><span class="s">"</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">"Seaborn Version :</span><span class="si">{</span><span class="n">sns</span><span class="p">.</span><span class="n">__version__</span><span class="si">}</span><span class="s">"</span><span class="p">)</span>
+
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="n">pd</span>
+
+<span class="n">netflix_titles</span><span class="o">=</span><span class="n">pd</span><span class="p">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s">"netflix_titles.csv"</span><span class="p">)</span>
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Matplotlib Version :3.3.2
+Seaborn Version :0.11.0
+</code></pre></div></div>
+
+<h2 id="setting">Setting</h2>
+
+<p>해상도 설정 matplotlib의 기본 해상도는 떨어지는 편이라고 한다.<br />
+또한 그래프의 모양에 따라서 느낌이 달라지기 때문에 크기를 많이 변경해봐야한다.<br />
+plt.title() <em>그래프의 제목 그리기</em><br />
+ax.set_title() <em>개별 서브 플롯에 제목을 추가하는 데 사용</em> <br />
+fig.suptitle() <em>모든 서브 플롯에 공통 인 메인 타이틀을 추가</em></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">plt</span><span class="p">.</span><span class="n">rcParams</span><span class="p">[</span><span class="s">'figure.dpi'</span><span class="p">]</span> <span class="o">=</span> <span class="mi">200</span> <span class="c1"># or dpi=200
+</span></code></pre></div></div>
+
+<h2 id="alignments">Alignments</h2>
+<p>matplotlib 레이아웃과 설계의 조합이다.<br />
+두 개의 그래프가 한 개의 그래프보다 시각적으로 의미적으로 모두 좋다.<br />
+두 개를 비교하기 위해 가장 쉬운 방법은 직사각형으로 배치하는 것이다.
+subplot을 통하여 초기 크기로 시작할 수 있다.<br />
+subplots() <em>하나의 그림에 여러 플롯을 그리기</em> <br />
+subplot2grid() <em>일반 그리드 내부의 특정 위치에 서브플롯을 생성</em> <br />
+add_axes() <em>축 추가하기</em> <br />
+gridspec() <em>Figure 내에 서브플롯을 배치</em> <br />
+add_subplot() <em>Figure 내에 서브플롯을 배치</em>
+inset_axes() <em>하위에 축 추가하기</em><br />
+make_axes_locatable() <em>축 배치하기</em></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">fig</span><span class="p">,</span> <span class="n">axes</span> <span class="o">=</span> <span class="n">plt</span><span class="p">.</span><span class="n">subplots</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">8</span><span class="p">,</span> <span class="mi">5</span><span class="p">))</span>
+<span class="n">plt</span><span class="p">.</span><span class="n">show</span><span class="p">()</span>
+</code></pre></div></div>
+
+<p><img src="assets/built/images/kaggle1/kaggle1_output_6_0.png" alt="png" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># tight_layout을 통해 그래프 사이에 여유공간이 생김
+</span><span class="n">fig</span><span class="p">,</span><span class="n">axes</span> <span class="o">=</span><span class="n">plt</span><span class="p">.</span><span class="n">subplots</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">8</span><span class="p">,</span> <span class="mi">5</span><span class="p">))</span>
+<span class="n">plt</span><span class="p">.</span><span class="n">tight_layout</span><span class="p">()</span>
+<span class="n">plt</span><span class="p">.</span><span class="n">show</span><span class="p">()</span>
+</code></pre></div></div>
+
+<p><img src="assets/built/images/kaggle1/kaggle1_output_7_0.png" alt="png" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># subplot이 항상 같을 필요가 없음. 이 때 subplot2grid를 사용
+</span><span class="n">fig</span><span class="o">=</span><span class="n">plt</span><span class="p">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">8</span><span class="p">,</span><span class="mi">5</span><span class="p">))</span> <span class="c1">#시작 크기 지정
+</span><span class="n">ax</span><span class="o">=</span><span class="p">[</span><span class="bp">None</span> <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">6</span><span class="p">)]</span>
+<span class="n">ax</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">=</span><span class="n">plt</span><span class="p">.</span><span class="n">subplot2grid</span><span class="p">((</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">),(</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">),</span><span class="n">colspan</span><span class="o">=</span><span class="mi">4</span><span class="p">)</span>
+<span class="n">ax</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">=</span><span class="n">plt</span><span class="p">.</span><span class="n">subplot2grid</span><span class="p">((</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">),(</span><span class="mi">1</span><span class="p">,</span><span class="mi">0</span><span class="p">),</span><span class="n">colspan</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">ax</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span><span class="o">=</span><span class="n">plt</span><span class="p">.</span><span class="n">subplot2grid</span><span class="p">((</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">),(</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">),</span><span class="n">colspan</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">ax</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span><span class="o">=</span><span class="n">plt</span><span class="p">.</span><span class="n">subplot2grid</span><span class="p">((</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">),(</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">),</span><span class="n">colspan</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">ax</span><span class="p">[</span><span class="mi">4</span><span class="p">]</span><span class="o">=</span><span class="n">plt</span><span class="p">.</span><span class="n">subplot2grid</span><span class="p">((</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">),(</span><span class="mi">1</span><span class="p">,</span><span class="mi">3</span><span class="p">),</span><span class="n">colspan</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span><span class="n">rowspan</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
+<span class="n">ax</span><span class="p">[</span><span class="mi">5</span><span class="p">]</span><span class="o">=</span><span class="n">plt</span><span class="p">.</span><span class="n">subplot2grid</span><span class="p">((</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">),(</span><span class="mi">2</span><span class="p">,</span><span class="mi">0</span><span class="p">),</span><span class="n">colspan</span><span class="o">=</span><span class="mi">3</span><span class="p">)</span>
+
+<span class="k">for</span> <span class="n">ix</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">6</span><span class="p">):</span> 
+    <span class="n">ax</span><span class="p">[</span><span class="n">ix</span><span class="p">].</span><span class="n">set_title</span><span class="p">(</span><span class="s">'ax[{}]'</span><span class="p">.</span><span class="nb">format</span><span class="p">(</span><span class="n">ix</span><span class="p">))</span> <span class="c1"># subplot에 제목 생성
+</span>    <span class="c1">#ticks는 축에 표시되는 숫자
+</span>    <span class="n">ax</span><span class="p">[</span><span class="n">ix</span><span class="p">].</span><span class="n">set_xticks</span><span class="p">([])</span>
+    <span class="n">ax</span><span class="p">[</span><span class="n">ix</span><span class="p">].</span><span class="n">set_yticks</span><span class="p">([])</span>
+    
+<span class="n">fig</span><span class="p">.</span><span class="n">tight_layout</span><span class="p">()</span>
+<span class="n">plt</span><span class="p">.</span><span class="n">show</span><span class="p">()</span>
+</code></pre></div></div>
+
+<p><img src="assets/built/images/kaggle1/kaggle1_output_8_0.png" alt="png" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">fig</span> <span class="o">=</span> <span class="n">plt</span><span class="p">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">8</span><span class="p">,</span> <span class="mi">5</span><span class="p">))</span>
+
+<span class="n">ax</span> <span class="o">=</span> <span class="p">[</span><span class="bp">None</span> <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">4</span><span class="p">)]</span>
+<span class="c1">#add_axes를 이해하기 힘들어서 값들을 눈에 띄게 변경해보았다.[왼쪽, 아래쪽, 너비, 높이]
+</span><span class="n">ax</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">=</span><span class="n">fig</span><span class="p">.</span><span class="n">add_axes</span><span class="p">([</span><span class="mf">0.1</span><span class="p">,</span><span class="mf">0.2</span><span class="p">,</span><span class="mf">0.3</span><span class="p">,</span><span class="mf">0.4</span><span class="p">])</span>
+<span class="n">ax</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">=</span><span class="n">fig</span><span class="p">.</span><span class="n">add_axes</span><span class="p">([</span><span class="mf">0.3</span><span class="p">,</span><span class="mf">0.4</span><span class="p">,</span><span class="mf">0.5</span><span class="p">,</span><span class="mf">0.6</span><span class="p">])</span>
+<span class="n">ax</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span><span class="o">=</span><span class="n">fig</span><span class="p">.</span><span class="n">add_axes</span><span class="p">([</span><span class="mf">0.5</span><span class="p">,</span><span class="mf">0.6</span><span class="p">,</span><span class="mf">0.7</span><span class="p">,</span><span class="mf">0.8</span><span class="p">])</span> 
+<span class="n">ax</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span><span class="o">=</span><span class="n">fig</span><span class="p">.</span><span class="n">add_axes</span><span class="p">([</span><span class="mf">0.6</span><span class="p">,</span><span class="mf">0.7</span><span class="p">,</span><span class="mf">0.8</span><span class="p">,</span><span class="mf">0.9</span><span class="p">])</span>
+<span class="k">for</span> <span class="n">ix</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">4</span><span class="p">):</span>
+    <span class="n">ax</span><span class="p">[</span><span class="n">ix</span><span class="p">].</span><span class="n">set_title</span><span class="p">(</span><span class="s">'ax[{}]'</span><span class="p">.</span><span class="nb">format</span><span class="p">(</span><span class="n">ix</span><span class="p">))</span>
+    <span class="n">ax</span><span class="p">[</span><span class="n">ix</span><span class="p">].</span><span class="n">set_xticks</span><span class="p">([])</span>
+    <span class="n">ax</span><span class="p">[</span><span class="n">ix</span><span class="p">].</span><span class="n">set_yticks</span><span class="p">([])</span>
+
+<span class="n">plt</span><span class="p">.</span><span class="n">show</span><span class="p">()</span>
+</code></pre></div></div>
+
+<p><img src="assets/built/images/kaggle1/kaggle1_output_9_0.png" alt="png" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># gridspec을 이용하여 만들기
+</span><span class="n">fig</span><span class="o">=</span><span class="n">plt</span><span class="p">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">8</span><span class="p">,</span> <span class="mi">5</span><span class="p">))</span>
+<span class="n">gs</span><span class="o">=</span><span class="n">fig</span><span class="p">.</span><span class="n">add_gridspec</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span> <span class="c1">#(3x3 크기)
+</span><span class="n">ax</span><span class="o">=</span><span class="p">[</span><span class="bp">None</span> <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">5</span><span class="p">)]</span>
+
+<span class="n">ax</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">=</span><span class="n">fig</span><span class="p">.</span><span class="n">add_subplot</span><span class="p">(</span><span class="n">gs</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="p">:])</span> 
+<span class="n">ax</span><span class="p">[</span><span class="mi">0</span><span class="p">].</span><span class="n">set_title</span><span class="p">(</span><span class="s">'gs[0, :]'</span><span class="p">)</span>
+<span class="n">ax</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">=</span><span class="n">fig</span><span class="p">.</span><span class="n">add_subplot</span><span class="p">(</span><span class="n">gs</span><span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="p">:</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span>
+<span class="n">ax</span><span class="p">[</span><span class="mi">1</span><span class="p">].</span><span class="n">set_title</span><span class="p">(</span><span class="s">'gs[1, :-1]'</span><span class="p">)</span>
+<span class="n">ax</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span><span class="o">=</span><span class="n">fig</span><span class="p">.</span><span class="n">add_subplot</span><span class="p">(</span><span class="n">gs</span><span class="p">[</span><span class="mi">1</span><span class="p">:,</span> <span class="o">-</span><span class="mi">1</span><span class="p">])</span>
+<span class="n">ax</span><span class="p">[</span><span class="mi">2</span><span class="p">].</span><span class="n">set_title</span><span class="p">(</span><span class="s">'gs[1:, -1]'</span><span class="p">)</span>
+<span class="n">ax</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span><span class="o">=</span><span class="n">fig</span><span class="p">.</span><span class="n">add_subplot</span><span class="p">(</span><span class="n">gs</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">])</span>
+<span class="n">ax</span><span class="p">[</span><span class="mi">3</span><span class="p">].</span><span class="n">set_title</span><span class="p">(</span><span class="s">'gs[-1, 0]'</span><span class="p">)</span>
+<span class="n">ax</span><span class="p">[</span><span class="mi">4</span><span class="p">]</span><span class="o">=</span><span class="n">fig</span><span class="p">.</span><span class="n">add_subplot</span><span class="p">(</span><span class="n">gs</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="o">-</span><span class="mi">2</span><span class="p">])</span>
+<span class="n">ax</span><span class="p">[</span><span class="mi">4</span><span class="p">].</span><span class="n">set_title</span><span class="p">(</span><span class="s">'gs[-1, -2]'</span><span class="p">)</span>
+
+<span class="k">for</span> <span class="n">ix</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">5</span><span class="p">):</span>
+    <span class="n">ax</span><span class="p">[</span><span class="n">ix</span><span class="p">].</span><span class="n">set_xticks</span><span class="p">([])</span>
+    <span class="n">ax</span><span class="p">[</span><span class="n">ix</span><span class="p">].</span><span class="n">set_yticks</span><span class="p">([])</span>
+
+<span class="n">plt</span><span class="p">.</span><span class="n">tight_layout</span><span class="p">()</span>
+<span class="n">plt</span><span class="p">.</span><span class="n">show</span><span class="p">()</span>
+</code></pre></div></div>
+
+<p><img src="assets/built/images/kaggle1/kaggle1_output_10_0.png" alt="png" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">fig</span><span class="p">,</span><span class="n">ax</span><span class="o">=</span><span class="n">plt</span><span class="p">.</span><span class="n">subplots</span><span class="p">()</span>
+<span class="n">axin1</span><span class="o">=</span><span class="n">ax</span><span class="p">.</span><span class="n">inset_axes</span><span class="p">([</span><span class="mf">0.8</span><span class="p">,</span> <span class="mf">0.1</span><span class="p">,</span> <span class="mf">0.15</span><span class="p">,</span> <span class="mf">0.15</span><span class="p">])</span>
+<span class="n">plt</span><span class="p">.</span><span class="n">show</span><span class="p">()</span>
+</code></pre></div></div>
+
+<p><img src="assets/built/images/kaggle1/kaggle1_output_11_0.png" alt="png" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">mpl_toolkits.axes_grid1.axes_divider</span> <span class="kn">import</span> <span class="n">make_axes_locatable</span>
+
+<span class="n">fig</span><span class="p">,</span><span class="n">ax</span><span class="o">=</span><span class="n">plt</span><span class="p">.</span><span class="n">subplots</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+<span class="n">ax_divider</span><span class="o">=</span><span class="n">make_axes_locatable</span><span class="p">(</span><span class="n">ax</span><span class="p">)</span>
+
+<span class="n">ax</span><span class="o">=</span><span class="n">ax_divider</span><span class="p">.</span><span class="n">append_axes</span><span class="p">(</span><span class="s">"right"</span><span class="p">,</span> <span class="n">size</span><span class="o">=</span><span class="s">"7%"</span><span class="p">,</span> <span class="n">pad</span><span class="o">=</span><span class="s">"2%"</span><span class="p">)</span>
+<span class="n">plt</span><span class="p">.</span><span class="n">show</span><span class="p">()</span>
+</code></pre></div></div>
+
+<p><img src="assets/built/images/kaggle1/kaggle1_output_12_0.png" alt="png" /></p>
+
+<h2 id="colormap">Colormap</h2>
+<p><a href="https://medium.com/nightingale/how-to-choose-the-colors-for-your-data-visualizations-50b2557fa335">https://medium.com/nightingale/how-to-choose-the-colors-for-your-data-visualizations-50b2557fa335</a><br />
+그래프에서 색상은 중요한 요소이다<br />
+diverging <em>중앙을 기준으로 색상 변경</em><br />
+qualitative <em>범주별로 색상 변경</em><br />
+sequential <em>순차적으로 색상 변경</em><br />
+scientific <em>다양한 색상으로 순차적 변경</em></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">cmap_plot</span><span class="p">(</span><span class="n">cmap_list</span><span class="p">,</span> <span class="n">ctype</span><span class="p">):</span>
+    <span class="n">cmaps</span><span class="o">=</span><span class="n">cmap_list</span>
+
+    <span class="n">n</span><span class="o">=</span><span class="nb">len</span><span class="p">(</span><span class="n">cmaps</span><span class="p">)</span>
+
+    <span class="n">fig</span><span class="o">=</span><span class="n">plt</span><span class="p">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mf">8.25</span><span class="p">,</span> <span class="n">n</span><span class="o">*</span><span class="p">.</span><span class="mi">20</span><span class="p">),</span> <span class="n">dpi</span><span class="o">=</span><span class="mi">200</span><span class="p">)</span>
+    <span class="n">ax</span><span class="o">=</span><span class="n">plt</span><span class="p">.</span><span class="n">subplot</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="n">frameon</span><span class="o">=</span><span class="bp">False</span><span class="p">,</span> <span class="n">xlim</span><span class="o">=</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">10</span><span class="p">],</span> <span class="n">xticks</span><span class="o">=</span><span class="p">[],</span> <span class="n">yticks</span><span class="o">=</span><span class="p">[])</span>
+    <span class="n">fig</span><span class="p">.</span><span class="n">subplots_adjust</span><span class="p">(</span><span class="n">top</span><span class="o">=</span><span class="mf">0.99</span><span class="p">,</span> <span class="n">bottom</span><span class="o">=</span><span class="mf">0.01</span><span class="p">,</span> <span class="n">left</span><span class="o">=</span><span class="mf">0.18</span><span class="p">,</span> <span class="n">right</span><span class="o">=</span><span class="mf">0.99</span><span class="p">)</span>
+
+    <span class="n">y</span><span class="p">,</span><span class="n">dy</span><span class="p">,</span><span class="n">pad</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="mf">0.3</span><span class="p">,</span> <span class="mf">0.08</span>
+
+    <span class="n">ticks</span><span class="p">,</span><span class="n">labels</span> <span class="o">=</span> <span class="p">[],</span> <span class="p">[]</span>
+
+    <span class="k">for</span> <span class="n">cmap</span> <span class="ow">in</span> <span class="n">cmaps</span><span class="p">[::</span><span class="o">-</span><span class="mi">1</span><span class="p">]:</span>
+        <span class="n">Z</span><span class="o">=</span><span class="n">np</span><span class="p">.</span><span class="n">linspace</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">512</span><span class="p">).</span><span class="n">reshape</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">512</span><span class="p">)</span>
+        <span class="n">plt</span><span class="p">.</span><span class="n">imshow</span><span class="p">(</span><span class="n">Z</span><span class="p">,</span> <span class="n">extent</span><span class="o">=</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">10</span><span class="p">,</span><span class="n">y</span><span class="p">,</span><span class="n">y</span><span class="o">+</span><span class="n">dy</span><span class="p">],</span> <span class="n">cmap</span><span class="o">=</span><span class="n">plt</span><span class="p">.</span><span class="n">get_cmap</span><span class="p">(</span><span class="n">cmap</span><span class="p">))</span>
+        <span class="n">ticks</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">y</span><span class="o">+</span><span class="n">dy</span><span class="o">/</span><span class="mi">2</span><span class="p">)</span>
+        <span class="n">labels</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">cmap</span><span class="p">)</span>
+        <span class="n">y</span> <span class="o">=</span> <span class="n">y</span> <span class="o">+</span> <span class="n">dy</span> <span class="o">+</span> <span class="n">pad</span>
+
+    <span class="n">ax</span><span class="p">.</span><span class="n">set_ylim</span><span class="p">(</span><span class="o">-</span><span class="n">pad</span><span class="p">,</span><span class="n">y</span><span class="p">)</span>
+    <span class="n">ax</span><span class="p">.</span><span class="n">set_yticks</span><span class="p">(</span><span class="n">ticks</span><span class="p">)</span>
+    <span class="n">ax</span><span class="p">.</span><span class="n">set_yticklabels</span><span class="p">(</span><span class="n">labels</span><span class="p">)</span>
+
+    <span class="n">ax</span><span class="p">.</span><span class="n">tick_params</span><span class="p">(</span><span class="n">axis</span><span class="o">=</span><span class="s">'y'</span><span class="p">,</span> <span class="n">which</span><span class="o">=</span><span class="s">'both'</span><span class="p">,</span> <span class="n">length</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">labelsize</span><span class="o">=</span><span class="mi">5</span><span class="p">)</span>
+    <span class="n">plt</span><span class="p">.</span><span class="n">title</span><span class="p">(</span><span class="sa">f</span><span class="s">'</span><span class="si">{</span><span class="n">ctype</span><span class="si">}</span><span class="s"> Colormap'</span><span class="p">,</span> <span class="n">fontweight</span><span class="o">=</span><span class="s">'bold'</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">8</span><span class="p">)</span>
+    <span class="n">plt</span><span class="p">.</span><span class="n">show</span><span class="p">()</span>
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">#diverging
+#양쪽 끝으로 갈수록 색이 어두워진다.
+</span><span class="n">diverge_cmap</span><span class="o">=</span><span class="p">(</span><span class="s">'PRGn'</span><span class="p">,</span> <span class="s">'PiYG'</span><span class="p">,</span> <span class="s">'RdYlGn'</span><span class="p">,</span> <span class="s">'BrBG'</span><span class="p">,</span> <span class="s">'RdGy'</span><span class="p">,</span> <span class="s">'PuOr'</span><span class="p">,</span> <span class="s">'RdBu'</span><span class="p">,</span> <span class="s">'RdYlBu'</span><span class="p">,</span>  <span class="s">'Spectral'</span><span class="p">,</span> <span class="s">'coolwarm_r'</span><span class="p">,</span> <span class="s">'bwr_r'</span><span class="p">,</span> <span class="s">'seismic_r'</span><span class="p">)</span>
+<span class="n">cmap_plot</span><span class="p">(</span><span class="n">diverge_cmap</span><span class="p">,</span> <span class="s">'Diverging'</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p><img src="assets/built/images/kaggle1/kaggle1_output_15_0.png" alt="png" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">#Qualitative Colormap
+#최대 10가지 색상을 구성하고 점점 더 작은 범주, 다른 범주와 그룹화
+#유사한 색상은 피하고 채도나 밝기보다 색을 분명하게 바꾸는 것이 좋다.
+</span><span class="n">qualitative_cmap</span><span class="o">=</span><span class="p">(</span><span class="s">'tab10'</span><span class="p">,</span> <span class="s">'tab20'</span><span class="p">,</span> <span class="s">'tab20b'</span><span class="p">,</span> <span class="s">'tab20c'</span><span class="p">,</span>
+         <span class="s">'Pastel1'</span><span class="p">,</span> <span class="s">'Pastel2'</span><span class="p">,</span> <span class="s">'Paired'</span><span class="p">,</span>
+         <span class="s">'Set1'</span><span class="p">,</span> <span class="s">'Set2'</span><span class="p">,</span> <span class="s">'Set3'</span><span class="p">,</span> <span class="s">'Accent'</span><span class="p">,</span> <span class="s">'Dark2'</span> <span class="p">)</span>
+<span class="n">cmap_plot</span><span class="p">(</span><span class="n">qualitative_cmap</span><span class="p">,</span> <span class="s">'Qualitative'</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p><img src="assets/built/images/kaggle1/kaggle1_output_16_0.png" alt="png" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">#Sequential Colormap
+#밀도 표현에 효과적이고 지도 그래프에도 효과적이다.
+#밝기의 변화에 따라서 값을 비교할 수 있다.
+</span><span class="n">sequential_cmap</span><span class="o">=</span><span class="p">(</span><span class="s">'Greys'</span><span class="p">,</span> <span class="s">'Reds'</span><span class="p">,</span> <span class="s">'Oranges'</span><span class="p">,</span> 
+         <span class="s">'YlOrBr'</span><span class="p">,</span> <span class="s">'YlOrRd'</span><span class="p">,</span> <span class="s">'OrRd'</span><span class="p">,</span> <span class="s">'PuRd'</span><span class="p">,</span> <span class="s">'RdPu'</span><span class="p">,</span> <span class="s">'BuPu'</span><span class="p">,</span>
+         <span class="s">'Purples'</span><span class="p">,</span> <span class="s">'YlGnBu'</span><span class="p">,</span> <span class="s">'Blues'</span><span class="p">,</span> <span class="s">'PuBu'</span><span class="p">,</span> <span class="s">'GnBu'</span><span class="p">,</span> <span class="s">'PuBuGn'</span><span class="p">,</span> <span class="s">'BuGn'</span><span class="p">,</span>
+         <span class="s">'Greens'</span><span class="p">,</span> <span class="s">'YlGn'</span><span class="p">,</span><span class="s">'bone'</span><span class="p">,</span> <span class="s">'gray'</span><span class="p">,</span> <span class="s">'pink'</span><span class="p">,</span> <span class="s">'afmhot'</span><span class="p">,</span> <span class="s">'hot'</span><span class="p">,</span> <span class="s">'gist_heat'</span><span class="p">,</span> <span class="s">'copper'</span><span class="p">,</span> 
+         <span class="s">'Wistia'</span><span class="p">,</span> <span class="s">'autumn_r'</span><span class="p">,</span> <span class="s">'summer_r'</span><span class="p">,</span> <span class="s">'spring_r'</span><span class="p">,</span> <span class="s">'cool'</span><span class="p">,</span> <span class="s">'winter_r'</span><span class="p">)</span>            
+<span class="n">cmap_plot</span><span class="p">(</span><span class="n">sequential_cmap</span><span class="p">,</span> <span class="s">'Sequential'</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p><img src="assets/built/images/kaggle1/kaggle1_output_17_0.png" alt="png" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">netflix_date</span> <span class="o">=</span> <span class="n">netflix_titles</span><span class="p">[[</span><span class="s">'date_added'</span><span class="p">]].</span><span class="n">dropna</span><span class="p">()</span>
+<span class="n">netflix_date</span><span class="p">[</span><span class="s">'year'</span><span class="p">]</span> <span class="o">=</span> <span class="n">netflix_date</span><span class="p">[</span><span class="s">'date_added'</span><span class="p">].</span><span class="nb">apply</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span> <span class="p">:</span> <span class="n">x</span><span class="p">.</span><span class="n">split</span><span class="p">(</span><span class="s">', '</span><span class="p">)[</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span>
+<span class="n">netflix_date</span><span class="p">[</span><span class="s">'month'</span><span class="p">]</span> <span class="o">=</span> <span class="n">netflix_date</span><span class="p">[</span><span class="s">'date_added'</span><span class="p">].</span><span class="nb">apply</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span> <span class="p">:</span> <span class="n">x</span><span class="p">.</span><span class="n">lstrip</span><span class="p">().</span><span class="n">split</span><span class="p">(</span><span class="s">' '</span><span class="p">)[</span><span class="mi">0</span><span class="p">])</span>
+
+<span class="n">month_order</span> <span class="o">=</span> <span class="p">[</span><span class="s">'January'</span><span class="p">,</span> <span class="s">'February'</span><span class="p">,</span> <span class="s">'March'</span><span class="p">,</span> <span class="s">'April'</span><span class="p">,</span> <span class="s">'May'</span><span class="p">,</span> <span class="s">'June'</span><span class="p">,</span> <span class="s">'July'</span><span class="p">,</span> <span class="s">'August'</span><span class="p">,</span> <span class="s">'September'</span><span class="p">,</span> <span class="s">'October'</span><span class="p">,</span> <span class="s">'November'</span><span class="p">,</span> <span class="s">'December'</span><span class="p">][::</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+<span class="n">df</span> <span class="o">=</span> <span class="n">netflix_date</span><span class="p">.</span><span class="n">groupby</span><span class="p">(</span><span class="s">'year'</span><span class="p">)[</span><span class="s">'month'</span><span class="p">].</span><span class="n">value_counts</span><span class="p">().</span><span class="n">unstack</span><span class="p">().</span><span class="n">fillna</span><span class="p">(</span><span class="mi">0</span><span class="p">)[</span><span class="n">month_order</span><span class="p">].</span><span class="n">T</span>
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">#응용하면 이런 그래프도 만들어진다.
+</span><span class="n">plt</span><span class="p">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span><span class="mi">7</span><span class="p">),</span><span class="n">dpi</span><span class="o">=</span><span class="mi">200</span><span class="p">)</span>
+<span class="n">plt</span><span class="p">.</span><span class="n">pcolor</span><span class="p">(</span><span class="n">df</span><span class="p">,</span><span class="n">cmap</span><span class="o">=</span><span class="s">'gist_heat_r'</span><span class="p">,</span><span class="n">edgecolors</span><span class="o">=</span><span class="s">'white'</span><span class="p">,</span><span class="n">linewidths</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
+<span class="n">plt</span><span class="p">.</span><span class="n">xticks</span><span class="p">(</span><span class="n">np</span><span class="p">.</span><span class="n">arange</span><span class="p">(</span><span class="mf">0.5</span><span class="p">,</span><span class="nb">len</span><span class="p">(</span><span class="n">df</span><span class="p">.</span><span class="n">columns</span><span class="p">),</span><span class="mi">1</span><span class="p">),</span><span class="n">df</span><span class="p">.</span><span class="n">columns</span><span class="p">,</span><span class="n">fontsize</span><span class="o">=</span><span class="mi">7</span><span class="p">,</span><span class="n">fontfamily</span><span class="o">=</span><span class="s">'serif'</span><span class="p">)</span>
+<span class="n">plt</span><span class="p">.</span><span class="n">yticks</span><span class="p">(</span><span class="n">np</span><span class="p">.</span><span class="n">arange</span><span class="p">(</span><span class="mf">0.5</span><span class="p">,</span><span class="nb">len</span><span class="p">(</span><span class="n">df</span><span class="p">.</span><span class="n">index</span><span class="p">),</span><span class="mi">1</span><span class="p">),</span><span class="n">df</span><span class="p">.</span><span class="n">index</span><span class="p">,</span><span class="n">fontsize</span><span class="o">=</span><span class="mi">7</span><span class="p">,</span><span class="n">fontfamily</span><span class="o">=</span><span class="s">'serif'</span><span class="p">)</span>
+
+<span class="n">plt</span><span class="p">.</span><span class="n">title</span><span class="p">(</span><span class="s">'Netflix Contents Update'</span><span class="p">,</span><span class="n">fontsize</span><span class="o">=</span><span class="mi">12</span><span class="p">,</span><span class="n">fontfamily</span><span class="o">=</span><span class="s">'serif'</span><span class="p">,</span><span class="n">fontweight</span><span class="o">=</span><span class="s">'bold'</span><span class="p">,</span><span class="n">position</span><span class="o">=</span><span class="p">(</span><span class="mf">0.23</span><span class="p">,</span><span class="mf">1.0</span><span class="o">+</span><span class="mf">0.02</span><span class="p">))</span>
+<span class="n">cbar</span><span class="o">=</span><span class="n">plt</span><span class="p">.</span><span class="n">colorbar</span><span class="p">()</span>
+
+<span class="n">cbar</span><span class="p">.</span><span class="n">ax</span><span class="p">.</span><span class="n">tick_params</span><span class="p">(</span><span class="n">labelsize</span><span class="o">=</span><span class="mi">8</span><span class="p">)</span> 
+<span class="n">cbar</span><span class="p">.</span><span class="n">ax</span><span class="p">.</span><span class="n">minorticks_on</span><span class="p">()</span>
+<span class="n">plt</span><span class="p">.</span><span class="n">show</span><span class="p">()</span>
+</code></pre></div></div>
+
+<p><img src="assets/built/images/kaggle1/kaggle1_output_19_0.png" alt="png" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">#Scientific Colormap
+</span><span class="n">scientific_cmap</span><span class="o">=</span><span class="p">(</span><span class="s">'viridis'</span><span class="p">,</span><span class="s">'plasma'</span><span class="p">,</span><span class="s">'inferno'</span><span class="p">,</span><span class="s">'magma'</span><span class="p">)</span>
+<span class="n">cmap_plot</span><span class="p">(</span><span class="n">scientific_cmap</span><span class="p">,</span><span class="s">'Scientific'</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p><img src="assets/built/images/kaggle1/kaggle1_output_20_0.png" alt="png" /></p>
+
+<h2 id="text--annotate--patch">Text &amp; Annotate &amp; Patch</h2>
+<p>그래프에 세부 사항을 넣을 수 있다.<br />
+ax.text와 ax.annotate는 유사하지만 다르다.<br />
+ax.text <em>그래프의 비율 좌표를 표현</em>
+ax.annotate <em>그래프의 좌표를 표현</em><br />
+va, ha <em>현재 좌표가 텍스트의 중심, 왼쪽, 오른쪽을 결정</em><br />
+color <em>색상과 RGB값 선택</em> <br />
+bbox <em>텍스트를 포장하는 상자 표현</em><br />
+facecolor와 edgecolor가 분리되어있음<br />
+pad로 html에서 처럼 padding 가능<br />
+boxstyle로 직사각형의 모서리 조정 가능</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">fig</span><span class="p">,</span><span class="n">ax</span><span class="o">=</span><span class="n">plt</span><span class="p">.</span><span class="n">subplots</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="mi">5</span><span class="p">),</span> <span class="n">dpi</span><span class="o">=</span><span class="mi">100</span><span class="p">)</span>
+
+<span class="c1"># Gray Box
+</span><span class="n">ax</span><span class="p">.</span><span class="n">text</span><span class="p">(</span><span class="mf">0.1</span><span class="p">,</span> <span class="mf">0.9</span><span class="p">,</span> <span class="s">'Test'</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s">'gray'</span><span class="p">,</span> <span class="n">va</span><span class="o">=</span><span class="s">"center"</span><span class="p">,</span> <span class="n">ha</span><span class="o">=</span><span class="s">"center"</span><span class="p">)</span>
+<span class="c1"># Red Box
+</span><span class="n">ax</span><span class="p">.</span><span class="n">text</span><span class="p">(</span><span class="mf">0.3</span><span class="p">,</span> <span class="mf">0.7</span><span class="p">,</span> <span class="s">'Test'</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s">'red'</span><span class="p">,</span> <span class="n">va</span><span class="o">=</span><span class="s">"center"</span><span class="p">,</span> <span class="n">ha</span><span class="o">=</span><span class="s">"center"</span><span class="p">,</span>
+        <span class="n">bbox</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span><span class="n">facecolor</span><span class="o">=</span><span class="s">'none'</span><span class="p">,</span> <span class="n">edgecolor</span><span class="o">=</span><span class="s">'red'</span><span class="p">))</span>
+<span class="c1"># Blue Box
+</span><span class="n">ax</span><span class="p">.</span><span class="n">text</span><span class="p">(</span><span class="mf">0.5</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">,</span> <span class="s">'Test'</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s">'blue'</span><span class="p">,</span> <span class="n">va</span><span class="o">=</span><span class="s">"center"</span><span class="p">,</span> <span class="n">ha</span><span class="o">=</span><span class="s">"center"</span><span class="p">,</span>
+        <span class="n">bbox</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span><span class="n">facecolor</span><span class="o">=</span><span class="s">'none'</span><span class="p">,</span> <span class="n">edgecolor</span><span class="o">=</span><span class="s">'blue'</span><span class="p">,</span> <span class="n">pad</span><span class="o">=</span><span class="mf">10.0</span><span class="p">))</span>
+<span class="c1"># Green Box
+</span><span class="n">ax</span><span class="p">.</span><span class="n">text</span><span class="p">(</span><span class="mf">0.7</span><span class="p">,</span> <span class="mf">0.3</span><span class="p">,</span> <span class="s">'Test'</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s">'green'</span><span class="p">,</span> <span class="n">va</span><span class="o">=</span><span class="s">"center"</span><span class="p">,</span> <span class="n">ha</span><span class="o">=</span><span class="s">"center"</span><span class="p">,</span>
+        <span class="n">bbox</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span><span class="n">facecolor</span><span class="o">=</span><span class="s">'none'</span><span class="p">,</span> <span class="n">edgecolor</span><span class="o">=</span><span class="s">'green'</span><span class="p">,</span> <span class="n">boxstyle</span><span class="o">=</span><span class="s">'round'</span><span class="p">))</span>
+<span class="c1"># Black
+</span><span class="n">ax</span><span class="p">.</span><span class="n">text</span><span class="p">(</span><span class="mf">0.9</span><span class="p">,</span> <span class="mf">0.1</span><span class="p">,</span> <span class="s">'Test'</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s">'black'</span><span class="p">,</span> <span class="n">va</span><span class="o">=</span><span class="s">"center"</span><span class="p">,</span> <span class="n">ha</span><span class="o">=</span><span class="s">"center"</span><span class="p">,</span>
+        <span class="n">bbox</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span><span class="n">facecolor</span><span class="o">=</span><span class="s">'none'</span><span class="p">,</span> <span class="n">edgecolor</span><span class="o">=</span><span class="s">'black'</span><span class="p">,</span> <span class="n">boxstyle</span><span class="o">=</span><span class="s">'round, pad=0.5'</span><span class="p">))</span>
+
+<span class="n">ax</span><span class="p">.</span><span class="n">set_xticks</span><span class="p">([])</span>
+<span class="n">ax</span><span class="p">.</span><span class="n">set_yticks</span><span class="p">([])</span>
+<span class="n">plt</span><span class="p">.</span><span class="n">show</span><span class="p">()</span>
+</code></pre></div></div>
+
+<p><img src="assets/built/images/kaggle1/kaggle1_output_22_0.png" alt="png" /></p>
+
+<h6 id="효과적인-표현을-위한-그림들">효과적인 표현을 위한 그림들</h6>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">matplotlib.path</span> <span class="k">as</span> <span class="n">mpath</span>
+<span class="kn">import</span> <span class="nn">matplotlib.lines</span> <span class="k">as</span> <span class="n">mlines</span>
+<span class="kn">import</span> <span class="nn">matplotlib.patches</span> <span class="k">as</span> <span class="n">mpatches</span>
+<span class="kn">from</span> <span class="nn">matplotlib.collections</span> <span class="kn">import</span> <span class="n">PatchCollection</span>
+
+<span class="k">def</span> <span class="nf">label</span><span class="p">(</span><span class="n">xy</span><span class="p">,</span> <span class="n">text</span><span class="p">):</span>
+    <span class="n">y</span> <span class="o">=</span> <span class="n">xy</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">-</span> <span class="mf">0.15</span>  
+    <span class="n">plt</span><span class="p">.</span><span class="n">text</span><span class="p">(</span><span class="n">xy</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">y</span><span class="p">,</span> <span class="n">text</span><span class="p">,</span> <span class="n">ha</span><span class="o">=</span><span class="s">"center"</span><span class="p">,</span> <span class="n">family</span><span class="o">=</span><span class="s">'sans-serif'</span><span class="p">,</span> <span class="n">size</span><span class="o">=</span><span class="mi">14</span><span class="p">)</span>
+
+<span class="n">fig</span><span class="p">,</span> <span class="n">ax</span> <span class="o">=</span> <span class="n">plt</span><span class="p">.</span><span class="n">subplots</span><span class="p">()</span>
+<span class="n">grid</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">mgrid</span><span class="p">[</span><span class="mf">0.2</span><span class="p">:</span><span class="mf">0.8</span><span class="p">:</span><span class="mf">3j</span><span class="p">,</span> <span class="mf">0.2</span><span class="p">:</span><span class="mf">0.8</span><span class="p">:</span><span class="mf">3j</span><span class="p">].</span><span class="n">reshape</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">).</span><span class="n">T</span>
+<span class="n">patches</span> <span class="o">=</span> <span class="p">[]</span>
+
+<span class="c1"># 원
+</span><span class="n">circle</span> <span class="o">=</span> <span class="n">mpatches</span><span class="p">.</span><span class="n">Circle</span><span class="p">(</span><span class="n">grid</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="mf">0.1</span><span class="p">,</span> <span class="n">ec</span><span class="o">=</span><span class="s">"none"</span><span class="p">)</span>
+<span class="n">patches</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">circle</span><span class="p">)</span>
+<span class="n">label</span><span class="p">(</span><span class="n">grid</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="s">"Circle"</span><span class="p">)</span>
+<span class="c1"># 직사각형
+</span><span class="n">rect</span> <span class="o">=</span> <span class="n">mpatches</span><span class="p">.</span><span class="n">Rectangle</span><span class="p">(</span><span class="n">grid</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">-</span> <span class="p">[</span><span class="mf">0.025</span><span class="p">,</span> <span class="mf">0.05</span><span class="p">],</span> <span class="mf">0.05</span><span class="p">,</span> <span class="mf">0.1</span><span class="p">,</span> <span class="n">ec</span><span class="o">=</span><span class="s">"none"</span><span class="p">)</span>
+<span class="n">patches</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">rect</span><span class="p">)</span>
+<span class="n">label</span><span class="p">(</span><span class="n">grid</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="s">"Rectangle"</span><span class="p">)</span>
+<span class="c1"># wedge
+</span><span class="n">wedge</span> <span class="o">=</span> <span class="n">mpatches</span><span class="p">.</span><span class="n">Wedge</span><span class="p">(</span><span class="n">grid</span><span class="p">[</span><span class="mi">2</span><span class="p">],</span> <span class="mf">0.1</span><span class="p">,</span> <span class="mi">30</span><span class="p">,</span> <span class="mi">270</span><span class="p">,</span> <span class="n">ec</span><span class="o">=</span><span class="s">"none"</span><span class="p">)</span>
+<span class="n">patches</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">wedge</span><span class="p">)</span>
+<span class="n">label</span><span class="p">(</span><span class="n">grid</span><span class="p">[</span><span class="mi">2</span><span class="p">],</span> <span class="s">"Wedge"</span><span class="p">)</span>
+<span class="c1"># Polygon
+</span><span class="n">polygon</span> <span class="o">=</span> <span class="n">mpatches</span><span class="p">.</span><span class="n">RegularPolygon</span><span class="p">(</span><span class="n">grid</span><span class="p">[</span><span class="mi">3</span><span class="p">],</span> <span class="mi">5</span><span class="p">,</span> <span class="mf">0.1</span><span class="p">)</span>
+<span class="n">patches</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">polygon</span><span class="p">)</span>
+<span class="n">label</span><span class="p">(</span><span class="n">grid</span><span class="p">[</span><span class="mi">3</span><span class="p">],</span> <span class="s">"Polygon"</span><span class="p">)</span>
+<span class="c1"># ellipse
+</span><span class="n">ellipse</span> <span class="o">=</span> <span class="n">mpatches</span><span class="p">.</span><span class="n">Ellipse</span><span class="p">(</span><span class="n">grid</span><span class="p">[</span><span class="mi">4</span><span class="p">],</span> <span class="mf">0.2</span><span class="p">,</span> <span class="mf">0.1</span><span class="p">)</span>
+<span class="n">patches</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">ellipse</span><span class="p">)</span>
+<span class="n">label</span><span class="p">(</span><span class="n">grid</span><span class="p">[</span><span class="mi">4</span><span class="p">],</span> <span class="s">"Ellipse"</span><span class="p">)</span>
+<span class="c1"># arrow
+</span><span class="n">arrow</span> <span class="o">=</span> <span class="n">mpatches</span><span class="p">.</span><span class="n">Arrow</span><span class="p">(</span><span class="n">grid</span><span class="p">[</span><span class="mi">5</span><span class="p">,</span> <span class="mi">0</span><span class="p">]</span> <span class="o">-</span> <span class="mf">0.05</span><span class="p">,</span> <span class="n">grid</span><span class="p">[</span><span class="mi">5</span><span class="p">,</span> <span class="mi">1</span><span class="p">]</span> <span class="o">-</span> <span class="mf">0.05</span><span class="p">,</span> <span class="mf">0.1</span><span class="p">,</span> <span class="mf">0.1</span><span class="p">,</span>
+                       <span class="n">width</span><span class="o">=</span><span class="mf">0.1</span><span class="p">)</span>
+<span class="n">patches</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">arrow</span><span class="p">)</span>
+<span class="n">label</span><span class="p">(</span><span class="n">grid</span><span class="p">[</span><span class="mi">5</span><span class="p">],</span> <span class="s">"Arrow"</span><span class="p">)</span>
+<span class="c1"># path patch
+</span><span class="n">Path</span> <span class="o">=</span> <span class="n">mpath</span><span class="p">.</span><span class="n">Path</span>
+<span class="n">path_data</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="p">(</span><span class="n">Path</span><span class="p">.</span><span class="n">MOVETO</span><span class="p">,</span> <span class="p">[</span><span class="mf">0.018</span><span class="p">,</span> <span class="o">-</span><span class="mf">0.11</span><span class="p">]),</span>
+    <span class="p">(</span><span class="n">Path</span><span class="p">.</span><span class="n">CURVE4</span><span class="p">,</span> <span class="p">[</span><span class="o">-</span><span class="mf">0.031</span><span class="p">,</span> <span class="o">-</span><span class="mf">0.051</span><span class="p">]),</span>
+    <span class="p">(</span><span class="n">Path</span><span class="p">.</span><span class="n">CURVE4</span><span class="p">,</span> <span class="p">[</span><span class="o">-</span><span class="mf">0.115</span><span class="p">,</span> <span class="mf">0.073</span><span class="p">]),</span>
+    <span class="p">(</span><span class="n">Path</span><span class="p">.</span><span class="n">CURVE4</span><span class="p">,</span> <span class="p">[</span><span class="o">-</span><span class="mf">0.03</span><span class="p">,</span> <span class="mf">0.073</span><span class="p">]),</span>
+    <span class="p">(</span><span class="n">Path</span><span class="p">.</span><span class="n">LINETO</span><span class="p">,</span> <span class="p">[</span><span class="o">-</span><span class="mf">0.011</span><span class="p">,</span> <span class="mf">0.039</span><span class="p">]),</span>
+    <span class="p">(</span><span class="n">Path</span><span class="p">.</span><span class="n">CURVE4</span><span class="p">,</span> <span class="p">[</span><span class="mf">0.043</span><span class="p">,</span> <span class="mf">0.121</span><span class="p">]),</span>
+    <span class="p">(</span><span class="n">Path</span><span class="p">.</span><span class="n">CURVE4</span><span class="p">,</span> <span class="p">[</span><span class="mf">0.075</span><span class="p">,</span> <span class="o">-</span><span class="mf">0.005</span><span class="p">]),</span>
+    <span class="p">(</span><span class="n">Path</span><span class="p">.</span><span class="n">CURVE4</span><span class="p">,</span> <span class="p">[</span><span class="mf">0.035</span><span class="p">,</span> <span class="o">-</span><span class="mf">0.027</span><span class="p">]),</span>
+    <span class="p">(</span><span class="n">Path</span><span class="p">.</span><span class="n">CLOSEPOLY</span><span class="p">,</span> <span class="p">[</span><span class="mf">0.018</span><span class="p">,</span> <span class="o">-</span><span class="mf">0.11</span><span class="p">])]</span>
+<span class="n">codes</span><span class="p">,</span> <span class="n">verts</span> <span class="o">=</span> <span class="nb">zip</span><span class="p">(</span><span class="o">*</span><span class="n">path_data</span><span class="p">)</span>
+<span class="n">path</span> <span class="o">=</span> <span class="n">mpath</span><span class="p">.</span><span class="n">Path</span><span class="p">(</span><span class="n">verts</span> <span class="o">+</span> <span class="n">grid</span><span class="p">[</span><span class="mi">6</span><span class="p">],</span> <span class="n">codes</span><span class="p">)</span>
+<span class="n">patch</span> <span class="o">=</span> <span class="n">mpatches</span><span class="p">.</span><span class="n">PathPatch</span><span class="p">(</span><span class="n">path</span><span class="p">)</span>
+<span class="n">patches</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">patch</span><span class="p">)</span>
+<span class="n">label</span><span class="p">(</span><span class="n">grid</span><span class="p">[</span><span class="mi">6</span><span class="p">],</span> <span class="s">"PathPatch"</span><span class="p">)</span>
+<span class="c1"># fancy box
+</span><span class="n">fancybox</span> <span class="o">=</span> <span class="n">mpatches</span><span class="p">.</span><span class="n">FancyBboxPatch</span><span class="p">(</span>
+    <span class="n">grid</span><span class="p">[</span><span class="mi">7</span><span class="p">]</span> <span class="o">-</span> <span class="p">[</span><span class="mf">0.025</span><span class="p">,</span> <span class="mf">0.05</span><span class="p">],</span> <span class="mf">0.05</span><span class="p">,</span> <span class="mf">0.1</span><span class="p">,</span>
+    <span class="n">boxstyle</span><span class="o">=</span><span class="n">mpatches</span><span class="p">.</span><span class="n">BoxStyle</span><span class="p">(</span><span class="s">"Round"</span><span class="p">,</span> <span class="n">pad</span><span class="o">=</span><span class="mf">0.02</span><span class="p">))</span>
+<span class="n">patches</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">fancybox</span><span class="p">)</span>
+<span class="n">label</span><span class="p">(</span><span class="n">grid</span><span class="p">[</span><span class="mi">7</span><span class="p">],</span> <span class="s">"FancyBboxPatch"</span><span class="p">)</span>
+<span class="c1"># line
+</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">array</span><span class="p">([[</span><span class="o">-</span><span class="mf">0.06</span><span class="p">,</span> <span class="mf">0.0</span><span class="p">,</span> <span class="mf">0.1</span><span class="p">],</span> <span class="p">[</span><span class="mf">0.05</span><span class="p">,</span> <span class="o">-</span><span class="mf">0.05</span><span class="p">,</span> <span class="mf">0.05</span><span class="p">]])</span>
+<span class="n">line</span> <span class="o">=</span> <span class="n">mlines</span><span class="p">.</span><span class="n">Line2D</span><span class="p">(</span><span class="n">x</span> <span class="o">+</span> <span class="n">grid</span><span class="p">[</span><span class="mi">8</span><span class="p">,</span> <span class="mi">0</span><span class="p">],</span> <span class="n">y</span> <span class="o">+</span> <span class="n">grid</span><span class="p">[</span><span class="mi">8</span><span class="p">,</span> <span class="mi">1</span><span class="p">],</span> <span class="n">lw</span><span class="o">=</span><span class="mf">5.</span><span class="p">,</span> <span class="n">alpha</span><span class="o">=</span><span class="mf">0.3</span><span class="p">)</span>
+<span class="n">label</span><span class="p">(</span><span class="n">grid</span><span class="p">[</span><span class="mi">8</span><span class="p">],</span> <span class="s">"Line2D"</span><span class="p">)</span>
+
+<span class="n">colors</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">linspace</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">patches</span><span class="p">))</span>
+<span class="n">collection</span> <span class="o">=</span> <span class="n">PatchCollection</span><span class="p">(</span><span class="n">patches</span><span class="p">,</span> <span class="n">cmap</span><span class="o">=</span><span class="n">plt</span><span class="p">.</span><span class="n">cm</span><span class="p">.</span><span class="n">hsv</span><span class="p">,</span> <span class="n">alpha</span><span class="o">=</span><span class="mf">0.3</span><span class="p">)</span>
+<span class="n">collection</span><span class="p">.</span><span class="n">set_array</span><span class="p">(</span><span class="n">np</span><span class="p">.</span><span class="n">array</span><span class="p">(</span><span class="n">colors</span><span class="p">))</span>
+<span class="n">ax</span><span class="p">.</span><span class="n">add_collection</span><span class="p">(</span><span class="n">collection</span><span class="p">)</span>
+<span class="n">ax</span><span class="p">.</span><span class="n">add_line</span><span class="p">(</span><span class="n">line</span><span class="p">)</span>
+
+<span class="n">plt</span><span class="p">.</span><span class="n">axis</span><span class="p">(</span><span class="s">'equal'</span><span class="p">)</span>
+<span class="n">plt</span><span class="p">.</span><span class="n">axis</span><span class="p">(</span><span class="s">'off'</span><span class="p">)</span>
+<span class="n">plt</span><span class="p">.</span><span class="n">tight_layout</span><span class="p">()</span>
+<span class="n">plt</span><span class="p">.</span><span class="n">show</span><span class="p">()</span>
+</code></pre></div></div>
+
+<p><img src="assets/built/images/kaggle1/kaggle1_output_24_0.png" alt="png" /></p>
+
+<h2 id="details--examples">Details &amp; Examples</h2>
+<p>그림에 대한 다양한 설정<br />
+Horizontal and Vertical (barplot)<br />
+Border(edge) color and thickness<br />
+Main Color &amp; Sub Color<br />
+Transparency<br />
+Span</p>
+
+<h6 id="font-weight-color-family-size-">Font Weight, Color, Family, Size …</h6>
+<p>글꼴 굵기, 크기를 설정할 수 있다.<br />
+serifs와 sans serifs도 차이가 있다.<br />
+fontsize, color, fontweight, fontfamily같은 키워들을 이용할 수 있다.</p>
+
+<h6 id="horizontal-keyboard--vertical-barplot">Horizontal keyboard &amp; Vertical (barplot)</h6>
+<p>x축의 수가 많으면 가독성이 낮다. <br />
+예를들면 countplot은 x축과 겹치는 경우가 발생한다.<br />
+이럴 때는 수직으로 배치하면 가독성이 좋다.</p>
+
+<h6 id="borderedge-color--thickness-width">Border(Edge) Color &amp; Thickness (Width)</h6>
+<p>별도의 테두리를 이용하여 가독성을 높일 수 있다.<br />
+R에서 자주 이용한다.<br />
+경계선은 밝기와 투명도를 조절하여 구별하는 것이 좋다.</p>
+
+<h6 id="main-color--sub-color">Main Color &amp; Sub Color</h6>
+<p>화려한 색상보다 정보의 전달을 편하게 하는 것에 목적을 둔다. <br />
+그래프의 종류에 따라 색상도 변경하는 것이 좋다.<br />
+특정 부품을 강조 표시할 때 목록으로 전달하는 것이 좋다.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">matplotlib.ticker</span> <span class="kn">import</span> <span class="n">FuncFormatter</span>
+<span class="k">def</span> <span class="nf">age_band</span><span class="p">(</span><span class="n">num</span><span class="p">):</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">100</span><span class="p">):</span>
+        <span class="k">if</span> <span class="n">num</span> <span class="o">&lt;</span> <span class="mi">10</span><span class="o">*</span><span class="n">i</span> <span class="p">:</span> 
+            <span class="k">return</span> <span class="sa">f</span><span class="s">'under </span><span class="si">{</span><span class="n">i</span><span class="o">*</span><span class="mi">10</span><span class="si">}</span><span class="s">'</span>
+
+<span class="n">titanic_train</span><span class="o">=</span><span class="n">pd</span><span class="p">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s">"train.csv"</span><span class="p">)</span>
+<span class="n">titanic_train</span><span class="p">[</span><span class="s">'age_band'</span><span class="p">]</span><span class="o">=</span><span class="n">titanic_train</span><span class="p">[</span><span class="s">'Age'</span><span class="p">].</span><span class="nb">apply</span><span class="p">(</span><span class="n">age_band</span><span class="p">)</span>
+<span class="n">titanic_age</span> <span class="o">=</span> <span class="n">titanic_train</span><span class="p">[[</span><span class="s">'age_band'</span><span class="p">,</span> <span class="s">'Survived'</span><span class="p">]].</span><span class="n">groupby</span><span class="p">(</span><span class="s">'age_band'</span><span class="p">)[</span><span class="s">'Survived'</span><span class="p">].</span><span class="n">value_counts</span><span class="p">().</span><span class="n">sort_index</span><span class="p">().</span><span class="n">unstack</span><span class="p">().</span><span class="n">fillna</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
+
+<span class="n">titanic_age</span><span class="p">[</span><span class="s">'Survival rate'</span><span class="p">]</span><span class="o">=</span><span class="n">titanic_age</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">/</span> <span class="p">(</span><span class="n">titanic_age</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">+</span> <span class="n">titanic_age</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span> <span class="o">*</span> <span class="mi">100</span>
+
+<span class="n">fig</span><span class="p">,</span> <span class="n">ax</span><span class="o">=</span><span class="n">plt</span><span class="p">.</span><span class="n">subplots</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">18</span><span class="p">,</span> <span class="mi">7</span><span class="p">),</span> <span class="n">dpi</span><span class="o">=</span><span class="mi">300</span><span class="p">)</span>
+
+<span class="c1"># ax1
+</span><span class="n">ax</span><span class="p">[</span><span class="mi">0</span><span class="p">].</span><span class="n">bar</span><span class="p">(</span><span class="n">titanic_age</span><span class="p">[</span><span class="s">'Survival rate'</span><span class="p">].</span><span class="n">index</span><span class="p">,</span> <span class="n">titanic_age</span><span class="p">[</span><span class="s">'Survival rate'</span><span class="p">],</span> <span class="n">color</span><span class="o">=</span><span class="s">'gray'</span><span class="p">)</span>
+<span class="n">ax</span><span class="p">[</span><span class="mi">0</span><span class="p">].</span><span class="n">set_title</span><span class="p">(</span><span class="s">'Age Band &amp; Survival Rate(Before)'</span><span class="p">)</span>
+
+<span class="c1"># ax2
+</span><span class="n">color_map</span><span class="o">=</span><span class="p">[</span><span class="s">'gray'</span> <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">9</span><span class="p">)]</span>
+<span class="n">color_map</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="n">color_map</span><span class="p">[</span><span class="mi">8</span><span class="p">]</span> <span class="o">=</span> <span class="s">'#3caea3'</span>
+<span class="n">ax</span><span class="p">[</span><span class="mi">1</span><span class="p">].</span><span class="n">bar</span><span class="p">(</span><span class="n">titanic_age</span><span class="p">[</span><span class="s">'Survival rate'</span><span class="p">].</span><span class="n">index</span><span class="p">,</span> <span class="n">titanic_age</span><span class="p">[</span><span class="s">'Survival rate'</span><span class="p">],</span> <span class="n">alpha</span><span class="o">=</span><span class="mf">0.7</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="n">color_map</span><span class="p">,</span> <span class="n">width</span><span class="o">=</span><span class="mf">0.6</span><span class="p">,</span> <span class="n">edgecolor</span><span class="o">=</span><span class="s">'black'</span><span class="p">,</span> <span class="n">linewidth</span><span class="o">=</span><span class="mf">1.2</span><span class="p">)</span>
+<span class="n">ax</span><span class="p">[</span><span class="mi">1</span><span class="p">].</span><span class="n">set_title</span><span class="p">(</span><span class="s">'Age Band &amp; Survival Rate(After)'</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">15</span><span class="p">,</span> <span class="n">fontweight</span><span class="o">=</span><span class="s">'bold'</span><span class="p">,</span> <span class="n">position</span><span class="o">=</span><span class="p">(</span><span class="mf">0.25</span><span class="p">,</span> <span class="mf">1.0</span><span class="o">+</span><span class="mf">0.05</span><span class="p">))</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">titanic_age</span><span class="p">[</span><span class="s">'Survival rate'</span><span class="p">].</span><span class="n">index</span><span class="p">:</span>
+    <span class="n">ax</span><span class="p">[</span><span class="mi">1</span><span class="p">].</span><span class="n">annotate</span><span class="p">(</span><span class="sa">f</span><span class="s">"</span><span class="si">{</span><span class="n">titanic_age</span><span class="p">[</span><span class="s">'Survival rate'</span><span class="p">][</span><span class="n">i</span><span class="p">]:.</span><span class="mi">02</span><span class="n">f</span><span class="si">}</span><span class="s">%"</span><span class="p">,</span> 
+                   <span class="n">xy</span><span class="o">=</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="n">titanic_age</span><span class="p">[</span><span class="s">'Survival rate'</span><span class="p">][</span><span class="n">i</span><span class="p">]</span> <span class="o">+</span> <span class="mi">2</span><span class="p">),</span>
+                   <span class="n">va</span> <span class="o">=</span> <span class="s">'center'</span><span class="p">,</span> <span class="n">ha</span><span class="o">=</span><span class="s">'center'</span><span class="p">,</span><span class="n">fontweight</span><span class="o">=</span><span class="s">'bold'</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s">'#383838'</span><span class="p">)</span>
+
+<span class="n">ax</span><span class="p">[</span><span class="mi">1</span><span class="p">].</span><span class="n">yaxis</span><span class="p">.</span><span class="n">set_major_formatter</span><span class="p">(</span><span class="n">FuncFormatter</span><span class="p">(</span><span class="k">lambda</span> <span class="n">y</span><span class="p">,</span> <span class="n">_</span><span class="p">:</span> <span class="sa">f</span><span class="s">'</span><span class="si">{</span><span class="n">y</span><span class="p">:</span><span class="si">}</span><span class="s">%'</span><span class="p">))</span> 
+<span class="n">plt</span><span class="p">.</span><span class="n">suptitle</span><span class="p">(</span><span class="s">'* Focus on survival rates for young and old'</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="mf">0.65</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="mf">0.94</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s">'gray'</span><span class="p">)</span>
+<span class="n">plt</span><span class="p">.</span><span class="n">subplots_adjust</span><span class="p">(</span><span class="n">left</span><span class="o">=</span><span class="mf">0.5</span><span class="p">,</span> <span class="n">right</span><span class="o">=</span><span class="mf">0.8</span><span class="p">)</span>
+<span class="n">plt</span><span class="p">.</span><span class="n">tight_layout</span><span class="p">()</span>
+<span class="n">plt</span><span class="p">.</span><span class="n">show</span><span class="p">()</span>
+</code></pre></div></div>
+
+<p><img src="assets/built/images/kaggle1/kaggle1_output_27_0.png" alt="png" /></p>
+
+<h6 id="main-color--sub-color-1">Main Color &amp; Sub Color</h6>
+<p>산점도와 같이 많은 점들이 겹치면 투명도가 중요하다. <br />
+투명도를 이용해서 둘 이상의 그림을 함께 배치할 수 있다.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">seaborn</span> <span class="k">as</span> <span class="n">sns</span>
+<span class="n">exam_data</span><span class="o">=</span><span class="n">pd</span><span class="p">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s">"StudentsPerformance.csv"</span><span class="p">)</span>
+<span class="n">fig</span><span class="p">,</span> <span class="n">ax</span><span class="o">=</span><span class="n">plt</span><span class="p">.</span><span class="n">subplots</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="n">figsize</span> <span class="o">=</span> <span class="p">(</span><span class="mi">15</span><span class="p">,</span> <span class="mi">7</span><span class="p">),</span> <span class="n">dpi</span><span class="o">=</span><span class="mi">150</span><span class="p">)</span>
+
+<span class="n">ax</span><span class="p">[</span><span class="mi">0</span><span class="p">].</span><span class="n">scatter</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="s">'math score'</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s">'reading score'</span><span class="p">,</span><span class="n">data</span><span class="o">=</span><span class="n">exam_data</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s">'gray'</span><span class="p">)</span>
+<span class="n">ax</span><span class="p">[</span><span class="mi">0</span><span class="p">].</span><span class="n">set_title</span><span class="p">(</span><span class="s">'Before'</span><span class="p">)</span>
+
+<span class="n">ax</span><span class="p">[</span><span class="mi">1</span><span class="p">].</span><span class="n">scatter</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="s">'math score'</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s">'reading score'</span><span class="p">,</span><span class="n">data</span><span class="o">=</span><span class="n">exam_data</span><span class="p">[</span><span class="n">exam_data</span><span class="p">[</span><span class="s">'gender'</span><span class="p">]</span><span class="o">==</span><span class="s">'male'</span><span class="p">],</span> <span class="n">color</span><span class="o">=</span><span class="s">'skyblue'</span><span class="p">,</span> <span class="n">alpha</span><span class="o">=</span><span class="mf">0.5</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s">'Male'</span><span class="p">,</span> <span class="n">s</span><span class="o">=</span><span class="mi">70</span><span class="p">)</span>
+<span class="n">ax</span><span class="p">[</span><span class="mi">1</span><span class="p">].</span><span class="n">scatter</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="s">'math score'</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s">'reading score'</span><span class="p">,</span><span class="n">data</span><span class="o">=</span><span class="n">exam_data</span><span class="p">[</span><span class="n">exam_data</span><span class="p">[</span><span class="s">'gender'</span><span class="p">]</span><span class="o">==</span><span class="s">'female'</span><span class="p">],</span> <span class="n">color</span><span class="o">=</span><span class="s">'salmon'</span><span class="p">,</span> <span class="n">alpha</span><span class="o">=</span><span class="mf">0.5</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s">'Female'</span><span class="p">,</span> <span class="n">s</span><span class="o">=</span><span class="mi">70</span><span class="p">)</span>
+<span class="n">ax</span><span class="p">[</span><span class="mi">1</span><span class="p">].</span><span class="n">set_title</span><span class="p">(</span><span class="s">'After'</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">15</span><span class="p">,</span> <span class="n">fontweight</span><span class="o">=</span><span class="s">'bold'</span><span class="p">)</span>
+
+<span class="n">ax</span><span class="p">[</span><span class="mi">1</span><span class="p">].</span><span class="n">legend</span><span class="p">()</span>
+
+<span class="n">plt</span><span class="p">.</span><span class="n">gca</span><span class="p">().</span><span class="n">spines</span><span class="p">[</span><span class="s">'top'</span><span class="p">].</span><span class="n">set_visible</span><span class="p">(</span><span class="bp">False</span><span class="p">)</span>
+<span class="n">plt</span><span class="p">.</span><span class="n">gca</span><span class="p">().</span><span class="n">spines</span><span class="p">[</span><span class="s">'right'</span><span class="p">].</span><span class="n">set_visible</span><span class="p">(</span><span class="bp">False</span><span class="p">)</span>
+<span class="n">plt</span><span class="p">.</span><span class="n">show</span><span class="p">()</span>
+</code></pre></div></div>
+
+<p><img src="assets/built/images/kaggle1/kaggle1_output_29_0.png" alt="png" /></p>
+
+<h6 id="span">Span</h6>
+<p>axvspan: 수직
+axhspan: 수평</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">sns</span><span class="p">.</span><span class="n">set_style</span><span class="p">(</span><span class="s">'whitegrid'</span><span class="p">)</span> <span class="c1"># plot with grid
+</span>
+<span class="n">movie</span><span class="o">=</span><span class="n">netflix_titles</span><span class="p">[</span><span class="n">netflix_titles</span><span class="p">[</span><span class="s">'type'</span><span class="p">]</span> <span class="o">==</span> <span class="s">'Movie'</span><span class="p">]</span>    
+<span class="n">rating_order</span><span class="o">=</span><span class="p">[</span><span class="s">'G'</span><span class="p">,</span> <span class="s">'TV-Y'</span><span class="p">,</span> <span class="s">'TV-G'</span><span class="p">,</span> <span class="s">'PG'</span><span class="p">,</span> <span class="s">'TV-Y7'</span><span class="p">,</span> <span class="s">'TV-Y7-FV'</span><span class="p">,</span> <span class="s">'TV-PG'</span><span class="p">,</span> <span class="s">'PG-13'</span><span class="p">,</span> <span class="s">'TV-14'</span><span class="p">,</span> <span class="s">'R'</span><span class="p">,</span> <span class="s">'NC-17'</span><span class="p">,</span> <span class="s">'TV-MA'</span><span class="p">]</span>
+<span class="n">movie_rating</span><span class="o">=</span><span class="n">movie</span><span class="p">[</span><span class="s">'rating'</span><span class="p">].</span><span class="n">value_counts</span><span class="p">()[</span><span class="n">rating_order</span><span class="p">]</span> 
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">fig</span><span class="p">,</span> <span class="n">ax</span><span class="o">=</span><span class="n">plt</span><span class="p">.</span><span class="n">subplots</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">14</span><span class="p">,</span> <span class="mi">7</span><span class="p">),</span> <span class="n">dpi</span><span class="o">=</span><span class="mi">200</span><span class="p">)</span>
+<span class="n">ax</span><span class="p">.</span><span class="n">bar</span><span class="p">(</span><span class="n">movie_rating</span><span class="p">.</span><span class="n">index</span><span class="p">,</span> <span class="n">movie_rating</span><span class="p">,</span>  <span class="n">color</span><span class="o">=</span><span class="s">"#d0d0d0"</span><span class="p">,</span> <span class="n">width</span><span class="o">=</span><span class="mf">0.6</span><span class="p">,</span> <span class="n">edgecolor</span><span class="o">=</span><span class="s">'black'</span><span class="p">)</span>
+<span class="n">ax</span><span class="p">.</span><span class="n">set_title</span><span class="p">(</span><span class="sa">f</span><span class="s">'Distribution of Movie Rating (Before)'</span><span class="p">,</span> <span class="n">fontweight</span><span class="o">=</span><span class="s">'bold'</span><span class="p">)</span>
+<span class="n">plt</span><span class="p">.</span><span class="n">show</span><span class="p">()</span>
+</code></pre></div></div>
+
+<p><img src="assets/built/images/kaggle1/kaggle1_output_32_0.png" alt="png" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">rating_barplot</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">title</span><span class="p">,</span> <span class="n">height</span><span class="p">,</span> <span class="n">h_lim</span><span class="o">=</span><span class="bp">None</span><span class="p">):</span>
+    <span class="n">fig</span><span class="p">,</span> <span class="n">ax</span><span class="o">=</span><span class="n">plt</span><span class="p">.</span><span class="n">subplots</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span> <span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">14</span><span class="p">,</span> <span class="mi">7</span><span class="p">),</span> <span class="n">dpi</span><span class="o">=</span><span class="mi">200</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">h_lim</span><span class="p">:</span>
+        <span class="n">ax</span><span class="p">.</span><span class="n">set_ylim</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">h_lim</span><span class="p">)</span>
+    <span class="n">ax</span><span class="p">.</span><span class="n">bar</span><span class="p">(</span><span class="n">data</span><span class="p">.</span><span class="n">index</span><span class="p">,</span> <span class="n">data</span><span class="p">,</span>  <span class="n">color</span><span class="o">=</span><span class="s">"#e0e0e0"</span><span class="p">,</span> <span class="n">width</span><span class="o">=</span><span class="mf">0.52</span><span class="p">,</span> <span class="n">edgecolor</span><span class="o">=</span><span class="s">'black'</span><span class="p">)</span>
+
+    <span class="n">color</span><span class="o">=</span><span class="p">[</span><span class="s">'green'</span><span class="p">,</span>  <span class="s">'blue'</span><span class="p">,</span>  <span class="s">'orange'</span><span class="p">,</span>  <span class="s">'red'</span><span class="p">]</span>
+    <span class="n">span_range</span><span class="o">=</span><span class="p">[[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">2</span><span class="p">],</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span>  <span class="mi">6</span><span class="p">],</span> <span class="p">[</span><span class="mi">7</span><span class="p">,</span> <span class="mi">8</span><span class="p">],</span> <span class="p">[</span><span class="mi">9</span><span class="p">,</span> <span class="mi">11</span><span class="p">]]</span>
+
+    <span class="k">for</span> <span class="n">idx</span><span class="p">,</span> <span class="n">sub_title</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">([</span><span class="s">'Little Kids'</span><span class="p">,</span> <span class="s">'Older Kids'</span><span class="p">,</span> <span class="s">'Teens'</span><span class="p">,</span> <span class="s">'Mature'</span><span class="p">]):</span>
+        <span class="n">ax</span><span class="p">.</span><span class="n">annotate</span><span class="p">(</span><span class="n">sub_title</span><span class="p">,</span><span class="n">xy</span><span class="o">=</span><span class="p">(</span><span class="nb">sum</span><span class="p">(</span><span class="n">span_range</span><span class="p">[</span><span class="n">idx</span><span class="p">])</span><span class="o">/</span><span class="mi">2</span> <span class="p">,</span><span class="n">height</span><span class="p">),</span><span class="n">xytext</span><span class="o">=</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">),</span> <span class="n">textcoords</span><span class="o">=</span><span class="s">'offset points'</span><span class="p">,</span>
+                    <span class="n">va</span><span class="o">=</span><span class="s">"center"</span><span class="p">,</span> <span class="n">ha</span><span class="o">=</span><span class="s">"center"</span><span class="p">,</span><span class="n">color</span><span class="o">=</span><span class="s">"w"</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">16</span><span class="p">,</span> <span class="n">fontweight</span><span class="o">=</span><span class="s">'bold'</span><span class="p">,</span>
+                    <span class="n">bbox</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span><span class="n">boxstyle</span><span class="o">=</span><span class="s">'round4'</span><span class="p">,</span> <span class="n">pad</span><span class="o">=</span><span class="mf">0.4</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="n">color</span><span class="p">[</span><span class="n">idx</span><span class="p">],</span> <span class="n">alpha</span><span class="o">=</span><span class="mf">0.6</span><span class="p">))</span>
+        <span class="n">ax</span><span class="p">.</span><span class="n">axvspan</span><span class="p">(</span><span class="n">span_range</span><span class="p">[</span><span class="n">idx</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span><span class="o">-</span><span class="mf">0.4</span><span class="p">,</span><span class="n">span_range</span><span class="p">[</span><span class="n">idx</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span><span class="o">+</span><span class="mf">0.4</span><span class="p">,</span>  <span class="n">color</span><span class="o">=</span><span class="n">color</span><span class="p">[</span><span class="n">idx</span><span class="p">],</span> <span class="n">alpha</span><span class="o">=</span><span class="mf">0.07</span><span class="p">)</span>
+    <span class="n">ax</span><span class="p">.</span><span class="n">set_title</span><span class="p">(</span><span class="sa">f</span><span class="s">'Distribution of </span><span class="si">{</span><span class="n">title</span><span class="si">}</span><span class="s"> Rating (After)'</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">15</span><span class="p">,</span> <span class="n">fontweight</span><span class="o">=</span><span class="s">'bold'</span><span class="p">,</span> <span class="n">position</span><span class="o">=</span><span class="p">(</span><span class="mf">0.20</span><span class="p">,</span> <span class="mf">1.0</span><span class="o">+</span><span class="mf">0.03</span><span class="p">))</span>
+    <span class="n">plt</span><span class="p">.</span><span class="n">show</span><span class="p">()</span>
+<span class="n">rating_barplot</span><span class="p">(</span><span class="n">movie_rating</span><span class="p">,</span><span class="s">'Movie'</span><span class="p">,</span> <span class="mi">1200</span><span class="p">,</span> <span class="mi">1400</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p><img src="assets/built/images/kaggle1/kaggle1_output_33_0.png" alt="png" /></p>
+
+<h6 id="meme--xkcd-theme">MEME : xkcd theme</h6>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">matplotlib</span>
+<span class="n">matplotlib</span><span class="p">.</span><span class="n">font_manager</span><span class="p">.</span><span class="n">_rebuild</span><span class="p">()</span>
+<span class="k">with</span> <span class="n">plt</span><span class="p">.</span><span class="n">xkcd</span><span class="p">():</span>
+    <span class="n">fig</span><span class="o">=</span><span class="n">plt</span><span class="p">.</span><span class="n">figure</span><span class="p">()</span>
+    <span class="n">ax</span><span class="o">=</span><span class="n">fig</span><span class="p">.</span><span class="n">add_axes</span><span class="p">((</span><span class="mf">0.1</span><span class="p">,</span> <span class="mf">0.2</span><span class="p">,</span> <span class="mf">0.8</span><span class="p">,</span> <span class="mf">0.7</span><span class="p">))</span>
+    <span class="n">ax</span><span class="p">.</span><span class="n">spines</span><span class="p">[</span><span class="s">'right'</span><span class="p">].</span><span class="n">set_color</span><span class="p">(</span><span class="s">'none'</span><span class="p">)</span>
+    <span class="n">ax</span><span class="p">.</span><span class="n">spines</span><span class="p">[</span><span class="s">'top'</span><span class="p">].</span><span class="n">set_color</span><span class="p">(</span><span class="s">'none'</span><span class="p">)</span>
+    <span class="n">ax</span><span class="p">.</span><span class="n">set_xticks</span><span class="p">([])</span>
+    <span class="n">ax</span><span class="p">.</span><span class="n">set_yticks</span><span class="p">([])</span>
+    <span class="n">ax</span><span class="p">.</span><span class="n">set_ylim</span><span class="p">([</span><span class="o">-</span><span class="mi">30</span><span class="p">,</span> <span class="mi">10</span><span class="p">])</span>
+
+    <span class="n">data</span><span class="o">=</span><span class="n">np</span><span class="p">.</span><span class="n">ones</span><span class="p">(</span><span class="mi">100</span><span class="p">)</span>
+    <span class="n">data</span><span class="p">[</span><span class="mi">70</span><span class="p">:]</span><span class="o">-=</span><span class="n">np</span><span class="p">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">30</span><span class="p">)</span>
+
+    <span class="n">ax</span><span class="p">.</span><span class="n">annotate</span><span class="p">(</span><span class="s">'THE DAY I REALIZED</span><span class="se">\n</span><span class="s">I COULD COOK BACON</span><span class="se">\n</span><span class="s">WHENEVER I WANTED'</span><span class="p">,</span>
+        <span class="n">xy</span><span class="o">=</span><span class="p">(</span><span class="mi">70</span><span class="p">,</span> <span class="mi">1</span><span class="p">),</span> <span class="n">arrowprops</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span><span class="n">arrowstyle</span><span class="o">=</span><span class="s">'-&gt;'</span><span class="p">),</span> <span class="n">xytext</span><span class="o">=</span><span class="p">(</span><span class="mi">15</span><span class="p">,</span> <span class="o">-</span><span class="mi">10</span><span class="p">))</span>
+
+    <span class="n">ax</span><span class="p">.</span><span class="n">plot</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
+
+    <span class="n">ax</span><span class="p">.</span><span class="n">set_xlabel</span><span class="p">(</span><span class="s">'time'</span><span class="p">)</span>
+    <span class="n">ax</span><span class="p">.</span><span class="n">set_ylabel</span><span class="p">(</span><span class="s">'my overall health'</span><span class="p">)</span>
+    <span class="n">fig</span><span class="p">.</span><span class="n">text</span><span class="p">(</span><span class="mf">0.5</span><span class="p">,</span> <span class="mf">0.05</span><span class="p">,</span><span class="s">'"Stove Ownership" from xkcd by Randall Munroe'</span><span class="p">,</span><span class="n">ha</span><span class="o">=</span><span class="s">'center'</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p><img src="assets/built/images/kaggle1/kaggle1_output_35_0.png" alt="png" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">with</span> <span class="n">plt</span><span class="p">.</span><span class="n">xkcd</span><span class="p">():</span>
+    <span class="n">fig</span><span class="o">=</span><span class="n">plt</span><span class="p">.</span><span class="n">figure</span><span class="p">()</span>
+    <span class="n">ax</span><span class="o">=</span><span class="n">fig</span><span class="p">.</span><span class="n">add_axes</span><span class="p">((</span><span class="mf">0.1</span><span class="p">,</span> <span class="mf">0.2</span><span class="p">,</span> <span class="mf">0.8</span><span class="p">,</span> <span class="mf">0.7</span><span class="p">))</span>
+    <span class="n">ax</span><span class="p">.</span><span class="n">bar</span><span class="p">([</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">],</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">100</span><span class="p">],</span> <span class="mf">0.25</span><span class="p">)</span>
+    <span class="n">ax</span><span class="p">.</span><span class="n">spines</span><span class="p">[</span><span class="s">'right'</span><span class="p">].</span><span class="n">set_color</span><span class="p">(</span><span class="s">'none'</span><span class="p">)</span>
+    <span class="n">ax</span><span class="p">.</span><span class="n">spines</span><span class="p">[</span><span class="s">'top'</span><span class="p">].</span><span class="n">set_color</span><span class="p">(</span><span class="s">'none'</span><span class="p">)</span>
+    <span class="n">ax</span><span class="p">.</span><span class="n">xaxis</span><span class="p">.</span><span class="n">set_ticks_position</span><span class="p">(</span><span class="s">'bottom'</span><span class="p">)</span>
+    <span class="n">ax</span><span class="p">.</span><span class="n">set_xticks</span><span class="p">([</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">])</span>
+    <span class="n">ax</span><span class="p">.</span><span class="n">set_xticklabels</span><span class="p">([</span><span class="s">'CONFIRMED BY</span><span class="se">\n</span><span class="s">EXPERIMENT'</span><span class="p">,</span> <span class="s">'REFUTED BY</span><span class="se">\n</span><span class="s">EXPERIMENT'</span><span class="p">])</span>
+    <span class="n">ax</span><span class="p">.</span><span class="n">set_xlim</span><span class="p">([</span><span class="o">-</span><span class="mf">0.5</span><span class="p">,</span> <span class="mf">1.5</span><span class="p">])</span>
+    <span class="n">ax</span><span class="p">.</span><span class="n">set_yticks</span><span class="p">([])</span>
+    <span class="n">ax</span><span class="p">.</span><span class="n">set_ylim</span><span class="p">([</span><span class="mi">0</span><span class="p">,</span> <span class="mi">110</span><span class="p">])</span>
+
+    <span class="n">ax</span><span class="p">.</span><span class="n">set_title</span><span class="p">(</span><span class="s">"CLAIMS OF SUPERNATURAL POWERS"</span><span class="p">)</span>
+
+    <span class="n">fig</span><span class="p">.</span><span class="n">text</span><span class="p">(</span><span class="mf">0.5</span><span class="p">,</span> <span class="o">-</span><span class="mf">0.05</span><span class="p">,</span><span class="s">'"The Data So Far" from xkcd by Randall Munroe'</span><span class="p">,</span><span class="n">ha</span><span class="o">=</span><span class="s">'center'</span><span class="p">)</span>
+<span class="n">plt</span><span class="p">.</span><span class="n">show</span><span class="p">()</span>
+</code></pre></div></div>
+
+<p><img src="assets/built/images/kaggle1/kaggle1_output_36_0.png" alt="png" /></p>
+
+
+                </div>
+            </section>
+
+            <!-- Email subscribe form at the bottom of the page -->
+            <!--
+            
+                <section class="subscribe-form">
+                    <h3 class="subscribe-form-title">Subscribe to 주건나's Blog</h3>
+                    <p>Get the latest posts delivered right to your inbox</p>
+                    <span id="searchform" method="post" action="/subscribe/" class="">
+    <input class="confirm" type="hidden" name="confirm"  />
+    <input class="location" type="hidden" name="location"  />
+    <input class="referrer" type="hidden" name="referrer"  />
+
+    <div class="form-group">
+        <input class="subscribe-email" onkeyup="myFunc()" 
+               id="searchtext" type="text" name="searchtext"  
+               placeholder="Search..." />
+    </div>
+    <script type="text/javascript">
+        function myFunc() {
+            if(event.keyCode == 13) {
+                var url = encodeURIComponent($("#searchtext").val());
+                location.href = "/search.html?query=" + url;
+            }
+        }
+    </script>
+</span>
+                </section>
+            
+            -->
+            <footer class="post-full-footer">
+                <!-- Everything inside the #author tags pulls data from the author -->
+                <!-- #author-->
+                
+                    
+                        <section class="author-card">
+                            
+                                <img class="author-profile-image" src="/assets/built/images/economy-author-logo.jpg" alt="keonju" />
+                            
+                            <section class="author-card-content">
+                                <h4 class="author-card-name"><a href="/author/keonju">주건나</a></h4>
+                                
+                                    <p>데이터 사이언티스트를 희망하는 학생입니다.</p>
+                                
+                            </section>
+                        </section>
+                        <div class="post-full-footer-right">
+                            <a class="author-card-button" href="/author/keonju">Read More</a>
+                        </div>
+                    
+                
+                <!-- /author  -->
+            </footer>
+
+            <!-- If you use Disqus comments, just uncomment this block.
+            The only thing you need to change is "test-apkdzgmqhj" - which
+            should be replaced with your own Disqus site-id. -->
+            
+                <section class="post-full-comments">
+                    <div id="disqus_thread"></div>
+                    <script>
+                        var disqus_config = function () {
+                            var this_page_url = 'https://keonju2.github.io/programming-kaggle1';
+                            var this_page_identifier = '/programming-kaggle1';
+                            var this_page_title = '캐글 (1)-GDSC 2주차 과제';
+                        };
+                        (function() {
+                            var d = document, s = d.createElement('script');
+                            s.src = 'https://xxxxxxxx.disqus.com/embed.js';
+                            s.setAttribute('data-timestamp', +new Date());
+                            (d.head || d.body).appendChild(s);
+                        })();
+                    </script>
+                </section>
+            
+
+        </article>
+
+    </div>
+</main>
+
+<!-- Links to Previous/Next posts -->
+<aside class="read-next outer">
+    <div class="inner">
+        <div class="read-next-feed">
+            
+                
+                
+                
+                
+                    <article class="read-next-card"
+                        
+                            style="background-image: url(/assets/built/images/blog-cover1.jpg)"
+                        
+                    >
+                        <header class="read-next-card-header">
+                            <small class="read-next-card-header-sitetitle">&mdash; 주건나's Blog &mdash;</small>
+                            
+                                <h3 class="read-next-card-header-title"><a href="/tag/programming/">Programming</a></h3>
+                            
+                        </header>
+                        <div class="read-next-divider"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 14.5s2 3 5 3 5.5-2.463 5.5-5.5S21 6.5 18 6.5c-5 0-7 11-12 11C2.962 17.5.5 15.037.5 12S3 6.5 6 6.5s4.5 3.5 4.5 3.5"/></svg>
+</div>
+                        <div class="read-next-card-content">
+                            <ul>
+                                
+                                
+                                  
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                            <li><a href="/programming-baekjoon2">백준 (2)-GDSC 파이썬 알고리즘 스터디 1주차 과제</a></li>
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                            <li><a href="/programming-baekjoon1">백준 (1)-GDSC 1주차 과제</a></li>
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                            <li><a href="/programming-webcrawling1">웹크롤링 (1)-urllib사용을 통한 크롤링</a></li>
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                            </ul>
+                        </div>
+                        <footer class="read-next-card-footer">
+                            <a href="/tag/programming/">
+                                
+                                    See all 3 posts  →
+                                
+                            </a>
+                        </footer>
+                    </article>
+                
+            
+
+            <!-- If there's a next post, display it using the same markup included from - partials/post-card.hbs -->
+            
+
+            <!-- If there's a previous post, display it using the same markup included from - partials/post-card.hbs -->
+            
+                
+
+    <article class="post-card post-template">
+        
+            <a class="post-card-image-link" href="/programming-baekjoon2">
+                <div class="post-card-image" style="background-image: url(/assets/built/images/baekjoon-logo.png)"></div>
+            </a>
+        
+        <div class="post-card-content">
+            <a class="post-card-content-link" href="/programming-baekjoon2">
+                <header class="post-card-header">
+                    
+                        
+                            
+                                <span class="post-card-tags">Programming</span>
+                            
+                        
+                    
+
+                    <h2 class="post-card-title">백준 (2)-GDSC 파이썬 알고리즘 스터디 1주차 과제</h2>
+                </header>
+                <section class="post-card-excerpt">
+                    
+                        <p>백준 관련 글
+
+    백준 (1)-GDSC 1주차 과제
+    백준 (2)-GDSC 파이썬 알고리즘 스터디 1주차 과제
+
+
+</p>
+                    
+                </section>
+            </a>
+            <footer class="post-card-meta">
+                
+                    
+                        
+                        <img class="author-profile-image" src="/assets/built/images/economy-author-logo.jpg" alt="주건나" />
+                        
+                        <span class="post-card-author">
+                            <a href="/author/keonju/">주건나</a>
+                        </span>
+                    
+                
+                <span class="reading-time">
+                    
+                    
+                      4 min read
+                    
+                </span>
+            </footer>
+        </div>
+    </article>
+
+            
+
+        </div>
+    </div>
+</aside>
+
+<!-- Floating header which appears on-scroll, included from includes/floating-header.hbs -->
+<div class="floating-header">
+    <div class="floating-header-logo">
+        <a href="https://keonju2.github.io/">
+            
+            <span>주건나's Blog</span>
+        </a>
+    </div>
+    <span class="floating-header-divider">&mdash;</span>
+    <div class="floating-header-title">캐글 (1)-GDSC 2주차 과제</div>
+    <div class="floating-header-share">
+        <div class="floating-header-share-label">Share this <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+    <path d="M7.5 15.5V4a1.5 1.5 0 1 1 3 0v4.5h2a1 1 0 0 1 1 1h2a1 1 0 0 1 1 1H18a1.5 1.5 0 0 1 1.5 1.5v3.099c0 .929-.13 1.854-.385 2.748L17.5 23.5h-9c-1.5-2-5.417-8.673-5.417-8.673a1.2 1.2 0 0 1 1.76-1.605L7.5 15.5zm6-6v2m-3-3.5v3.5m6-1v2"/>
+</svg>
+</div>
+        <a class="floating-header-share-tw" href="https://twitter.com/share?text=%EC%BA%90%EA%B8%80+%281%29-GDSC+2%EC%A3%BC%EC%B0%A8+%EA%B3%BC%EC%A0%9C&amp;url=https://keonju2.github.io/programming-kaggle1"
+            onclick="window.open(this.href, 'share-twitter', 'width=550,height=235');return false;">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088 0 0 1-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015 0 0 1-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25 0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688 0 5.063-.875 7.188-2.5-1.25 0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5 0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673 0 0 1-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228 0 0 1-1.875-2c-.5-.875-.688-1.813-.688-2.75 0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579 0 0 1 1.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"/></svg>
+
+        </a>
+        <a class="floating-header-share-fb" href="https://www.facebook.com/sharer/sharer.php?u=https://keonju2.github.io/programming-kaggle1"
+            onclick="window.open(this.href, 'share-facebook','width=580,height=296');return false;">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M19 6h5V0h-5c-3.86 0-7 3.14-7 7v3H8v6h4v16h6V16h5l1-6h-6V7c0-.542.458-1 1-1z"/></svg>
+
+        </a>
+    </div>
+    <progress class="progress" value="0">
+        <div class="progress-container">
+            <span class="progress-bar"></span>
+        </div>
+    </progress>
+</div>
+
+
+<!-- /post -->
+
+<!-- The #contentFor helper here will send everything inside it up to the matching #block helper found in default.hbs -->
+
+
+        <!-- Previous/next page links - displayed on every page -->
+        
+
+        <!-- The footer at the very bottom of the screen -->
+        <footer class="site-footer outer">
+            <div class="site-footer-content inner">
+                <section class="copyright"><a href="https://keonju2.github.io/">주건나's Blog</a> &copy; 2021</section>
+                <!--
+                <section class="poweredby">Proudly published with <a href="https://jekyllrb.com/">Jekyll</a> &
+                    <a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages</a> using
+                    <a href="https://github.com/jekyllt/jasper2" target="_blank" rel="noopener">Jasper2</a></section>
+                -->
+                <nav class="site-footer-nav">
+                    <a href="/">Latest Posts</a>
+                    <a href="https://facebook.com/monkeykeonju" target="_blank" rel="noopener">Facebook</a>
+                    
+                    <!--
+                    <a href="https://ghost.org" target="_blank" rel="noopener">Ghost</a>
+                     -->
+                </nav>
+
+            </div>
+        </footer>
+
+    </div>
+
+    <!-- The big email subscribe modal content -->
+    
+    <div id="subscribe" class="subscribe-overlay">
+        <a class="subscribe-overlay-close" href="#"></a>
+        <div class="subscribe-overlay-content">
+            
+            <h1 class="subscribe-overlay-title">Search 주건나's Blog</h1>
+            <p class="subscribe-overlay-description">
+            검색어를 입력해주세요 </p>
+            <span id="searchform" method="post" action="/subscribe/" class="">
+    <input class="confirm" type="hidden" name="confirm"  />
+    <input class="location" type="hidden" name="location"  />
+    <input class="referrer" type="hidden" name="referrer"  />
+
+    <div class="form-group">
+        <input class="subscribe-email" onkeyup="myFunc()" 
+               id="searchtext" type="text" name="searchtext"  
+               placeholder="Search..." />
+    </div>
+    <script type="text/javascript">
+        function myFunc() {
+            if(event.keyCode == 13) {
+                var url = encodeURIComponent($("#searchtext").val());
+                location.href = "/search.html?query=" + url;
+            }
+        }
+    </script>
+</span>
+        </div>
+    </div>
+    
+
+
+    <!-- highlight.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.10.0/components/prism-abap.min.js"></script>
+    <script>$(document).ready(function() {
+      $('pre code').each(function(i, block) {
+        hljs.highlightBlock(block);
+      });
+    });</script>
+
+    <!-- jQuery + Fitvids, which makes all video embeds responsive -->
+    <script
+        src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous">
+    </script>
+    <script type="text/javascript" src="/assets/js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="https://demo.ghost.io/assets/js/jquery.fitvids.js?v=724281a32e"></script>
+
+
+    <!-- Paginator increased to "infinit" in _config.yml -->
+    <!-- if paginator.posts  -->
+    <!-- <script>
+        var maxPages = parseInt('');
+    </script>
+    <script src="/assets/js/infinitescroll.js"></script> -->
+    <!-- /endif -->
+
+    
+
+
+    <!-- Add Google Analytics  -->
+    <!-- Google Analytics Tracking code -->
+ <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'G-6FJ2289869', 'auto');
+  ga('send', 'pageview');
+
+ </script>
+
+
+    <!-- The #block helper will pull in data from the #contentFor other template files. In this case, there's some JavaScript which we only want to use in post.hbs, but it needs to be included down here, after jQuery has already loaded. -->
+    
+        <script>
+
+// NOTE: Scroll performance is poor in Safari
+// - this appears to be due to the events firing much more slowly in Safari.
+//   Dropping the scroll event and using only a raf loop results in smoother
+//   scrolling but continuous processing even when not scrolling
+$(document).ready(function () {
+    // Start fitVids
+    var $postContent = $(".post-full-content");
+    $postContent.fitVids();
+    // End fitVids
+
+    var progressBar = document.querySelector('progress');
+    var header = document.querySelector('.floating-header');
+    var title = document.querySelector('.post-full-title');
+
+    var lastScrollY = window.scrollY;
+    var lastWindowHeight = window.innerHeight;
+    var lastDocumentHeight = $(document).height();
+    var ticking = false;
+
+    function onScroll() {
+        lastScrollY = window.scrollY;
+        requestTick();
+    }
+
+    function onResize() {
+        lastWindowHeight = window.innerHeight;
+        lastDocumentHeight = $(document).height();
+        requestTick();
+    }
+
+    function requestTick() {
+        if (!ticking) {
+            requestAnimationFrame(update);
+        }
+        ticking = true;
+    }
+
+    function update() {
+        var trigger = title.getBoundingClientRect().top + window.scrollY;
+        var triggerOffset = title.offsetHeight + 35;
+        var progressMax = lastDocumentHeight - lastWindowHeight;
+
+        // show/hide floating header
+        if (lastScrollY >= trigger + triggerOffset) {
+            header.classList.add('floating-active');
+        } else {
+            header.classList.remove('floating-active');
+        }
+
+        progressBar.setAttribute('max', progressMax);
+        progressBar.setAttribute('value', lastScrollY);
+
+        ticking = false;
+    }
+
+    window.addEventListener('scroll', onScroll, {passive: true});
+    window.addEventListener('resize', onResize, false);
+
+    update();
+});
+</script>
+
+    
+
+    <!-- Ghost outputs important scripts and data with this tag - it should always be the very last thing before the closing body tag -->
+    <!-- ghost_foot -->
+
+</body>
+</html>
