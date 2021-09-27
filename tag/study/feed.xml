@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://keonju2.github.io/tag/study/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://keonju2.github.io/" rel="alternate" type="text/html" />
-  <updated>2021-09-26T04:02:47+09:00</updated>
+  <updated>2021-09-28T03:02:39+09:00</updated>
   <id>https://keonju2.github.io/tag/study/feed.xml</id>
 
   
@@ -32,17 +32,155 @@
 
   
     <entry>
-      <title type="html">스터디 연습글</title>
-      <link href="https://keonju2.github.io/study-first" rel="alternate" type="text/html" title="스터디 연습글" />
-      <published>2021-09-07T07:00:00+09:00</published>
-      <updated>2021-09-07T07:00:00+09:00</updated>
-      <id>https://keonju2.github.io/study-first</id>
-      <content type="html" xml:base="https://keonju2.github.io/study-first">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;스터디 게시글 목록&lt;/span&gt;&lt;/p&gt;
+      <title type="html">GDSC ML 파이썬 라이브러리를 활용한 머신러닝 정리 (1)</title>
+      <link href="https://keonju2.github.io/study-ML1" rel="alternate" type="text/html" title="GDSC ML 파이썬 라이브러리를 활용한 머신러닝 정리 (1)" />
+      <published>2021-09-27T10:00:00+09:00</published>
+      <updated>2021-09-27T10:00:00+09:00</updated>
+      <id>https://keonju2.github.io/study-ML1</id>
+      <content type="html" xml:base="https://keonju2.github.io/study-ML1">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;머신러닝 공부 관련 글&lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./study-first&quot;&gt;스터디 연습글&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./study-ML1&quot;&gt;파이썬 라이브러리를 활용한 머신러닝 정리 (1)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;스터디 게시판 첫 글 연습&lt;/p&gt;</content>
+&lt;h1 id=&quot;gdsc-ml-파이썬-라이브러리를-활용한-머신러닝-정리-1&quot;&gt;GDSC ML 파이썬 라이브러리를 활용한 머신러닝 정리 (1)&lt;/h1&gt;
+
+&lt;p&gt;본 문서는 [파이썬 라이브러리를 활용한 머신러닝] 책을 공부하면서 요약한 내용입니다.&lt;br /&gt;
+코드는 밑에 링크에 공개되어있기 때문에 올리지않습니다.&lt;/p&gt;
+
+&lt;p&gt;온라인 문서: &lt;a href=&quot;https://fliphtml5.com/hkuy/bdgq/basic&quot;&gt;https://fliphtml5.com/hkuy/bdgq/basic&lt;/a&gt;&lt;br /&gt;
+소스 코드: &lt;a href=&quot;https://github.com/rickiepark/introduction_to_ml_with_python&quot;&gt;https://github.com/rickiepark/introduction_to_ml_with_python&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;지도학습&quot;&gt;지도학습&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;분류와 회귀&lt;/li&gt;
+  &lt;li&gt;일반화, 과대적합, 과소적합
+    &lt;ol&gt;
+      &lt;li&gt;모델복잡도와 데이터셋 크기의 관계&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;지도 학습 알고리즘
+    &lt;ol&gt;
+      &lt;li&gt;예제에 사용할 데이터셋&lt;/li&gt;
+      &lt;li&gt;k-nn 모델&lt;/li&gt;
+      &lt;li&gt;선형 모델&lt;/li&gt;
+      &lt;li&gt;Naive Bayes 분류기&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;분류와-회귀&quot;&gt;분류와 회귀&lt;/h4&gt;
+
+&lt;p&gt;분류란? 미리 정의된 가능성 있는 여러 클래스 레이블 중 하나를 예측하는 것이다.&lt;br /&gt;
+이진 분류: 예, 아니오로 구분할 수 있다. ex) 이 이메일은 스팸인가요?&lt;br /&gt;
+다중 분류: 셋 이상의 클래스로 분류된다. ex) 붓꽃 데이터&lt;/p&gt;
+
+&lt;p&gt;회귀란? 부동소수점수(수학으로 말하면 실수)를 예측하는 것이다.&lt;br /&gt;
+어떤 사람의 여러 조건들을 통해 연간 소득을 예측하는 것과 같은 문제이다.&lt;/p&gt;
+
+&lt;p&gt;출력 값에 연속성이 있다면 회귀 문제 없다면 분류 문제이다.&lt;/p&gt;
+
+&lt;h4 id=&quot;일반화-과대적합-과소적합&quot;&gt;일반화, 과대적합, 과소적합&lt;/h4&gt;
+
+&lt;p&gt;모델이 처음 보는 데이터에 대해 정확히 예측할 수 있다면 훈련 세트(train_set)에서 테스트 세트(test_set)으로 일반화되었다고 한다.&lt;br /&gt;
+훈련 세트에 대해서 정확히 예측하고 테스트 세트에서도 정확히 예측하길 바란다.&lt;br /&gt;
+하지만 모델이 복잡하다면 훈련 세트에서만 정확한 모델이 될 수 있다.&lt;br /&gt;
+예를 들어 “내 주변 20대가 모두 아이폰을 쓰기 때문에 다른 20대도 모두 아이폰을 살 것이다.”라는 예측을 한다면 훈련 세트가 내 주변 20대가 될 것이고 테스트 세트가 다른 모든 20대가 될 것이다.&lt;br /&gt;
+이처럼 알고리즘이 새로운 데이터를 잘 처리하는지 측정하는 방법은 테스트 세트로 평가를 해야한다.&lt;br /&gt;
+이 때, 너무 복잡한 모델을 만들어 훈련 세트에 집중되어 테스트 세트에 일반화가 부족하다면 과대적합(overfitting)이라 한다.&lt;br /&gt;
+반대로 너무 간단한 모델이라 훈련 세트에도 잘 맞지 않다면 과소적합(underfitting)이라 한다.&lt;/p&gt;
+
+&lt;h6 id=&quot;모델복잡도와-데이터셋-크기의-관계&quot;&gt;모델복잡도와 데이터셋 크기의 관계&lt;/h6&gt;
+
+&lt;p&gt;모델의 복잡도는 훈련 데이터 셋에 담긴 입력 데이터의 다양성과 관련이 있다.&lt;br /&gt;
+데이터셋에 데이터 포인트가 다양하면 과대적합 없이 복잡한 모델을 만들 수 있다.&lt;br /&gt;
+따라서 중복이거나 비슷한 데이터를 모으는 것은 도움이 되지않는다.&lt;br /&gt;
+위의 예를 생각해보면 내 주변 20대라는 특징말고 대학 동기, 친구라는 데이터를 얻더라도 모두 20대라는 범주안에 들어갈테니 불필요한 데이터라 할 수 있다.&lt;br /&gt;
+따라서 좋은 데이터를 많이 얻는 것이 좋다.&lt;/p&gt;
+
+&lt;h4 id=&quot;지도-학습-알고리즘&quot;&gt;지도 학습 알고리즘&lt;/h4&gt;
+
+&lt;p&gt;각 모델의 장단점과 어떤 데이터와 어울리는지, 매개변수와 옵션의 의미를 알아보도록 하자.&lt;br /&gt;
+scikit-learn 문서를 참고하면 더 자세한 정보를 얻을 수 있다.&lt;/p&gt;
+
+&lt;h6 id=&quot;예제에-사용할-데이터셋&quot;&gt;예제에 사용할 데이터셋&lt;/h6&gt;
+
+&lt;p&gt;forge 데이터셋은 인위적으로 만든 이진 분류 데이터셋이다.&lt;/p&gt;
+
+&lt;h6 id=&quot;k-nn-모델&quot;&gt;k-NN 모델&lt;/h6&gt;
+
+&lt;p&gt;k-NN 모델은 단순히 데이터셋을 분류하는 것이다.&lt;br /&gt;
+k개의 레이블 중에서 어느 쪽에 더 가까운 것인지 투표를 하여 결정한다고 생각하면 이해하기 편하다.&lt;br /&gt;
+k=1일 때는 가장 가까운 것이 빨간색이었다면, k=3일 때는 파란색 두 개와 빨간색 한 개가 가까울 수도 있다.&lt;br /&gt;
+그렇게 된다면 k=3일 때는 파란색으로 분류가 된다.&lt;/p&gt;
+
+&lt;p&gt;KNeighborClassifier(n_neighbors)을 통해 분류 모델을 만들 수 있다.&lt;br /&gt;
+이를 통해 확인할 수 있는 것은 k의 값이 커질수록 보다 단순한 모델이 만들어질 수 있다는 것이다.&lt;br /&gt;
+하지만 반드시 k가 커진다고 좋은 모델은 아니다. 정확도가 낮아질 수 있기 때문이다.&lt;/p&gt;
+
+&lt;p&gt;KNeighborsRegressor(n_neighbors)을 통해 회귀 모델 또한 만들 수 있다.&lt;br /&gt;
+회귀 모델에서도 k를 너무 적게 쓴다면 모든 데이터를 지나가고 불안정한 모델이 만들어진다.&lt;/p&gt;
+
+&lt;p&gt;장단점과 매개변수&lt;br /&gt;
+가장 중요한 매개변수는 거리를 재는 방법과 k값이다.&lt;br /&gt;
+보통 거리를 재는 방법은 유클리디안 거리 방식을 사용한다.&lt;br /&gt;
+장점은 이해하기가 쉬운 모델이고 조정을 많이 하지않아도 좋은 성능을 발휘할 수 있다는 것이다.&lt;br /&gt;
+단점은 훈련 세트가 크면 예측이 느려지고 전처리 과정이 중요하다는 것이다.&lt;br /&gt;
+데이터가 특성이 많거나 대부분이 0인 데이터셋에서는 잘 작동하지 않는다.&lt;/p&gt;
+
+&lt;h6 id=&quot;선형-모델&quot;&gt;선형 모델&lt;/h6&gt;
+
+&lt;p&gt;선형 모델은 $y=w[0]*x[0]+b$와 같은 모델을 갖는 예측 함수이다.&lt;br /&gt;
+y는 예측값, w와 b는 모델이 학습할 파라미터, x는 데이터의 특성이다. 위 식은 특성이 하나인 데이터 셋의 선형 함수이다.&lt;/p&gt;
+
+&lt;p&gt;선형 회귀(최소제곱법)&lt;br /&gt;
+선형 회귀는 예측과 훈련 세트에 있는 타깃 사이의 평균제곱오차(MSE)를 최소화하는 파라미터를 찾는 것이다.&lt;br /&gt;
+평균제곱오차는 예측값과 타깃값의 차이를 제곱하여 더한 후에 샘플의 개수로 나눈 것이다.&lt;br /&gt;
+매개변수가 없는 것이 장점이지만 복잡도를 제어할 방법도 없다.&lt;br /&gt;
+LinearRegression()&lt;/p&gt;
+
+&lt;p&gt;리지 회귀&lt;br /&gt;
+리지 회귀도 예측 함수를 사용하지만 가중치의 절댓값을 가능한 작게 만드는 목적을 갖는다.&lt;br /&gt;
+이런 제약을 규제라고 하며 L2 규제라고 한다.&lt;br /&gt;
+리지는 덜 자유로운 모델이라 과대적합이 적다. 따라서 일반화에 도움이 된다.&lt;br /&gt;
+Ridge(alpha)&lt;/p&gt;
+
+&lt;p&gt;라소&lt;br /&gt;
+리지의 대안으로 라소가 있다. L1 규제라고도 하며 완전히 제외하는 특성이 생긴다.&lt;br /&gt;
+일부 계수가 0이 되고 모델을 이해하기 쉬워지며 중요한 특성을 찾기 쉽ㄴ다.&lt;br /&gt;
+max_itter을 조절하여 과소적합을 줄인다.&lt;br /&gt;
+Lasso(alpha, max_itter())&lt;/p&gt;
+
+&lt;p&gt;분류용 선형 모델&lt;br /&gt;
+이진 분류의 경우 선형 회귀와 비슷하지만 가중치 합을 그냥 사용하는 대신 예측값을 임계치 0과 비교한다.&lt;br /&gt;
+0보다 작으면 -1, 크면 1이라고 예측한다. 결정 경계를 선형 함수로 잡는다.&lt;br /&gt;
+LogisticRegression과 LinearSVC가 잘 알려져있는데 규제의 강도를 결정하는 매개변수 C를 주의해야한다.&lt;br /&gt;
+C가 높으면 훈련 세트에 최대로 맞추려 노력하고 낮추면 계수 벡터(w)가 0에 가까워지도록 만든다.&lt;br /&gt;
+로지스틱 회귀분석을 제외하면 다중 클래스를 대부분 지원하지 않는다.&lt;/p&gt;
+
+&lt;p&gt;장단점과 매개변수&lt;br /&gt;
+회귀 모델에서는 alpha, LinearSVC와 LogisticRegression에서는 C가 중요하다.&lt;br /&gt;
+alpha가 클수록, C가 작을수록 모델이 단순해진다. 로그 스케일로 최적치를 정한다.&lt;br /&gt;
+L1, L2를 결정하는 것도 정해야한다. 중요한 특성이 적으면 L1, 그렇지 않으면 L2를 이용한다.&lt;br /&gt;
+선형 모델은 학습 속도와 예측 속도가 빠르다. solver=’sag’ 옵션을 이용하면 더 빨리 처리할 수 있다.&lt;br /&gt;
+아니면 SGDClassifier과 SGDRegressor을 이용할 수도 있다.&lt;br /&gt;
+또한 선형 모델은 예측이 어떻게 만들어지는지 비교적 이해하기 쉽다. 하지만 계수의 값이 명확하지가 않다.&lt;/p&gt;
+
+&lt;h6 id=&quot;naive-bayes-분류기&quot;&gt;Naive Bayes 분류기&lt;/h6&gt;
+
+&lt;p&gt;나이브 베이즈 분류기는 선형 분류기보다 훈련 속도가 빠르지만 일반화 성능이 뒤쳐진다.&lt;br /&gt;
+개별적으로 파라미터를 학습하고 특성에서 클래스별 통계를 단순하게 취합한다.&lt;br /&gt;
+GaussianNB, BernoulliNB, MultinomialNB를 scikit-learn에서 구현되어있다.&lt;br /&gt;
+GaussianNB는 연속적인, BernoulliNB는 이진 데이터를, MultinomialNB는 카운트 데이터를 적용한다.&lt;br /&gt;
+BernoulliNB는 클래스의 특성중 0이 아닌 것이 몇 개인지 센다.&lt;br /&gt;
+MultinomialNB는 클래스별 특성의 평균을, GaussianNB는 클래스별로 각 특성의 표준편차와 평균을 저장한다.&lt;br /&gt;
+MultinomialNB와 GaussianNB는 선형 모델과 예측 공식이 갖지만 coef_는 기울기 w가 아니라 의미는 다르다.&lt;/p&gt;
+
+&lt;p&gt;장단점과 매개변수
+MultinomialNB와 BernoulliNB는 모델 복잡도를 조절하는 alpha변수가 하나이다.&lt;br /&gt;
+alpha가 주어지면 알고리즘이 모든 특성에 양의 값을 가진 데이터 포인트를 alpha 개수만큼 추가한다.&lt;br /&gt;
+alpha가 크면 더 완만하고 덜 복잡한 모델이 나오지만 성능 변동은 비교적 크지 않다.&lt;br /&gt;
+GaussianNB는 고차원 데이터 셋을 사용한다. 다른 모델은 데이터를 카운트하는 데 사용된다.&lt;/p&gt;</content>
 
       
       
@@ -63,7 +201,7 @@
       
 
       
-        <summary type="html">스터디 게시글 목록 스터디 연습글</summary>
+        <summary type="html">머신러닝 공부 관련 글 파이썬 라이브러리를 활용한 머신러닝 정리 (1)</summary>
       
 
       
