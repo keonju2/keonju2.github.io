@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://keonju2.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://keonju2.github.io/" rel="alternate" type="text/html" /><updated>2021-09-30T03:44:47+09:00</updated><id>https://keonju2.github.io/feed.xml</id><title type="html">주건나’s Blog</title><subtitle>데이터 사이언티스트를 꿈꾸는 블로그입니다.</subtitle><entry><title type="html">GDSC ML 파이썬 라이브러리를 활용한 머신러닝 정리 (1)</title><link href="https://keonju2.github.io/study-ML1" rel="alternate" type="text/html" title="GDSC ML 파이썬 라이브러리를 활용한 머신러닝 정리 (1)" /><published>2021-09-27T10:00:00+09:00</published><updated>2021-09-27T10:00:00+09:00</updated><id>https://keonju2.github.io/study-ML1</id><content type="html" xml:base="https://keonju2.github.io/study-ML1">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;머신러닝 공부 관련 글&lt;/span&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://keonju2.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://keonju2.github.io/" rel="alternate" type="text/html" /><updated>2021-10-01T03:35:37+09:00</updated><id>https://keonju2.github.io/feed.xml</id><title type="html">주건나’s Blog</title><subtitle>데이터 사이언티스트를 꿈꾸는 블로그입니다.</subtitle><entry><title type="html">GDSC ML 파이썬 라이브러리를 활용한 머신러닝 정리 (1)</title><link href="https://keonju2.github.io/study-ML1" rel="alternate" type="text/html" title="GDSC ML 파이썬 라이브러리를 활용한 머신러닝 정리 (1)" /><published>2021-09-27T10:00:00+09:00</published><updated>2021-09-27T10:00:00+09:00</updated><id>https://keonju2.github.io/study-ML1</id><content type="html" xml:base="https://keonju2.github.io/study-ML1">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;머신러닝 공부 관련 글&lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./study-ML1&quot;&gt;파이썬 라이브러리를 활용한 머신러닝 정리 (1)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -874,9 +874,9 @@ OOOOXOOOOXOOOOX
 1 0 -1 -1 2 -1 -1 -1 -1 4 3 -1 -1 7 5 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;h2 id=&quot;10809번-알파벳찾기-1&quot;&gt;10809번 알파벳찾기&lt;/h2&gt;
+&lt;h2 id=&quot;1157번-단어-공부&quot;&gt;1157번 단어 공부&lt;/h2&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://www.acmicpc.net/problem/10809&quot;&gt;https://www.acmicpc.net/problem/10809&lt;/a&gt;&lt;br /&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.acmicpc.net/problem/1157&quot;&gt;https://www.acmicpc.net/problem/1157&lt;/a&gt;&lt;br /&gt;
 upper을 이용한 대문자 받기&lt;br /&gt;
 count로 dictionary형태로 word 개수 세기
 개수가 중복되는 단어들이 있으므로 max_list에서 따로 추출하기
