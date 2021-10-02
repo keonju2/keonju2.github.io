@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://keonju2.github.io/author/keonju/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://keonju2.github.io/" rel="alternate" type="text/html" />
-  <updated>2021-10-03T03:28:19+09:00</updated>
+  <updated>2021-10-03T03:30:59+09:00</updated>
   <id>https://keonju2.github.io/author/keonju/feed.xml</id>
 
   
@@ -42,7 +42,7 @@
     &lt;li&gt;&lt;a href=&quot;./programming-baekjoon1&quot;&gt;백준 (1)-GDSC ML 1주차 과제&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./programming-baekjoon2&quot;&gt;백준 (2)-GDSC 파이썬 알고리즘 스터디 1주차 과제&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./programming-baekjoon3&quot;&gt;백준 (3)-GDSC 파이썬 알고리즘 스터디 2주차 과제&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./programming-baekjoon3&quot;&gt;백준 (4)-GDSC ML 3주차 과제&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./programming-baekjoon4&quot;&gt;백준 (4)-GDSC ML 3주차 과제&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h1 id=&quot;gdsc-ml파트-3주차-과제로-백준-10문제를-풀어보았다&quot;&gt;GDSC ML파트 3주차 과제로 백준 10문제를 풀어보았다.&lt;/h1&gt;
@@ -442,7 +442,7 @@ yes
     &lt;li&gt;&lt;a href=&quot;./programming-baekjoon1&quot;&gt;백준 (1)-GDSC ML 1주차 과제&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./programming-baekjoon2&quot;&gt;백준 (2)-GDSC 파이썬 알고리즘 스터디 1주차 과제&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./programming-baekjoon3&quot;&gt;백준 (3)-GDSC 파이썬 알고리즘 스터디 2주차 과제&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./programming-baekjoon3&quot;&gt;백준 (4)-GDSC ML 3주차 과제&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./programming-baekjoon4&quot;&gt;백준 (4)-GDSC ML 3주차 과제&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h1 id=&quot;gdsc-파이썬-알고리즘-2주차-과제로-문자열에-관련된-7문항을-풀어보았다&quot;&gt;GDSC 파이썬 알고리즘 2주차 과제로 문자열에 관련된 7문항을 풀어보았다.&lt;/h1&gt;
@@ -1494,7 +1494,7 @@ axhspan: 수평&lt;/p&gt;
     &lt;li&gt;&lt;a href=&quot;./programming-baekjoon1&quot;&gt;백준 (1)-GDSC ML 1주차 과제&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./programming-baekjoon2&quot;&gt;백준 (2)-GDSC 파이썬 알고리즘 스터디 1주차 과제&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./programming-baekjoon3&quot;&gt;백준 (3)-GDSC 파이썬 알고리즘 스터디 2주차 과제&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./programming-baekjoon3&quot;&gt;백준 (4)-GDSC ML 3주차 과제&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./programming-baekjoon4&quot;&gt;백준 (4)-GDSC ML 3주차 과제&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h1 id=&quot;gdsc-파이썬-알고리즘-1주차-과제로-solvedac의-class-2단계-8문항을-풀어보았다&quot;&gt;GDSC 파이썬 알고리즘 1주차 과제로 solved.ac의 class 2단계 8문항을 풀어보았다.&lt;/h1&gt;
@@ -1923,7 +1923,7 @@ Set과 Dictionary의 in연산을 통한 포함 여부 확인의 시간 복잡도
     &lt;li&gt;&lt;a href=&quot;./programming-baekjoon1&quot;&gt;백준 (1)-GDSC ML 1주차 과제&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./programming-baekjoon2&quot;&gt;백준 (2)-GDSC 파이썬 알고리즘 스터디 1주차 과제&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./programming-baekjoon3&quot;&gt;백준 (3)-GDSC 파이썬 알고리즘 스터디 2주차 과제&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./programming-baekjoon3&quot;&gt;백준 (4)-GDSC ML 3주차 과제&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./programming-baekjoon4&quot;&gt;백준 (4)-GDSC ML 3주차 과제&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h1 id=&quot;gdsc-ml파트-1주차-과제로-백준-10문제를-풀어보았다&quot;&gt;GDSC ML파트 1주차 과제로 백준 10문제를 풀어보았다.&lt;/h1&gt;
