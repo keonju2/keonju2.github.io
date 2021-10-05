@@ -8,14 +8,40 @@
     
       
       <item>
-        <title>백준 (4)-GDSC ML 3주차 과제</title>
+        <title>머신러닝 정리 (2) &lt;br&gt; 지도학습 (2)</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;머신러닝 공부 관련 글&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./study-ML1&quot;&gt;머신러닝 정리 (1)-지도학습 (1)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./study-ML2&quot;&gt;머신러닝 정리 (2)-지도학습 (2)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;머신러닝-정리-2---지도학습-2&quot;&gt;머신러닝 정리 (2) - 지도학습 (2)&lt;/h1&gt;
+&lt;p&gt;본 문서는 [파이썬 라이브러리를 활용한 머신러닝] 책을 공부하면서 요약한 내용입니다.
+또 데이터 청년 캠퍼스 수업과 학교 수업에서 배운 내용들도 함께 정리했습니다. 
+글의 순서는 [파이썬 라이브러리를 활용한 머신러닝]에 따라 진행됩니다.&lt;br /&gt;
+코드는 밑에 링크에 공개되어있기 때문에 올리지않습니다.&lt;/p&gt;
+
+&lt;p&gt;소스 코드: &lt;a href=&quot;https://github.com/rickiepark/introduction_to_ml_with_python&quot;&gt;https://github.com/rickiepark/introduction_to_ml_with_python&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Mon, 04 Oct 2021 10:00:00 +0900</pubDate>
+        <link>
+        https://keonju2.github.io/study-ML2</link>
+        <guid isPermaLink="true">https://keonju2.github.io/study-ML2</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>백준 (4) &lt;br&gt; (1157, 1546, 2577, 2675, 2908, 1018, 1436, 1259, 7568, 10250)</title>
         
           <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;백준 관련 글&lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./programming-baekjoon1&quot;&gt;백준 (1)-GDSC ML 1주차 과제&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./programming-baekjoon2&quot;&gt;백준 (2)-GDSC 파이썬 알고리즘 스터디 1주차 과제&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./programming-baekjoon3&quot;&gt;백준 (3)-GDSC 파이썬 알고리즘 스터디 2주차 과제&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./programming-baekjoon4&quot;&gt;백준 (4)-GDSC ML 3주차 과제&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./programming-baekjoon1&quot;&gt;백준 (1) (2557, 8958, 1000, 1001, 1008, 2935, 2753, 2884, 5063, 4101)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./programming-baekjoon2&quot;&gt;백준 (2) (1018, 1085, 1181, 1259, 1436, 1654, 1874, 1920)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./programming-baekjoon3&quot;&gt;백준 (3) 문자열 알고리즘(11720, 8958, 1152, 10809, 1157, 9012, 11718)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./programming-baekjoon4&quot;&gt;백준 (4) (1157, 1546, 2577, 2675, 2908, 1018, 1436, 1259, 7568, 10250)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 </description>
@@ -29,14 +55,14 @@
     
       
       <item>
-        <title>백준 (3)-GDSC 파이썬 알고리즘 스터디 2주차 과제</title>
+        <title>백준 (3) 문자열 알고리즘 &lt;br&gt;(11720, 8958, 1152, 10809, 1157, 9012, 11718)</title>
         
           <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;백준 관련 글&lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./programming-baekjoon1&quot;&gt;백준 (1)-GDSC ML 1주차 과제&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./programming-baekjoon2&quot;&gt;백준 (2)-GDSC 파이썬 알고리즘 스터디 1주차 과제&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./programming-baekjoon3&quot;&gt;백준 (3)-GDSC 파이썬 알고리즘 스터디 2주차 과제&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./programming-baekjoon4&quot;&gt;백준 (4)-GDSC ML 3주차 과제&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./programming-baekjoon1&quot;&gt;백준 (1) (2557, 8958, 1000, 1001, 1008, 2935, 2753, 2884, 5063, 4101)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./programming-baekjoon2&quot;&gt;백준 (2) (1018, 1085, 1181, 1259, 1436, 1654, 1874, 1920)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./programming-baekjoon3&quot;&gt;백준 (3) 문자열 알고리즘(11720, 8958, 1152, 10809, 1157, 9012, 11718)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./programming-baekjoon4&quot;&gt;백준 (4) (1157, 1546, 2577, 2675, 2908, 1018, 1436, 1259, 7568, 10250)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 </description>
@@ -50,11 +76,12 @@
     
       
       <item>
-        <title>GDSC ML 파이썬 라이브러리를 활용한 머신러닝 정리 (1)</title>
+        <title>머신러닝 정리 (1) &lt;br&gt; 지도학습 (1)</title>
         
           <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;머신러닝 공부 관련 글&lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./study-ML1&quot;&gt;파이썬 라이브러리를 활용한 머신러닝 정리 (1)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./study-ML1&quot;&gt;머신러닝 정리 (1)-지도학습 (1)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./study-ML2&quot;&gt;머신러닝 정리 (2)-지도학습 (2)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 </description>
@@ -68,13 +95,13 @@
     
       
       <item>
-        <title>캐글 (1)-GDSC ML 2주차 과제</title>
+        <title>캐글 (1) &lt;br&gt; Simple Matplotlib &amp; Visualization Tips 공부하기</title>
         
           <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;kaggle 관련 글&lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./programming-kaggle1&quot;&gt;캐글 (1)-GDSC ML 2주차 과제&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./programming-kaggle1&quot;&gt;캐글 (1) Simple Matplotlib &amp;amp; Visualization Tips 공부하기&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1 id=&quot;gdsc-ml파트-2주차-과제로-캐글-필사과제를-진행하였다&quot;&gt;GDSC ML파트 2주차 과제로 캐글 필사과제를 진행하였다.&lt;/h1&gt;
+&lt;h1 id=&quot;simple-matplotlib--visualization-tips-공부하기&quot;&gt;Simple Matplotlib &amp;amp; Visualization Tips 공부하기&lt;/h1&gt;
 
 </description>
         
@@ -87,14 +114,14 @@
     
       
       <item>
-        <title>백준 (2)-GDSC 파이썬 알고리즘 스터디 1주차 과제</title>
+        <title>백준 (2) &lt;br&gt; (1018, 1085, 1181, 1259, 1436, 1654, 1874, 1920)</title>
         
           <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;백준 관련 글&lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./programming-baekjoon1&quot;&gt;백준 (1)-GDSC ML 1주차 과제&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./programming-baekjoon2&quot;&gt;백준 (2)-GDSC 파이썬 알고리즘 스터디 1주차 과제&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./programming-baekjoon3&quot;&gt;백준 (3)-GDSC 파이썬 알고리즘 스터디 2주차 과제&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./programming-baekjoon4&quot;&gt;백준 (4)-GDSC ML 3주차 과제&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./programming-baekjoon1&quot;&gt;백준 (1) (2557, 8958, 1000, 1001, 1008, 2935, 2753, 2884, 5063, 4101)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./programming-baekjoon2&quot;&gt;백준 (2) (1018, 1085, 1181, 1259, 1436, 1654, 1874, 1920)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./programming-baekjoon3&quot;&gt;백준 (3) 문자열 알고리즘(11720, 8958, 1152, 10809, 1157, 9012, 11718)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./programming-baekjoon4&quot;&gt;백준 (4) (1157, 1546, 2577, 2675, 2908, 1018, 1436, 1259, 7568, 10250)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 </description>
@@ -108,14 +135,14 @@
     
       
       <item>
-        <title>백준 (1)-GDSC ML 1주차 과제</title>
+        <title>백준 (1) &lt;br&gt; (2557, 8958, 1000, 1001, 1008, 2935, 2753, 2884, 5063,4101)</title>
         
           <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;백준 관련 글&lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./programming-baekjoon1&quot;&gt;백준 (1)-GDSC ML 1주차 과제&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./programming-baekjoon2&quot;&gt;백준 (2)-GDSC 파이썬 알고리즘 스터디 1주차 과제&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./programming-baekjoon3&quot;&gt;백준 (3)-GDSC 파이썬 알고리즘 스터디 2주차 과제&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./programming-baekjoon4&quot;&gt;백준 (4)-GDSC ML 3주차 과제&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./programming-baekjoon1&quot;&gt;백준 (1) (2557, 8958, 1000, 1001, 1008, 2935, 2753, 2884, 5063, 4101)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./programming-baekjoon2&quot;&gt;백준 (2) (1018, 1085, 1181, 1259, 1436, 1654, 1874, 1920)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./programming-baekjoon3&quot;&gt;백준 (3) 문자열 알고리즘(11720, 8958, 1152, 10809, 1157, 9012, 11718)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./programming-baekjoon4&quot;&gt;백준 (4) (1157, 1546, 2577, 2675, 2908, 1018, 1436, 1259, 7568, 10250)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 </description>
@@ -129,7 +156,7 @@
     
       
       <item>
-        <title>웹크롤링 (1)-urllib사용을 통한 크롤링</title>
+        <title>웹크롤링 (1) &lt;br&gt; urllib사용을 통한 크롤링</title>
         
           <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;웹크롤링 관련 글&lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
