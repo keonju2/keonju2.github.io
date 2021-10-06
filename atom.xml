@@ -38,10 +38,10 @@
     &lt;li&gt;&lt;a href=&quot;./study-ML2&quot;&gt;머신러닝 정리 (2)-지도학습 (2)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&quot;머신러닝-정리-2---지도학습-2&quot;&gt;머신러닝 정리 (2) - 지도학습 (2)&lt;/h1&gt;
-&lt;p&gt;본 문서는 [파이썬 라이브러리를 활용한 머신러닝] 책을 공부하면서 요약한 내용입니다.
-또 데이터 청년 캠퍼스 수업과 학교 수업에서 배운 내용들도 함께 정리했습니다. 
+&lt;p&gt;본 문서는 [파이썬 라이브러리를 활용한 머신러닝] 책을 공부하면서 요약한 내용입니다.&lt;br /&gt;
+또 데이터 청년 캠퍼스 수업과 학교 수업에서 배운 내용들도 함께 정리했습니다.&lt;br /&gt;
 글의 순서는 [파이썬 라이브러리를 활용한 머신러닝]에 따라 진행됩니다.&lt;br /&gt;
-코드는 밑에 링크에 공개되어있기 때문에 올리지않습니다.&lt;/p&gt;
+코드는 밑에 링크에 공개되어있기 때문에 올리지않습니다.&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;소스 코드: &lt;a href=&quot;https://github.com/rickiepark/introduction_to_ml_with_python&quot;&gt;https://github.com/rickiepark/introduction_to_ml_with_python&lt;/a&gt;&lt;/p&gt;
 
