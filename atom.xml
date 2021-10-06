@@ -8,6 +8,28 @@
     
       
       <item>
+        <title>백준 (5) 정렬 알고리즘 &lt;br&gt; (2750,11399,2751,1427, &lt;br&gt; 10989,1181,11650)</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;백준 관련 글&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./programming-baekjoon1&quot;&gt;백준 (1) (2557, 8958, 1000, 1001, 1008, 2935, 2753, 2884, 5063, 4101)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./programming-baekjoon2&quot;&gt;백준 (2) (1018, 1085, 1181, 1259, 1436, 1654, 1874, 1920)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./programming-baekjoon3&quot;&gt;백준 (3) 문자열 알고리즘(11720, 8958, 1152, 10809, 1157, 9012, 11718)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./programming-baekjoon4&quot;&gt;백준 (4) (1157, 1546, 2577, 2675, 2908, 1018, 1436, 1259, 7568, 10250)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./programming-baekjoon5&quot;&gt;백준 (5) 정렬 알고리즘(2750,11399,2751,1427, 10989,1181,11650)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Wed, 06 Oct 2021 10:00:00 +0900</pubDate>
+        <link>
+        https://keonju2.github.io/programming-baekjoon5</link>
+        <guid isPermaLink="true">https://keonju2.github.io/programming-baekjoon5</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>머신러닝 정리 (2) &lt;br&gt; 지도학습 (2)</title>
         
           <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;머신러닝 공부 관련 글&lt;/span&gt;&lt;/p&gt;
@@ -42,6 +64,7 @@
     &lt;li&gt;&lt;a href=&quot;./programming-baekjoon2&quot;&gt;백준 (2) (1018, 1085, 1181, 1259, 1436, 1654, 1874, 1920)&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./programming-baekjoon3&quot;&gt;백준 (3) 문자열 알고리즘(11720, 8958, 1152, 10809, 1157, 9012, 11718)&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./programming-baekjoon4&quot;&gt;백준 (4) (1157, 1546, 2577, 2675, 2908, 1018, 1436, 1259, 7568, 10250)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./programming-baekjoon5&quot;&gt;백준 (5) 정렬 알고리즘(2750,11399,2751,1427, 10989,1181,11650)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 </description>
@@ -63,6 +86,7 @@
     &lt;li&gt;&lt;a href=&quot;./programming-baekjoon2&quot;&gt;백준 (2) (1018, 1085, 1181, 1259, 1436, 1654, 1874, 1920)&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./programming-baekjoon3&quot;&gt;백준 (3) 문자열 알고리즘(11720, 8958, 1152, 10809, 1157, 9012, 11718)&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./programming-baekjoon4&quot;&gt;백준 (4) (1157, 1546, 2577, 2675, 2908, 1018, 1436, 1259, 7568, 10250)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./programming-baekjoon5&quot;&gt;백준 (5) 정렬 알고리즘(2750,11399,2751,1427, 10989,1181,11650)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 </description>
@@ -122,6 +146,7 @@
     &lt;li&gt;&lt;a href=&quot;./programming-baekjoon2&quot;&gt;백준 (2) (1018, 1085, 1181, 1259, 1436, 1654, 1874, 1920)&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./programming-baekjoon3&quot;&gt;백준 (3) 문자열 알고리즘(11720, 8958, 1152, 10809, 1157, 9012, 11718)&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./programming-baekjoon4&quot;&gt;백준 (4) (1157, 1546, 2577, 2675, 2908, 1018, 1436, 1259, 7568, 10250)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./programming-baekjoon5&quot;&gt;백준 (5) 정렬 알고리즘(2750,11399,2751,1427, 10989,1181,11650)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 </description>
@@ -143,6 +168,7 @@
     &lt;li&gt;&lt;a href=&quot;./programming-baekjoon2&quot;&gt;백준 (2) (1018, 1085, 1181, 1259, 1436, 1654, 1874, 1920)&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./programming-baekjoon3&quot;&gt;백준 (3) 문자열 알고리즘(11720, 8958, 1152, 10809, 1157, 9012, 11718)&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./programming-baekjoon4&quot;&gt;백준 (4) (1157, 1546, 2577, 2675, 2908, 1018, 1436, 1259, 7568, 10250)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./programming-baekjoon5&quot;&gt;백준 (5) 정렬 알고리즘(2750,11399,2751,1427, 10989,1181,11650)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 </description>

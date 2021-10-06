@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://keonju2.github.io/tag/study/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://keonju2.github.io/" rel="alternate" type="text/html" />
-  <updated>2021-10-05T19:19:25+09:00</updated>
+  <updated>2021-10-07T04:59:59+09:00</updated>
   <id>https://keonju2.github.io/tag/study/feed.xml</id>
 
   
@@ -109,7 +109,7 @@ SVM 모델은 3차원에서 2차원으로 투영해본다면 더이상 선형 �
 
 &lt;h6 id=&quot;커널-기법&quot;&gt;커널 기법&lt;/h6&gt;
 &lt;p&gt;커널 기법은 실제로 데이터를 확장하지 않고 확장된 특성에 대한 데이터 포인트들의 거리를 계산한다.&lt;br /&gt;
-특성1&lt;strong&gt;2 * 특성2&lt;/strong&gt;5 하는 다항식 커널이 있고 가우시안 커널로 불리우는 RBF 커널이 있다.&lt;br /&gt;
+$ (특성1)^2 * (특성2)^5 $하는 다항식 커널이 있고 가우시안 커널로 불리우는 RBF 커널이 있다.&lt;br /&gt;
 가우시안 커널은 차원이 무한한 특성 공간에 매핑하는 것이다.&lt;br /&gt;
 모든 차수의 모든 다항식을 고려하지만 특성의 중요도는 고차항이 될수록 줄어든다.&lt;/p&gt;
 
