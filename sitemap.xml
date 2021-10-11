@@ -4,6 +4,22 @@
         xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
     <url>
+        <loc>https://keonju2.github.io/programming-kaggle2.html</loc>
+        
+        <lastmod>2021-10-10T21:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
         <loc>https://keonju2.github.io/programming-baekjoon6.html</loc>
         
         <lastmod>2021-10-10T10:00:00+09:00</lastmod>

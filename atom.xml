@@ -8,6 +8,26 @@
     
       
       <item>
+        <title>캐글 (2) &lt;br&gt; 타이타닉 튜토리얼 1,2 공부하기</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;kaggle 관련 글&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./programming-kaggle1&quot;&gt;캐글 (1) Simple Matplotlib &amp;amp; Visualization Tips 공부하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./programming-kaggle2&quot;&gt;캐글 (2) 타이타닉 튜토리얼 1,2 공부하기&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;타이타닉-튜토리얼-12-공부하기&quot;&gt;타이타닉 튜토리얼 1,2 공부하기&lt;/h1&gt;
+
+</description>
+        
+        <pubDate>Sun, 10 Oct 2021 21:00:00 +0900</pubDate>
+        <link>
+        https://keonju2.github.io/programming-kaggle2</link>
+        <guid isPermaLink="true">https://keonju2.github.io/programming-kaggle2</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>백준 (6) &lt;br&gt; (3085, 2563, 4673, 5635, 11170)</title>
         
           <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;백준 관련 글&lt;/span&gt;&lt;/p&gt;
@@ -150,6 +170,7 @@
           <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;kaggle 관련 글&lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./programming-kaggle1&quot;&gt;캐글 (1) Simple Matplotlib &amp;amp; Visualization Tips 공부하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./programming-kaggle2&quot;&gt;캐글 (2) 타이타닉 튜토리얼 1,2 공부하기&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&quot;simple-matplotlib--visualization-tips-공부하기&quot;&gt;Simple Matplotlib &amp;amp; Visualization Tips 공부하기&lt;/h1&gt;
 
