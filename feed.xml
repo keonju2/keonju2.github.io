@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://keonju2.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://keonju2.github.io/" rel="alternate" type="text/html" /><updated>2021-10-13T09:51:09+09:00</updated><id>https://keonju2.github.io/feed.xml</id><title type="html">주건나’s Blog</title><subtitle>데이터 사이언티스트를 꿈꾸는 블로그입니다.</subtitle><entry><title type="html">머신러닝 정리 (3) 비지도학습 (1)</title><link href="https://keonju2.github.io/study-ML3" rel="alternate" type="text/html" title="머신러닝 정리 (3) 비지도학습 (1)" /><published>2021-10-12T10:00:00+09:00</published><updated>2021-10-12T10:00:00+09:00</updated><id>https://keonju2.github.io/study-ML3</id><content type="html" xml:base="https://keonju2.github.io/study-ML3">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;머신러닝 공부 관련 글&lt;/span&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://keonju2.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://keonju2.github.io/" rel="alternate" type="text/html" /><updated>2021-10-13T10:00:16+09:00</updated><id>https://keonju2.github.io/feed.xml</id><title type="html">주건나’s Blog</title><subtitle>데이터 사이언티스트를 꿈꾸는 블로그입니다.</subtitle><entry><title type="html">머신러닝 정리 (3) 비지도학습 (1)</title><link href="https://keonju2.github.io/study-ML3" rel="alternate" type="text/html" title="머신러닝 정리 (3) 비지도학습 (1)" /><published>2021-10-12T10:00:00+09:00</published><updated>2021-10-12T10:00:00+09:00</updated><id>https://keonju2.github.io/study-ML3</id><content type="html" xml:base="https://keonju2.github.io/study-ML3">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;머신러닝 공부 관련 글&lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./study-ML1&quot;&gt;머신러닝 정리 (1)-지도학습 (1)&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./study-ML2&quot;&gt;머신러닝 정리 (2)-지도학습 (2)&lt;/a&gt;&lt;/li&gt;
@@ -240,7 +240,7 @@ RobustScaler과 비슷하게 이상치에 민감하지 않으며 전체 데이�
 
 &lt;blockquote&gt;
   &lt;p&gt;차원 축소의 여러 방법&lt;br /&gt;
-    &amp;gt; principal component
+    &amp;gt; principal component&lt;br /&gt;
     &amp;gt; 변수 선택법&lt;br /&gt;
     &amp;gt; penalty 기반 regression&lt;br /&gt;
     &amp;gt; convolutional neural network&lt;br /&gt;

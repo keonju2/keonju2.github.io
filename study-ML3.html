@@ -173,6 +173,12 @@ into the {body} of the default.hbs template -->
 <main id="site-main" class="site-main outer" role="main">
     <div class="inner">
 
+        <script type="text/x-mathjax-config">
+            MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+            </script>
+            <script type="text/javascript" src="http://cdn.mathjax.org/math...">
+            </script>
+        
         <article class="post-full  tag-study post tag-ML ">
 
             <header class="post-full-header">
@@ -439,7 +445,7 @@ RobustScaler과 비슷하게 이상치에 민감하지 않으며 전체 데이�
 
 <blockquote>
   <p>차원 축소의 여러 방법<br />
-    &gt; principal component
+    &gt; principal component<br />
     &gt; 변수 선택법<br />
     &gt; penalty 기반 regression<br />
     &gt; convolutional neural network<br />
