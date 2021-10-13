@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://keonju2.github.io/author/keonju/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://keonju2.github.io/" rel="alternate" type="text/html" />
-  <updated>2021-10-13T09:49:02+09:00</updated>
+  <updated>2021-10-13T09:51:09+09:00</updated>
   <id>https://keonju2.github.io/author/keonju/feed.xml</id>
 
   
@@ -41,7 +41,7 @@
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./study-ML1&quot;&gt;머신러닝 정리 (1)-지도학습 (1)&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./study-ML2&quot;&gt;머신러닝 정리 (2)-지도학습 (2)&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./study-ML2&quot;&gt;머신러닝 정리 (3)-비지도학습 (1)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./study-ML3&quot;&gt;머신러닝 정리 (3)-비지도학습 (1)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&quot;머신러닝-정리-3---비지도학습-1&quot;&gt;머신러닝 정리 (3) - 비지도학습 (1)&lt;/h1&gt;
 &lt;p&gt;본 문서는 [파이썬 라이브러리를 활용한 머신러닝] 책을 공부하면서 요약한 내용입니다.&lt;br /&gt;
@@ -5419,7 +5419,7 @@ j는 i와 같이 않아야하기 때문에 i+1로 중복을 피했다.&lt;br /&g
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./study-ML1&quot;&gt;머신러닝 정리 (1)-지도학습 (1)&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./study-ML2&quot;&gt;머신러닝 정리 (2)-지도학습 (2)&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./study-ML2&quot;&gt;머신러닝 정리 (3)-비지도학습 (1)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./study-ML3&quot;&gt;머신러닝 정리 (3)-비지도학습 (1)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&quot;머신러닝-정리-2---지도학습-2&quot;&gt;머신러닝 정리 (2) - 지도학습 (2)&lt;/h1&gt;
 &lt;p&gt;본 문서는 [파이썬 라이브러리를 활용한 머신러닝] 책을 공부하면서 요약한 내용입니다.&lt;br /&gt;
@@ -6936,7 +6936,7 @@ Online Judge
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./study-ML1&quot;&gt;머신러닝 정리 (1)-지도학습 (1)&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./study-ML2&quot;&gt;머신러닝 정리 (2)-지도학습 (2)&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./study-ML2&quot;&gt;머신러닝 정리 (3)-비지도학습 (1)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./study-ML3&quot;&gt;머신러닝 정리 (3)-비지도학습 (1)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h1 id=&quot;머신러닝-정리-1---지도학습-1&quot;&gt;머신러닝 정리 (1) - 지도학습 (1)&lt;/h1&gt;

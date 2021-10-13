@@ -14,7 +14,7 @@
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./study-ML1&quot;&gt;머신러닝 정리 (1)-지도학습 (1)&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./study-ML2&quot;&gt;머신러닝 정리 (2)-지도학습 (2)&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./study-ML2&quot;&gt;머신러닝 정리 (3)-비지도학습 (1)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./study-ML3&quot;&gt;머신러닝 정리 (3)-비지도학습 (1)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&quot;머신러닝-정리-3---비지도학습-1&quot;&gt;머신러닝 정리 (3) - 비지도학습 (1)&lt;/h1&gt;
 &lt;p&gt;본 문서는 [파이썬 라이브러리를 활용한 머신러닝] 책을 공부하면서 요약한 내용입니다.&lt;br /&gt;
@@ -107,7 +107,7 @@
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./study-ML1&quot;&gt;머신러닝 정리 (1)-지도학습 (1)&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./study-ML2&quot;&gt;머신러닝 정리 (2)-지도학습 (2)&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./study-ML2&quot;&gt;머신러닝 정리 (3)-비지도학습 (1)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./study-ML3&quot;&gt;머신러닝 정리 (3)-비지도학습 (1)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&quot;머신러닝-정리-2---지도학습-2&quot;&gt;머신러닝 정리 (2) - 지도학습 (2)&lt;/h1&gt;
 &lt;p&gt;본 문서는 [파이썬 라이브러리를 활용한 머신러닝] 책을 공부하면서 요약한 내용입니다.&lt;br /&gt;
@@ -180,7 +180,7 @@
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./study-ML1&quot;&gt;머신러닝 정리 (1)-지도학습 (1)&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./study-ML2&quot;&gt;머신러닝 정리 (2)-지도학습 (2)&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./study-ML2&quot;&gt;머신러닝 정리 (3)-비지도학습 (1)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./study-ML3&quot;&gt;머신러닝 정리 (3)-비지도학습 (1)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 </description>
