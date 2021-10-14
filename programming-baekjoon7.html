@@ -1,0 +1,1215 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <!-- Document Settings -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- Base Meta -->
+    <!-- dynamically fixing the title for tag/author pages -->
+
+
+
+    <title>백준 (7) <br> (10828,10773,1874,10799, <br> 4949,1406,2493)</title>
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Styles'n'Scripts -->
+    <link rel="stylesheet" type="text/css" href="/assets/built/screen.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/built/screen.edited.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/built/syntax.css" />
+    
+    <!-- custom.css -->
+    <link rel="stylesheet" type="text/css" href="/assets/built/custom.css" />
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- 웹폰트 추가-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/nanumgothic.css">
+
+    <!-- syntax.css 추가-->
+    <link rel="stylesheet" type="text/css" href="/assets/built/syntax.css" />
+
+    <!-- highlight.js -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+    <style>.hljs { background: none; }</style>
+
+    <!--[if IE]>
+        <style>
+            p, ol, ul{
+                width: 100%;
+            }
+            blockquote{
+                width: 100%;
+            }
+        </style>
+    <![endif]-->
+    
+    <!-- This tag outputs SEO meta+structured data and other important settings -->
+    <meta name="description" content="데이터 사이언티스트를 꿈꾸는 블로그입니다." />
+    <link rel="shortcut icon" href="https://keonju2.github.io/assets/built/images/favicon.jpg" type="image/png" />
+    <link rel="canonical" href="https://keonju2.github.io/programming-baekjoon7" />
+    <meta name="referrer" content="no-referrer-when-downgrade" />
+
+     <!--title below is coming from _includes/dynamic_title-->
+    <meta property="og:site_name" content="주건나's Blog" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="백준 (7) <br> (10828,10773,1874,10799, <br> 4949,1406,2493)" />
+    <meta property="og:description" content="백준 관련 글 백준 (1) (2557, 8958, 1000, 1001, 1008, 2935, 2753, 2884, 5063, 4101) 백준 (2) (1018, 1085, 1181, 1259, 1436, 1654, 1874, 1920) 백준 (3) 문자열 알고리즘(11720, 8958, 1152, 10809, 1157, 9012, 11718) 백준 (4) (1157, 1546, 2577, 2675, 2908, 1018, 1436, 1259, 7568, 10250) 백준 (5) 정렬" />
+    <meta property="og:url" content="https://keonju2.github.io/programming-baekjoon7" />
+    <meta property="og:image" content="https://keonju2.github.io/assets/built/images/baekjoon-logo.png" />
+    <meta property="article:publisher" content="https://www.facebook.com/monkeykeonju" />
+    <meta property="article:author" content="https://www.facebook.com/monkeykeonju" />
+    <meta property="article:published_time" content="2021-10-13T10:00:00+09:00" />
+    <meta property="article:modified_time" content="2021-10-13T10:00:00+09:00" />
+    <meta property="article:tag" content="Programming" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="백준 (7) <br> (10828,10773,1874,10799, <br> 4949,1406,2493)" />
+    <meta name="twitter:description" content="백준 관련 글 백준 (1) (2557, 8958, 1000, 1001, 1008, 2935, 2753, 2884, 5063, 4101) 백준 (2) (1018, 1085, 1181, 1259, 1436, 1654, 1874, 1920) 백준 (3) 문자열 알고리즘(11720, 8958, 1152, 10809, 1157, 9012, 11718) 백준 (4) (1157, 1546, 2577, 2675, 2908, 1018, 1436, 1259, 7568, 10250) 백준 (5) 정렬" />
+    <meta name="twitter:url" content="https://keonju2.github.io/" />
+    <meta name="twitter:image" content="https://keonju2.github.io/assets/built/images/baekjoon-logo.png" />
+    <meta name="twitter:label1" content="Written by" />
+    <meta name="twitter:data1" content="주건나's Blog" />
+    <meta name="twitter:label2" content="Filed under" />
+    <meta name="twitter:data2" content="Programming" />
+    <meta name="twitter:site" content="@" />
+    <meta name="twitter:creator" content="@" />
+    <meta property="og:image:width" content="1400" />
+    <meta property="og:image:height" content="933" />
+
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Website",
+    "publisher": {
+        "@type": "Organization",
+        "name": "주건나's Blog",
+        "logo": "https://keonju2.github.io/"
+    },
+    "url": "https://keonju2.github.io/programming-baekjoon7",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://keonju2.github.io/assets/built/images/baekjoon-logo.png",
+        "width": 2000,
+        "height": 666
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://keonju2.github.io/programming-baekjoon7"
+    },
+    "description": "백준 관련 글 백준 (1) (2557, 8958, 1000, 1001, 1008, 2935, 2753, 2884, 5063, 4101) 백준 (2) (1018, 1085, 1181, 1259, 1436, 1654, 1874, 1920) 백준 (3) 문자열 알고리즘(11720, 8958, 1152, 10809, 1157, 9012, 11718) 백준 (4) (1157, 1546, 2577, 2675, 2908, 1018, 1436, 1259, 7568, 10250) 백준 (5) 정렬"
+}
+    </script>
+
+    <!-- <script type="text/javascript" src="https://demo.ghost.io/public/ghost-sdk.min.js?v=724281a32e"></script>
+    <script type="text/javascript">
+    ghost.init({
+    	clientId: "ghost-frontend",
+    	clientSecret: "f84a07a72b17"
+    });
+    </script> -->
+
+    <meta name="generator" content="Jekyll 3.6.2" />
+    <link rel="alternate" type="application/rss+xml" title="백준 (7) <br> (10828,10773,1874,10799, <br> 4949,1406,2493)" href="/feed.xml" />
+
+
+</head>
+<body class="post-template">
+
+    <div class="site-wrapper">
+        <!-- All the main content gets inserted here, index.hbs, post.hbs, etc -->
+        <!-- default -->
+
+<!-- The tag above means: insert everything in this file
+into the {body} of the default.hbs template -->
+
+<header class="site-header outer">
+    <div class="inner">
+        <nav class="site-nav">
+    <div class="site-nav-left">
+        
+            
+                <a class="site-nav-logo" href="https://keonju2.github.io/">주건나's Blog</a>
+            
+        
+        
+            <ul class="nav" role="menu">
+    <li class="nav-home" role="menuitem"><a href="/">Home</a></li>
+    <li class="nav-about" role="menuitem"><a href="/about/">About</a></li>
+    <li class="nav-R" role="menuitem"><a href="/tag/programming/">프로그래밍 언어</a></li>
+    <li class="nav-python" role="menuitem"><a href="/tag/project/">프로젝트</a></li>
+    <li class="nav-python" role="menuitem"><a href="/tag/license/">자격증</a></li>
+    <li class="nav-python" role="menuitem"><a href="/tag/study/">이론 공부</a></li>
+    <li class="nav-archive" role="menuitem">
+        <a href="/archive.html">All Posts</a>
+    </li>
+    <li class="nav-archive" role="menuitem">
+        <a href="/author_archive.html">Tag별 Posts</a>
+    </li>
+</ul>
+        
+    </div>
+    <div class="site-nav-right">
+        <div class="social-links">
+            
+                <a class="social-link social-link-fb" href="https://facebook.com/monkeykeonju" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M19 6h5V0h-5c-3.86 0-7 3.14-7 7v3H8v6h4v16h6V16h5l1-6h-6V7c0-.542.458-1 1-1z"/></svg>
+</a>
+            
+            
+        </div>
+        
+            <a class="subscribe-button" href="#subscribe">Search</a>
+        
+    </div>
+</nav>
+
+    </div>
+</header>
+
+<!-- Everything inside the #post tags pulls data from the post -->
+<!-- #post -->
+
+<main id="site-main" class="site-main outer" role="main">
+    <div class="inner">
+
+        <script type="text/x-mathjax-config">
+            MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+            </script>
+            <script type="text/javascript" src="http://cdn.mathjax.org/math...">
+            </script>
+        
+        <article class="post-full  tag-programming post tag-baekjoon ">
+
+            <header class="post-full-header">
+                <section class="post-full-meta">
+                    <time class="post-full-meta-date" datetime="13 October 2021">13 October 2021</time>
+                    
+                        <span class="date-divider">/</span>
+                        
+                            
+                               <a href='/tag/programming/'>PROGRAMMING</a>
+                            
+                        
+                    
+                </section>
+                <h1 class="post-full-title">백준 (7) <br> (10828,10773,1874,10799, <br> 4949,1406,2493)</h1>
+            </header>
+            <!--
+            
+            <figure class="post-full-image" style="background-image: url(/assets/built/images/baekjoon-logo.png)">
+            </figure>
+            
+             -->
+            <section class="post-full-content">
+                <div class="kg-card-markdown">
+                    <p><span class="table-of-contents-list">백준 관련 글</span></p>
+<ul class="table-of-contents-list">
+    <li><a href="./programming-baekjoon1">백준 (1) (2557, 8958, 1000, 1001, 1008, 2935, 2753, 2884, 5063, 4101)</a></li>
+    <li><a href="./programming-baekjoon2">백준 (2) (1018, 1085, 1181, 1259, 1436, 1654, 1874, 1920)</a></li>
+    <li><a href="./programming-baekjoon3">백준 (3) 문자열 알고리즘(11720, 8958, 1152, 10809, 1157, 9012, 11718)</a></li>
+    <li><a href="./programming-baekjoon4">백준 (4) (1157, 1546, 2577, 2675, 2908, 1018, 1436, 1259, 7568, 10250)</a></li>
+    <li><a href="./programming-baekjoon5">백준 (5) 정렬 알고리즘(2750,11399,2751,1427, 10989,1181,11650)</a></li>
+    <li><a href="./programming-baekjoon6">백준 (6) (3085, 2563, 4673, 5635, 11170)</a></li>
+    <li><a href="./programming-baekjoon7">백준 (7) 스택 알고리즘(10828,10773,1874,10799, 4949,1406,2493)</a></li>
+</ul>
+
+<h1 id="백준-7문제를-풀어보았다">백준 7문제를 풀어보았다.</h1>
+
+<h6 id="중복되는-문제도-있습니다">중복되는 문제도 있습니다</h6>
+
+<h1 id="스택에-관련된-7문제를-풀어보았다">스택에 관련된 7문제를 풀어보았다.</h1>
+
+<p><a href="https://www.acmicpc.net/problemset?sort=ac_desc&amp;algo=71">https://www.acmicpc.net/problemset?sort=ac_desc&amp;algo=71</a></p>
+
+<h2 id="10828번-스택">10828번 스택</h2>
+
+<p><a href="https://www.acmicpc.net/problem/10828">https://www.acmicpc.net/problem/10828</a></p>
+
+<p>input()을 이용하면 시간 초과가 발생한다. (sys.stdin.readline() 사용)<br />
+입력받은 값에 각 명령어들이 있으면 명령어에 따라 작동하도록 해주면 된다.<br />
+push는 뒤에 숫자가 따라오기 때문에 split() 함수를 통해 뒤에 숫자를 분리해줘서 스택에 넣어준다.<br />
+pop은 스택의 길이가 0 보다 클 때와 작을 때를 구분하여 pop 함수를 실행하거나 -1을 출력해주면 된다. 
+size는 스택의 길이와 같다.<br />
+empty는 스택의 길이가 0 인가 아닌가를 판별해주면 된다.<br />
+top은 pop과 유사하지만 pop 함수를 사용하면 가장 위에 숫자가 스택에서 사라지기 때문에 stack[-1]을 출력해주면 된다.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># 처음 문제만 읽고 풀었을 때 작성한 코드
+</span>
+<span class="kn">import</span> <span class="nn">sys</span>
+<span class="n">stack</span><span class="o">=</span><span class="p">[]</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">())):</span>
+    <span class="n">command</span><span class="o">=</span><span class="nb">input</span><span class="p">()</span>
+    <span class="k">if</span> <span class="s">'push'</span> <span class="ow">in</span> <span class="n">command</span><span class="p">:</span>
+        <span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="o">=</span><span class="n">command</span><span class="p">.</span><span class="n">split</span><span class="p">()</span>
+        <span class="n">b</span><span class="o">=</span><span class="nb">int</span><span class="p">(</span><span class="n">b</span><span class="p">)</span>
+        <span class="n">stack</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">b</span><span class="p">)</span>
+    <span class="k">if</span> <span class="s">'top'</span> <span class="ow">in</span> <span class="n">command</span><span class="p">:</span>
+        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">stack</span><span class="p">)</span><span class="o">&gt;</span><span class="mi">0</span><span class="p">:</span>
+            <span class="k">print</span><span class="p">(</span><span class="n">stack</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="k">print</span><span class="p">(</span><span class="s">'-1'</span><span class="p">)</span>
+    <span class="k">if</span> <span class="s">'size'</span> <span class="ow">in</span> <span class="n">command</span><span class="p">:</span>
+        <span class="k">print</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">stack</span><span class="p">))</span>
+    <span class="k">if</span> <span class="s">'empty'</span> <span class="ow">in</span> <span class="n">command</span><span class="p">:</span>
+        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">stack</span><span class="p">)</span><span class="o">==</span><span class="mi">0</span><span class="p">:</span>
+            <span class="k">print</span><span class="p">(</span><span class="s">'1'</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span> <span class="k">print</span><span class="p">(</span><span class="s">'0'</span><span class="p">)</span>
+    <span class="k">if</span> <span class="s">'pop'</span> <span class="ow">in</span> <span class="n">command</span><span class="p">:</span>
+        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">stack</span><span class="p">)</span><span class="o">&gt;</span><span class="mi">0</span><span class="p">:</span>
+            <span class="k">print</span><span class="p">(</span><span class="n">stack</span><span class="p">.</span><span class="n">pop</span><span class="p">())</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="k">print</span><span class="p">(</span><span class="s">'-1'</span><span class="p">)</span>
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>14
+push 1
+push 2
+top
+2
+size
+2
+empty
+0
+pop
+2
+pop
+1
+pop
+-1
+size
+0
+empty
+1
+pop
+-1
+push 3
+empty
+0
+top
+3
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># 클래스와 함수를 이용하는 것이 훨씬 보기 좋을 것 같아서 새로 작성한 코드
+# 클래스와 함수에 익숙하지 않아서 생각보다 오래 걸렸다.
+# 마찬가지로 input 대신 sys.stdin.readline()를 사용하여 제출해야한다.
+</span>
+<span class="k">class</span> <span class="nc">stack</span><span class="p">:</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span> 
+        <span class="bp">self</span><span class="p">.</span><span class="n">stack_list</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">def</span> <span class="nf">push</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">num</span><span class="p">):</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">stack_list</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">num</span><span class="p">)</span>
+    <span class="k">def</span> <span class="nf">pop</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="p">.</span><span class="n">stack_list</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+            <span class="k">print</span><span class="p">(</span><span class="s">"-1"</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="k">print</span><span class="p">(</span><span class="bp">self</span><span class="p">.</span><span class="n">stack_list</span><span class="p">.</span><span class="n">pop</span><span class="p">())</span>
+    <span class="k">def</span> <span class="nf">size</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">print</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="p">.</span><span class="n">stack_list</span><span class="p">))</span>
+    <span class="k">def</span> <span class="nf">empty</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="p">.</span><span class="n">stack_list</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+            <span class="k">print</span><span class="p">(</span><span class="s">"1"</span><span class="p">)</span>
+        <span class="k">else</span> <span class="p">:</span>
+            <span class="k">print</span><span class="p">(</span><span class="s">"0"</span><span class="p">)</span>
+    <span class="k">def</span> <span class="nf">top</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="p">.</span><span class="n">stack_list</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+            <span class="k">print</span><span class="p">(</span><span class="s">"-1"</span><span class="p">)</span>
+        <span class="k">else</span> <span class="p">:</span>
+            <span class="k">print</span><span class="p">(</span><span class="bp">self</span><span class="p">.</span><span class="n">stack_list</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span>
+
+<span class="kn">import</span> <span class="nn">sys</span>
+
+<span class="n">number</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">())</span>
+<span class="n">stack</span><span class="o">=</span><span class="n">stack</span><span class="p">()</span>
+<span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">number</span><span class="p">):</span>
+    <span class="n">command</span> <span class="o">=</span> <span class="nb">input</span><span class="p">().</span><span class="n">split</span><span class="p">()</span>
+    <span class="k">if</span> <span class="n">command</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">==</span> <span class="s">"push"</span><span class="p">:</span>
+        <span class="n">stack</span><span class="p">.</span><span class="n">push</span><span class="p">(</span><span class="n">command</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+    <span class="k">if</span> <span class="s">'pop'</span> <span class="ow">in</span> <span class="n">command</span><span class="p">:</span>
+        <span class="n">stack</span><span class="p">.</span><span class="n">pop</span><span class="p">()</span>
+    <span class="k">if</span> <span class="s">'size'</span> <span class="ow">in</span> <span class="n">command</span><span class="p">:</span>
+        <span class="n">stack</span><span class="p">.</span><span class="n">size</span><span class="p">()</span>
+    <span class="k">if</span> <span class="s">'empty'</span> <span class="ow">in</span> <span class="n">command</span><span class="p">:</span>
+        <span class="n">stack</span><span class="p">.</span><span class="n">empty</span><span class="p">()</span>
+    <span class="k">if</span> <span class="s">'top'</span> <span class="ow">in</span> <span class="n">command</span><span class="p">:</span>
+        <span class="n">stack</span><span class="p">.</span><span class="n">top</span><span class="p">()</span>
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>14
+push 1
+push 2
+top
+2
+size
+2
+empty
+0
+pop
+2
+pop
+1
+pop
+-1
+size
+0
+empty
+1
+pop
+-1
+push 3
+empty
+0
+top
+3
+</code></pre></div></div>
+
+<h2 id="10773번-제로">10773번 제로</h2>
+
+<p><a href="https://www.acmicpc.net/problem/10773">https://www.acmicpc.net/problem/10773</a></p>
+
+<p>스택에서 pop과 append를 이용하여 해결할 수 있는 간단한 문제였다.<br />
+재현이가 0 을 외치면 pop을 이용해서 최근의 숫자를 지워주면 된다.<br />
+반대로 0이 아닌 숫자를 외치면 스택에 append 해주면 된다.<br />
+출력하는 값은 stack에 남아있는 숫자이기 때문에 sum을 이용해서 출력해준다.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">sys</span>
+
+<span class="n">stack</span><span class="o">=</span><span class="p">[]</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">())):</span>
+    <span class="n">money</span><span class="o">=</span><span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">())</span>
+    <span class="k">if</span> <span class="n">money</span><span class="o">==</span><span class="mi">0</span><span class="p">:</span>
+        <span class="n">stack</span><span class="p">.</span><span class="n">pop</span><span class="p">()</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">stack</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">money</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="nb">sum</span><span class="p">(</span><span class="n">stack</span><span class="p">))</span>
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>4
+3
+0
+4
+0
+0
+</code></pre></div></div>
+
+<h2 id="1874번-스택-수열">1874번 스택 수열</h2>
+
+<p><a href="https://www.acmicpc.net/problem/1874">https://www.acmicpc.net/problem/1874</a><br />
+스택과 푸쉬, 팝 이해하기<br />
+push를 세 번 하면 [1,2,3] 스택이 쌓이게 되고 여기서 pop을 하면 3이 출력된다.</p>
+
+<p>n을 통해 입력할 숫자의 갯수를 입력받고 num을 통해 숫자를 입력받는다.<br />
+count는 입력받을 숫자가 stack에 입력되도록 해준다. 0으로 두면 0부터 시작이다.<br />
+따라서 1로 한다. result를 통해 +와 -를 입력받고 stack에는 count에 생긴 숫자들을 쌓아둔다.<br />
+while문을 통해 stack을 완성하고 if문을 통해 해당 숫자가 나오면 -를 입력한 뒤 pop해서 숫자를 제거한다.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">n</span><span class="o">=</span><span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">())</span>
+<span class="n">count</span><span class="o">=</span><span class="mi">1</span>
+<span class="n">result</span><span class="o">=</span><span class="p">[]</span>
+<span class="n">stack</span><span class="o">=</span><span class="p">[]</span>
+<span class="n">temp</span><span class="o">=</span><span class="bp">True</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+    <span class="n">num</span><span class="o">=</span><span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">())</span>
+    <span class="k">while</span> <span class="n">count</span><span class="o">&lt;=</span><span class="n">num</span><span class="p">:</span>
+        <span class="n">stack</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">count</span><span class="p">)</span>
+        <span class="n">result</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="s">'+'</span><span class="p">)</span>
+        <span class="n">count</span><span class="o">=</span><span class="n">count</span><span class="o">+</span><span class="mi">1</span>
+    <span class="k">if</span> <span class="n">stack</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span><span class="o">==</span><span class="n">num</span><span class="p">:</span>
+        <span class="n">stack</span><span class="p">.</span><span class="n">pop</span><span class="p">()</span>
+        <span class="n">result</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="s">'-'</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">temp</span><span class="o">=</span><span class="bp">False</span>
+        
+
+<span class="k">if</span> <span class="n">temp</span><span class="o">==</span><span class="bp">False</span><span class="p">:</span>
+    <span class="k">print</span><span class="p">(</span><span class="s">'NO'</span><span class="p">)</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="n">result</span><span class="p">:</span>
+        <span class="k">print</span><span class="p">(</span><span class="n">j</span><span class="p">)</span>
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>8
+4
+3
+6
+8
+7
+5
+2
+1
++
++
++
++
+-
+-
++
++
+-
++
++
+-
+-
+-
+-
+-
+</code></pre></div></div>
+
+<h1 id="10799번-쇠막대기">10799번 쇠막대기</h1>
+
+<p><a href="https://www.acmicpc.net/problem/10799">https://www.acmicpc.net/problem/10799</a></p>
+
+<p>()가 쌍을 이룰 때는 레이저이므로 L로 대체했다.<br />
+stack=[]을 이용하여 막대가 몇 개 있는지 저장하는 용도로 사용하였다.<br />
+(가 되면 막대가 계속 쌓이는 데, 레이저를 만나면 레이저 왼쪽으로 막대의 개수만큼 잘린다.<br />
+그 다음 )를 만나면 막대가 끝난 경우이므로 또 잘린 막대가 생긴다.<br />
+따라서 if 문으로 (가 나오면 막대 개수를 추가해주고<br />
+L은 막대의 개수만큼 답을 더해주고 )는 잘린 막대 1개를 추가해준다.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">word</span><span class="o">=</span><span class="nb">input</span><span class="p">()</span>
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>()(((()())(())()))(())
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">word</span><span class="o">=</span><span class="n">word</span><span class="p">.</span><span class="n">replace</span><span class="p">(</span><span class="s">'()'</span><span class="p">,</span><span class="s">'L'</span><span class="p">)</span>
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">stack</span><span class="o">=</span><span class="p">[]</span>
+<span class="n">answer</span><span class="o">=</span><span class="mi">0</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">word</span><span class="p">:</span>
+    <span class="k">if</span> <span class="n">i</span><span class="o">==</span><span class="s">'('</span><span class="p">:</span>
+        <span class="n">stack</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
+    <span class="k">elif</span> <span class="n">i</span><span class="o">==</span><span class="s">')'</span><span class="p">:</span>
+        <span class="n">stack</span><span class="p">.</span><span class="n">pop</span><span class="p">()</span>
+        <span class="n">answer</span><span class="o">+=</span><span class="mi">1</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">answer</span><span class="o">+=</span><span class="nb">len</span><span class="p">(</span><span class="n">stack</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">answer</span><span class="p">)</span>        
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>L 0
+( 0
+( 0
+( 0
+L 3
+L 6
+) 7
+( 7
+L 10
+) 11
+L 13
+) 14
+) 15
+( 15
+L 16
+) 17
+17
+</code></pre></div></div>
+
+<h1 id="4949번-균형잡힌-세상">4949번 균형잡힌 세상</h1>
+
+<p><a href="https://www.acmicpc.net/problem/4949">https://www.acmicpc.net/problem/4949</a></p>
+
+<p>하나는 replace와 re.sub을 이용하여 괄호들을 제외한 모든 문자를 지워주는 문제로 풀었다.<br />
+하지만 주제가 스택이었으므로 스택으로 다시 한 번 풀었다.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># replace와 sub을 이용한 풀이
+</span><span class="kn">import</span> <span class="nn">re</span>
+
+<span class="n">word</span><span class="o">=</span><span class="s">'a'</span>
+<span class="k">while</span> <span class="n">word</span> <span class="o">!=</span> <span class="s">'.'</span><span class="p">:</span>
+    <span class="n">word</span><span class="o">=</span><span class="nb">input</span><span class="p">()</span>
+    <span class="k">if</span> <span class="n">word</span><span class="o">==</span><span class="s">'.'</span><span class="p">:</span>
+        <span class="k">break</span>
+    <span class="n">word</span><span class="o">=</span><span class="n">word</span><span class="p">.</span><span class="n">replace</span><span class="p">(</span><span class="s">'.'</span><span class="p">,</span><span class="s">''</span><span class="p">)</span>
+    <span class="n">word</span><span class="o">=</span><span class="n">re</span><span class="p">.</span><span class="n">sub</span><span class="p">(</span><span class="s">'[a-zA-Z]'</span><span class="p">,</span><span class="s">''</span><span class="p">,</span><span class="n">word</span><span class="p">)</span>
+    <span class="n">word</span><span class="o">=</span><span class="n">re</span><span class="p">.</span><span class="n">sub</span><span class="p">(</span><span class="s">' '</span><span class="p">,</span><span class="s">''</span><span class="p">,</span><span class="n">word</span><span class="p">)</span>
+    <span class="k">while</span> <span class="p">(</span><span class="s">'[]'</span> <span class="ow">in</span> <span class="n">word</span><span class="p">)</span> <span class="ow">or</span> <span class="p">(</span><span class="s">'()'</span> <span class="ow">in</span> <span class="n">word</span><span class="p">):</span>
+        <span class="n">word</span><span class="o">=</span><span class="n">word</span><span class="p">.</span><span class="n">replace</span><span class="p">(</span><span class="s">'[]'</span><span class="p">,</span><span class="s">''</span><span class="p">)</span>
+        <span class="n">word</span><span class="o">=</span><span class="n">word</span><span class="p">.</span><span class="n">replace</span><span class="p">(</span><span class="s">'()'</span><span class="p">,</span><span class="s">''</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">word</span> <span class="o">==</span><span class="s">''</span><span class="p">:</span>
+        <span class="k">print</span><span class="p">(</span><span class="s">'yes'</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">print</span><span class="p">(</span><span class="s">'no'</span><span class="p">)</span>
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>A rope may form )( a trail in a maze.
+no
+Help( I[m being held prisoner in a fortune cookie factory)].
+no
+So when I die (the [first] I will see in (heaven) is a score list).
+yes
+[ first in ] ( first out ).
+yes
+([ (([( [ ] ) ( ) (( ))] )) ]).
+yes
+ .
+yes
+.
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># stack을 이용한 풀이
+</span><span class="k">while</span> <span class="bp">True</span><span class="p">:</span> <span class="c1"># 계속 입력받기 위한 while
+</span>    <span class="n">word</span><span class="o">=</span><span class="nb">input</span><span class="p">()</span>
+    <span class="n">stack</span><span class="o">=</span><span class="p">[]</span> <span class="c1"># 괄호 저장을 위한 stack
+</span>    <span class="n">temp</span><span class="o">=</span><span class="bp">True</span> <span class="c1"># 나중에 stack에 있는지 없는지 판단을 위한 temp
+</span>    <span class="k">if</span> <span class="n">word</span><span class="o">==</span><span class="s">'.'</span><span class="p">:</span> <span class="c1"># .만 입력하면 while이 끝난다.  
+</span>        <span class="k">break</span>
+        
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">word</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">i</span> <span class="o">==</span><span class="s">'['</span> <span class="ow">or</span> <span class="n">i</span><span class="o">==</span><span class="s">'('</span><span class="p">:</span> <span class="c1"># 괄호 여는 것은 모두 스택에 append한다.
+</span>            <span class="n">stack</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
+        <span class="k">elif</span> <span class="n">i</span><span class="o">==</span><span class="s">']'</span><span class="p">:</span> <span class="c1"># 닫힌 괄호가 나왔을 때,
+</span>            <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">stack</span><span class="p">)</span> <span class="o">==</span><span class="mi">0</span> <span class="ow">or</span> <span class="n">stack</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span><span class="o">==</span><span class="s">'('</span><span class="p">:</span> <span class="c1"># 스택에 아무것도 없거나 소괄호만 있다면 no를 출력한다.                
+</span>                <span class="k">print</span><span class="p">(</span><span class="s">'no'</span><span class="p">)</span>
+                <span class="n">temp</span><span class="o">=</span><span class="bp">False</span> <span class="c1">#temp를 false로 두어서 나중에 stack에 짝이 맞아서 아무것도 없을 때를 대비한다.
+</span>                <span class="k">break</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="n">stack</span><span class="p">.</span><span class="n">pop</span><span class="p">()</span> <span class="c1"># 괄호의 짝이 맞게 있다면 '['를 없애서 스택에서 비워준다.
+</span>        <span class="k">elif</span> <span class="n">i</span><span class="o">==</span><span class="s">')'</span><span class="p">:</span> 
+            <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">stack</span><span class="p">)</span> <span class="o">==</span><span class="mi">0</span> <span class="ow">or</span> <span class="n">stack</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span><span class="o">==</span><span class="s">'['</span><span class="p">:</span>
+                <span class="k">print</span><span class="p">(</span><span class="s">'no'</span><span class="p">)</span>
+                <span class="n">temp</span><span class="o">=</span><span class="bp">False</span>
+                <span class="k">break</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="n">stack</span><span class="p">.</span><span class="n">pop</span><span class="p">()</span>
+    <span class="k">if</span> <span class="n">temp</span><span class="o">==</span><span class="bp">True</span><span class="p">:</span> <span class="c1">#괄호의 짝이 모두 맞았다면 stack은 0이 될 것이다.
+</span>        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">stack</span><span class="p">)</span><span class="o">==</span><span class="mi">0</span><span class="p">:</span>
+            <span class="k">print</span><span class="p">(</span><span class="s">'yes'</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="k">print</span><span class="p">(</span><span class="s">'no'</span><span class="p">)</span>
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>So when I die (the [first] I will see in (heaven) is a score list).
+yes
+[ first in ] ( first out ).
+yes
+Half Moon tonight (At least it is better than no Moon at all].
+no
+A rope may form )( a trail in a maze.
+no
+Help( I[m being held prisoner in a fortune cookie factory)].
+no
+([ (([( [ ] ) ( ) (( ))] )) ]).
+yes
+ .
+yes
+.
+</code></pre></div></div>
+
+<h1 id="1406번-에디터">1406번 에디터</h1>
+
+<p><a href="https://www.acmicpc.net/problem/1406">https://www.acmicpc.net/problem/1406</a></p>
+
+<p>처음에 짠 코드는 답은 맞았지만 시간초과가 발생한다.<br />
+찾아보니까 insert와 del은 시간 복잡도가 O(n)이라고 한다.<br />
+따라서 O(1)인 pop과 append를 사용해서 문제를 해결해야 한다.<br />
+pop과 append를 이용하여 빈 스택에 ‘L’,’D’로 변화된 커서에 대한 정보를 저장한다.<br />
+B와 P는 처음 푼 것과 다르게 커서 변경없이 pop과 append로 값만 추가, 삭제해주면 된다.<br />
+word_list에는 새로 입력받은 값이 저장될 것고 새로 만든 스택에 커서 변경된 정보가 순서대로 저장될 것이다. <br />
+실제 입력받은 문자에서의 변화와 반대로 저장되기 때문에 [::-1]로 새로운 스택은 합쳐줘야한다.<br />
+당연히 sys.stin.readline()으로 입력받아야한다.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># 시간 초과된 insert와 def
+</span><span class="n">word_list</span><span class="o">=</span><span class="nb">list</span><span class="p">(</span><span class="nb">input</span><span class="p">())</span>
+<span class="n">point</span><span class="o">=</span><span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">())</span>
+<span class="n">j</span><span class="o">=</span><span class="nb">len</span><span class="p">(</span><span class="n">word_list</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">point</span><span class="p">):</span>
+    <span class="n">command</span><span class="o">=</span><span class="nb">input</span><span class="p">()</span>
+    <span class="k">if</span> <span class="n">command</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">==</span><span class="s">'L'</span> <span class="ow">and</span> <span class="n">j</span><span class="o">!=</span><span class="mi">0</span><span class="p">:</span>
+        <span class="n">j</span><span class="o">=</span><span class="n">j</span><span class="o">-</span><span class="mi">1</span> 
+        
+    <span class="k">elif</span> <span class="n">command</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">==</span><span class="s">'D'</span> <span class="ow">and</span> <span class="n">j</span><span class="o">!=</span><span class="nb">len</span><span class="p">(</span><span class="n">word_list</span><span class="p">):</span>
+        <span class="n">j</span><span class="o">=</span><span class="n">j</span><span class="o">+</span><span class="mi">1</span>
+    
+    <span class="k">elif</span> <span class="n">command</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">==</span><span class="s">'B'</span> <span class="ow">and</span> <span class="n">j</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="k">del</span> <span class="n">word_list</span><span class="p">[</span><span class="n">j</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+        <span class="n">j</span><span class="o">=</span><span class="n">j</span><span class="o">-</span><span class="mi">1</span>
+        
+    <span class="k">elif</span> <span class="n">command</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">==</span><span class="s">'P'</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">j</span><span class="o">==</span><span class="nb">len</span><span class="p">(</span><span class="n">word_list</span><span class="p">):</span>
+            <span class="n">word_list</span><span class="p">.</span><span class="n">insert</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">word_list</span><span class="p">)</span><span class="o">+</span><span class="mi">1</span><span class="p">,</span><span class="n">command</span><span class="p">[</span><span class="mi">2</span><span class="p">])</span>
+            <span class="n">j</span><span class="o">=</span><span class="n">j</span><span class="o">+</span><span class="mi">1</span>
+            <span class="k">print</span><span class="p">(</span><span class="n">j</span><span class="p">)</span>
+        <span class="k">elif</span> <span class="n">j</span><span class="o">==</span><span class="mi">0</span><span class="p">:</span>
+            <span class="n">word_list</span><span class="p">.</span><span class="n">insert</span><span class="p">(</span><span class="n">j</span><span class="p">,</span><span class="n">command</span><span class="p">[</span><span class="mi">2</span><span class="p">])</span>
+            <span class="k">print</span><span class="p">(</span><span class="n">j</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">word_list</span><span class="p">.</span><span class="n">insert</span><span class="p">(</span><span class="n">j</span><span class="p">,</span><span class="n">command</span><span class="p">[</span><span class="mi">2</span><span class="p">])</span>
+            
+<span class="k">print</span><span class="p">(</span><span class="s">''</span><span class="p">.</span><span class="n">join</span><span class="p">(</span><span class="n">word_list</span><span class="p">))</span>
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dmih
+11
+B
+B
+P x
+3
+L
+B
+B
+B
+P y
+0
+D
+D
+P z
+3
+yxz
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">word_list</span><span class="o">=</span><span class="nb">list</span><span class="p">(</span><span class="nb">input</span><span class="p">())</span>
+<span class="n">point</span><span class="o">=</span><span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">())</span>
+<span class="n">j</span><span class="o">=</span><span class="nb">len</span><span class="p">(</span><span class="n">word_list</span><span class="p">)</span>
+<span class="n">stack</span><span class="o">=</span><span class="p">[]</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">point</span><span class="p">):</span>
+    <span class="n">command</span><span class="o">=</span><span class="nb">input</span><span class="p">()</span>
+    <span class="k">if</span> <span class="n">command</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">==</span><span class="s">'L'</span> <span class="ow">and</span> <span class="nb">len</span><span class="p">(</span><span class="n">word_list</span><span class="p">)</span> <span class="o">!=</span><span class="mi">0</span><span class="p">:</span>
+        <span class="n">stack</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">word_list</span><span class="p">.</span><span class="n">pop</span><span class="p">())</span>
+    <span class="k">elif</span> <span class="n">command</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">==</span><span class="s">'D'</span> <span class="ow">and</span> <span class="nb">len</span><span class="p">(</span><span class="n">stack</span><span class="p">)</span> <span class="o">!=</span><span class="mi">0</span><span class="p">:</span>
+        <span class="n">word_list</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">stack</span><span class="p">.</span><span class="n">pop</span><span class="p">())</span>
+    <span class="k">elif</span> <span class="n">command</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">==</span><span class="s">'B'</span><span class="ow">and</span> <span class="nb">len</span><span class="p">(</span><span class="n">word_list</span><span class="p">)</span> <span class="o">!=</span><span class="mi">0</span><span class="p">:</span>
+        <span class="n">word_list</span><span class="p">.</span><span class="n">pop</span><span class="p">()</span>
+    <span class="k">elif</span> <span class="n">command</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">==</span><span class="s">'P'</span><span class="p">:</span>
+        <span class="n">word_list</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">command</span><span class="p">[</span><span class="mi">2</span><span class="p">])</span>
+
+<span class="k">print</span><span class="p">(</span><span class="n">word_list</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">stack</span><span class="p">)</span>
+<span class="n">word_list</span><span class="p">.</span><span class="n">extend</span><span class="p">(</span><span class="n">stack</span><span class="p">[::</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span>    
+<span class="k">print</span><span class="p">(</span><span class="s">''</span><span class="p">.</span><span class="n">join</span><span class="p">(</span><span class="n">word_list</span><span class="p">))</span>
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>abc
+9
+L
+L
+L
+L
+L
+P x
+L
+B
+P y
+['y']
+['c', 'b', 'a', 'x']
+yxabc
+</code></pre></div></div>
+
+<h1 id="2493번-탑">2493번 탑</h1>
+
+<p><a href="https://www.acmicpc.net/problem/2493">https://www.acmicpc.net/problem/2493</a></p>
+
+<p>answer은 정답을 기록하는 용도로, stack은 비교하는 탑과 인덱스를 저장한다.<br />
+즉, for문으로 레이저가 출발하는 송전탑을 고르고, stack에는 이 전에 지나온 송전탑들이 저장된다.<br />
+i값은 인덱스보다 1 작기 때문에 답에는 1을 추가해줘야한다.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">n</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">())</span> <span class="c1">#5
+</span><span class="n">top</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">map</span><span class="p">(</span><span class="nb">int</span><span class="p">,</span> <span class="nb">input</span><span class="p">().</span><span class="n">split</span><span class="p">()))</span> <span class="c1">#[6 9 5 7]
+</span><span class="n">stack</span> <span class="o">=</span> <span class="p">[]</span> <span class="c1">#[]
+</span><span class="n">answer</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="p">)]</span> <span class="c1">#[0 0 0 0 4]
+</span> 
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+    <span class="k">while</span> <span class="n">stack</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">stack</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span> <span class="o">&gt;</span> <span class="n">top</span><span class="p">[</span><span class="n">i</span><span class="p">]:</span>
+            <span class="n">answer</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">stack</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span> <span class="o">+</span> <span class="mi">1</span>
+            <span class="k">break</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">stack</span><span class="p">.</span><span class="n">pop</span><span class="p">()</span>
+    <span class="n">stack</span><span class="p">.</span><span class="n">append</span><span class="p">([</span><span class="n">i</span><span class="p">,</span> <span class="n">top</span><span class="p">[</span><span class="n">i</span><span class="p">]])</span>
+ 
+<span class="k">print</span><span class="p">(</span><span class="o">*</span><span class="n">answer</span><span class="p">)</span>
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>5
+6 9 5 7 4
+0 0 2 2 4
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">a</span><span class="o">=</span><span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">]</span>
+
+<span class="k">print</span><span class="p">(</span><span class="o">*</span><span class="n">a</span><span class="p">)</span>
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>1 2 3
+</code></pre></div></div>
+
+
+                </div>
+            </section>
+
+            <!-- Email subscribe form at the bottom of the page -->
+            <!--
+            
+                <section class="subscribe-form">
+                    <h3 class="subscribe-form-title">Subscribe to 주건나's Blog</h3>
+                    <p>Get the latest posts delivered right to your inbox</p>
+                    <span id="searchform" method="post" action="/subscribe/" class="">
+    <input class="confirm" type="hidden" name="confirm"  />
+    <input class="location" type="hidden" name="location"  />
+    <input class="referrer" type="hidden" name="referrer"  />
+
+    <div class="form-group">
+        <input class="subscribe-email" onkeyup="myFunc()" 
+               id="searchtext" type="text" name="searchtext"  
+               placeholder="Search..." />
+    </div>
+    <script type="text/javascript">
+        function myFunc() {
+            if(event.keyCode == 13) {
+                var url = encodeURIComponent($("#searchtext").val());
+                location.href = "/search.html?query=" + url;
+            }
+        }
+    </script>
+</span>
+                </section>
+            
+            -->
+            <footer class="post-full-footer">
+                <!-- Everything inside the #author tags pulls data from the author -->
+                <!-- #author-->
+                
+                    
+                        <section class="author-card">
+                            
+                                <img class="author-profile-image" src="/assets/built/images/economy-author-logo.jpg" alt="keonju" />
+                            
+                            <section class="author-card-content">
+                                <h4 class="author-card-name"><a href="/author/keonju">주건나</a></h4>
+                                
+                                    <p>데이터 사이언티스트를 희망하는 학생입니다.</p>
+                                
+                            </section>
+                        </section>
+                        <div class="post-full-footer-right">
+                            <a class="author-card-button" href="/author/keonju">Read More</a>
+                        </div>
+                    
+                
+                <!-- /author  -->
+            </footer>
+
+            <!-- If you use Disqus comments, just uncomment this block.
+            The only thing you need to change is "test-apkdzgmqhj" - which
+            should be replaced with your own Disqus site-id. -->
+            
+                <section class="post-full-comments">
+                    <div id="disqus_thread"></div>
+                    <script>
+                        var disqus_config = function () {
+                            var this_page_url = 'https://keonju2.github.io/programming-baekjoon7';
+                            var this_page_identifier = '/programming-baekjoon7';
+                            var this_page_title = '백준 (7) <br> (10828,10773,1874,10799, <br> 4949,1406,2493)';
+                        };
+                        (function() {
+                            var d = document, s = d.createElement('script');
+                            s.src = 'https://xxxxxxxx.disqus.com/embed.js';
+                            s.setAttribute('data-timestamp', +new Date());
+                            (d.head || d.body).appendChild(s);
+                        })();
+                    </script>
+                </section>
+            
+
+        </article>
+
+    </div>
+</main>
+
+<!-- Links to Previous/Next posts -->
+<aside class="read-next outer">
+    <div class="inner">
+        <div class="read-next-feed">
+            
+                
+                
+                
+                
+                    <article class="read-next-card"
+                        
+                            style="background-image: url(/assets/built/images/blog-cover1.jpg)"
+                        
+                    >
+                        <header class="read-next-card-header">
+                            <small class="read-next-card-header-sitetitle">&mdash; 주건나's Blog &mdash;</small>
+                            
+                                <h3 class="read-next-card-header-title"><a href="/tag/programming/">Programming</a></h3>
+                            
+                        </header>
+                        <div class="read-next-divider"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 14.5s2 3 5 3 5.5-2.463 5.5-5.5S21 6.5 18 6.5c-5 0-7 11-12 11C2.962 17.5.5 15.037.5 12S3 6.5 6 6.5s4.5 3.5 4.5 3.5"/></svg>
+</div>
+                        <div class="read-next-card-content">
+                            <ul>
+                                
+                                
+                                  
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                            <li><a href="/programming-kaggle2">캐글 (2) <br> 타이타닉 튜토리얼 1,2 공부하기</a></li>
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                            <li><a href="/programming-baekjoon6">백준 (6) <br> (3085, 2563, 4673, 5635, 11170)</a></li>
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                            <li><a href="/programming-baekjoon5">백준 (5) 정렬 알고리즘 <br> (2750,11399,2751,1427, <br> 10989,1181,11650,2309)</a></li>
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                            </ul>
+                        </div>
+                        <footer class="read-next-card-footer">
+                            <a href="/tag/programming/">
+                                
+                                    See all 9 posts  →
+                                
+                            </a>
+                        </footer>
+                    </article>
+                
+            
+
+            <!-- If there's a next post, display it using the same markup included from - partials/post-card.hbs -->
+            
+
+            <!-- If there's a previous post, display it using the same markup included from - partials/post-card.hbs -->
+            
+                
+
+    <article class="post-card post-template">
+        
+            <a class="post-card-image-link" href="/study-ML3">
+                <div class="post-card-image" style="background-image: url(/assets/built/images/ML.png)"></div>
+            </a>
+        
+        <div class="post-card-content">
+            <a class="post-card-content-link" href="/study-ML3">
+                <header class="post-card-header">
+                    
+                        
+                            
+                                <span class="post-card-tags">Study</span>
+                            
+                        
+                    
+
+                    <h2 class="post-card-title">머신러닝 정리 (3) <br> 비지도학습 (1)</h2>
+                </header>
+                <section class="post-card-excerpt">
+                    
+                        <p>머신러닝 공부 관련 글 머신러닝 정리 (1)-지도학습 (1) 머신러닝 정리 (2)-지도학습 (2) 머신러닝 정리 (3)-비지도학습 (1) 머신러닝 정리 (3) - 비지도학습 (1) 본 문서는 [파이썬 라이브러리를 활용한 머신러닝] 책을 공부하면서 요약한 내용입니다. 또</p>
+                    
+                </section>
+            </a>
+            <footer class="post-card-meta">
+                
+                    
+                        
+                        <img class="author-profile-image" src="/assets/built/images/economy-author-logo.jpg" alt="주건나" />
+                        
+                        <span class="post-card-author">
+                            <a href="/author/keonju/">주건나</a>
+                        </span>
+                    
+                
+                <span class="reading-time">
+                    
+                    
+                      7 min read
+                    
+                </span>
+            </footer>
+        </div>
+    </article>
+
+            
+
+        </div>
+    </div>
+</aside>
+
+<!-- Floating header which appears on-scroll, included from includes/floating-header.hbs -->
+<div class="floating-header">
+    <div class="floating-header-logo">
+        <a href="https://keonju2.github.io/">
+            
+            <span>주건나's Blog</span>
+        </a>
+    </div>
+    <span class="floating-header-divider">&mdash;</span>
+    <div class="floating-header-title">백준 (7) <br> (10828,10773,1874,10799, <br> 4949,1406,2493)</div>
+    <div class="floating-header-share">
+        <div class="floating-header-share-label">Share this <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+    <path d="M7.5 15.5V4a1.5 1.5 0 1 1 3 0v4.5h2a1 1 0 0 1 1 1h2a1 1 0 0 1 1 1H18a1.5 1.5 0 0 1 1.5 1.5v3.099c0 .929-.13 1.854-.385 2.748L17.5 23.5h-9c-1.5-2-5.417-8.673-5.417-8.673a1.2 1.2 0 0 1 1.76-1.605L7.5 15.5zm6-6v2m-3-3.5v3.5m6-1v2"/>
+</svg>
+</div>
+        <a class="floating-header-share-tw" href="https://twitter.com/share?text=%EB%B0%B1%EC%A4%80+%287%29+%3Cbr%3E+%2810828%2C10773%2C1874%2C10799%2C+%3Cbr%3E+4949%2C1406%2C2493%29&amp;url=https://keonju2.github.io/programming-baekjoon7"
+            onclick="window.open(this.href, 'share-twitter', 'width=550,height=235');return false;">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088 0 0 1-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015 0 0 1-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25 0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688 0 5.063-.875 7.188-2.5-1.25 0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5 0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673 0 0 1-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228 0 0 1-1.875-2c-.5-.875-.688-1.813-.688-2.75 0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579 0 0 1 1.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"/></svg>
+
+        </a>
+        <a class="floating-header-share-fb" href="https://www.facebook.com/sharer/sharer.php?u=https://keonju2.github.io/programming-baekjoon7"
+            onclick="window.open(this.href, 'share-facebook','width=580,height=296');return false;">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M19 6h5V0h-5c-3.86 0-7 3.14-7 7v3H8v6h4v16h6V16h5l1-6h-6V7c0-.542.458-1 1-1z"/></svg>
+
+        </a>
+    </div>
+    <progress class="progress" value="0">
+        <div class="progress-container">
+            <span class="progress-bar"></span>
+        </div>
+    </progress>
+</div>
+
+
+<!-- /post -->
+
+<!-- The #contentFor helper here will send everything inside it up to the matching #block helper found in default.hbs -->
+
+
+        <!-- Previous/next page links - displayed on every page -->
+        
+
+        <!-- The footer at the very bottom of the screen -->
+        <footer class="site-footer outer">
+            <div class="site-footer-content inner">
+                <section class="copyright"><a href="https://keonju2.github.io/">주건나's Blog</a> &copy; 2021</section>
+                <!--
+                <section class="poweredby">Proudly published with <a href="https://jekyllrb.com/">Jekyll</a> &
+                    <a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages</a> using
+                    <a href="https://github.com/jekyllt/jasper2" target="_blank" rel="noopener">Jasper2</a></section>
+                -->
+                <nav class="site-footer-nav">
+                    <a href="/">Latest Posts</a>
+                    <a href="https://facebook.com/monkeykeonju" target="_blank" rel="noopener">Facebook</a>
+                    
+                    <!--
+                    <a href="https://ghost.org" target="_blank" rel="noopener">Ghost</a>
+                     -->
+                </nav>
+
+            </div>
+        </footer>
+
+    </div>
+
+    <!-- The big email subscribe modal content -->
+    
+    <div id="subscribe" class="subscribe-overlay">
+        <a class="subscribe-overlay-close" href="#"></a>
+        <div class="subscribe-overlay-content">
+            
+            <h1 class="subscribe-overlay-title">Search 주건나's Blog</h1>
+            <p class="subscribe-overlay-description">
+            검색어를 입력해주세요 </p>
+            <span id="searchform" method="post" action="/subscribe/" class="">
+    <input class="confirm" type="hidden" name="confirm"  />
+    <input class="location" type="hidden" name="location"  />
+    <input class="referrer" type="hidden" name="referrer"  />
+
+    <div class="form-group">
+        <input class="subscribe-email" onkeyup="myFunc()" 
+               id="searchtext" type="text" name="searchtext"  
+               placeholder="Search..." />
+    </div>
+    <script type="text/javascript">
+        function myFunc() {
+            if(event.keyCode == 13) {
+                var url = encodeURIComponent($("#searchtext").val());
+                location.href = "/search.html?query=" + url;
+            }
+        }
+    </script>
+</span>
+        </div>
+    </div>
+    
+
+
+    <!-- highlight.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.10.0/components/prism-abap.min.js"></script>
+    <script>$(document).ready(function() {
+      $('pre code').each(function(i, block) {
+        hljs.highlightBlock(block);
+      });
+    });</script>
+
+    <!-- jQuery + Fitvids, which makes all video embeds responsive -->
+    <script
+        src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous">
+    </script>
+    <script type="text/javascript" src="/assets/js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="https://demo.ghost.io/assets/js/jquery.fitvids.js?v=724281a32e"></script>
+
+
+    <!-- Paginator increased to "infinit" in _config.yml -->
+    <!-- if paginator.posts  -->
+    <!-- <script>
+        var maxPages = parseInt('');
+    </script>
+    <script src="/assets/js/infinitescroll.js"></script> -->
+    <!-- /endif -->
+
+    
+
+
+    <!-- Add Google Analytics  -->
+    <!-- Google Analytics Tracking code -->
+ <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'G-6FJ2289869', 'auto');
+  ga('send', 'pageview');
+
+ </script>
+
+
+    <!-- The #block helper will pull in data from the #contentFor other template files. In this case, there's some JavaScript which we only want to use in post.hbs, but it needs to be included down here, after jQuery has already loaded. -->
+    
+        <script>
+
+// NOTE: Scroll performance is poor in Safari
+// - this appears to be due to the events firing much more slowly in Safari.
+//   Dropping the scroll event and using only a raf loop results in smoother
+//   scrolling but continuous processing even when not scrolling
+$(document).ready(function () {
+    // Start fitVids
+    var $postContent = $(".post-full-content");
+    $postContent.fitVids();
+    // End fitVids
+
+    var progressBar = document.querySelector('progress');
+    var header = document.querySelector('.floating-header');
+    var title = document.querySelector('.post-full-title');
+
+    var lastScrollY = window.scrollY;
+    var lastWindowHeight = window.innerHeight;
+    var lastDocumentHeight = $(document).height();
+    var ticking = false;
+
+    function onScroll() {
+        lastScrollY = window.scrollY;
+        requestTick();
+    }
+
+    function onResize() {
+        lastWindowHeight = window.innerHeight;
+        lastDocumentHeight = $(document).height();
+        requestTick();
+    }
+
+    function requestTick() {
+        if (!ticking) {
+            requestAnimationFrame(update);
+        }
+        ticking = true;
+    }
+
+    function update() {
+        var trigger = title.getBoundingClientRect().top + window.scrollY;
+        var triggerOffset = title.offsetHeight + 35;
+        var progressMax = lastDocumentHeight - lastWindowHeight;
+
+        // show/hide floating header
+        if (lastScrollY >= trigger + triggerOffset) {
+            header.classList.add('floating-active');
+        } else {
+            header.classList.remove('floating-active');
+        }
+
+        progressBar.setAttribute('max', progressMax);
+        progressBar.setAttribute('value', lastScrollY);
+
+        ticking = false;
+    }
+
+    window.addEventListener('scroll', onScroll, {passive: true});
+    window.addEventListener('resize', onResize, false);
+
+    update();
+});
+</script>
+
+    
+
+    <!-- Ghost outputs important scripts and data with this tag - it should always be the very last thing before the closing body tag -->
+    <!-- ghost_foot -->
+
+</body>
+</html>
