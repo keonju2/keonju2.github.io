@@ -1,4 +1,446 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://keonju2.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://keonju2.github.io/" rel="alternate" type="text/html" /><updated>2021-11-02T02:11:05+09:00</updated><id>https://keonju2.github.io/feed.xml</id><title type="html">주건나’s Blog</title><subtitle>데이터 사이언티스트를 꿈꾸는 블로그입니다.</subtitle><entry><title type="html">머신러닝 정리 (4) 비지도학습 (2)</title><link href="https://keonju2.github.io/study-ML4" rel="alternate" type="text/html" title="머신러닝 정리 (4) 비지도학습 (2)" /><published>2021-10-31T10:00:00+09:00</published><updated>2021-10-31T10:00:00+09:00</updated><id>https://keonju2.github.io/study-ML4</id><content type="html" xml:base="https://keonju2.github.io/study-ML4">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;머신러닝 공부 관련 글&lt;/span&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://keonju2.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://keonju2.github.io/" rel="alternate" type="text/html" /><updated>2021-11-02T19:45:15+09:00</updated><id>https://keonju2.github.io/feed.xml</id><title type="html">주건나’s Blog</title><subtitle>데이터 사이언티스트를 꿈꾸는 블로그입니다.</subtitle><entry><title type="html">ADSP (2) 데이터의 가치와 미래</title><link href="https://keonju2.github.io/license-adsp2" rel="alternate" type="text/html" title="ADSP (2) 데이터의 가치와 미래" /><published>2021-11-02T08:00:00+09:00</published><updated>2021-11-02T08:00:00+09:00</updated><id>https://keonju2.github.io/license-adsp2</id><content type="html" xml:base="https://keonju2.github.io/license-adsp2">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;ADSP 관련 글&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./license-adsp1&quot;&gt;ADSP (1) 데이터의 이해&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./license-adsp2&quot;&gt;ADSP (2) 데이터의 가치와 미래&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./license-adsp3&quot;&gt;ADSP (3) 데이터 분석 기회의 이해&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./license-adsp4&quot;&gt;ADSP (4) 분석 마스터플랜&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;ADSP를 준비하면서 공부한 내용을 정리한 글입니다.&lt;br /&gt;
+1과목 2장 데이터의 가치와 미래에 대한 부분을 정리한 글입니다.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;빅데이터의 이해
+    &lt;ol&gt;
+      &lt;li&gt;빅데이터의 특징&lt;/li&gt;
+      &lt;li&gt;빅데이터의 출현 배경&lt;/li&gt;
+      &lt;li&gt;빅데이터의 기능과 변화&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;데이터의 가치와 미래
+    &lt;ol&gt;
+      &lt;li&gt;빅데이터의 가치&lt;/li&gt;
+      &lt;li&gt;빅데이터 활용 기술&lt;/li&gt;
+      &lt;li&gt;빅데이터의 위기 요인과 통제 방안&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;가치창조를 위한 데이터 사이언스와 전략 인사이트
+    &lt;ol&gt;
+      &lt;li&gt;빅데이터 분석과 전략 인사이트&lt;/li&gt;
+      &lt;li&gt;데이터 사이언스에 대한 이해&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;빅데이터의-이해&quot;&gt;빅데이터의 이해&lt;/h1&gt;
+
+&lt;p&gt;빅데이터란 큰 용량과 복잡성으로 기존 애플리케이션이나 툴로는 다루기 어려운 데이터셋의 집합&lt;/p&gt;
+
+&lt;h2 id=&quot;빅데이터의-특징&quot;&gt;빅데이터의 특징&lt;/h2&gt;
+
+&lt;h6 id=&quot;3v&quot;&gt;3V&lt;/h6&gt;
+
+&lt;p&gt;Volume&lt;br /&gt;
+데이터 양의 증가&lt;/p&gt;
+
+&lt;p&gt;Variety&lt;br /&gt;
+데이터 유형 증가&lt;/p&gt;
+
+&lt;p&gt;Velocity&lt;br /&gt;
+데이터 수집 및 처리 속도의 증가&lt;/p&gt;
+
+&lt;h6 id=&quot;4v&quot;&gt;4V&lt;/h6&gt;
+
+&lt;p&gt;4V는 3V에 추가된 특징이다.&lt;/p&gt;
+
+&lt;p&gt;Value&lt;br /&gt;
+데이터 가치의 중요성&lt;/p&gt;
+
+&lt;p&gt;Veracity&lt;br /&gt;
+예측 분석 결과에 대한 신뢰성의 중요성&lt;/p&gt;
+
+&lt;p&gt;밑에 두개는 의견이 갈린다&lt;/p&gt;
+
+&lt;p&gt;Visualization&lt;br /&gt;
+데이터의 시각화&lt;/p&gt;
+
+&lt;p&gt;Variability&lt;br /&gt;
+데이터의 가변성&lt;/p&gt;
+
+&lt;p&gt;Validility&lt;br /&gt;
+데이터의 정확성&lt;/p&gt;
+
+&lt;p&gt;Volarility&lt;br /&gt;
+데이터의 휘발성&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;빅데이터-출현-배경&quot;&gt;빅데이터 출현 배경&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;데이터의 양적 증가&lt;br /&gt;
+과학기술의 발달로 인한 데이터의 양적 증가&lt;/li&gt;
+  &lt;li&gt;산업계의 변화&lt;br /&gt;
+정보의 축적과 기술이 만나 새로운 가치를 창출할 수 있는 변화의 상태&lt;/li&gt;
+  &lt;li&gt;학계의 변화&lt;br /&gt;
+다양한 분야에서의 데이터 이용으로 필요한 기술 아키텍처 및 통계 도구의 발전&lt;/li&gt;
+  &lt;li&gt;관련 기술의 발전&lt;br /&gt;
+디지털화, 저장 기술의 발전과 가격 하락, 인터넷의 발전과 클라우드 컴퓨팅와 같은 빅데이터와 연관된 기술의 발전&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;빅데이터의-기능과-변화&quot;&gt;빅데이터의 기능과 변화&lt;/h2&gt;
+
+&lt;p&gt;빅데이터는 석탄, 철, 원유, 렌즈, 플랫폼과 같은 역할을 한다.&lt;/p&gt;
+
+&lt;h6 id=&quot;빅데이터로-인한-변화&quot;&gt;빅데이터로 인한 변화&lt;/h6&gt;
+
+&lt;p&gt;사전처리 -&amp;gt; 사후처리&lt;br /&gt;
+표본조사 -&amp;gt; 전수조사&lt;br /&gt;
+질 -&amp;gt; 양&lt;br /&gt;
+인과관계 -&amp;gt; 상관관계&lt;/p&gt;
+
+&lt;p&gt;데이터 처리, 저장, 분석, 아키텍처, 클라우드 컴퓨팅과 같은 기술 변화&lt;br /&gt;
+데이터의 양, 유형, 수집 및 처리 기술과 같은 데이터의 변화&lt;br /&gt;
+데이터 사이언티스트, 데이터 중심 조직과 같은 인재 조직 변화&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;데이터의-가치와-미래&quot;&gt;데이터의 가치와 미래&lt;/h1&gt;
+
+&lt;h2 id=&quot;빅데이터의-가치&quot;&gt;빅데이터의 가치&lt;/h2&gt;
+
+&lt;p&gt;빅데이터의 가치는 어떻게 활용할 것인지에 달렸다.&lt;br /&gt;
+데이터의 활용 방식, 가치 창출 방식, 분석 기술의 발전과 같은 이유로 가치 산정은 어렵다.&lt;/p&gt;
+
+&lt;h2 id=&quot;빅데이터-활용-기술&quot;&gt;빅데이터 활용 기술&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;연관규칙 학습 (Association rule learning)&lt;br /&gt;
+변인간의 상관 관계를 찾는 방법&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;유형분석 (Classification tree analysis)&lt;br /&gt;
+새로운 사건이 속할 범주를 찾는 방법&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;유전 알고리즘 (Genetic algorithms)&lt;br /&gt;
+최적화가 필요한 문제의 해결책의 진화 방법&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;기계학습 (Machine learning)&lt;br /&gt;
+훈련 데이터로부터 학습한 알려진 특성을 활용해 예측하는 방법&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;회귀분석 (Regression analysis)&lt;br /&gt;
+독립변수를 조작하면서 종속변수가 어떻게 변하는지 보며 관계를 파악하는 방법&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;감정분석 (Sentiment analysis)&lt;br /&gt;
+특정 주제에 대한 말이나 글의 감정을 분석하는 방법&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;소셜 네트워크 분석 (Social network analysis)&lt;br /&gt;
+사회 관계망 분석으로 사람 사이의 관계를 분석하는 방법&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;빅데이터의-위기-요인과-통제-방안&quot;&gt;빅데이터의 위기 요인과 통제 방안&lt;/h2&gt;
+
+&lt;h4 id=&quot;위기-요인&quot;&gt;위기 요인&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;사생활 침해&lt;br /&gt;
+개인의 사생활 침해 및 정보의 오용 위험&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;책임 원칙 훼손&lt;br /&gt;
+알고리즘으로 인한 피해 발생 위험&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;데이터 오용&lt;br /&gt;
+데이터 과신 및 잘못된 지표 사용으로 피해 발생 위험&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;통제-방안&quot;&gt;통제 방안&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;사생활 침해의 통제 방안&lt;br /&gt;
+제공자의 ‘동의’에서 사용자의 ‘책임’으로&lt;br /&gt;
+개인정보 비식별 기술 (데이터 마스킹, 가명 처리, 총계 처리, 값 삭제, 범주화)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;책임 원칙 훼손의 통제 방안&lt;br /&gt;
+결과 기반 책임 원칙 고수&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;알고리즘 접근 허용&lt;br /&gt;
+알고리즘으로 인한 피해 발생 시 알고리즘 접근을 허용하여 피해자 구제&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;가치창조를-위한-데이터-사이언스와-전략-인사이트&quot;&gt;가치창조를 위한 데이터 사이언스와 전략 인사이트&lt;/h1&gt;
+
+&lt;h2 id=&quot;빅데이터-분석과-전략-인사이트&quot;&gt;빅데이터 분석과 전략 인사이트&lt;/h2&gt;
+
+&lt;p&gt;빅데이터에서 중요한 것은 ‘크기’가 아니라 ‘인사이트’이다.&lt;br /&gt;
+데이터 분석을 많이 사용하는 것이 아닌 전략적으로 사용해야 효과적인 운영이 가능하다.&lt;br /&gt;
+일차원적 분석에서 시작하여 전략 도출을 위한 가치 기반 분석까지 확장되어야한다.&lt;/p&gt;
+
+&lt;h2 id=&quot;데이터-사이언스에-대한-이해&quot;&gt;데이터 사이언스에 대한 이해&lt;/h2&gt;
+
+&lt;p&gt;데이터 사이언스는 데이터로부터 의미 있는 정보를 추출해내는 학문&lt;br /&gt;
+데이터 마이닝은 분석에 포커스를 둔다면 데이터 사이언스는 분석뿐 아니라 효과적으로 구현하고 전달하는 과정까지 포괄하는 개념&lt;br /&gt;
+수학, 확률 모델, 머신러닝, 분석학, 패턴 인식과 같은 Analytics,&lt;br /&gt;
+프로그래밍, 데이터 엔지니어링, 데이터 웨어하우징과 같은 Data Management,&lt;br /&gt;
+커뮤니케이션, 시각화, 프레젠테이션, 스토리텔링과 같은 비즈니스 분석으로 구성된다.&lt;br /&gt;
+기술적 능력으로 이루어진 하드 스킬과 분석, 전달, 협력으로 이루어진 소프트 스킬이 합쳐져야한다.&lt;br /&gt;
+따라서 인문학적 사고 특성도 길러야한다.&lt;/p&gt;</content><author><name>주건나</name></author><category term="license" /><summary type="html">ADSP 관련 글 ADSP (1) 데이터의 이해 ADSP (2) 데이터의 가치와 미래 ADSP (3) 데이터 분석 기회의 이해 ADSP (4) 분석 마스터플랜</summary></entry><entry><title type="html">ADSP (1) 데이터의 이해</title><link href="https://keonju2.github.io/license-adsp1" rel="alternate" type="text/html" title="ADSP (1) 데이터의 이해" /><published>2021-11-02T07:00:00+09:00</published><updated>2021-11-02T07:00:00+09:00</updated><id>https://keonju2.github.io/license-adsp1</id><content type="html" xml:base="https://keonju2.github.io/license-adsp1">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;ADSP 관련 글&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./license-adsp1&quot;&gt;ADSP (1) 데이터의 이해&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./license-adsp2&quot;&gt;ADSP (2) 데이터의 가치와 미래&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./license-adsp3&quot;&gt;ADSP (3) 데이터 분석 기회의 이해&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./license-adsp4&quot;&gt;ADSP (4) 분석 마스터플랜&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;ADSP를 준비하면서 공부한 내용을 정리한 글입니다.&lt;br /&gt;
+1과목 1장 데이터 이해에 대한 부분을 정리한 글입니다.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;데이터의 정의
+    &lt;ol&gt;
+      &lt;li&gt;데이터의 유형&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;데이터와 정보
+    &lt;ol&gt;
+      &lt;li&gt;DIKW 피라미드&lt;/li&gt;
+      &lt;li&gt;데이터의 단위&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;데이터베이스 개요
+    &lt;ol&gt;
+      &lt;li&gt;데이터베이스의 특징&lt;/li&gt;
+      &lt;li&gt;데이터베이스의 활용&lt;/li&gt;
+      &lt;li&gt;데이터베이스의 종류&lt;/li&gt;
+      &lt;li&gt;SQL의 이해&lt;/li&gt;
+      &lt;li&gt;데이터베이스 구성요소&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;데이터의-정의&quot;&gt;데이터의 정의&lt;/h1&gt;
+
+&lt;p&gt;데이터란?&lt;br /&gt;
+기술적이고 사실적인 의미의 자료. 객관적 사실&lt;br /&gt;
+정보는 데이터로 부터 얻은 것으로 가공된 자료&lt;/p&gt;
+
+&lt;p&gt;존재적 특성&lt;br /&gt;
+있는 그대로의 객관적 사실&lt;br /&gt;
+당위적 특성&lt;br /&gt;
+데이터는 추론, 예측, 전망, 추정을 위한 근거&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;데이터의-유형&quot;&gt;데이터의 유형&lt;/h2&gt;
+
+&lt;p&gt;정성적 데이터 (언어, 문자)&lt;br /&gt;
+집합으로 표현할 수 없는 기준이 명확하지 않은 데이터&lt;/p&gt;
+
+&lt;p&gt;정량적 데이터 (수치, 모형, 기호)&lt;br /&gt;
+집합으로 표현할 수 있는 기준이 명확한 데이터&lt;/p&gt;
+
+&lt;p&gt;정형 데이터 (CSV, 엑셀)&lt;br /&gt;
+고정된 틀을 가지고 있으며 연산이 가능한 데이터로 관계형 DB에 저장하며 수집과 관리가 용이&lt;/p&gt;
+
+&lt;p&gt;비정형 데이터 (소셜 데이터, 댓글, 음성, 영상)&lt;br /&gt;
+고정된 틀이 존재하지 않고 연산이 불가능&lt;br /&gt;
+관계형 DB가 아닌 NoSQL DB에 저장&lt;/p&gt;
+
+&lt;p&gt;반정형 데이터 (XML, JSON, 센서 데이터)&lt;br /&gt;
+고정된 형태는 있지만 연산이 불가능&lt;br /&gt;
+테이블 형태보다는 파일 형태로 저장하여 가공을 거쳐 정형 데이터로 변환 가능&lt;/p&gt;
+
+&lt;h4 id=&quot;암묵지와-형식지&quot;&gt;암묵지와 형식지&lt;/h4&gt;
+
+&lt;p&gt;암묵지&lt;br /&gt;
+학습과 체험을 통해 개인에게 습득되어 있지만 겉으로 드러나지 않는 상태의 지식&lt;/p&gt;
+
+&lt;p&gt;형식지&lt;br /&gt;
+암묵지를 여러 사람이 공유할 수 있게 형상화된 지식&lt;/p&gt;
+
+&lt;p&gt;개인에 내면화된 암묵지가 출화하고 이를 개인의 지식으로 연결화 되는 과정을 거치면 조직의 지식으로 공통화되어 형식지가 된다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;데이터와-정보&quot;&gt;데이터와 정보&lt;/h1&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;dikw-피라미드&quot;&gt;DIKW 피라미드&lt;/h2&gt;
+
+&lt;p&gt;데이터 (Data)&lt;br /&gt;
+개별 데이터 자체는 의미가 중요하지 않은 객관적 사실&lt;/p&gt;
+
+&lt;p&gt;정보 (Information)
+데이터의 가공, 처리와 데이터 간 연관 관계 속에서 의미 도출&lt;br /&gt;
+정보가 내포하는 의미는 유용하지 않을 수 있음&lt;/p&gt;
+
+&lt;p&gt;지식 (Knowledge)&lt;br /&gt;
+데이터를 통해 얻은 정보를 구조화하여 유의미한 정보를 분류하고 경험과 결합해 고유의 지식으로 내재화&lt;/p&gt;
+
+&lt;p&gt;지혜 (Wisdom)&lt;br /&gt;
+지식의 축적과 아이디어가 결합된 창의적 산물&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/54880474/139695220-4ec29b06-7b09-45fd-af9c-e101cc8a9df3.jpg&quot; alt=&quot;adsp_1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;데이터-단위&quot;&gt;데이터 단위&lt;/h2&gt;
+
+&lt;p&gt;비트&lt;br /&gt;
+‘0’과 ‘1’의 두 가지 값으로 신호를 나타내는 최소단위&lt;/p&gt;
+
+&lt;p&gt;바이트&lt;br /&gt;
+8개의 비트로 구성된 데이터의 양을 나타내는 단위&lt;br /&gt;
+숫자와 영어는 1바이트, 한글은 2바이트&lt;/p&gt;
+
+&lt;p&gt;킬로-메가-기가-테라-페타-엑사-제타-요타 (각 단위는 1024배)&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;데이터베이스-개요&quot;&gt;데이터베이스 개요&lt;/h1&gt;
+
+&lt;p&gt;DB&lt;br /&gt;
+체계적으로 수집, 축적하여 다양한 용도와 방법으로 이용할 수 있게 정리한 정보의 집합체&lt;/p&gt;
+
+&lt;p&gt;DBMS&lt;br /&gt;
+이용자가 쉽게 데이터베이스를 구축, 유지할 수 있게 하는 관리 소프트웨어&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;데이터베이스의-특징&quot;&gt;데이터베이스의 특징&lt;/h2&gt;
+
+&lt;p&gt;통합된 데이터&lt;br /&gt;
+동일한 내용의 데이터가 중복되어 있지 않다.&lt;/p&gt;
+
+&lt;p&gt;저장된 데이터&lt;br /&gt;
+컴퓨터가 매체에 접근할 수 있는 저장 매체에 저장되어 있다.&lt;/p&gt;
+
+&lt;p&gt;공용 데이터&lt;br /&gt;
+여러 사용자가 공유할 수 있다.&lt;/p&gt;
+
+&lt;p&gt;변화하는 데이터&lt;br /&gt;
+삽입, 수정, 삭제를 통해 항상 현재의 정확한 데이터를 유지해야 한다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;정보의 축적 및 전달 측면&lt;/p&gt;
+
+&lt;p&gt;기계의 가독성
+대량의 정보를 일정한 형식에 따라 정보처리기기가 읽고 쓸 수 있다.&lt;/p&gt;
+
+&lt;p&gt;검색 가능성&lt;br /&gt;
+다양한 방법으로 필요한 정보를 검색할 수 있다.&lt;/p&gt;
+
+&lt;p&gt;원격 조작성
+정보통신망을 통해 원거리에서도 즉시 온라인으로 이용 가능하다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;트랜잭션 특성&lt;br /&gt;
+트랜잭션이란 데이터 베이스에서 명령을 수행하는 하나의 논리적 기능 단위&lt;/p&gt;
+
+&lt;p&gt;원자성
+데이터베이스에 모두 적용되거나 모두 적용되지 않아야 한다&lt;/p&gt;
+
+&lt;p&gt;일관성&lt;br /&gt;
+트랜잭션의 결과는 항상 일관성을 띠어야 한다&lt;/p&gt;
+
+&lt;p&gt;고립성&lt;br /&gt;
+하나의 트랜잭션이 다른 트랜잭션에 영향을 주지 않아야 한다&lt;/p&gt;
+
+&lt;p&gt;지속성&lt;br /&gt;
+트랜잭션이 성공적으로 수행된 경우 그 결과는 영구적이어야 한다&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;데이터베이스-활용&quot;&gt;데이터베이스 활용&lt;/h2&gt;
+
+&lt;p&gt;기업 내부의 데이터베이스 활용&lt;br /&gt;
+인하우스 DB, OLTP, OLAP, CRM, SCM, ERP, BI, RTE 등이 있다.&lt;/p&gt;
+
+&lt;p&gt;사회 기반 구조 데이터베이스&lt;/p&gt;
+
+&lt;p&gt;물류 부문&lt;br /&gt;
+CALS, PORT-MIS, KROIS&lt;/p&gt;
+
+&lt;p&gt;지리부문&lt;br /&gt;
+GIS, LBS, SIM&lt;/p&gt;
+
+&lt;p&gt;교통부문&lt;br /&gt;
+ITS&lt;/p&gt;
+
+&lt;p&gt;의료부문&lt;br /&gt;
+PACS, U-Health&lt;/p&gt;
+
+&lt;p&gt;교육부문&lt;br /&gt;
+NEIS&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;데이터베이스의-종류&quot;&gt;데이터베이스의 종류&lt;/h2&gt;
+
+&lt;p&gt;관계형 데이터베이스&lt;br /&gt;
+데이터를 테이블에 저장되고 하나의 열은 하나의 속성을 나타내고 같은 속성 값만 가진다. 정형 데이터를 다루는 데 좋다.&lt;br /&gt;
+Oracle, MySQL, MS-SQL, SQLite&lt;/p&gt;
+
+&lt;p&gt;NoSQL&lt;br /&gt;
+비관계형을 의미하며 대용량의 데이터 분석 및 분산 처리에 용이하다.&lt;br /&gt;
+MongoDB, Dynamo, Bigtable&lt;/p&gt;
+
+&lt;h2 id=&quot;sql의-이해&quot;&gt;SQL의 이해&lt;/h2&gt;
+
+&lt;p&gt;SQL은 DBMS에서 데이터베이스에 내리는 명령이다.&lt;br /&gt;
+DB마다 문법이 다르지만 기본적인 데이터 추출과 분석에 사용되는 문법은 거의 동일하다.&lt;/p&gt;
+
+&lt;p&gt;데이터 정의 언어 (DDL)&lt;br /&gt;
+CREATE, ALERT, RENAME, DROP&lt;/p&gt;
+
+&lt;p&gt;데이터 조작 언어 (DML)&lt;br /&gt;
+SELECT, INSERT, UPDATE, DELETE&lt;/p&gt;
+
+&lt;p&gt;데이터 제어 언어 (DCL)&lt;br /&gt;
+GRANT, REVOKE&lt;/p&gt;
+
+&lt;p&gt;트랜잭션 제어 언어 (TCL)&lt;br /&gt;
+COMMIT, SAVEPOINT, ROLLBACK&lt;/p&gt;
+
+&lt;h2 id=&quot;데이터베이스-구성요소&quot;&gt;데이터베이스 구성요소&lt;/h2&gt;
+
+&lt;p&gt;인스턴스&lt;br /&gt;
+하나의 객체를 의미 (홍길동, 남자,000-0000-0000)&lt;/p&gt;
+
+&lt;p&gt;속성&lt;br /&gt;
+객체를 표현하기 위해 사용되는 값 (이름, 성별, 주민번호)&lt;/p&gt;
+
+&lt;p&gt;엔터티&lt;br /&gt;
+데이터의 집합, 테이블과 달리 개념적인 존재&lt;/p&gt;
+
+&lt;p&gt;메타데이터&lt;br /&gt;
+데이터를 설명하는 데이터&lt;/p&gt;
+
+&lt;p&gt;인덱스&lt;br /&gt;
+데이터베이스에 저장할 때 지정되는 데이터의 이름&lt;/p&gt;</content><author><name>주건나</name></author><category term="license" /><summary type="html">ADSP 관련 글 ADSP (1) 데이터의 이해 ADSP (2) 데이터의 가치와 미래 ADSP (3) 데이터 분석 기회의 이해 ADSP (4) 분석 마스터플랜</summary></entry><entry><title type="html">머신러닝 정리 (4) 비지도학습 (2)</title><link href="https://keonju2.github.io/study-ML4" rel="alternate" type="text/html" title="머신러닝 정리 (4) 비지도학습 (2)" /><published>2021-10-31T10:00:00+09:00</published><updated>2021-10-31T10:00:00+09:00</updated><id>https://keonju2.github.io/study-ML4</id><content type="html" xml:base="https://keonju2.github.io/study-ML4">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;머신러닝 공부 관련 글&lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./study-ML1&quot;&gt;머신러닝 정리 (1)-지도학습 (1)&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./study-ML2&quot;&gt;머신러닝 정리 (2)-지도학습 (2)&lt;/a&gt;&lt;/li&gt;
@@ -7230,365 +7672,4 @@ yes
 301
 4 1 8
 402 ```
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>주건나</name></author><category term="programming" /><summary type="html">백준 관련 글 백준 (1) (2557, 8958, 1000, 1001, 1008, 2935, 2753, 2884, 5063, 4101) 백준 (2) (1018, 1085, 1181, 1259, 1436, 1654, 1874, 1920) 백준 (3) 문자열 알고리즘(11720, 8958, 1152, 10809, 1157, 9012, 11718) 백준 (4) (1157, 1546, 2577, 2675, 2908, 1018, 1436, 1259, 7568, 10250) 백준 (5) 정렬 알고리즘(2750,11399,2751,1427, 10989,1181,11650) 백준 (6) (3085, 2563, 4673, 5635, 11170) 백준 (7) 스택 알고리즘(10828,10773,1874,10799, 4949,1406,2493)</summary></entry><entry><title type="html">백준 (3) 문자열 알고리즘 (11720, 8958, 1152, 10809, 1157, 9012, 11718)</title><link href="https://keonju2.github.io/programming-baekjoon3" rel="alternate" type="text/html" title="백준 (3) 문자열 알고리즘 (11720, 8958, 1152, 10809, 1157, 9012, 11718)" /><published>2021-09-30T10:00:00+09:00</published><updated>2021-09-30T10:00:00+09:00</updated><id>https://keonju2.github.io/programming-baekjoon3</id><content type="html" xml:base="https://keonju2.github.io/programming-baekjoon3">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;백준 관련 글&lt;/span&gt;&lt;/p&gt;
-&lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./programming-baekjoon1&quot;&gt;백준 (1) (2557, 8958, 1000, 1001, 1008, 2935, 2753, 2884, 5063, 4101)&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./programming-baekjoon2&quot;&gt;백준 (2) (1018, 1085, 1181, 1259, 1436, 1654, 1874, 1920)&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./programming-baekjoon3&quot;&gt;백준 (3) 문자열 알고리즘(11720, 8958, 1152, 10809, 1157, 9012, 11718)&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./programming-baekjoon4&quot;&gt;백준 (4) (1157, 1546, 2577, 2675, 2908, 1018, 1436, 1259, 7568, 10250)&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./programming-baekjoon5&quot;&gt;백준 (5) 정렬 알고리즘(2750,11399,2751,1427, 10989,1181,11650)&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./programming-baekjoon6&quot;&gt;백준 (6) (3085, 2563, 4673, 5635, 11170)&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./programming-baekjoon7&quot;&gt;백준 (7) 스택 알고리즘(10828,10773,1874,10799, 4949,1406,2493)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;문자열에-관련된-7문항을-풀어보았다&quot;&gt;문자열에 관련된 7문항을 풀어보았다.&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.acmicpc.net/problemset?sort=ac_desc&amp;amp;algo=158&quot;&gt;https://www.acmicpc.net/problemset?sort=ac_desc&amp;amp;algo=158&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;11720번-숫자의-합&quot;&gt;11720번 숫자의 합&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.acmicpc.net/problem/11720&quot;&gt;https://www.acmicpc.net/problem/11720&lt;/a&gt;&lt;/p&gt;
-
-&lt;h6 id=&quot;공백없는-숫자들의-합구하기&quot;&gt;공백없는 숫자들의 합구하기&lt;/h6&gt;
-
-&lt;p&gt;방법 1. for문을 이용해서 풀기&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;m&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;5
-54321
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;range를 이용한 풀이 방법&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;result&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;result&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;m&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;result&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;result&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;15
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;m을 읽어가면서 더해주는 방법&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;result&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;m&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;result&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;result&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;result&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;15
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;방법 1. sum과 map을 이용해서 풀기&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;sum&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;map&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())))&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;54321
-15
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;8958-번-ox퀴즈&quot;&gt;8958 번 OX퀴즈&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.acmicpc.net/problem/8958&quot;&gt;https://www.acmicpc.net/problem/8958&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;for문을 이용하여 입력받을 ox의 개수를 입력받고 for문 중첩을 이용하여 ox의 길이를 파악하고 if문으로 ox 여부를 확인하였다.
-ox의 연속성에 따른 점수변화를 num_score로 두고 total_score을 num_score의 합으로 설정하였다.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;num&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;num&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;ox&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;total_score&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;num_score&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ox&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)):&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ox&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;O&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;is&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-            &lt;span class=&quot;n&quot;&gt;num_score&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;num_score&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-            &lt;span class=&quot;n&quot;&gt;num_score&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;total_score&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;total_score&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;num_score&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;total_score&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;5
-OOXXOXXOOO
-10
-OOXXOOXXOO
-9
-OXOXOXOXOXOXOX
-7
-OOOOOOOOOO
-55
-OOOOXOOOOXOOOOX
-30
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;1152번-단어의-개수&quot;&gt;1152번 단어의 개수&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.acmicpc.net/problem/1152&quot;&gt;https://www.acmicpc.net/problem/1152&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;단어의 개수=공백의 위치마다 구분해줘서 입력받았다.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;sentence&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;map&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;().&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;split&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()))&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sentence&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;The Curious Case of Benjamin Button
-6
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;10809번-알파벳찾기&quot;&gt;10809번 알파벳찾기&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.acmicpc.net/problem/10809&quot;&gt;https://www.acmicpc.net/problem/10809&lt;/a&gt;&lt;/p&gt;
-
-&lt;h6 id=&quot;for문과-알파벳-list-선언&quot;&gt;for문과 알파벳 list 선언&lt;/h6&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;map&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()))&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;alpha&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;abcdefghijklmnopqrstuvwxyz&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;array&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;alpha&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))]&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)):&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;alpha&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;index&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;==-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;alpha&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;index&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;j&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;end&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos; &apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;baekjoon
-1 0 -1 -1 2 -1 -1 -1 -1 4 3 -1 -1 7 5 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h6 id=&quot;아스키코드-이용&quot;&gt;아스키코드 이용&lt;/h6&gt;
-&lt;p&gt;알파벳의 아스키코드는 (97,123)이다.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;alpha&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;97&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;123&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;alpha&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;find&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;chr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)),&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;end&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos; &apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;baekjoon
-1 0 -1 -1 2 -1 -1 -1 -1 4 3 -1 -1 7 5 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;1157번-단어-공부&quot;&gt;1157번 단어 공부&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.acmicpc.net/problem/1157&quot;&gt;https://www.acmicpc.net/problem/1157&lt;/a&gt;&lt;br /&gt;
-upper을 이용한 대문자 받기&lt;br /&gt;
-count로 dictionary형태로 word 개수 세기
-개수가 중복되는 단어들이 있으므로 max_list에서 따로 추출하기
-조건에 맞게 최댓값이 하나면 알파벳을, 아니면 물음표를 출력하기&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;word&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;().&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;upper&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;count&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{}&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;word&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;not&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;count&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;count&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;count&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;max_list&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;j&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;k&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;count&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;items&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;max&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;count&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;values&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;k&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;max_list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;max_list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;?&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Mississipi
-?
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;9012번-괄호&quot;&gt;9012번 괄호&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.acmicpc.net/problem/9012&quot;&gt;https://www.acmicpc.net/problem/9012&lt;/a&gt; &lt;br /&gt;
-while문을 통해 ‘()’가 vps에 존재한다면 계속 replace를 통해 제거해주었다.
-만약 VPS 문장이었다면 문자열에 아무것도 남지않고 VPS 문장이 아니라면 어떤 문자라도 남았을 것이다.&lt;br /&gt;
-따라서 결과물의 길이로 YES와 NO를 구분지어줬다.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;num&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;num&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;vps&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&apos;()&apos;&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;vps&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;vps&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;vps&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;replace&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;()&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;vps&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;YES&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;NO&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;6
-(())())
-NO
-(((()())()
-NO
-(()())((()))
-YES
-((()()(()))(((())))()
-NO
-()()()()(()()())()
-YES
-(()((())()(
-NO
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;11718번-그대로-출력하기&quot;&gt;11718번 그대로 출력하기&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.acmicpc.net/problem/11718&quot;&gt;https://www.acmicpc.net/problem/11718&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;while True로 반복문을 만들어주고 try~except문으로 오류가 발생했을때는 멈출수 있게 해준다.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;try&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;except&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;break&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Online Judge
-Online Judge
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>주건나</name></author><category term="programming" /><summary type="html">백준 관련 글 백준 (1) (2557, 8958, 1000, 1001, 1008, 2935, 2753, 2884, 5063, 4101) 백준 (2) (1018, 1085, 1181, 1259, 1436, 1654, 1874, 1920) 백준 (3) 문자열 알고리즘(11720, 8958, 1152, 10809, 1157, 9012, 11718) 백준 (4) (1157, 1546, 2577, 2675, 2908, 1018, 1436, 1259, 7568, 10250) 백준 (5) 정렬 알고리즘(2750,11399,2751,1427, 10989,1181,11650) 백준 (6) (3085, 2563, 4673, 5635, 11170) 백준 (7) 스택 알고리즘(10828,10773,1874,10799, 4949,1406,2493)</summary></entry><entry><title type="html">머신러닝 정리 (1) 지도학습 (1)</title><link href="https://keonju2.github.io/study-ML1" rel="alternate" type="text/html" title="머신러닝 정리 (1) 지도학습 (1)" /><published>2021-09-27T10:00:00+09:00</published><updated>2021-09-27T10:00:00+09:00</updated><id>https://keonju2.github.io/study-ML1</id><content type="html" xml:base="https://keonju2.github.io/study-ML1">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;머신러닝 공부 관련 글&lt;/span&gt;&lt;/p&gt;
-&lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./study-ML1&quot;&gt;머신러닝 정리 (1)-지도학습 (1)&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./study-ML2&quot;&gt;머신러닝 정리 (2)-지도학습 (2)&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./study-ML3&quot;&gt;머신러닝 정리 (3)-비지도학습 (1)&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./study-ML4&quot;&gt;머신러닝 정리 (4)-비지도학습 (2)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;머신러닝-정리-1---지도학습-1&quot;&gt;머신러닝 정리 (1) - 지도학습 (1)&lt;/h1&gt;
-&lt;p&gt;본 문서는 [파이썬 라이브러리를 활용한 머신러닝] 책을 공부하면서 요약한 내용입니다.&lt;br /&gt;
-또 데이터 청년 캠퍼스 수업과 학교 수업에서 배운 내용들도 함께 정리했습니다.&lt;br /&gt;
-글의 순서는 [파이썬 라이브러리를 활용한 머신러닝]에 따라 진행됩니다.&lt;br /&gt;
-코드는 밑에 링크에 공개되어있기 때문에 올리지않습니다.&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;소스 코드: &lt;a href=&quot;https://github.com/rickiepark/introduction_to_ml_with_python&quot;&gt;https://github.com/rickiepark/introduction_to_ml_with_python&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;지도학습-1&quot;&gt;지도학습 (1)&lt;/h2&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;분류와 회귀&lt;/li&gt;
-  &lt;li&gt;일반화, 과대적합, 과소적합
-    &lt;ol&gt;
-      &lt;li&gt;모델복잡도와 데이터셋 크기의 관계&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;지도 학습 알고리즘
-    &lt;ol&gt;
-      &lt;li&gt;예제에 사용할 데이터셋&lt;/li&gt;
-      &lt;li&gt;k-nn 모델&lt;/li&gt;
-      &lt;li&gt;선형 모델&lt;/li&gt;
-      &lt;li&gt;Naive Bayes 분류기&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;분류와-회귀&quot;&gt;분류와 회귀&lt;/h3&gt;
-
-&lt;p&gt;분류란? 미리 정의된 가능성 있는 여러 클래스 레이블 중 하나를 예측하는 것이다.&lt;br /&gt;
-이진 분류: 예, 아니오로 구분할 수 있다. ex) 이 이메일은 스팸인가요?&lt;br /&gt;
-다중 분류: 셋 이상의 클래스로 분류된다. ex) 붓꽃 데이터&lt;/p&gt;
-
-&lt;p&gt;회귀란? 부동소수점수(수학으로 말하면 실수)를 예측하는 것이다.&lt;br /&gt;
-어떤 사람의 여러 조건들을 통해 연간 소득을 예측하는 것과 같은 문제이다.&lt;/p&gt;
-
-&lt;p&gt;출력 값에 연속성이 있다면 회귀 문제 없다면 분류 문제이다.&lt;/p&gt;
-
-&lt;h3 id=&quot;일반화-과대적합-과소적합&quot;&gt;일반화, 과대적합, 과소적합&lt;/h3&gt;
-
-&lt;p&gt;모델이 처음 보는 데이터에 대해 정확히 예측할 수 있다면 훈련 세트(train_set)에서 테스트 세트(test_set)으로 일반화되었다고 한다.&lt;br /&gt;
-훈련 세트에 대해서 정확히 예측하고 테스트 세트에서도 정확히 예측하길 바란다.&lt;br /&gt;
-하지만 모델이 복잡하다면 훈련 세트에서만 정확한 모델이 될 수 있다.&lt;br /&gt;
-예를 들어 “내 주변 20대가 모두 아이폰을 쓰기 때문에 다른 20대도 모두 아이폰을 살 것이다.”라는 예측을 한다면 훈련 세트가 내 주변 20대가 될 것이고 테스트 세트가 다른 모든 20대가 될 것이다.&lt;br /&gt;
-이처럼 알고리즘이 새로운 데이터를 잘 처리하는지 측정하는 방법은 테스트 세트로 평가를 해야한다.&lt;br /&gt;
-이 때, 너무 복잡한 모델을 만들어 훈련 세트에 집중되어 테스트 세트에 일반화가 부족하다면 과대적합(overfitting)이라 한다.&lt;br /&gt;
-반대로 너무 간단한 모델이라 훈련 세트에도 잘 맞지 않다면 과소적합(underfitting)이라 한다.&lt;/p&gt;
-
-&lt;h5 id=&quot;모델복잡도와-데이터셋-크기의-관계&quot;&gt;모델복잡도와 데이터셋 크기의 관계&lt;/h5&gt;
-
-&lt;p&gt;모델의 복잡도는 훈련 데이터 셋에 담긴 입력 데이터의 다양성과 관련이 있다.&lt;br /&gt;
-데이터셋에 데이터 포인트가 다양하면 과대적합 없이 복잡한 모델을 만들 수 있다.&lt;br /&gt;
-따라서 중복이거나 비슷한 데이터를 모으는 것은 도움이 되지않는다.&lt;br /&gt;
-위의 예를 생각해보면 내 주변 20대라는 특징말고 대학 동기, 친구라는 데이터를 얻더라도 모두 20대라는 범주안에 들어갈테니 불필요한 데이터라 할 수 있다.&lt;br /&gt;
-따라서 좋은 데이터를 많이 얻는 것이 좋다.&lt;/p&gt;
-
-&lt;h3 id=&quot;지도-학습-알고리즘&quot;&gt;지도 학습 알고리즘&lt;/h3&gt;
-
-&lt;p&gt;각 모델의 장단점과 어떤 데이터와 어울리는지, 매개변수와 옵션의 의미를 알아보도록 하자.&lt;br /&gt;
-scikit-learn 문서를 참고하면 더 자세한 정보를 얻을 수 있다.&lt;/p&gt;
-
-&lt;h5 id=&quot;예제에-사용할-데이터셋&quot;&gt;예제에 사용할 데이터셋&lt;/h5&gt;
-
-&lt;p&gt;forge 데이터셋은 인위적으로 만든 이진 분류 데이터셋이다.&lt;/p&gt;
-
-&lt;h5 id=&quot;k-nn-모델&quot;&gt;k-NN 모델&lt;/h5&gt;
-
-&lt;p&gt;k-NN 모델은 단순히 데이터셋을 분류하는 것이다.&lt;br /&gt;
-k개의 레이블 중에서 어느 쪽에 더 가까운 것인지 투표를 하여 결정한다고 생각하면 이해하기 편하다.&lt;br /&gt;
-k=1일 때는 가장 가까운 것이 빨간색이었다면, k=3일 때는 파란색 두 개와 빨간색 한 개가 가까울 수도 있다.&lt;br /&gt;
-그렇게 된다면 k=3일 때는 파란색으로 분류가 된다.&lt;/p&gt;
-
-&lt;p&gt;KNeighborClassifier(n_neighbors)을 통해 분류 모델을 만들 수 있다.&lt;br /&gt;
-이를 통해 확인할 수 있는 것은 k의 값이 커질수록 보다 단순한 모델이 만들어질 수 있다는 것이다.&lt;br /&gt;
-하지만 반드시 k가 커진다고 좋은 모델은 아니다. 정확도가 낮아질 수 있기 때문이다.&lt;/p&gt;
-
-&lt;p&gt;KNeighborsRegressor(n_neighbors)을 통해 회귀 모델 또한 만들 수 있다.&lt;br /&gt;
-회귀 모델에서도 k를 너무 적게 쓴다면 모든 데이터를 지나가고 불안정한 모델이 만들어진다.&lt;/p&gt;
-
-&lt;h6 id=&quot;장단점과-매개변수&quot;&gt;장단점과 매개변수&lt;/h6&gt;
-&lt;p&gt;가장 중요한 매개변수는 거리를 재는 방법과 k값이다.&lt;br /&gt;
-보통 거리를 재는 방법은 유클리디안 거리 방식을 사용한다.&lt;br /&gt;
-장점은 이해하기가 쉬운 모델이고 조정을 많이 하지않아도 좋은 성능을 발휘할 수 있다는 것이다.&lt;br /&gt;
-단점은 훈련 세트가 크면 예측이 느려지고 전처리 과정이 중요하다는 것이다.&lt;br /&gt;
-데이터가 특성이 많거나 대부분이 0인 데이터셋에서는 잘 작동하지 않는다.&lt;/p&gt;
-
-&lt;h5 id=&quot;선형-모델&quot;&gt;선형 모델&lt;/h5&gt;
-
-&lt;p&gt;선형 모델은 $y=w[0]*x[0]+b$와 같은 모델을 갖는 예측 함수이다.&lt;br /&gt;
-y는 예측값, w와 b는 모델이 학습할 파라미터, x는 데이터의 특성이다. 위 식은 특성이 하나인 데이터 셋의 선형 함수이다.&lt;/p&gt;
-
-&lt;h6 id=&quot;선형-회귀최소제곱법&quot;&gt;선형 회귀(최소제곱법)&lt;/h6&gt;
-&lt;p&gt;선형 회귀는 예측과 훈련 세트에 있는 타깃 사이의 평균제곱오차(MSE)를 최소화하는 파라미터를 찾는 것이다.&lt;br /&gt;
-평균제곱오차는 예측값과 타깃값의 차이를 제곱하여 더한 후에 샘플의 개수로 나눈 것이다.&lt;br /&gt;
-매개변수가 없는 것이 장점이지만 복잡도를 제어할 방법도 없다.&lt;br /&gt;
-LinearRegression()&lt;/p&gt;
-
-&lt;h6 id=&quot;리지-회귀&quot;&gt;리지 회귀&lt;/h6&gt;
-&lt;p&gt;리지 회귀도 예측 함수를 사용하지만 가중치의 절댓값을 가능한 작게 만드는 목적을 갖는다.&lt;br /&gt;
-이런 제약을 규제라고 하며 L2 규제라고 한다.&lt;br /&gt;
-리지는 덜 자유로운 모델이라 과대적합이 적다. 따라서 일반화에 도움이 된다.&lt;br /&gt;
-Ridge(alpha)&lt;/p&gt;
-
-&lt;h6 id=&quot;라소&quot;&gt;라소&lt;/h6&gt;
-&lt;p&gt;리지의 대안으로 라소가 있다. L1 규제라고도 하며 완전히 제외하는 특성이 생긴다.&lt;br /&gt;
-일부 계수가 0이 되고 모델을 이해하기 쉬워지며 중요한 특성을 찾기 쉽ㄴ다.&lt;br /&gt;
-max_itter을 조절하여 과소적합을 줄인다.&lt;br /&gt;
-Lasso(alpha, max_itter())&lt;/p&gt;
-
-&lt;h6 id=&quot;분류용-선형-모델&quot;&gt;분류용 선형 모델&lt;/h6&gt;
-&lt;p&gt;이진 분류의 경우 선형 회귀와 비슷하지만 가중치 합을 그냥 사용하는 대신 예측값을 임계치 0과 비교한다.&lt;br /&gt;
-0보다 작으면 -1, 크면 1이라고 예측한다. 결정 경계를 선형 함수로 잡는다.&lt;br /&gt;
-LogisticRegression과 LinearSVC가 잘 알려져있는데 규제의 강도를 결정하는 매개변수 C를 주의해야한다.&lt;br /&gt;
-C가 높으면 훈련 세트에 최대로 맞추려 노력하고 낮추면 계수 벡터(w)가 0에 가까워지도록 만든다.&lt;br /&gt;
-로지스틱 회귀분석을 제외하면 다중 클래스를 대부분 지원하지 않는다.&lt;/p&gt;
-
-&lt;h6 id=&quot;장단점과-매개변수-1&quot;&gt;장단점과 매개변수&lt;/h6&gt;
-&lt;p&gt;회귀 모델에서는 alpha, LinearSVC와 LogisticRegression에서는 C가 중요하다.&lt;br /&gt;
-alpha가 클수록, C가 작을수록 모델이 단순해진다. 로그 스케일로 최적치를 정한다.&lt;br /&gt;
-L1, L2를 결정하는 것도 정해야한다. 중요한 특성이 적으면 L1, 그렇지 않으면 L2를 이용한다.&lt;br /&gt;
-선형 모델은 학습 속도와 예측 속도가 빠르다. solver=’sag’ 옵션을 이용하면 더 빨리 처리할 수 있다.&lt;br /&gt;
-아니면 SGDClassifier과 SGDRegressor을 이용할 수도 있다.&lt;br /&gt;
-또한 선형 모델은 예측이 어떻게 만들어지는지 비교적 이해하기 쉽다. 하지만 계수의 값이 명확하지가 않다.&lt;/p&gt;
-
-&lt;h5 id=&quot;naive-bayes-분류기&quot;&gt;Naive Bayes 분류기&lt;/h5&gt;
-
-&lt;p&gt;나이브 베이즈 분류기는 선형 분류기보다 훈련 속도가 빠르지만 일반화 성능이 뒤쳐진다.&lt;br /&gt;
-개별적으로 파라미터를 학습하고 특성에서 클래스별 통계를 단순하게 취합한다.&lt;br /&gt;
-GaussianNB, BernoulliNB, MultinomialNB를 scikit-learn에서 구현되어있다.&lt;br /&gt;
-GaussianNB는 연속적인, BernoulliNB는 이진 데이터를, MultinomialNB는 카운트 데이터를 적용한다.&lt;br /&gt;
-BernoulliNB는 클래스의 특성중 0이 아닌 것이 몇 개인지 센다.&lt;br /&gt;
-MultinomialNB는 클래스별 특성의 평균을, GaussianNB는 클래스별로 각 특성의 표준편차와 평균을 저장한다.&lt;br /&gt;
-MultinomialNB와 GaussianNB는 선형 모델과 예측 공식이 갖지만 coef_는 기울기 w가 아니라 의미는 다르다.&lt;/p&gt;
-
-&lt;h6 id=&quot;장단점과-매개변수-2&quot;&gt;장단점과 매개변수&lt;/h6&gt;
-&lt;p&gt;MultinomialNB와 BernoulliNB는 모델 복잡도를 조절하는 alpha변수가 하나이다.&lt;br /&gt;
-alpha가 주어지면 알고리즘이 모든 특성에 양의 값을 가진 데이터 포인트를 alpha 개수만큼 추가한다.&lt;br /&gt;
-alpha가 크면 더 완만하고 덜 복잡한 모델이 나오지만 성능 변동은 비교적 크지 않다.&lt;br /&gt;
-GaussianNB는 고차원 데이터 셋을 사용한다. 다른 모델은 데이터를 카운트하는 데 사용된다.&lt;/p&gt;</content><author><name>주건나</name></author><category term="study" /><summary type="html">머신러닝 공부 관련 글 머신러닝 정리 (1)-지도학습 (1) 머신러닝 정리 (2)-지도학습 (2) 머신러닝 정리 (3)-비지도학습 (1) 머신러닝 정리 (4)-비지도학습 (2)</summary></entry></feed>
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>주건나</name></author><category term="programming" /><summary type="html">백준 관련 글 백준 (1) (2557, 8958, 1000, 1001, 1008, 2935, 2753, 2884, 5063, 4101) 백준 (2) (1018, 1085, 1181, 1259, 1436, 1654, 1874, 1920) 백준 (3) 문자열 알고리즘(11720, 8958, 1152, 10809, 1157, 9012, 11718) 백준 (4) (1157, 1546, 2577, 2675, 2908, 1018, 1436, 1259, 7568, 10250) 백준 (5) 정렬 알고리즘(2750,11399,2751,1427, 10989,1181,11650) 백준 (6) (3085, 2563, 4673, 5635, 11170) 백준 (7) 스택 알고리즘(10828,10773,1874,10799, 4949,1406,2493)</summary></entry></feed>

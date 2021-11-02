@@ -4,6 +4,38 @@
         xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
     <url>
+        <loc>https://keonju2.github.io/license-adsp2.html</loc>
+        
+        <lastmod>2021-11-02T08:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>https://keonju2.github.io/license-adsp1.html</loc>
+        
+        <lastmod>2021-11-02T07:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
         <loc>https://keonju2.github.io/study-ML4.html</loc>
         
         <lastmod>2021-10-31T10:00:00+09:00</lastmod>
