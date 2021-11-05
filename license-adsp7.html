@@ -11,7 +11,7 @@
 
 
 
-    <title>머신러닝 정리 (1) <br> 지도학습 (1)</title>
+    <title>ADSP (7) 통계 분석(2)</title>
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Styles'n'Scripts -->
@@ -49,30 +49,30 @@
     <!-- This tag outputs SEO meta+structured data and other important settings -->
     <meta name="description" content="데이터 사이언티스트를 꿈꾸는 블로그입니다." />
     <link rel="shortcut icon" href="https://keonju2.github.io/assets/built/images/favicon.jpg" type="image/png" />
-    <link rel="canonical" href="https://keonju2.github.io/study-ML1" />
+    <link rel="canonical" href="https://keonju2.github.io/license-adsp7" />
     <meta name="referrer" content="no-referrer-when-downgrade" />
 
      <!--title below is coming from _includes/dynamic_title-->
     <meta property="og:site_name" content="주건나's Blog" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="머신러닝 정리 (1) <br> 지도학습 (1)" />
-    <meta property="og:description" content="머신러닝 공부 관련 글 머신러닝 정리 (1)-지도학습 (1) 머신러닝 정리 (2)-지도학습 (2) 머신러닝 정리 (3)-비지도학습 (1) 머신러닝 정리 (4)-비지도학습 (2) 머신러닝 정리 (1) - 지도학습 (1) 본 문서는 [파이썬 라이브러리를 활용한 머신러닝] 책을 공부하면서 요약한 내용입니다. 또 데이터 청년 캠퍼스 수업과 학교 수업에서 배운 내용들도 함께 정리했습니다. 글의 순서는 [파이썬" />
-    <meta property="og:url" content="https://keonju2.github.io/study-ML1" />
-    <meta property="og:image" content="https://keonju2.github.io/assets/built/images/ML.png" />
+    <meta property="og:title" content="ADSP (7) 통계 분석(2)" />
+    <meta property="og:description" content="ADSP 관련 글 ADSP (1) 데이터의 이해 ADSP (2) 데이터의 가치와 미래 ADSP (3) 데이터 분석 기회의 이해 ADSP (4) 분석 마스터플랜 ADSP (5) R 기초와 데이터 마트 ADSP (6) 통계 분석 ADSP (7) 정형 데이터 마이닝 ADSP를 준비하면서 공부한 내용을 정리한 글입니다. 3과목 2장 통계분석에 대한 부분을 정리한 글입니다." />
+    <meta property="og:url" content="https://keonju2.github.io/license-adsp7" />
+    <meta property="og:image" content="https://keonju2.github.io/assets/built/images/adsp-logo.jpg" />
     <meta property="article:publisher" content="https://www.facebook.com/monkeykeonju" />
     <meta property="article:author" content="https://www.facebook.com/monkeykeonju" />
-    <meta property="article:published_time" content="2021-09-27T10:00:00+09:00" />
-    <meta property="article:modified_time" content="2021-09-27T10:00:00+09:00" />
-    <meta property="article:tag" content="Study" />
+    <meta property="article:published_time" content="2021-11-05T07:00:00+09:00" />
+    <meta property="article:modified_time" content="2021-11-05T07:00:00+09:00" />
+    <meta property="article:tag" content="License" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="머신러닝 정리 (1) <br> 지도학습 (1)" />
-    <meta name="twitter:description" content="머신러닝 공부 관련 글 머신러닝 정리 (1)-지도학습 (1) 머신러닝 정리 (2)-지도학습 (2) 머신러닝 정리 (3)-비지도학습 (1) 머신러닝 정리 (4)-비지도학습 (2) 머신러닝 정리 (1) - 지도학습 (1) 본 문서는 [파이썬 라이브러리를 활용한 머신러닝] 책을 공부하면서 요약한 내용입니다. 또 데이터 청년 캠퍼스 수업과 학교 수업에서 배운 내용들도 함께 정리했습니다. 글의 순서는 [파이썬" />
+    <meta name="twitter:title" content="ADSP (7) 통계 분석(2)" />
+    <meta name="twitter:description" content="ADSP 관련 글 ADSP (1) 데이터의 이해 ADSP (2) 데이터의 가치와 미래 ADSP (3) 데이터 분석 기회의 이해 ADSP (4) 분석 마스터플랜 ADSP (5) R 기초와 데이터 마트 ADSP (6) 통계 분석 ADSP (7) 정형 데이터 마이닝 ADSP를 준비하면서 공부한 내용을 정리한 글입니다. 3과목 2장 통계분석에 대한 부분을 정리한 글입니다." />
     <meta name="twitter:url" content="https://keonju2.github.io/" />
-    <meta name="twitter:image" content="https://keonju2.github.io/assets/built/images/ML.png" />
+    <meta name="twitter:image" content="https://keonju2.github.io/assets/built/images/adsp-logo.jpg" />
     <meta name="twitter:label1" content="Written by" />
     <meta name="twitter:data1" content="주건나's Blog" />
     <meta name="twitter:label2" content="Filed under" />
-    <meta name="twitter:data2" content="Study" />
+    <meta name="twitter:data2" content="License" />
     <meta name="twitter:site" content="@" />
     <meta name="twitter:creator" content="@" />
     <meta property="og:image:width" content="1400" />
@@ -87,18 +87,18 @@
         "name": "주건나's Blog",
         "logo": "https://keonju2.github.io/"
     },
-    "url": "https://keonju2.github.io/study-ML1",
+    "url": "https://keonju2.github.io/license-adsp7",
     "image": {
         "@type": "ImageObject",
-        "url": "https://keonju2.github.io/assets/built/images/ML.png",
+        "url": "https://keonju2.github.io/assets/built/images/adsp-logo.jpg",
         "width": 2000,
         "height": 666
     },
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://keonju2.github.io/study-ML1"
+        "@id": "https://keonju2.github.io/license-adsp7"
     },
-    "description": "머신러닝 공부 관련 글 머신러닝 정리 (1)-지도학습 (1) 머신러닝 정리 (2)-지도학습 (2) 머신러닝 정리 (3)-비지도학습 (1) 머신러닝 정리 (4)-비지도학습 (2) 머신러닝 정리 (1) - 지도학습 (1) 본 문서는 [파이썬 라이브러리를 활용한 머신러닝] 책을 공부하면서 요약한 내용입니다. 또 데이터 청년 캠퍼스 수업과 학교 수업에서 배운 내용들도 함께 정리했습니다. 글의 순서는 [파이썬"
+    "description": "ADSP 관련 글 ADSP (1) 데이터의 이해 ADSP (2) 데이터의 가치와 미래 ADSP (3) 데이터 분석 기회의 이해 ADSP (4) 분석 마스터플랜 ADSP (5) R 기초와 데이터 마트 ADSP (6) 통계 분석 ADSP (7) 정형 데이터 마이닝 ADSP를 준비하면서 공부한 내용을 정리한 글입니다. 3과목 2장 통계분석에 대한 부분을 정리한 글입니다."
 }
     </script>
 
@@ -111,7 +111,7 @@
     </script> -->
 
     <meta name="generator" content="Jekyll 3.6.2" />
-    <link rel="alternate" type="application/rss+xml" title="머신러닝 정리 (1) <br> 지도학습 (1)" href="/feed.xml" />
+    <link rel="alternate" type="application/rss+xml" title="ADSP (7) 통계 분석(2)" href="/feed.xml" />
 
 
 </head>
@@ -179,177 +179,43 @@ into the {body} of the default.hbs template -->
             <script type="text/javascript" src="http://cdn.mathjax.org/math...">
             </script>
         
-        <article class="post-full  tag-study post tag-ML ">
+        <article class="post-full  tag-license post tag-license ">
 
             <header class="post-full-header">
                 <section class="post-full-meta">
-                    <time class="post-full-meta-date" datetime="27 September 2021">27 September 2021</time>
+                    <time class="post-full-meta-date" datetime=" 5 November 2021"> 5 November 2021</time>
                     
                         <span class="date-divider">/</span>
                         
                             
-                               <a href='/tag/study/'>STUDY</a>
+                               <a href='/tag/license/'>LICENSE</a>
                             
                         
                     
                 </section>
-                <h1 class="post-full-title">머신러닝 정리 (1) <br> 지도학습 (1)</h1>
+                <h1 class="post-full-title">ADSP (7) 통계 분석(2)</h1>
             </header>
             <!--
             
-            <figure class="post-full-image" style="background-image: url(/assets/built/images/ML.png)">
+            <figure class="post-full-image" style="background-image: url(/assets/built/images/adsp-logo.jpg)">
             </figure>
             
              -->
             <section class="post-full-content">
                 <div class="kg-card-markdown">
-                    <p><span class="table-of-contents-list">머신러닝 공부 관련 글</span></p>
+                    <p><span class="table-of-contents-list">ADSP 관련 글</span></p>
 <ul class="table-of-contents-list">
-    <li><a href="./study-ML1">머신러닝 정리 (1)-지도학습 (1)</a></li>
-    <li><a href="./study-ML2">머신러닝 정리 (2)-지도학습 (2)</a></li>
-    <li><a href="./study-ML3">머신러닝 정리 (3)-비지도학습 (1)</a></li>
-    <li><a href="./study-ML4">머신러닝 정리 (4)-비지도학습 (2)</a></li>
+    <li><a href="./license-adsp1">ADSP (1) 데이터의 이해</a></li>
+    <li><a href="./license-adsp2">ADSP (2) 데이터의 가치와 미래</a></li>
+    <li><a href="./license-adsp3">ADSP (3) 데이터 분석 기회의 이해</a></li>
+    <li><a href="./license-adsp4">ADSP (4) 분석 마스터플랜</a></li>
+    <li><a href="./license-adsp5">ADSP (5) R 기초와 데이터 마트</a></li>
+    <li><a href="./license-adsp6">ADSP (6) 통계 분석</a></li>
+    <li><a href="./license-adsp7">ADSP (7) 정형 데이터 마이닝</a></li>
 </ul>
 
-<h1 id="머신러닝-정리-1---지도학습-1">머신러닝 정리 (1) - 지도학습 (1)</h1>
-<p>본 문서는 [파이썬 라이브러리를 활용한 머신러닝] 책을 공부하면서 요약한 내용입니다.<br />
-또 데이터 청년 캠퍼스 수업과 학교 수업에서 배운 내용들도 함께 정리했습니다.<br />
-글의 순서는 [파이썬 라이브러리를 활용한 머신러닝]에 따라 진행됩니다.<br />
-코드는 밑에 링크에 공개되어있기 때문에 올리지않습니다.<br /></p>
-
-<p>소스 코드: <a href="https://github.com/rickiepark/introduction_to_ml_with_python">https://github.com/rickiepark/introduction_to_ml_with_python</a></p>
-
-<h2 id="지도학습-1">지도학습 (1)</h2>
-
-<ol>
-  <li>분류와 회귀</li>
-  <li>일반화, 과대적합, 과소적합
-    <ol>
-      <li>모델복잡도와 데이터셋 크기의 관계</li>
-    </ol>
-  </li>
-  <li>지도 학습 알고리즘
-    <ol>
-      <li>예제에 사용할 데이터셋</li>
-      <li>k-nn 모델</li>
-      <li>선형 모델</li>
-      <li>Naive Bayes 분류기</li>
-    </ol>
-  </li>
-</ol>
-
-<h3 id="분류와-회귀">분류와 회귀</h3>
-
-<p>분류란? 미리 정의된 가능성 있는 여러 클래스 레이블 중 하나를 예측하는 것이다.<br />
-이진 분류: 예, 아니오로 구분할 수 있다. ex) 이 이메일은 스팸인가요?<br />
-다중 분류: 셋 이상의 클래스로 분류된다. ex) 붓꽃 데이터</p>
-
-<p>회귀란? 부동소수점수(수학으로 말하면 실수)를 예측하는 것이다.<br />
-어떤 사람의 여러 조건들을 통해 연간 소득을 예측하는 것과 같은 문제이다.</p>
-
-<p>출력 값에 연속성이 있다면 회귀 문제 없다면 분류 문제이다.</p>
-
-<h3 id="일반화-과대적합-과소적합">일반화, 과대적합, 과소적합</h3>
-
-<p>모델이 처음 보는 데이터에 대해 정확히 예측할 수 있다면 훈련 세트(train_set)에서 테스트 세트(test_set)으로 일반화되었다고 한다.<br />
-훈련 세트에 대해서 정확히 예측하고 테스트 세트에서도 정확히 예측하길 바란다.<br />
-하지만 모델이 복잡하다면 훈련 세트에서만 정확한 모델이 될 수 있다.<br />
-예를 들어 “내 주변 20대가 모두 아이폰을 쓰기 때문에 다른 20대도 모두 아이폰을 살 것이다.”라는 예측을 한다면 훈련 세트가 내 주변 20대가 될 것이고 테스트 세트가 다른 모든 20대가 될 것이다.<br />
-이처럼 알고리즘이 새로운 데이터를 잘 처리하는지 측정하는 방법은 테스트 세트로 평가를 해야한다.<br />
-이 때, 너무 복잡한 모델을 만들어 훈련 세트에 집중되어 테스트 세트에 일반화가 부족하다면 과대적합(overfitting)이라 한다.<br />
-반대로 너무 간단한 모델이라 훈련 세트에도 잘 맞지 않다면 과소적합(underfitting)이라 한다.</p>
-
-<h5 id="모델복잡도와-데이터셋-크기의-관계">모델복잡도와 데이터셋 크기의 관계</h5>
-
-<p>모델의 복잡도는 훈련 데이터 셋에 담긴 입력 데이터의 다양성과 관련이 있다.<br />
-데이터셋에 데이터 포인트가 다양하면 과대적합 없이 복잡한 모델을 만들 수 있다.<br />
-따라서 중복이거나 비슷한 데이터를 모으는 것은 도움이 되지않는다.<br />
-위의 예를 생각해보면 내 주변 20대라는 특징말고 대학 동기, 친구라는 데이터를 얻더라도 모두 20대라는 범주안에 들어갈테니 불필요한 데이터라 할 수 있다.<br />
-따라서 좋은 데이터를 많이 얻는 것이 좋다.</p>
-
-<h3 id="지도-학습-알고리즘">지도 학습 알고리즘</h3>
-
-<p>각 모델의 장단점과 어떤 데이터와 어울리는지, 매개변수와 옵션의 의미를 알아보도록 하자.<br />
-scikit-learn 문서를 참고하면 더 자세한 정보를 얻을 수 있다.</p>
-
-<h5 id="예제에-사용할-데이터셋">예제에 사용할 데이터셋</h5>
-
-<p>forge 데이터셋은 인위적으로 만든 이진 분류 데이터셋이다.</p>
-
-<h5 id="k-nn-모델">k-NN 모델</h5>
-
-<p>k-NN 모델은 단순히 데이터셋을 분류하는 것이다.<br />
-k개의 레이블 중에서 어느 쪽에 더 가까운 것인지 투표를 하여 결정한다고 생각하면 이해하기 편하다.<br />
-k=1일 때는 가장 가까운 것이 빨간색이었다면, k=3일 때는 파란색 두 개와 빨간색 한 개가 가까울 수도 있다.<br />
-그렇게 된다면 k=3일 때는 파란색으로 분류가 된다.</p>
-
-<p>KNeighborClassifier(n_neighbors)을 통해 분류 모델을 만들 수 있다.<br />
-이를 통해 확인할 수 있는 것은 k의 값이 커질수록 보다 단순한 모델이 만들어질 수 있다는 것이다.<br />
-하지만 반드시 k가 커진다고 좋은 모델은 아니다. 정확도가 낮아질 수 있기 때문이다.</p>
-
-<p>KNeighborsRegressor(n_neighbors)을 통해 회귀 모델 또한 만들 수 있다.<br />
-회귀 모델에서도 k를 너무 적게 쓴다면 모든 데이터를 지나가고 불안정한 모델이 만들어진다.</p>
-
-<h6 id="장단점과-매개변수">장단점과 매개변수</h6>
-<p>가장 중요한 매개변수는 거리를 재는 방법과 k값이다.<br />
-보통 거리를 재는 방법은 유클리디안 거리 방식을 사용한다.<br />
-장점은 이해하기가 쉬운 모델이고 조정을 많이 하지않아도 좋은 성능을 발휘할 수 있다는 것이다.<br />
-단점은 훈련 세트가 크면 예측이 느려지고 전처리 과정이 중요하다는 것이다.<br />
-데이터가 특성이 많거나 대부분이 0인 데이터셋에서는 잘 작동하지 않는다.</p>
-
-<h5 id="선형-모델">선형 모델</h5>
-
-<p>선형 모델은 $y=w[0]*x[0]+b$와 같은 모델을 갖는 예측 함수이다.<br />
-y는 예측값, w와 b는 모델이 학습할 파라미터, x는 데이터의 특성이다. 위 식은 특성이 하나인 데이터 셋의 선형 함수이다.</p>
-
-<h6 id="선형-회귀최소제곱법">선형 회귀(최소제곱법)</h6>
-<p>선형 회귀는 예측과 훈련 세트에 있는 타깃 사이의 평균제곱오차(MSE)를 최소화하는 파라미터를 찾는 것이다.<br />
-평균제곱오차는 예측값과 타깃값의 차이를 제곱하여 더한 후에 샘플의 개수로 나눈 것이다.<br />
-매개변수가 없는 것이 장점이지만 복잡도를 제어할 방법도 없다.<br />
-LinearRegression()</p>
-
-<h6 id="리지-회귀">리지 회귀</h6>
-<p>리지 회귀도 예측 함수를 사용하지만 가중치의 절댓값을 가능한 작게 만드는 목적을 갖는다.<br />
-이런 제약을 규제라고 하며 L2 규제라고 한다.<br />
-리지는 덜 자유로운 모델이라 과대적합이 적다. 따라서 일반화에 도움이 된다.<br />
-Ridge(alpha)</p>
-
-<h6 id="라소">라소</h6>
-<p>리지의 대안으로 라소가 있다. L1 규제라고도 하며 완전히 제외하는 특성이 생긴다.<br />
-일부 계수가 0이 되고 모델을 이해하기 쉬워지며 중요한 특성을 찾기 쉽ㄴ다.<br />
-max_itter을 조절하여 과소적합을 줄인다.<br />
-Lasso(alpha, max_itter())</p>
-
-<h6 id="분류용-선형-모델">분류용 선형 모델</h6>
-<p>이진 분류의 경우 선형 회귀와 비슷하지만 가중치 합을 그냥 사용하는 대신 예측값을 임계치 0과 비교한다.<br />
-0보다 작으면 -1, 크면 1이라고 예측한다. 결정 경계를 선형 함수로 잡는다.<br />
-LogisticRegression과 LinearSVC가 잘 알려져있는데 규제의 강도를 결정하는 매개변수 C를 주의해야한다.<br />
-C가 높으면 훈련 세트에 최대로 맞추려 노력하고 낮추면 계수 벡터(w)가 0에 가까워지도록 만든다.<br />
-로지스틱 회귀분석을 제외하면 다중 클래스를 대부분 지원하지 않는다.</p>
-
-<h6 id="장단점과-매개변수-1">장단점과 매개변수</h6>
-<p>회귀 모델에서는 alpha, LinearSVC와 LogisticRegression에서는 C가 중요하다.<br />
-alpha가 클수록, C가 작을수록 모델이 단순해진다. 로그 스케일로 최적치를 정한다.<br />
-L1, L2를 결정하는 것도 정해야한다. 중요한 특성이 적으면 L1, 그렇지 않으면 L2를 이용한다.<br />
-선형 모델은 학습 속도와 예측 속도가 빠르다. solver=’sag’ 옵션을 이용하면 더 빨리 처리할 수 있다.<br />
-아니면 SGDClassifier과 SGDRegressor을 이용할 수도 있다.<br />
-또한 선형 모델은 예측이 어떻게 만들어지는지 비교적 이해하기 쉽다. 하지만 계수의 값이 명확하지가 않다.</p>
-
-<h5 id="naive-bayes-분류기">Naive Bayes 분류기</h5>
-
-<p>나이브 베이즈 분류기는 선형 분류기보다 훈련 속도가 빠르지만 일반화 성능이 뒤쳐진다.<br />
-개별적으로 파라미터를 학습하고 특성에서 클래스별 통계를 단순하게 취합한다.<br />
-GaussianNB, BernoulliNB, MultinomialNB를 scikit-learn에서 구현되어있다.<br />
-GaussianNB는 연속적인, BernoulliNB는 이진 데이터를, MultinomialNB는 카운트 데이터를 적용한다.<br />
-BernoulliNB는 클래스의 특성중 0이 아닌 것이 몇 개인지 센다.<br />
-MultinomialNB는 클래스별 특성의 평균을, GaussianNB는 클래스별로 각 특성의 표준편차와 평균을 저장한다.<br />
-MultinomialNB와 GaussianNB는 선형 모델과 예측 공식이 갖지만 coef_는 기울기 w가 아니라 의미는 다르다.</p>
-
-<h6 id="장단점과-매개변수-2">장단점과 매개변수</h6>
-<p>MultinomialNB와 BernoulliNB는 모델 복잡도를 조절하는 alpha변수가 하나이다.<br />
-alpha가 주어지면 알고리즘이 모든 특성에 양의 값을 가진 데이터 포인트를 alpha 개수만큼 추가한다.<br />
-alpha가 크면 더 완만하고 덜 복잡한 모델이 나오지만 성능 변동은 비교적 크지 않다.<br />
-GaussianNB는 고차원 데이터 셋을 사용한다. 다른 모델은 데이터를 카운트하는 데 사용된다.</p>
+<p>ADSP를 준비하면서 공부한 내용을 정리한 글입니다.<br />
+3과목 2장 통계분석에 대한 부분을 정리한 글입니다.</p>
 
                 </div>
             </section>
@@ -414,9 +280,9 @@ GaussianNB는 고차원 데이터 셋을 사용한다. 다른 모델은 데이�
                     <div id="disqus_thread"></div>
                     <script>
                         var disqus_config = function () {
-                            var this_page_url = 'https://keonju2.github.io/study-ML1';
-                            var this_page_identifier = '/study-ML1';
-                            var this_page_title = '머신러닝 정리 (1) <br> 지도학습 (1)';
+                            var this_page_url = 'https://keonju2.github.io/license-adsp7';
+                            var this_page_identifier = '/license-adsp7';
+                            var this_page_title = 'ADSP (7) 통계 분석(2)';
                         };
                         (function() {
                             var d = document, s = d.createElement('script');
@@ -450,7 +316,7 @@ GaussianNB는 고차원 데이터 셋을 사용한다. 다른 모델은 데이�
                         <header class="read-next-card-header">
                             <small class="read-next-card-header-sitetitle">&mdash; 주건나's Blog &mdash;</small>
                             
-                                <h3 class="read-next-card-header-title"><a href="/tag/study/">Study</a></h3>
+                                <h3 class="read-next-card-header-title"><a href="/tag/license/">License</a></h3>
                             
                         </header>
                         <div class="read-next-divider"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 14.5s2 3 5 3 5.5-2.463 5.5-5.5S21 6.5 18 6.5c-5 0-7 11-12 11C2.962 17.5.5 15.037.5 12S3 6.5 6 6.5s4.5 3.5 4.5 3.5"/></svg>
@@ -460,26 +326,60 @@ GaussianNB는 고차원 데이터 셋을 사용한다. 다른 모델은 데이�
                                 
                                 
                                   
-                                
+                                    
+                                        
+                                        
+                                            <li><a href="/license-adsp8">ADSP (8) 정형 데이터 마이닝</a></li>
+                                        
+                                    
                                   
                                 
                                   
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                
+                                    
                                   
                                 
                                   
                                     
                                         
                                         
-                                            <li><a href="/study-ML4">머신러닝 정리 (4) <br> 비지도학습 (2)</a></li>
+                                            <li><a href="/license-adsp6">ADSP (6) 통계 분석(1)</a></li>
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                            <li><a href="/license-adsp5">ADSP (5) R 기초와 데이터 마트</a></li>
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
                                         
                                     
                                   
@@ -487,13 +387,6 @@ GaussianNB는 고차원 데이터 셋을 사용한다. 다른 모델은 데이�
                                   
                                 
                                   
-                                    
-                                        
-                                        
-                                            <li><a href="/study-ML3">머신러닝 정리 (3) <br> 비지도학습 (1)</a></li>
-                                        
-                                    
-                                  
                                 
                                   
                                 
@@ -502,20 +395,13 @@ GaussianNB는 고차원 데이터 셋을 사용한다. 다른 모델은 데이�
                                   
                                 
                                   
-                                    
-                                        
-                                        
-                                            <li><a href="/study-ML2">머신러닝 정리 (2) <br> 지도학습 (2)</a></li>
-                                        
-                                    
-                                  
                                 
                                   
                                 
                                   
                                 
                                   
-                                    
+                                
                                   
                                 
                                   
@@ -531,9 +417,9 @@ GaussianNB는 고차원 데이터 셋을 사용한다. 다른 모델은 데이�
                             </ul>
                         </div>
                         <footer class="read-next-card-footer">
-                            <a href="/tag/study/">
+                            <a href="/tag/license/">
                                 
-                                    See all 3 posts  →
+                                    See all 7 posts  →
                                 
                             </a>
                         </footer>
@@ -547,26 +433,26 @@ GaussianNB는 고차원 데이터 셋을 사용한다. 다른 모델은 데이�
 
     <article class="post-card post-template">
         
-            <a class="post-card-image-link" href="/programming-baekjoon3">
-                <div class="post-card-image" style="background-image: url(/assets/built/images/baekjoon-logo.png)"></div>
+            <a class="post-card-image-link" href="/license-adsp8">
+                <div class="post-card-image" style="background-image: url(/assets/built/images/adsp-logo.jpg)"></div>
             </a>
         
         <div class="post-card-content">
-            <a class="post-card-content-link" href="/programming-baekjoon3">
+            <a class="post-card-content-link" href="/license-adsp8">
                 <header class="post-card-header">
                     
                         
                             
-                                <span class="post-card-tags">Programming</span>
+                                <span class="post-card-tags">License</span>
                             
                         
                     
 
-                    <h2 class="post-card-title">백준 (3) 문자열 알고리즘 <br>(11720, 8958, 1152, 10809, <br> 1157, 9012, 11718)</h2>
+                    <h2 class="post-card-title">ADSP (8) 정형 데이터 마이닝</h2>
                 </header>
                 <section class="post-card-excerpt">
                     
-                        <p>백준 관련 글 백준 (1) (2557, 8958, 1000, 1001, 1008, 2935, 2753, 2884, 5063, 4101) 백준 (2) (1018, 1085, 1181, 1259, 1436, 1654, 1874, 1920) 백준 (3) 문자열 알고리즘(11720, 8958, 1152, 10809, 1157,</p>
+                        <p>ADSP 관련 글 ADSP (1) 데이터의 이해 ADSP (2) 데이터의 가치와 미래 ADSP (3) 데이터 분석 기회의 이해 ADSP (4) 분석 마스터플랜 ADSP (5) R 기초와 데이터 마트 ADSP (6) 통계 분석 ADSP</p>
                     
                 </section>
             </a>
@@ -599,33 +485,26 @@ GaussianNB는 고차원 데이터 셋을 사용한다. 다른 모델은 데이�
 
     <article class="post-card post-template">
         
-            <a class="post-card-image-link" href="/programming-kaggle1">
-                <div class="post-card-image" style="background-image: url(/assets/built/images/kaggle-logo.png)"></div>
+            <a class="post-card-image-link" href="/license-adsp6">
+                <div class="post-card-image" style="background-image: url(/assets/built/images/adsp-logo.jpg)"></div>
             </a>
         
         <div class="post-card-content">
-            <a class="post-card-content-link" href="/programming-kaggle1">
+            <a class="post-card-content-link" href="/license-adsp6">
                 <header class="post-card-header">
                     
                         
                             
-                                <span class="post-card-tags">Programming</span>
+                                <span class="post-card-tags">License</span>
                             
                         
                     
 
-                    <h2 class="post-card-title">캐글 (1) <br> Simple Matplotlib & Visualization Tips 공부하기</h2>
+                    <h2 class="post-card-title">ADSP (6) 통계 분석(1)</h2>
                 </header>
                 <section class="post-card-excerpt">
                     
-                        <p>kaggle 관련 글
-
-    캐글 (1) Simple Matplotlib &amp; Visualization Tips 공부하기
-    캐글 (2) 타이타닉 튜토리얼 1,2 공부하기
-
-Simple Matplotlib &amp; Visualization Tips 공부하기
-
-</p>
+                        <p>ADSP 관련 글 ADSP (1) 데이터의 이해 ADSP (2) 데이터의 가치와 미래 ADSP (3) 데이터 분석 기회의 이해 ADSP (4) 분석 마스터플랜 ADSP (5) R 기초와 데이터 마트 ADSP (6) 통계 분석 ADSP</p>
                     
                 </section>
             </a>
@@ -643,7 +522,7 @@ Simple Matplotlib &amp; Visualization Tips 공부하기
                 <span class="reading-time">
                     
                     
-                      7 min read
+                      6 min read
                     
                 </span>
             </footer>
@@ -665,18 +544,18 @@ Simple Matplotlib &amp; Visualization Tips 공부하기
         </a>
     </div>
     <span class="floating-header-divider">&mdash;</span>
-    <div class="floating-header-title">머신러닝 정리 (1) <br> 지도학습 (1)</div>
+    <div class="floating-header-title">ADSP (7) 통계 분석(2)</div>
     <div class="floating-header-share">
         <div class="floating-header-share-label">Share this <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
     <path d="M7.5 15.5V4a1.5 1.5 0 1 1 3 0v4.5h2a1 1 0 0 1 1 1h2a1 1 0 0 1 1 1H18a1.5 1.5 0 0 1 1.5 1.5v3.099c0 .929-.13 1.854-.385 2.748L17.5 23.5h-9c-1.5-2-5.417-8.673-5.417-8.673a1.2 1.2 0 0 1 1.76-1.605L7.5 15.5zm6-6v2m-3-3.5v3.5m6-1v2"/>
 </svg>
 </div>
-        <a class="floating-header-share-tw" href="https://twitter.com/share?text=%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D+%EC%A0%95%EB%A6%AC+%281%29+%3Cbr%3E+%EC%A7%80%EB%8F%84%ED%95%99%EC%8A%B5+%281%29&amp;url=https://keonju2.github.io/study-ML1"
+        <a class="floating-header-share-tw" href="https://twitter.com/share?text=ADSP+%287%29+%ED%86%B5%EA%B3%84+%EB%B6%84%EC%84%9D%282%29&amp;url=https://keonju2.github.io/license-adsp7"
             onclick="window.open(this.href, 'share-twitter', 'width=550,height=235');return false;">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088 0 0 1-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015 0 0 1-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25 0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688 0 5.063-.875 7.188-2.5-1.25 0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5 0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673 0 0 1-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228 0 0 1-1.875-2c-.5-.875-.688-1.813-.688-2.75 0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579 0 0 1 1.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"/></svg>
 
         </a>
-        <a class="floating-header-share-fb" href="https://www.facebook.com/sharer/sharer.php?u=https://keonju2.github.io/study-ML1"
+        <a class="floating-header-share-fb" href="https://www.facebook.com/sharer/sharer.php?u=https://keonju2.github.io/license-adsp7"
             onclick="window.open(this.href, 'share-facebook','width=580,height=296');return false;">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M19 6h5V0h-5c-3.86 0-7 3.14-7 7v3H8v6h4v16h6V16h5l1-6h-6V7c0-.542.458-1 1-1z"/></svg>
 
