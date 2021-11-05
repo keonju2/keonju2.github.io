@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://keonju2.github.io/tag/license/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://keonju2.github.io/" rel="alternate" type="text/html" />
-  <updated>2021-11-02T19:45:15+09:00</updated>
+  <updated>2021-11-04T02:57:43+09:00</updated>
   <id>https://keonju2.github.io/tag/license/feed.xml</id>
 
   
@@ -32,6 +32,468 @@
 
   
     <entry>
+      <title type="html">ADSP (4) 분석 마스터플랜</title>
+      <link href="https://keonju2.github.io/license-adsp4" rel="alternate" type="text/html" title="ADSP (4) 분석 마스터플랜" />
+      <published>2021-11-03T08:00:00+09:00</published>
+      <updated>2021-11-03T08:00:00+09:00</updated>
+      <id>https://keonju2.github.io/license-adsp4</id>
+      <content type="html" xml:base="https://keonju2.github.io/license-adsp4">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;ADSP 관련 글&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./license-adsp1&quot;&gt;ADSP (1) 데이터의 이해&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./license-adsp2&quot;&gt;ADSP (2) 데이터의 가치와 미래&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./license-adsp3&quot;&gt;ADSP (3) 데이터 분석 기회의 이해&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./license-adsp4&quot;&gt;ADSP (4) 분석 마스터플랜&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./license-adsp5&quot;&gt;ADSP (5) R 기초와 데이터 마트&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;ADSP를 준비하면서 공부한 내용을 정리한 글입니다.&lt;br /&gt;
+2과목 2장 분석 마스터플랜에 대한 부분을 정리한 글입니다.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;마스터플랜 수립
+    &lt;ol&gt;
+      &lt;li&gt;수행 과제 도출 및 우선순위 평가&lt;/li&gt;
+      &lt;li&gt;로드맵 수립&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;분석 거버넌스 체계 수립&lt;/li&gt;
+  &lt;li&gt;데이터 거버넌스 체계 수립&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;마스터플랜-수립&quot;&gt;마스터플랜 수립&lt;/h1&gt;
+
+&lt;p&gt;분석 마스터플랜이란 어떤 하나의 분석 프로젝트를 위한 전체 설계도와 같다.&lt;/p&gt;
+
+&lt;p&gt;분석 마스터플랜 수립 프레임워크&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/54880474/139805409-c57ef8e7-2744-4be1-8d0b-9183301e7028.jpg&quot; alt=&quot;adsp_2&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;수행-과제-도출-및-우선순위-평가&quot;&gt;수행 과제 도출 및 우선순위 평가&lt;/h2&gt;
+
+&lt;h4 id=&quot;전략적-중요도&quot;&gt;전략적 중요도&lt;/h4&gt;
+&lt;ol&gt;
+  &lt;li&gt;전략적 필요성&lt;/li&gt;
+  &lt;li&gt;시급성&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;실행 용이성&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;투자 용이성&lt;/li&gt;
+  &lt;li&gt;기술 용이성&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;roi-요소&quot;&gt;ROI 요소&lt;/h4&gt;
+
+&lt;p&gt;투자비용 요소 (Investment)&lt;br /&gt;
+Volume, Variety, Velocity&lt;/p&gt;
+
+&lt;p&gt;비즈니스 효과 (Return)&lt;br /&gt;
+Value&lt;/p&gt;
+
+&lt;h4 id=&quot;우선-평가-기준&quot;&gt;우선 평가 기준&lt;/h4&gt;
+&lt;p&gt;전략적 중요도에 따른 시급성을 먼저 판단 - Value&lt;/p&gt;
+
+&lt;p&gt;난이도는 데이터 분석의 적합성 여부를 따져본다. - Volume, Variety, Velocity&lt;/p&gt;
+
+&lt;h4 id=&quot;포트폴리오-사분면-분석을-활용한-우선순위-평가-기준&quot;&gt;포트폴리오 사분면 분석을 활용한 우선순위 평가 기준&lt;/h4&gt;
+
+&lt;p&gt;난이도와 시급성에 따라 포트폴리오 분석을 진행한다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/54880474/139806450-29da8893-3aa6-4f84-b17d-1caee0c125d5.jpg&quot; alt=&quot;adsp_3&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;로드맵-수립&quot;&gt;로드맵 수립&lt;/h2&gt;
+
+&lt;p&gt;분석 체계 도입 - 분석 유효성 검증 - 분석 확산 및 고도화&lt;/p&gt;
+
+&lt;p&gt;세부 이행계획 수립&lt;br /&gt;
+분석 데이터 수집/확보 - 분석 데이터 준비 - 모델링 및 평가&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;분석-거버넌스-체계-수립&quot;&gt;분석 거버넌스 체계 수립&lt;/h1&gt;
+
+&lt;p&gt;분석 거버넌스 체계 구성요소&lt;br /&gt;
+조직, 과제 기획 및 운영 프로세스, 분석 관련 시스템, 데이터, 분석 관련 교육 및 마인드 육성 체계&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;분석-준비도&quot;&gt;분석 준비도&lt;/h4&gt;
+
+&lt;p&gt;분석 업무 파악, 분석 인력 및 조직, 분석 기법, 분석 데이터, 분석 문화, IT 인프라&lt;/p&gt;
+
+&lt;h4 id=&quot;분석-성숙도&quot;&gt;분석 성숙도&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;도입&lt;br /&gt;
+분석 시작, 환경과 시스템 구축&lt;/li&gt;
+  &lt;li&gt;활용&lt;br /&gt;
+분석 결과를 업무에 적용&lt;/li&gt;
+  &lt;li&gt;확산&lt;br /&gt;
+전사 차원에서 분석 관리, 공유&lt;/li&gt;
+  &lt;li&gt;최적화&lt;br /&gt;
+분석을 진화시켜 혁신 및 성과 향상에 기여&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;분석-수준-진단-결과&quot;&gt;분석 수준 진단 결과&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/54880474/139808994-f6d9ee7f-a2db-4fa2-b85d-4fa39b05bfb3.jpg&quot; alt=&quot;adsp_4&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;데이터-거버넌스-체계-수립&quot;&gt;데이터 거버넌스 체계 수립&lt;/h1&gt;
+
+&lt;p&gt;데이터 거버넌스 구성 요소&lt;br /&gt;
+원칙, 조직, 프로세스&lt;/p&gt;
+
+&lt;h4 id=&quot;데이터-거버넌스-체계&quot;&gt;데이터 거버넌스 체계&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;데이터 표준화&lt;br /&gt;
+표준 용어 설정, 명명 규칙, 메타데이터 구축, 데이터 사전 구축&lt;/li&gt;
+  &lt;li&gt;데이터 관리 체계 &lt;br /&gt;
+메타데이터와 데이터 사전의 관리 원칙 수립&lt;/li&gt;
+  &lt;li&gt;데이터 저장소 관리&lt;br /&gt;
+전사 차원의 저장소 구성&lt;/li&gt;
+  &lt;li&gt;표준화 활동&lt;br /&gt;
+표준 준수 여부를 주기적으로 점검하고 모니터링 실시&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;데이터-분석-조직-유형&quot;&gt;데이터 분석 조직 유형&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;집중형 조직 구조&lt;br /&gt;
+조직 내 별도의 독립적인 분석 전담 조직 구성&lt;/li&gt;
+  &lt;li&gt;기능 중심의 조직 구조&lt;br /&gt;
+일반적으로 분석을 수행하는 형태로 별도 조직을 구성하지 않고 해당 업무 부서에서 직접 분석&lt;/li&gt;
+  &lt;li&gt;분산형 조직 구조&lt;br /&gt;
+분석 조직의 인력을 현업 부서에 배치해 분석 업무를 수행&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;분석-과제-관리-프로세스&quot;&gt;분석 과제 관리 프로세스&lt;/h4&gt;
+
+&lt;p&gt;과제 발굴&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;분석 idea 발굴&lt;/li&gt;
+  &lt;li&gt;분석 과제 후보 제안&lt;/li&gt;
+  &lt;li&gt;분석 과제 확정&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;과제 수행&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;팀 구성&lt;/li&gt;
+  &lt;li&gt;분석 과제 실행&lt;/li&gt;
+  &lt;li&gt;분석 과제 진행 관리&lt;/li&gt;
+  &lt;li&gt;결과 공유/개선&lt;/li&gt;
+&lt;/ol&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>주건나</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="license" />
+      
+
+      
+        <summary type="html">ADSP 관련 글 ADSP (1) 데이터의 이해 ADSP (2) 데이터의 가치와 미래 ADSP (3) 데이터 분석 기회의 이해 ADSP (4) 분석 마스터플랜 ADSP (5) R 기초와 데이터 마트</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">ADSP (3) 데이터 분석 기회의 이해</title>
+      <link href="https://keonju2.github.io/license-adsp3" rel="alternate" type="text/html" title="ADSP (3) 데이터 분석 기회의 이해" />
+      <published>2021-11-03T07:00:00+09:00</published>
+      <updated>2021-11-03T07:00:00+09:00</updated>
+      <id>https://keonju2.github.io/license-adsp3</id>
+      <content type="html" xml:base="https://keonju2.github.io/license-adsp3">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;ADSP 관련 글&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./license-adsp1&quot;&gt;ADSP (1) 데이터의 이해&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./license-adsp2&quot;&gt;ADSP (2) 데이터의 가치와 미래&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./license-adsp3&quot;&gt;ADSP (3) 데이터 분석 기회의 이해&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./license-adsp4&quot;&gt;ADSP (4) 분석 마스터플랜&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./license-adsp5&quot;&gt;ADSP (5) R 기초와 데이터 마트&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;ADSP를 준비하면서 공부한 내용을 정리한 글입니다.&lt;br /&gt;
+2과목 1장 데이터 분석 기회의 이해에 대한 부분을 정리한 글입니다.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;분석 기획&lt;/li&gt;
+  &lt;li&gt;분석 방법론 개요
+    &lt;ol&gt;
+      &lt;li&gt;전통적인 분석 방법론&lt;/li&gt;
+      &lt;li&gt;빅데이터 분석 방법론&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;분석 과제 발굴&lt;/li&gt;
+  &lt;li&gt;분석 프로세스 관리 방안&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;분석-기획&quot;&gt;분석 기획&lt;/h1&gt;
+
+&lt;p&gt;분석 대상이 무엇인지 알고 있고 그 분석 방법도 알고 있다면 ‘최적화’&lt;br /&gt;
+분석 대상이 무엇인지 알고 있지만, 그 분석 방법을 모른다면 ‘솔루션’&lt;br /&gt;
+분석 대상이 무엇인지 모르고 그 분석 방법도 모른다면 ‘발견’&lt;br /&gt;
+분석 대상이 무엇인지는 모르지만, 그 분석 방법은 알고 있다면 ‘통찰’&lt;/p&gt;
+
+&lt;p&gt;과제 중심적인 접근 방식&lt;br /&gt;
+빠르게 해결해야 하는 경우, 빠른 수행과 문제 해결이 목적&lt;/p&gt;
+
+&lt;p&gt;장기적인 마스터플랜 방식&lt;br /&gt;
+지속적인 분석 내재화를 위한 경우, 정확도와 무엇이 문제인가에 대한 문제 정의가 목적&lt;/p&gt;
+
+&lt;h3 id=&quot;분석-기획-시-고려사항&quot;&gt;분석 기획 시 고려사항&lt;/h3&gt;
+
+&lt;p&gt;가용 데이터 고려&lt;br /&gt;
+적절한 활용 방안과 유스케이스의 탐색&lt;br /&gt;
+장애 요소에 대한 사전 계획 수립&lt;/p&gt;
+
+&lt;h1 id=&quot;분석-방법론-개요&quot;&gt;분석 방법론 개요&lt;/h1&gt;
+
+&lt;p&gt;합리적 의사결정 방해요소&lt;br /&gt;
+고정 관념, 편향된 생각, 프레이밍 효과&lt;/p&gt;
+
+&lt;p&gt;분석 방법론의 생성 과정
+방법론 -(내재화)-암묵지-(형식화)-형식지-(체계화)-방법론&lt;/p&gt;
+
+&lt;h3 id=&quot;분석-방법론이-적용되는-업무-특성에-따른-모델&quot;&gt;분석 방법론이 적용되는 업무 특성에 따른 모델&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;폭포수 모델&lt;br /&gt;
+단계적으로 진행되는 방식으로 하향식 방향&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;프로토타입 모델&lt;br /&gt;
+사용자 중심의 개발 방법&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;나선형 모델&lt;br /&gt;
+반복을 통해 점증적으로 개발하지만 위험 요소를 사전에 제거&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;계층적 프로세스 모델&lt;br /&gt;
+최상의 계층인 몇 개의 단계로 구성되어 있고 하나의 단계는 여러 개의 태스크로 구성되고 하나의 태스크는 여러개의 스텝으로 구성된다.&lt;br /&gt;
+단계: 프로세스 그룹을 통해 완성된 단계별 산출물 생성&lt;br /&gt;
+태스크: 단계를 구성하는 단위 활동&lt;br /&gt;
+스텝: WBS의 워크패이지에 해당&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;전통적인-분석-방법론&quot;&gt;전통적인 분석 방법론&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;KDD 분석 방법론&lt;br /&gt;
+데이터로부터 통계적 패턴이나 지식을 찾기 위해 체계적으로 정리한 데이터 마이닝 프로세스&lt;br /&gt;
+데이터셋 선택 - 데이터 전처리 - 데이터 변환 - 데이터 마이닝 - 해석과 평가&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;CRISP-DM 분석 방법론&lt;br /&gt;
+KDD 분석 방법론보다 더 세분화&lt;br /&gt;
+업무 이해 - 데이터 이해 - 데이터 준비 - 모델링 - 평가 - 전개&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;빅데이터-분석-방법론&quot;&gt;빅데이터 분석 방법론&lt;/h2&gt;
+
+&lt;p&gt;분석 기획, 데이터 준비, 데이터 분석, 시스템 구현, 평가 및 전개의 5개 단계와 각각의 태스크와 스텝이 순차적으로 진행&lt;/p&gt;
+
+&lt;h4 id=&quot;5단계-빅데이터-분석-방법론-플로우&quot;&gt;5단계 빅데이터 분석 방법론 플로우&lt;/h4&gt;
+
+&lt;p&gt;단계별&lt;br /&gt;
+분석 기획 - 데이터 준비 - 데이터 분석 - 시스템 구현 - 평가 및 전개&lt;/p&gt;
+
+&lt;p&gt;단계별 수행 태스크&lt;/p&gt;
+
+&lt;p&gt;분석 기획&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;비즈니스 이해 및 범위 설정&lt;br /&gt;
+비즈니스 이해 - 프로젝트 범위 설정&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;프로젝트 정의 및 계획 수립&lt;br /&gt;
+데이터 분석 프로젝트 정의 - 프로젝트 수행 계획 수립&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;프로젝트 위험계획 수립&lt;br /&gt;
+데이터 분석 위험 식별 - 위험 대응 계획 수립&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;데이터 준비&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;필요 데이터 정의&lt;br /&gt;
+데이터 정의 - 데이터 획득 방안 수립&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;데이터 스토어 설계&lt;br /&gt;
+정형 데이터 스토어 설계 - 비정형 데이터 스토어 설계&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;데이터 수집 및 정합성 검정&lt;br /&gt;
+데이터 수집 및 저장 - 데이터 정합성 점검&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;데이터 분석&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;분석용 데이터 준비&lt;br /&gt;
+비즈니스 룰 확인 - 분석용 데이터셋 준비&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;텍스트 분석&lt;br /&gt;
+텍스트 데이터 확인 및 추출 - 텍스트 데이터 분석&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;탐색적 분석&lt;br /&gt;
+탐색적 데이터 분석 - 데이터 시각화&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;모델링&lt;br /&gt;
+데이터 분할 - 데이터 모델링 - 모델 적용 및 운영 방안&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;모델 평가 및 검증&lt;br /&gt;
+모델 평가 - 모델 검증&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;시스템 구현&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;설계 및 구현&lt;br /&gt;
+시스템 분석 및 설계 - 시스템 구현&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;시스템 테스트 및 운영&lt;br /&gt;
+시스템 테스트 - 시스템 운영 계획&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;평가 및 전개&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;모델 발전 계획 수립&lt;br /&gt;
+모델 발전 계획&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;프로젝트 평가 및 보고&lt;br /&gt;
+프로젝트 성과 평가 - 프로젝트 종료&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;분석-과제-발굴&quot;&gt;분석 과제 발굴&lt;/h1&gt;
+
+&lt;p&gt;하향식 접근법&lt;br /&gt;
+분석 대상을 알고 있을 때 
+문제 탐색 단계 - 문제 정의 단계 - 해결방안 탐색 단계 - 타당성 컴토 단계&lt;/p&gt;
+
+&lt;p&gt;문제 탐색 단계&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;비즈니스 모델 탐색 기법&lt;br /&gt;
+업무, 제품, 고객, 규제와 감사, 지원 인프라&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;분석 기회 발굴 범위의 확장&lt;br /&gt;
+거시적 관점, 경쟁자 확대 관점, 시장의 니즈 탐색, 역량의 재해석&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;외부 참조 모델 기반 문제 탐색&lt;br /&gt;
+유사 동종 업계에서의 문제 탐색&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;분석 유스케이스&lt;br /&gt;
+유사 및 동종 사례 탐색&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;문제 정의 단계&lt;/p&gt;
+
+&lt;p&gt;해결 방안 탐색 단계&lt;/p&gt;
+
+&lt;p&gt;타당성 검토 단계&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;경제적 타당성&lt;/li&gt;
+  &lt;li&gt;데이터 및 기술적 타당성&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;상향식 접근법&lt;br /&gt;
+분석 대상을 모르고 있을 때
+분석 후 가치를 찾음&lt;br /&gt;
+지도, 비지도 학습 - 프로토타입&lt;/p&gt;
+
+&lt;p&gt;지도학습&lt;br /&gt;
+정답이 있는 데이터를 활용하여 분석 모델 학습&lt;br /&gt;
+ex) 머신 러닝, DT, 인공신경망 모형, 분류, 회귀&lt;/p&gt;
+
+&lt;p&gt;비지도학습&lt;br /&gt;
+정답이 없는 데이터를 활용하여 학습&lt;br /&gt;
+연관성, 유사성, 결합을 중심으로 데이터의 상태를 표현&lt;br /&gt;
+장바구니 분석, 기술통계, 프로파일링, 군집 분석, 주성분 분석, 다차원 척도&lt;/p&gt;
+
+&lt;p&gt;프로토타이핑 접근법&lt;br /&gt;
+먼저 분석을 시도하고 결과를 확인하면서 개선&lt;br /&gt;
+가설의 생성 - 디자인에 대한 실험 - 실제 환경에서의 테스트 - 결과로부터 인사이트 도출 및 가설 확인&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;분석-프로세스-관리-방안&quot;&gt;분석 프로세스 관리 방안&lt;/h1&gt;
+
+&lt;p&gt;데이터의 양, 데이터의 복잡도, 분석의 속도, 분석 복잡도, 정확도와 정밀도&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>주건나</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="license" />
+      
+
+      
+        <summary type="html">ADSP 관련 글 ADSP (1) 데이터의 이해 ADSP (2) 데이터의 가치와 미래 ADSP (3) 데이터 분석 기회의 이해 ADSP (4) 분석 마스터플랜 ADSP (5) R 기초와 데이터 마트</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
       <title type="html">ADSP (2) 데이터의 가치와 미래</title>
       <link href="https://keonju2.github.io/license-adsp2" rel="alternate" type="text/html" title="ADSP (2) 데이터의 가치와 미래" />
       <published>2021-11-02T08:00:00+09:00</published>
@@ -43,6 +505,7 @@
     &lt;li&gt;&lt;a href=&quot;./license-adsp2&quot;&gt;ADSP (2) 데이터의 가치와 미래&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./license-adsp3&quot;&gt;ADSP (3) 데이터 분석 기회의 이해&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./license-adsp4&quot;&gt;ADSP (4) 분석 마스터플랜&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./license-adsp5&quot;&gt;ADSP (5) R 기초와 데이터 마트&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;ADSP를 준비하면서 공부한 내용을 정리한 글입니다.&lt;br /&gt;
@@ -264,7 +727,7 @@
       
 
       
-        <summary type="html">ADSP 관련 글 ADSP (1) 데이터의 이해 ADSP (2) 데이터의 가치와 미래 ADSP (3) 데이터 분석 기회의 이해 ADSP (4) 분석 마스터플랜</summary>
+        <summary type="html">ADSP 관련 글 ADSP (1) 데이터의 이해 ADSP (2) 데이터의 가치와 미래 ADSP (3) 데이터 분석 기회의 이해 ADSP (4) 분석 마스터플랜 ADSP (5) R 기초와 데이터 마트</summary>
       
 
       
@@ -283,6 +746,7 @@
     &lt;li&gt;&lt;a href=&quot;./license-adsp2&quot;&gt;ADSP (2) 데이터의 가치와 미래&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./license-adsp3&quot;&gt;ADSP (3) 데이터 분석 기회의 이해&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./license-adsp4&quot;&gt;ADSP (4) 분석 마스터플랜&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./license-adsp5&quot;&gt;ADSP (5) R 기초와 데이터 마트&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;ADSP를 준비하면서 공부한 내용을 정리한 글입니다.&lt;br /&gt;
@@ -534,7 +998,7 @@ COMMIT, SAVEPOINT, ROLLBACK&lt;/p&gt;
       
 
       
-        <summary type="html">ADSP 관련 글 ADSP (1) 데이터의 이해 ADSP (2) 데이터의 가치와 미래 ADSP (3) 데이터 분석 기회의 이해 ADSP (4) 분석 마스터플랜</summary>
+        <summary type="html">ADSP 관련 글 ADSP (1) 데이터의 이해 ADSP (2) 데이터의 가치와 미래 ADSP (3) 데이터 분석 기회의 이해 ADSP (4) 분석 마스터플랜 ADSP (5) R 기초와 데이터 마트</summary>
       
 
       
