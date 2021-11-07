@@ -8,6 +8,47 @@
     
       
       <item>
+        <title>캐글 (3) &lt;br&gt; 타이타닉 생존자 EDA 부터 분류까지</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;kaggle 관련 글&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./programming-kaggle1&quot;&gt;캐글 (1) Simple Matplotlib &amp;amp; Visualization Tips 공부하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./programming-kaggle2&quot;&gt;캐글 (2) 타이타닉 튜토리얼 1,2 공부하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./programming-kaggle3&quot;&gt;캐글 (3) 타이타닉 생존자 EDA 부터 분류까지&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Sun, 07 Nov 2021 21:00:00 +0900</pubDate>
+        <link>
+        https://keonju2.github.io/programming-kaggle3</link>
+        <guid isPermaLink="true">https://keonju2.github.io/programming-kaggle3</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>머신러닝 정리 (5) &lt;br&gt; 데이터 표현과 특성 공학</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;머신러닝 공부 관련 글&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./study-ML1&quot;&gt;머신러닝 정리 (1)-지도학습 (1)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./study-ML2&quot;&gt;머신러닝 정리 (2)-지도학습 (2)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./study-ML3&quot;&gt;머신러닝 정리 (3)-비지도학습 (1)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./study-ML4&quot;&gt;머신러닝 정리 (4)-비지도학습 (2)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Sun, 07 Nov 2021 10:00:00 +0900</pubDate>
+        <link>
+        https://keonju2.github.io/study-ML5</link>
+        <guid isPermaLink="true">https://keonju2.github.io/study-ML5</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>ADSP (8) 정형 데이터 마이닝</title>
         
           <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;ADSP 관련 글&lt;/span&gt;&lt;/p&gt;
@@ -17,8 +58,8 @@
     &lt;li&gt;&lt;a href=&quot;./license-adsp3&quot;&gt;ADSP (3) 데이터 분석 기회의 이해&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./license-adsp4&quot;&gt;ADSP (4) 분석 마스터플랜&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./license-adsp5&quot;&gt;ADSP (5) R 기초와 데이터 마트&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./license-adsp6&quot;&gt;ADSP (6) 통계 분석&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./license-adsp7&quot;&gt;ADSP (7) 정형 데이터 마이닝&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./license-adsp6&quot;&gt;ADSP (6) 통계 분석 (1)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./license-adsp7&quot;&gt;ADSP (7) 통계 분석 (2)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 </description>
@@ -41,8 +82,8 @@
     &lt;li&gt;&lt;a href=&quot;./license-adsp3&quot;&gt;ADSP (3) 데이터 분석 기회의 이해&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./license-adsp4&quot;&gt;ADSP (4) 분석 마스터플랜&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./license-adsp5&quot;&gt;ADSP (5) R 기초와 데이터 마트&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./license-adsp6&quot;&gt;ADSP (6) 통계 분석&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./license-adsp7&quot;&gt;ADSP (7) 정형 데이터 마이닝&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./license-adsp6&quot;&gt;ADSP (6) 통계 분석 (1)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./license-adsp7&quot;&gt;ADSP (7) 통계 분석 (2)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 </description>
@@ -65,8 +106,8 @@
     &lt;li&gt;&lt;a href=&quot;./license-adsp3&quot;&gt;ADSP (3) 데이터 분석 기회의 이해&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./license-adsp4&quot;&gt;ADSP (4) 분석 마스터플랜&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./license-adsp5&quot;&gt;ADSP (5) R 기초와 데이터 마트&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./license-adsp6&quot;&gt;ADSP (6) 통계 분석&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./license-adsp7&quot;&gt;ADSP (7) 정형 데이터 마이닝&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./license-adsp6&quot;&gt;ADSP (6) 통계 분석 (1)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./license-adsp7&quot;&gt;ADSP (7) 통계 분석 (2)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 </description>
@@ -89,8 +130,8 @@
     &lt;li&gt;&lt;a href=&quot;./license-adsp3&quot;&gt;ADSP (3) 데이터 분석 기회의 이해&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./license-adsp4&quot;&gt;ADSP (4) 분석 마스터플랜&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./license-adsp5&quot;&gt;ADSP (5) R 기초와 데이터 마트&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./license-adsp6&quot;&gt;ADSP (6) 통계 분석&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./license-adsp7&quot;&gt;ADSP (7) 정형 데이터 마이닝&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./license-adsp6&quot;&gt;ADSP (6) 통계 분석 (1)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./license-adsp7&quot;&gt;ADSP (7) 통계 분석 (2)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 </description>
@@ -113,8 +154,8 @@
     &lt;li&gt;&lt;a href=&quot;./license-adsp3&quot;&gt;ADSP (3) 데이터 분석 기회의 이해&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./license-adsp4&quot;&gt;ADSP (4) 분석 마스터플랜&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./license-adsp5&quot;&gt;ADSP (5) R 기초와 데이터 마트&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./license-adsp6&quot;&gt;ADSP (6) 통계 분석&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./license-adsp7&quot;&gt;ADSP (7) 정형 데이터 마이닝&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./license-adsp6&quot;&gt;ADSP (6) 통계 분석 (1)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./license-adsp7&quot;&gt;ADSP (7) 통계 분석 (2)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 </description>
@@ -137,8 +178,8 @@
     &lt;li&gt;&lt;a href=&quot;./license-adsp3&quot;&gt;ADSP (3) 데이터 분석 기회의 이해&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./license-adsp4&quot;&gt;ADSP (4) 분석 마스터플랜&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./license-adsp5&quot;&gt;ADSP (5) R 기초와 데이터 마트&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./license-adsp6&quot;&gt;ADSP (6) 통계 분석&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./license-adsp7&quot;&gt;ADSP (7) 정형 데이터 마이닝&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./license-adsp6&quot;&gt;ADSP (6) 통계 분석 (1)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./license-adsp7&quot;&gt;ADSP (7) 통계 분석 (2)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 </description>
@@ -161,8 +202,8 @@
     &lt;li&gt;&lt;a href=&quot;./license-adsp3&quot;&gt;ADSP (3) 데이터 분석 기회의 이해&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./license-adsp4&quot;&gt;ADSP (4) 분석 마스터플랜&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./license-adsp5&quot;&gt;ADSP (5) R 기초와 데이터 마트&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./license-adsp6&quot;&gt;ADSP (6) 통계 분석&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./license-adsp7&quot;&gt;ADSP (7) 정형 데이터 마이닝&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./license-adsp6&quot;&gt;ADSP (6) 통계 분석 (1)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./license-adsp7&quot;&gt;ADSP (7) 통계 분석 (2)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 </description>
@@ -185,8 +226,8 @@
     &lt;li&gt;&lt;a href=&quot;./license-adsp3&quot;&gt;ADSP (3) 데이터 분석 기회의 이해&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./license-adsp4&quot;&gt;ADSP (4) 분석 마스터플랜&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./license-adsp5&quot;&gt;ADSP (5) R 기초와 데이터 마트&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./license-adsp6&quot;&gt;ADSP (6) 통계 분석&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./license-adsp7&quot;&gt;ADSP (7) 정형 데이터 마이닝&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./license-adsp6&quot;&gt;ADSP (6) 통계 분석 (1)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./license-adsp7&quot;&gt;ADSP (7) 통계 분석 (2)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 </description>
@@ -279,6 +320,7 @@
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./programming-kaggle1&quot;&gt;캐글 (1) Simple Matplotlib &amp;amp; Visualization Tips 공부하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./programming-kaggle2&quot;&gt;캐글 (2) 타이타닉 튜토리얼 1,2 공부하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./programming-kaggle3&quot;&gt;캐글 (3) 타이타닉 생존자 EDA 부터 분류까지&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&quot;타이타닉-튜토리얼-12-공부하기&quot;&gt;타이타닉 튜토리얼 1,2 공부하기&lt;/h1&gt;
 
@@ -444,6 +486,7 @@
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./programming-kaggle1&quot;&gt;캐글 (1) Simple Matplotlib &amp;amp; Visualization Tips 공부하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./programming-kaggle2&quot;&gt;캐글 (2) 타이타닉 튜토리얼 1,2 공부하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./programming-kaggle3&quot;&gt;캐글 (3) 타이타닉 생존자 EDA 부터 분류까지&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&quot;simple-matplotlib--visualization-tips-공부하기&quot;&gt;Simple Matplotlib &amp;amp; Visualization Tips 공부하기&lt;/h1&gt;
 

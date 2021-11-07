@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://keonju2.github.io/tag/license/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://keonju2.github.io/" rel="alternate" type="text/html" />
-  <updated>2021-11-05T23:45:01+09:00</updated>
+  <updated>2021-11-07T21:13:51+09:00</updated>
   <id>https://keonju2.github.io/tag/license/feed.xml</id>
 
   
@@ -44,8 +44,8 @@
     &lt;li&gt;&lt;a href=&quot;./license-adsp3&quot;&gt;ADSP (3) 데이터 분석 기회의 이해&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./license-adsp4&quot;&gt;ADSP (4) 분석 마스터플랜&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./license-adsp5&quot;&gt;ADSP (5) R 기초와 데이터 마트&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./license-adsp6&quot;&gt;ADSP (6) 통계 분석&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./license-adsp7&quot;&gt;ADSP (7) 정형 데이터 마이닝&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./license-adsp6&quot;&gt;ADSP (6) 통계 분석 (1)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./license-adsp7&quot;&gt;ADSP (7) 통계 분석 (2)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;ADSP를 준비하면서 공부한 내용을 정리한 글입니다.&lt;br /&gt;
@@ -70,7 +70,7 @@
       
 
       
-        <summary type="html">ADSP 관련 글 ADSP (1) 데이터의 이해 ADSP (2) 데이터의 가치와 미래 ADSP (3) 데이터 분석 기회의 이해 ADSP (4) 분석 마스터플랜 ADSP (5) R 기초와 데이터 마트 ADSP (6) 통계 분석 ADSP (7) 정형 데이터 마이닝</summary>
+        <summary type="html">ADSP 관련 글 ADSP (1) 데이터의 이해 ADSP (2) 데이터의 가치와 미래 ADSP (3) 데이터 분석 기회의 이해 ADSP (4) 분석 마스터플랜 ADSP (5) R 기초와 데이터 마트 ADSP (6) 통계 분석 (1) ADSP (7) 통계 분석 (2)</summary>
       
 
       
@@ -90,8 +90,8 @@
     &lt;li&gt;&lt;a href=&quot;./license-adsp3&quot;&gt;ADSP (3) 데이터 분석 기회의 이해&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./license-adsp4&quot;&gt;ADSP (4) 분석 마스터플랜&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./license-adsp5&quot;&gt;ADSP (5) R 기초와 데이터 마트&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./license-adsp6&quot;&gt;ADSP (6) 통계 분석&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./license-adsp7&quot;&gt;ADSP (7) 정형 데이터 마이닝&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./license-adsp6&quot;&gt;ADSP (6) 통계 분석 (1)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./license-adsp7&quot;&gt;ADSP (7) 통계 분석 (2)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;ADSP를 준비하면서 공부한 내용을 정리한 글입니다.&lt;br /&gt;
@@ -116,7 +116,7 @@
       
 
       
-        <summary type="html">ADSP 관련 글 ADSP (1) 데이터의 이해 ADSP (2) 데이터의 가치와 미래 ADSP (3) 데이터 분석 기회의 이해 ADSP (4) 분석 마스터플랜 ADSP (5) R 기초와 데이터 마트 ADSP (6) 통계 분석 ADSP (7) 정형 데이터 마이닝</summary>
+        <summary type="html">ADSP 관련 글 ADSP (1) 데이터의 이해 ADSP (2) 데이터의 가치와 미래 ADSP (3) 데이터 분석 기회의 이해 ADSP (4) 분석 마스터플랜 ADSP (5) R 기초와 데이터 마트 ADSP (6) 통계 분석 (1) ADSP (7) 통계 분석 (2)</summary>
       
 
       
@@ -136,8 +136,8 @@
     &lt;li&gt;&lt;a href=&quot;./license-adsp3&quot;&gt;ADSP (3) 데이터 분석 기회의 이해&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./license-adsp4&quot;&gt;ADSP (4) 분석 마스터플랜&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./license-adsp5&quot;&gt;ADSP (5) R 기초와 데이터 마트&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./license-adsp6&quot;&gt;ADSP (6) 통계 분석&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./license-adsp7&quot;&gt;ADSP (7) 정형 데이터 마이닝&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./license-adsp6&quot;&gt;ADSP (6) 통계 분석 (1)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./license-adsp7&quot;&gt;ADSP (7) 통계 분석 (2)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;ADSP를 준비하면서 공부한 내용을 정리한 글입니다.&lt;br /&gt;
@@ -580,7 +580,7 @@ one sample t-test, two sample t-test, paired t-test, one way anova&lt;/p&gt;
       
 
       
-        <summary type="html">ADSP 관련 글 ADSP (1) 데이터의 이해 ADSP (2) 데이터의 가치와 미래 ADSP (3) 데이터 분석 기회의 이해 ADSP (4) 분석 마스터플랜 ADSP (5) R 기초와 데이터 마트 ADSP (6) 통계 분석 ADSP (7) 정형 데이터 마이닝</summary>
+        <summary type="html">ADSP 관련 글 ADSP (1) 데이터의 이해 ADSP (2) 데이터의 가치와 미래 ADSP (3) 데이터 분석 기회의 이해 ADSP (4) 분석 마스터플랜 ADSP (5) R 기초와 데이터 마트 ADSP (6) 통계 분석 (1) ADSP (7) 통계 분석 (2)</summary>
       
 
       
@@ -600,8 +600,8 @@ one sample t-test, two sample t-test, paired t-test, one way anova&lt;/p&gt;
     &lt;li&gt;&lt;a href=&quot;./license-adsp3&quot;&gt;ADSP (3) 데이터 분석 기회의 이해&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./license-adsp4&quot;&gt;ADSP (4) 분석 마스터플랜&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./license-adsp5&quot;&gt;ADSP (5) R 기초와 데이터 마트&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./license-adsp6&quot;&gt;ADSP (6) 통계 분석&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./license-adsp7&quot;&gt;ADSP (7) 정형 데이터 마이닝&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./license-adsp6&quot;&gt;ADSP (6) 통계 분석 (1)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./license-adsp7&quot;&gt;ADSP (7) 통계 분석 (2)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;ADSP를 준비하면서 공부한 내용을 정리한 글입니다.&lt;br /&gt;
@@ -2399,7 +2399,7 @@ Q1-1.5IQR 미만이거나 Q3+1.5IQR 초과면 이상값으로 판단한다.&lt;/
       
 
       
-        <summary type="html">ADSP 관련 글 ADSP (1) 데이터의 이해 ADSP (2) 데이터의 가치와 미래 ADSP (3) 데이터 분석 기회의 이해 ADSP (4) 분석 마스터플랜 ADSP (5) R 기초와 데이터 마트 ADSP (6) 통계 분석 ADSP (7) 정형 데이터 마이닝</summary>
+        <summary type="html">ADSP 관련 글 ADSP (1) 데이터의 이해 ADSP (2) 데이터의 가치와 미래 ADSP (3) 데이터 분석 기회의 이해 ADSP (4) 분석 마스터플랜 ADSP (5) R 기초와 데이터 마트 ADSP (6) 통계 분석 (1) ADSP (7) 통계 분석 (2)</summary>
       
 
       
@@ -2419,8 +2419,8 @@ Q1-1.5IQR 미만이거나 Q3+1.5IQR 초과면 이상값으로 판단한다.&lt;/
     &lt;li&gt;&lt;a href=&quot;./license-adsp3&quot;&gt;ADSP (3) 데이터 분석 기회의 이해&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./license-adsp4&quot;&gt;ADSP (4) 분석 마스터플랜&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./license-adsp5&quot;&gt;ADSP (5) R 기초와 데이터 마트&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./license-adsp6&quot;&gt;ADSP (6) 통계 분석&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./license-adsp7&quot;&gt;ADSP (7) 정형 데이터 마이닝&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./license-adsp6&quot;&gt;ADSP (6) 통계 분석 (1)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./license-adsp7&quot;&gt;ADSP (7) 통계 분석 (2)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;ADSP를 준비하면서 공부한 내용을 정리한 글입니다.&lt;br /&gt;
@@ -2586,7 +2586,7 @@ Value&lt;/p&gt;
       
 
       
-        <summary type="html">ADSP 관련 글 ADSP (1) 데이터의 이해 ADSP (2) 데이터의 가치와 미래 ADSP (3) 데이터 분석 기회의 이해 ADSP (4) 분석 마스터플랜 ADSP (5) R 기초와 데이터 마트 ADSP (6) 통계 분석 ADSP (7) 정형 데이터 마이닝</summary>
+        <summary type="html">ADSP 관련 글 ADSP (1) 데이터의 이해 ADSP (2) 데이터의 가치와 미래 ADSP (3) 데이터 분석 기회의 이해 ADSP (4) 분석 마스터플랜 ADSP (5) R 기초와 데이터 마트 ADSP (6) 통계 분석 (1) ADSP (7) 통계 분석 (2)</summary>
       
 
       
@@ -2606,8 +2606,8 @@ Value&lt;/p&gt;
     &lt;li&gt;&lt;a href=&quot;./license-adsp3&quot;&gt;ADSP (3) 데이터 분석 기회의 이해&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./license-adsp4&quot;&gt;ADSP (4) 분석 마스터플랜&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./license-adsp5&quot;&gt;ADSP (5) R 기초와 데이터 마트&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./license-adsp6&quot;&gt;ADSP (6) 통계 분석&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./license-adsp7&quot;&gt;ADSP (7) 정형 데이터 마이닝&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./license-adsp6&quot;&gt;ADSP (6) 통계 분석 (1)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./license-adsp7&quot;&gt;ADSP (7) 통계 분석 (2)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;ADSP를 준비하면서 공부한 내용을 정리한 글입니다.&lt;br /&gt;
@@ -2865,7 +2865,7 @@ ex) 머신 러닝, DT, 인공신경망 모형, 분류, 회귀&lt;/p&gt;
       
 
       
-        <summary type="html">ADSP 관련 글 ADSP (1) 데이터의 이해 ADSP (2) 데이터의 가치와 미래 ADSP (3) 데이터 분석 기회의 이해 ADSP (4) 분석 마스터플랜 ADSP (5) R 기초와 데이터 마트 ADSP (6) 통계 분석 ADSP (7) 정형 데이터 마이닝</summary>
+        <summary type="html">ADSP 관련 글 ADSP (1) 데이터의 이해 ADSP (2) 데이터의 가치와 미래 ADSP (3) 데이터 분석 기회의 이해 ADSP (4) 분석 마스터플랜 ADSP (5) R 기초와 데이터 마트 ADSP (6) 통계 분석 (1) ADSP (7) 통계 분석 (2)</summary>
       
 
       
@@ -2885,8 +2885,8 @@ ex) 머신 러닝, DT, 인공신경망 모형, 분류, 회귀&lt;/p&gt;
     &lt;li&gt;&lt;a href=&quot;./license-adsp3&quot;&gt;ADSP (3) 데이터 분석 기회의 이해&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./license-adsp4&quot;&gt;ADSP (4) 분석 마스터플랜&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./license-adsp5&quot;&gt;ADSP (5) R 기초와 데이터 마트&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./license-adsp6&quot;&gt;ADSP (6) 통계 분석&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./license-adsp7&quot;&gt;ADSP (7) 정형 데이터 마이닝&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./license-adsp6&quot;&gt;ADSP (6) 통계 분석 (1)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./license-adsp7&quot;&gt;ADSP (7) 통계 분석 (2)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;ADSP를 준비하면서 공부한 내용을 정리한 글입니다.&lt;br /&gt;
@@ -3108,7 +3108,7 @@ ex) 머신 러닝, DT, 인공신경망 모형, 분류, 회귀&lt;/p&gt;
       
 
       
-        <summary type="html">ADSP 관련 글 ADSP (1) 데이터의 이해 ADSP (2) 데이터의 가치와 미래 ADSP (3) 데이터 분석 기회의 이해 ADSP (4) 분석 마스터플랜 ADSP (5) R 기초와 데이터 마트 ADSP (6) 통계 분석 ADSP (7) 정형 데이터 마이닝</summary>
+        <summary type="html">ADSP 관련 글 ADSP (1) 데이터의 이해 ADSP (2) 데이터의 가치와 미래 ADSP (3) 데이터 분석 기회의 이해 ADSP (4) 분석 마스터플랜 ADSP (5) R 기초와 데이터 마트 ADSP (6) 통계 분석 (1) ADSP (7) 통계 분석 (2)</summary>
       
 
       
@@ -3128,8 +3128,8 @@ ex) 머신 러닝, DT, 인공신경망 모형, 분류, 회귀&lt;/p&gt;
     &lt;li&gt;&lt;a href=&quot;./license-adsp3&quot;&gt;ADSP (3) 데이터 분석 기회의 이해&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./license-adsp4&quot;&gt;ADSP (4) 분석 마스터플랜&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./license-adsp5&quot;&gt;ADSP (5) R 기초와 데이터 마트&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./license-adsp6&quot;&gt;ADSP (6) 통계 분석&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./license-adsp7&quot;&gt;ADSP (7) 정형 데이터 마이닝&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./license-adsp6&quot;&gt;ADSP (6) 통계 분석 (1)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./license-adsp7&quot;&gt;ADSP (7) 통계 분석 (2)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;ADSP를 준비하면서 공부한 내용을 정리한 글입니다.&lt;br /&gt;
@@ -3381,7 +3381,7 @@ COMMIT, SAVEPOINT, ROLLBACK&lt;/p&gt;
       
 
       
-        <summary type="html">ADSP 관련 글 ADSP (1) 데이터의 이해 ADSP (2) 데이터의 가치와 미래 ADSP (3) 데이터 분석 기회의 이해 ADSP (4) 분석 마스터플랜 ADSP (5) R 기초와 데이터 마트 ADSP (6) 통계 분석 ADSP (7) 정형 데이터 마이닝</summary>
+        <summary type="html">ADSP 관련 글 ADSP (1) 데이터의 이해 ADSP (2) 데이터의 가치와 미래 ADSP (3) 데이터 분석 기회의 이해 ADSP (4) 분석 마스터플랜 ADSP (5) R 기초와 데이터 마트 ADSP (6) 통계 분석 (1) ADSP (7) 통계 분석 (2)</summary>
       
 
       
