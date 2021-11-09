@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://keonju2.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://keonju2.github.io/" rel="alternate" type="text/html" /><updated>2021-11-07T21:13:51+09:00</updated><id>https://keonju2.github.io/feed.xml</id><title type="html">주건나’s Blog</title><subtitle>데이터 사이언티스트를 꿈꾸는 블로그입니다.</subtitle><entry><title type="html">캐글 (3) 타이타닉 생존자 EDA 부터 분류까지</title><link href="https://keonju2.github.io/programming-kaggle3" rel="alternate" type="text/html" title="캐글 (3) 타이타닉 생존자 EDA 부터 분류까지" /><published>2021-11-07T21:00:00+09:00</published><updated>2021-11-07T21:00:00+09:00</updated><id>https://keonju2.github.io/programming-kaggle3</id><content type="html" xml:base="https://keonju2.github.io/programming-kaggle3">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;kaggle 관련 글&lt;/span&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://keonju2.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://keonju2.github.io/" rel="alternate" type="text/html" /><updated>2021-11-09T23:23:59+09:00</updated><id>https://keonju2.github.io/feed.xml</id><title type="html">주건나’s Blog</title><subtitle>데이터 사이언티스트를 꿈꾸는 블로그입니다.</subtitle><entry><title type="html">캐글 (3) 타이타닉 생존자 EDA 부터 분류까지</title><link href="https://keonju2.github.io/programming-kaggle3" rel="alternate" type="text/html" title="캐글 (3) 타이타닉 생존자 EDA 부터 분류까지" /><published>2021-11-07T21:00:00+09:00</published><updated>2021-11-07T21:00:00+09:00</updated><id>https://keonju2.github.io/programming-kaggle3</id><content type="html" xml:base="https://keonju2.github.io/programming-kaggle3">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;kaggle 관련 글&lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./programming-kaggle1&quot;&gt;캐글 (1) Simple Matplotlib &amp;amp; Visualization Tips 공부하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./programming-kaggle2&quot;&gt;캐글 (2) 타이타닉 튜토리얼 1,2 공부하기&lt;/a&gt;&lt;/li&gt;
@@ -2139,7 +2139,7 @@ ColumnTransformer의 fit, transform 메소드를 사용할 수 있습니다.&lt;
 &lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;show&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;img src=&quot;output_23_0.png&quot; alt=&quot;png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/54880474/140941313-e3af7cab-4acb-492b-9a66-1619b55736b7.png&quot; alt=&quot;output_23_0&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;선형 모델은 선형 관계로만 모델링하므로 특성이 하나일 땐 직선으로 나타납니다.&lt;br /&gt;
 구간 분할을 통해 한 특성을 여러 특성으로 나누면 강력한 선형 모델을 만들 수 있습니다.&lt;br /&gt;
@@ -2216,7 +2216,7 @@ array([[0., 0., 0., 1., 0., 0., 0., 0., 0., 0.],
 &lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;show&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;img src=&quot;output_28_0.png&quot; alt=&quot;png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/54880474/140941359-3b1b08b0-9e62-467e-a83d-e347f2a58d60.png&quot; alt=&quot;output_28_0&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;두 선이 완전히 겹치는 결과가 나왔습니다.&lt;br /&gt;
 선형 모델은 훨씬 유연해졌지만 결정 트리는 덜 유연해졌습니다.&lt;/p&gt;
@@ -2379,7 +2379,9 @@ X_train_poly.shape: (379, 105)
 상호작용 특성이 있을 때 점수: 0.775
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;Ridge의 성능은 크게 높였지만 RandomForest는 상호작용 특성이 있는 Ridge만큼의 성능과 맞먹었습니다.&lt;/p&gt;</content><author><name>주건나</name></author><category term="study" /><summary type="html">머신러닝 공부 관련 글 머신러닝 정리 (1)-지도학습 (1) 머신러닝 정리 (2)-지도학습 (2) 머신러닝 정리 (3)-비지도학습 (1) 머신러닝 정리 (4)-비지도학습 (2)</summary></entry><entry><title type="html">ADSP (8) 정형 데이터 마이닝</title><link href="https://keonju2.github.io/license-adsp8" rel="alternate" type="text/html" title="ADSP (8) 정형 데이터 마이닝" /><published>2021-11-05T08:00:00+09:00</published><updated>2021-11-05T08:00:00+09:00</updated><id>https://keonju2.github.io/license-adsp8</id><content type="html" xml:base="https://keonju2.github.io/license-adsp8">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;ADSP 관련 글&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Ridge의 성능은 크게 높였지만 RandomForest는 상호작용 특성이 있는 Ridge만큼의 성능과 맞먹었습니다.&lt;/p&gt;
+
+&lt;h1 id=&quot;일변량-다항식&quot;&gt;일변량 다항식&lt;/h1&gt;</content><author><name>주건나</name></author><category term="study" /><summary type="html">머신러닝 공부 관련 글 머신러닝 정리 (1)-지도학습 (1) 머신러닝 정리 (2)-지도학습 (2) 머신러닝 정리 (3)-비지도학습 (1) 머신러닝 정리 (4)-비지도학습 (2)</summary></entry><entry><title type="html">ADSP (8) 정형 데이터 마이닝</title><link href="https://keonju2.github.io/license-adsp8" rel="alternate" type="text/html" title="ADSP (8) 정형 데이터 마이닝" /><published>2021-11-05T08:00:00+09:00</published><updated>2021-11-05T08:00:00+09:00</updated><id>https://keonju2.github.io/license-adsp8</id><content type="html" xml:base="https://keonju2.github.io/license-adsp8">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;ADSP 관련 글&lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./license-adsp1&quot;&gt;ADSP (1) 데이터의 이해&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./license-adsp2&quot;&gt;ADSP (2) 데이터의 가치와 미래&lt;/a&gt;&lt;/li&gt;

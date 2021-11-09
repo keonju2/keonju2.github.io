@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://keonju2.github.io/tag/study/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://keonju2.github.io/" rel="alternate" type="text/html" />
-  <updated>2021-11-07T21:13:51+09:00</updated>
+  <updated>2021-11-09T23:23:59+09:00</updated>
   <id>https://keonju2.github.io/tag/study/feed.xml</id>
 
   
@@ -422,7 +422,7 @@ ColumnTransformer의 fit, transform 메소드를 사용할 수 있습니다.&lt;
 &lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;show&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;img src=&quot;output_23_0.png&quot; alt=&quot;png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/54880474/140941313-e3af7cab-4acb-492b-9a66-1619b55736b7.png&quot; alt=&quot;output_23_0&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;선형 모델은 선형 관계로만 모델링하므로 특성이 하나일 땐 직선으로 나타납니다.&lt;br /&gt;
 구간 분할을 통해 한 특성을 여러 특성으로 나누면 강력한 선형 모델을 만들 수 있습니다.&lt;br /&gt;
@@ -499,7 +499,7 @@ array([[0., 0., 0., 1., 0., 0., 0., 0., 0., 0.],
 &lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;show&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;img src=&quot;output_28_0.png&quot; alt=&quot;png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/54880474/140941359-3b1b08b0-9e62-467e-a83d-e347f2a58d60.png&quot; alt=&quot;output_28_0&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;두 선이 완전히 겹치는 결과가 나왔습니다.&lt;br /&gt;
 선형 모델은 훨씬 유연해졌지만 결정 트리는 덜 유연해졌습니다.&lt;/p&gt;
@@ -662,7 +662,9 @@ X_train_poly.shape: (379, 105)
 상호작용 특성이 있을 때 점수: 0.775
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;Ridge의 성능은 크게 높였지만 RandomForest는 상호작용 특성이 있는 Ridge만큼의 성능과 맞먹었습니다.&lt;/p&gt;</content>
+&lt;p&gt;Ridge의 성능은 크게 높였지만 RandomForest는 상호작용 특성이 있는 Ridge만큼의 성능과 맞먹었습니다.&lt;/p&gt;
+
+&lt;h1 id=&quot;일변량-다항식&quot;&gt;일변량 다항식&lt;/h1&gt;</content>
 
       
       
