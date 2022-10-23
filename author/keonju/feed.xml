@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://keonju2.github.io/author/keonju/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://keonju2.github.io/" rel="alternate" type="text/html" />
-  <updated>2022-10-16T20:57:37+09:00</updated>
+  <updated>2022-10-23T21:07:48+09:00</updated>
   <id>https://keonju2.github.io/author/keonju/feed.xml</id>
 
   
@@ -30,6 +30,45 @@
   
   
 
+  
+    <entry>
+      <title type="html">project 연습글</title>
+      <link href="https://keonju2.github.io/project-second" rel="alternate" type="text/html" title="project 연습글" />
+      <published>2022-10-17T07:00:00+09:00</published>
+      <updated>2022-10-17T07:00:00+09:00</updated>
+      <id>https://keonju2.github.io/project-second</id>
+      <content type="html" xml:base="https://keonju2.github.io/project-second">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;project 게시글 목록&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./project-first&quot;&gt;project 연습글&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;프로젝트 게시판 첫 글 연습&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>주건나</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="project" />
+      
+
+      
+        <summary type="html">project 게시글 목록 project 연습글</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">캐글 (5) 메타 데이터를 이용한 데이터 관찰 및 준비</title>
@@ -7140,470 +7179,6 @@ F-value가 작으면 p-value가 커지므로 이는 집단간 분산이 분모�
 
 &lt;p&gt;ADSP를 준비하면서 공부한 내용을 정리한 글입니다.&lt;br /&gt;
 3과목 2장 통계분석에 대한 부분을 정리한 글입니다.&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>주건나</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="license" />
-      
-
-      
-        <summary type="html">ADSP 관련 글 ADSP (1) 데이터의 이해 ADSP (2) 데이터의 가치와 미래 ADSP (3) 데이터 분석 기회의 이해 ADSP (4) 분석 마스터플랜 ADSP (5) R 기초와 데이터 마트 ADSP (6) 통계 분석 (1) ADSP (7) 통계 분석 (2)</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">ADSP (6) 통계 분석(1)</title>
-      <link href="https://keonju2.github.io/license-adsp6" rel="alternate" type="text/html" title="ADSP (6) 통계 분석(1)" />
-      <published>2021-11-04T08:00:00+09:00</published>
-      <updated>2021-11-04T08:00:00+09:00</updated>
-      <id>https://keonju2.github.io/license-adsp6</id>
-      <content type="html" xml:base="https://keonju2.github.io/license-adsp6">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;ADSP 관련 글&lt;/span&gt;&lt;/p&gt;
-&lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./license-adsp1&quot;&gt;ADSP (1) 데이터의 이해&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./license-adsp2&quot;&gt;ADSP (2) 데이터의 가치와 미래&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./license-adsp3&quot;&gt;ADSP (3) 데이터 분석 기회의 이해&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./license-adsp4&quot;&gt;ADSP (4) 분석 마스터플랜&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./license-adsp5&quot;&gt;ADSP (5) R 기초와 데이터 마트&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./license-adsp6&quot;&gt;ADSP (6) 통계 분석 (1)&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./license-adsp7&quot;&gt;ADSP (7) 통계 분석 (2)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;ADSP를 준비하면서 공부한 내용을 정리한 글입니다.&lt;br /&gt;
-3과목 2장 통계 분석에 대한 부분을 정리한 글입니다.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;통계의 이해
-    &lt;ol&gt;
-      &lt;li&gt;통계와 표본 조사&lt;/li&gt;
-      &lt;li&gt;표본 추출 방법&lt;/li&gt;
-      &lt;li&gt;측정과 척도&lt;/li&gt;
-      &lt;li&gt;기술통계와 추리통계&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;확률과 확률분포
-    &lt;ol&gt;
-      &lt;li&gt;이산확률분포&lt;/li&gt;
-      &lt;li&gt;연속확률분포&lt;/li&gt;
-      &lt;li&gt;여러가지 통계값&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;추정과 가설검정
-    &lt;ol&gt;
-      &lt;li&gt;추정&lt;/li&gt;
-      &lt;li&gt;가설검정&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h1 id=&quot;통계의-이해&quot;&gt;통계의 이해&lt;/h1&gt;
-
-&lt;h2 id=&quot;통계와-표본-조사&quot;&gt;통계와 표본 조사&lt;/h2&gt;
-
-&lt;p&gt;통계&lt;br /&gt;
-분석하고자 하는 집단에 대해 조사하거나 실험을 통해 얻는 자료&lt;/p&gt;
-
-&lt;p&gt;표본조사&lt;br /&gt;
-전수조사가 불가능하기 때문에 표본의 대표성을 신뢰할 수 있는 표본 조사를 진행&lt;/p&gt;
-
-&lt;p&gt;신뢰수준&lt;br /&gt;
-신뢰수준 95%라는 말은 95% 신뢰할 수 있다는 말이 아니라 100번 조사했을 때 오차범위 내에서 동일한 결과가 95번 나온다는 말&lt;/p&gt;
-
-&lt;p&gt;오차범위 
-오차범위는 결과값에 대한 오차범위로 오차범위 3%라면 n-3~n+3의 값을 갖는다는 의미&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;표본-추출-방법&quot;&gt;표본 추출 방법&lt;/h2&gt;
-
-&lt;h4 id=&quot;단순-랜덤-추출법&quot;&gt;단순 랜덤 추출법&lt;/h4&gt;
-
-&lt;p&gt;표본 추출 방법에서 N개의 모집단에서 n개의 데이터를 무작위로 추출하는 방법&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/54880474/140511375-83111bac-2cc3-4da7-9a3f-ca15c141e086.jpg&quot; alt=&quot;adsp1&quot; /&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;계통-추출법&quot;&gt;계통 추출법&lt;/h4&gt;
-
-&lt;p&gt;모집단의 원소에 차례대로 번호를 부여한 뒤 일정한 간격을 두고 데이터를 추출하는 방법.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/54880474/140511376-9c784b2c-acbc-466f-931e-7f4ec4e3c382.jpg&quot; alt=&quot;adsp2&quot; /&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;집락군집-추출법&quot;&gt;집락(군집) 추출법&lt;/h4&gt;
-
-&lt;p&gt;각각 군집으로 구분한 뒤 단순 랜덤 추출법에 의하여 선택된 군집의 데이터를 표본으로 사용한다.&lt;br /&gt;
-집락은 서로 동질적이지만, 집락 내 데이터는 서로 이질적이다.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/54880474/140511379-1442041b-d2b3-43de-b2f9-446f031b8155.jpg&quot; alt=&quot;adsp3&quot; /&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;층화-추출법&quot;&gt;층화 추출법&lt;/h4&gt;
-
-&lt;p&gt;층화 추출법은 집락 추출법과 유사하나 각 집락은 서로 이질적이고 내부 데이터는 서로 독립적이다.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/54880474/140511371-e64cc116-d75a-419d-b9d0-d87804aeed4e.jpg&quot; alt=&quot;adsp4&quot; /&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;비례 층화 추출법&lt;br /&gt;
-비례 층화 추출법은 전체 데이터의 분포를 반영하여 각 군집별 데이터를 추출하는 방법이다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;불비례 층화 추출법&lt;br /&gt;
-불비례 층화 추출법은 전체 데이터의 분포를 반영하지 않고 각 군집에서 원하는 데이터의 개수를 추출한다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;측정과-척도&quot;&gt;측정과 척도&lt;/h2&gt;
-
-&lt;p&gt;측정&lt;br /&gt;
-표본조사를 실시하는 경우 추출된 원소들이나 실험 단위로부터 주어진 목적에 적합하게 관측해 자료를 얻는 것&lt;/p&gt;
-
-&lt;p&gt;척도&lt;br /&gt;
-관측 대상의 속성을 측정하여 그 값이 숫자로 나타나도록 일정한 규칙을 정하여 바꾸는 도구&lt;/p&gt;
-
-&lt;h4 id=&quot;척도의-종류&quot;&gt;척도의 종류&lt;/h4&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;질적 척도
-    &lt;ol&gt;
-      &lt;li&gt;명목 척도&lt;br /&gt;
- 측정 대상이 어느 집단에 속하는지 나타내는 자료 (성별, 지역 등)&lt;/li&gt;
-      &lt;li&gt;순서 척도&lt;br /&gt;
- 측정 대상이 명목척도이면서 서열 관계를 갖는 자료 (선호도, 학년 등)&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;양적 척도
-    &lt;ol&gt;
-      &lt;li&gt;구간 척도&lt;br /&gt;
- 측정 대상이 가지고 있는 속성의 양을 측정할 수 있으며 두 구간 사이에 의미가 있는 자료  (온도, 지수 등)&lt;/li&gt;
-      &lt;li&gt;비율 척도&lt;br /&gt;
- 측정 대상이 구간척도이면서도 절대적 기준 0이 존재하여 사칙연산이 가능한 척도  (신장, 무게, 점수, 등)&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;기술통계와-추리통계&quot;&gt;기술통계와 추리통계&lt;/h2&gt;
-
-&lt;p&gt;기술통계&lt;br /&gt;
-기술 통계는 표본 자체의 속성이나 특징을 파악하는 데 중점을 두고 자료를 요약하고 조직화, 단순화하는데 그 목적이 있다.&lt;/p&gt;
-
-&lt;p&gt;추리통계&lt;br /&gt;
-추리통계는 수집한 데이터를 바탕으로 ‘추론 및 예측’하는 통계 기법이다.&lt;br /&gt;
-표본에서 얻은 통계치를 바탕으로 오차를 고려하면서 모수를 확률적으로 추정하는 통계 기법이다.&lt;br /&gt;
-모집단의 특성을 추정하는 데 초점을 두고 가설을 검증하거나 확률적인 가능성을 파악한다.&lt;/p&gt;
-
-&lt;h4 id=&quot;통계-기초-개졈&quot;&gt;통계 기초 개졈&lt;/h4&gt;
-
-&lt;p&gt;편차&lt;br /&gt;
-평균과의 차이&lt;/p&gt;
-
-&lt;p&gt;분산 Var(X)&lt;br /&gt;
-평균으로부터의 분포&lt;br /&gt;
-분산이 크면 퍼짐의 정도가 크다.&lt;/p&gt;
-
-&lt;p&gt;표준편차 sd(X)&lt;br /&gt;
-분산은 기존과 다른 단위를 갖게 되기 때문에 단위를 일치시키기 위해 분산에 루트를 씌워서 구하는 값&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;확률과-확률분포&quot;&gt;확률과 확률분포&lt;/h1&gt;
-
-&lt;p&gt;확률&lt;br /&gt;
-발생 가능한 모든 사건들의 집합 표본공간에서 표본공간의 부분집합인 특정 사건 A가 발생할 수 있는 비율&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/54880474/140513427-61c1e146-0137-4941-8be5-7d1ca2e55e74.jpg&quot; alt=&quot;adsp5&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;조건부 확률&lt;br /&gt;
-특정 사건 A가 발생했다는 사실 아래 또 다른 사건 B가 발생할 확률&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/54880474/140513429-e86b0539-6a95-4c73-b271-8ca7e58c4db7.jpg&quot; alt=&quot;adsp6&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;독립사건&lt;br /&gt;
-서로에게 영향을 주지 않는 두 개의 사건&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/54880474/140513422-caf0ce08-e5dc-43e6-86bb-fd9ec8e971ab.jpg&quot; alt=&quot;adsp7&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;배반사건&lt;br /&gt;
-공통된 부분이 없는 사건&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/54880474/140513426-f4c5c901-b4dc-40ea-8cb1-112c80089982.jpg&quot; alt=&quot;adsp8&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;확률변수&lt;br /&gt;
-무작위 실험을 했을 때 특정 확률로 발생하는 각각의 결과를 수치적 값으로 표현하는 변수&lt;/p&gt;
-
-&lt;p&gt;확률분포&lt;br /&gt;
-확률변수의 모든 값과 그 대응하는 확률이 어떻게 분포하고 있는 지를 보여주는 분포&lt;br /&gt;
-이산확률분포의 확률함수를 ‘확률질량함수’&lt;br /&gt;
-연속확률분포의 확률함수를 ‘확률밀도함수’&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/54880474/140516071-df54a2a8-5f7d-47f2-8b44-804cfe4378a9.jpg&quot; alt=&quot;adsp9&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;이산확률분포&quot;&gt;이산확률분포&lt;/h2&gt;
-
-&lt;h4 id=&quot;베르누이-분포&quot;&gt;베르누이 분포&lt;/h4&gt;
-
-&lt;p&gt;확률변수 X가 취할 수 있는 값이 두 개인 경우로 일반적으로 한 번의 시행을 할 때 성공과 실패로 나눌 수 있는 성공할 확률이 p인 분포&lt;br /&gt;
-ex) 하나의 동전을 던져 앞면이 나올 확률&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/54880474/140516075-1827d47f-867c-4b5d-b8a9-b1c203754eb7.jpg&quot; alt=&quot;adsp10&quot; /&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;이항-분포&quot;&gt;이항 분포&lt;/h4&gt;
-
-&lt;p&gt;이항 분포는 n번의 베루누이 시행에서 k번 성공할 확률의 분포&lt;br /&gt;
-ex) 하나의 동전을 3번 던져 앞면이 2번 나올 확률&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/54880474/140516062-87b50af6-b04d-4a6f-9056-37055440fe48.jpg&quot; alt=&quot;adsp11&quot; /&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;기하-분포&quot;&gt;기하 분포&lt;/h4&gt;
-
-&lt;p&gt;성공할 확률이 p인 베르누이 시행에서 처음으로 성공이 나올 때까지 k번 실패할 확률의 분포&lt;br /&gt;
-ex) 동전을 던져서 3번째에 앞면이 나올 확률&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/54880474/140516065-21cab8c3-65bb-4130-99d1-f9e4b0557e51.jpg&quot; alt=&quot;adsp12&quot; /&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;다항-분포&quot;&gt;다항 분포&lt;/h4&gt;
-
-&lt;p&gt;이항 분포를 확장한 개념으로, n번의 시행에서 각 시행이 3개 이상의 결과를 가질 수 있는 확률의 분포&lt;br /&gt;
-ex) 주사위를 n번 던졌을 때 P&lt;sub&gt;n&lt;/sub&gt;의 확률로 1이 x번, 2가 y번 3이 z번 나올 확률&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/54880474/140516066-2bd7e57f-730c-4598-9021-c11ee54c3a46.jpg&quot; alt=&quot;adsp13&quot; /&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;포아송-분포&quot;&gt;포아송 분포&lt;/h4&gt;
-
-&lt;p&gt;단위 시간 또는 단위 공간 내에서 발생할 수 있는 사건의 발생 횟수에 대한 확률분포&lt;br /&gt;
-ex) 8시간 동안 3명의 손님이 왔을 때 1시간 동안 1명의 손님이 올 확률&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/54880474/140516479-42c470e2-efd7-4bbc-8452-89a095d9530f.jpg&quot; alt=&quot;adsp15&quot; /&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;이산확률변수&quot;&gt;이산확률변수&lt;/h4&gt;
-
-&lt;p&gt;확률변수가 취할 수 있는 실수 값의 수를 셀 수 있는 변수&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/54880474/140516067-4719f566-5ec4-4a37-a37f-78bb9b333d4e.jpg&quot; alt=&quot;adsp14&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;연속확률분포&quot;&gt;연속확률분포&lt;/h2&gt;
-
-&lt;h4 id=&quot;균일분포&quot;&gt;균일분포&lt;/h4&gt;
-
-&lt;p&gt;균일 분포는 연속형 확률변수인 X가 취할 수 있는 모든 값에 대하여 같은 확률을 갖고 있는 분포&lt;br /&gt;
-균일 분포 그래프 아래 면적의 넓이는 확률의 총합인 1&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/54880474/140520285-6b87e97b-d6c3-419c-b2ac-4f5d0f08db54.jpg&quot; alt=&quot;adsp1&quot; /&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;정규분포&quot;&gt;정규분포&lt;/h4&gt;
-
-&lt;p&gt;정규분포는 평균이 μ, 표준편차가 σ인 분포&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/54880474/140520289-6e002b9d-85bd-4ee7-b8cb-7f3ff007426d.jpg&quot; alt=&quot;adsp2&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;표준정규분포는 평균이 0, 표준편차가 1인 정규분포&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/54880474/140520274-ed43be64-46ab-4a47-a229-039818341ed6.jpg&quot; alt=&quot;adsp3&quot; /&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;t-분포&quot;&gt;t-분포&lt;/h4&gt;
-
-&lt;p&gt;자유도가 n인 t분포는 평균이 0이고 종 모양이지만 정규분포보다 두꺼운 꼬리를 갖는 분포&lt;br /&gt;
-표준정규분포를 활용하여 모수를 추정하기 위해서는 모표준편차를 사전에 알고있어야 하지만, 현실적으로 모르기 때문에 t분포를 이용하여 모평균 검정 또는 두 집단의 평균이 동일한지 계산하기 위한 검정통계량으로 활용된다.&lt;br /&gt;
-자유도가 커질수록 t분포는 표준정규분포와 가깝다.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/54880474/140520278-0e5ac9b9-84b8-4798-b041-1e4806b3e0c8.jpg&quot; alt=&quot;adsp4&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;자유도는 표본자료들이 모집단에 정보를 주는 독립적인 자료의 개수&lt;br /&gt;
-ex) 의자 4개와 사람 4명이 있을 때 마지막 사람에겐 선택권이 없으므로 자유도는 3&lt;/p&gt;
-
-&lt;h4 id=&quot;카이제곱-분포&quot;&gt;카이제곱 분포&lt;/h4&gt;
-
-&lt;p&gt;표준정규분포를 따르는 확률변수 Z&lt;sub&gt;1&lt;/sub&gt;,Z&lt;sub&gt;2&lt;/sub&gt;,···,Z&lt;sub&gt;n&lt;/sub&gt;의 제곱의 합 X는 자유도가 n인 카이제곱 분포를 따른다.&lt;br /&gt;
-모평균과 모분산을 모르는 두 개 이상의 집단 간 동질성 검정 또는 모분산 검정을 위해 활용된다.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/54880474/140520283-9f5b7ccd-c186-4788-9632-c405bc4c7ca9.jpg&quot; alt=&quot;adsp5&quot; /&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;동질성 검정&lt;br /&gt;
-두 집단의 내부 구성비를 비교하는 것&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h4 id=&quot;f분포&quot;&gt;F분포&lt;/h4&gt;
-
-&lt;p&gt;서로 독립인 두 카이제곱 분포를 따르는 확률변수 V&lt;sub&gt;1&lt;/sub&gt;~x&lt;sup&gt;2&lt;/sup&gt;(k&lt;sub&gt;1&lt;/sub&gt;),V&lt;sub&gt;2&lt;/sub&gt;~x&lt;sup&gt;2&lt;/sup&gt;(k&lt;sub&gt;2&lt;/sub&gt;)를 각각의 자유도로 나누었을 때 서로의 비율 X는 자유도가 k&lt;sub&gt;1&lt;/sub&gt;, k&lt;sub&gt;2&lt;/sub&gt;인 F분포를 따른다.&lt;/p&gt;
-
-&lt;p&gt;F분포는 등분산 검정 및 분산분석을 위해 활용된다.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/54880474/140520948-4f5906f7-3c67-490a-adca-d503b69fb1e6.jpg&quot; alt=&quot;adsp7&quot; /&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;등분산 검정&lt;br /&gt;
-가설 검정을 수행하는 환경에 따라 두 모집단에 대한 평균을 비교할 때 사용&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h4 id=&quot;연속확률변수&quot;&gt;연속확률변수&lt;/h4&gt;
-
-&lt;p&gt;확률변수가 취할 수 있는 실수 값이 어떤 특정 구간 전체에 해당하여 그 수를 셀 수 없는 변수를 연속확률번수&lt;br /&gt;
-확률밀도함수의 아래 면적이 확률&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/54880474/140520284-bfa0e983-a599-43f2-8f42-815fb305bb8d.jpg&quot; alt=&quot;adsp6&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;여러가지-통계값&quot;&gt;여러가지 통계값&lt;/h2&gt;
-
-&lt;h4 id=&quot;기댓값&quot;&gt;기댓값&lt;/h4&gt;
-
-&lt;p&gt;특정 사건이 시행되었을 때 확률변수 X가 취할 수 있는 값의 평균 값&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/54880474/140524467-36ca62c7-647b-409e-8913-7f70a39acd40.jpg&quot; alt=&quot;adsp1&quot; /&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;분산&quot;&gt;분산&lt;/h4&gt;
-
-&lt;p&gt;분산&lt;br /&gt;
-데이터들이 중심에서 얼마나 떨어져 있는지를 알아보기 위한 측도&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/54880474/140524470-7dda9582-4341-4597-95b1-52d12205ba29.jpg&quot; alt=&quot;adsp2&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;확률변수의 분산&lt;br /&gt;
-확률변수가 취할 수 있는 값들이 모평균에서 얼마나 떨어져 있는지를 측정하는 측도&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/54880474/140524471-c1e8a16d-efae-486b-bcb3-6cdf70d1c533.jpg&quot; alt=&quot;adsp3&quot; /&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;표준편차&quot;&gt;표준편차&lt;/h4&gt;
-
-&lt;p&gt;자료의 산포도를 나타내는 수치&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/54880474/140524627-da733808-6a8f-48f9-ad77-e62a62629fa9.jpg&quot; alt=&quot;adsp4&quot; /&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;첨도&quot;&gt;첨도&lt;/h4&gt;
-
-&lt;p&gt;확률분포의 뾰족한 정도를 나타내는 측도로 값이 3에 가까울수록 정규분포 모양&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/54880474/140524458-c589b30e-7763-41f3-a3fd-d4129e77289f.jpg&quot; alt=&quot;adsp5&quot; /&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;왜도&quot;&gt;왜도&lt;/h4&gt;
-
-&lt;p&gt;확률분포의 비대칭 정도를 나타내는 측도&lt;br /&gt;
-0일 경우 평균, 중앙값, 최빈값이 같음&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/54880474/140524460-f5461103-4dd6-4e7c-8893-c778b20b6bce.jpg&quot; alt=&quot;adsp6&quot; /&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;공분산&quot;&gt;공분산&lt;/h4&gt;
-
-&lt;p&gt;확률변수 X, Y의 상관 정도를 나타내는 값&lt;br /&gt;
-하나의 확률변수가 증가할 때 다른 확률변수의 증감소 여부를 확인&lt;br /&gt;
-양수면 X가 증가할 때 Y도 증가, 음수면 X가 증가할 때 Y는 감소&lt;br /&gt;
-공분산 값이 100이면 두 확률 분포가 어느 정도 선형성을 갖는지 알 수 없음&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/54880474/140524462-46cddfdd-b740-49ef-b06e-58aa5d58f01d.jpg&quot; alt=&quot;adsp7&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/54880474/140524463-8e5b3de1-4971-4362-83ed-8f079b497da5.jpg&quot; alt=&quot;adsp8&quot; /&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;상관계수&quot;&gt;상관계수&lt;/h4&gt;
-
-&lt;p&gt;공분산의 문제를 해결한 값으로 -1과 1 사이의 값 중에서 공분산을 X의 표준편차와 Y의 표준편차로 모두 나눈 값&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/54880474/140524465-15ea73b5-bf24-43e6-b935-5dc038726212.jpg&quot; alt=&quot;adsp9&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/54880474/140524466-06a00211-f631-4faa-9b4e-e1d9b0db2ae2.jpg&quot; alt=&quot;adsp10&quot; /&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;추정과-가설검정&quot;&gt;추정과 가설검정&lt;/h1&gt;
-
-&lt;h2 id=&quot;추정&quot;&gt;추정&lt;/h2&gt;
-
-&lt;h4 id=&quot;모수의-추정&quot;&gt;모수의 추정&lt;/h4&gt;
-
-&lt;p&gt;우리가 궁극적으로 알고싶은 값은 모수지만, 전수조사를 해야 알 수 있기 때문에 모수를 추정한다.&lt;/p&gt;
-
-&lt;h4 id=&quot;점추정&quot;&gt;점추정&lt;/h4&gt;
-
-&lt;p&gt;모집단의 모수, 특히 모평균을 추정할 때 모평균을 하나의 특정한 값이라고 예측한 것&lt;br /&gt;
-불편추정량이란 모수를 추정할 때 추정하는 값과 실제 모수 값의 차이의 기댓값이 0이므로 어느 한쪽으로 편향되지 않아 모수를 추정하기에 이상적인 값&lt;/p&gt;
-
-&lt;h4 id=&quot;구간추정&quot;&gt;구간추정&lt;/h4&gt;
-
-&lt;p&gt;구간추정은 모수가 특정한 구간 안에 존재할 것이라 예상하는 것&lt;/p&gt;
-
-&lt;h2 id=&quot;가설검정&quot;&gt;가설검정&lt;/h2&gt;
-
-&lt;p&gt;통계적 가설검정은 모집단의 특성에 대한 주장 또는 가설을 세우고 표본에서 얻은 정보를 이용해 가설이 옳은지 판정하는 과정으로 귀무가설과 대립가설로 구분&lt;/p&gt;
-
-&lt;h4 id=&quot;귀무가설-h0&quot;&gt;귀무가설 (H&lt;sub&gt;0&lt;/sub&gt;)&lt;/h4&gt;
-
-&lt;p&gt;모집단이 어떤 특징을 지닐것으로 여겨지는 가설&lt;/p&gt;
-
-&lt;h4 id=&quot;대립가설-h1&quot;&gt;대립가설 (H&lt;sub&gt;1&lt;/sub&gt;)&lt;/h4&gt;
-
-&lt;p&gt;귀무가설이 틀렸다고 판단될 경우 채택되는 가설&lt;br /&gt;
-연구를 통해 증명하고자 하는 새로운 가설&lt;/p&gt;
-
-&lt;h4 id=&quot;제1종-오류와-제2종-오류&quot;&gt;제1종 오류와 제2종 오류&lt;/h4&gt;
-
-&lt;p&gt;제 1종 오류&lt;br /&gt;
-귀무가설이 사실인데 귀무가설이 틀렸다고 결정하는 오류&lt;/p&gt;
-
-&lt;p&gt;제 2종 오류&lt;br /&gt;
-귀무가설이 틀렸음에도 귀무가설이 옳다고 결정하는 오류&lt;/p&gt;
-
-&lt;h4 id=&quot;검정통계량&quot;&gt;검정통계량&lt;/h4&gt;
-
-&lt;p&gt;귀무가설의 옳고 그름을 판단할 수 있는 값&lt;/p&gt;
-
-&lt;h4 id=&quot;기각역&quot;&gt;기각역&lt;/h4&gt;
-
-&lt;p&gt;귀무가설을 기각하게 될 검정통계량의 영역&lt;br /&gt;
-검정통계량이 기각역 내에 있으면 귀무가설을 기각한다.&lt;br /&gt;
-기각역의 경계값을 임계값이라고 한다.&lt;/p&gt;
-
-&lt;h4 id=&quot;유의수준-α&quot;&gt;유의수준 (α)&lt;/h4&gt;
-
-&lt;p&gt;귀무가설이 참인데도 이를 잘못 기각하는 오류를 범할 확률의 최대 허용 한계&lt;br /&gt;
-제 1종 오류를 줄이기위해 사용된다.&lt;/p&gt;
-
-&lt;h4 id=&quot;유의확률-p-value&quot;&gt;유의확률 (p-value)&lt;/h4&gt;
-
-&lt;p&gt;귀무가설을 지지하는 정도를 나타낸 확률&lt;/p&gt;
-
-&lt;p&gt;p-value &amp;lt; α&lt;br /&gt;
-귀무가설을 기각할 수 있다.&lt;/p&gt;
-
-&lt;p&gt;p-value &amp;gt; α&lt;br /&gt;
-귀무가설을 기각할 수 없다.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;기존의 귀무가설을 수립하고 이를 기각하는 증거를 찾는 대립가설을 채택하는 것이 가설 검증의 횟수를 줄일 수 있기 때문에 귀무가설을 검증한다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h4 id=&quot;모수검정&quot;&gt;모수검정&lt;/h4&gt;
-
-&lt;p&gt;모수검정은 표본이 정규성을 갖는다는 모수적 특성을 이용&lt;/p&gt;
-
-&lt;p&gt;등간척도, 비율척도&lt;br /&gt;
-평균&lt;br /&gt;
-피어슨 상관계수&lt;br /&gt;
-one sample t-test, two sample t-test, paired t-test, one way anova&lt;/p&gt;
-
-&lt;h4 id=&quot;비모수검정&quot;&gt;비모수검정&lt;/h4&gt;
-
-&lt;p&gt;비모수검정은 정규성 검정에서 정규분포를 따르지 않는다고 증명되거나 소규모 실험에서와 같이 정규분포를 가정할 수 없는 경우에 사용&lt;/p&gt;
-
-&lt;p&gt;명목척도, 서열척도&lt;br /&gt;
-중앙값&lt;br /&gt;
-스피어만 상관계수&lt;br /&gt;
-부호검정, Wilcoxon 부호순위검정, Mann-Whitney 검정&lt;/p&gt;</content>
 
       
       
