@@ -1,4 +1,53 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://keonju2.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://keonju2.github.io/" rel="alternate" type="text/html" /><updated>2022-10-23T21:07:48+09:00</updated><id>https://keonju2.github.io/feed.xml</id><title type="html">주건나’s Blog</title><subtitle>데이터 사이언티스트를 꿈꾸는 블로그입니다.</subtitle><entry><title type="html">project 연습글</title><link href="https://keonju2.github.io/project-second" rel="alternate" type="text/html" title="project 연습글" /><published>2022-10-17T07:00:00+09:00</published><updated>2022-10-17T07:00:00+09:00</updated><id>https://keonju2.github.io/project-second</id><content type="html" xml:base="https://keonju2.github.io/project-second">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;project 게시글 목록&lt;/span&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://keonju2.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://keonju2.github.io/" rel="alternate" type="text/html" /><updated>2022-10-31T00:24:53+09:00</updated><id>https://keonju2.github.io/feed.xml</id><title type="html">주건나’s Blog</title><subtitle>데이터 사이언티스트를 꿈꾸는 블로그입니다.</subtitle><entry><title type="html">책 서평 (1) 텐초의 파이토치 딥러닝 특강</title><link href="https://keonju2.github.io/study-book1" rel="alternate" type="text/html" title="책 서평 (1) 텐초의 파이토치 딥러닝 특강" /><published>2022-10-29T10:00:00+09:00</published><updated>2022-10-29T10:00:00+09:00</updated><id>https://keonju2.github.io/study-book1</id><content type="html" xml:base="https://keonju2.github.io/study-book1">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;서평 관련 글&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./study-book1&quot;&gt;텐초의 파이토치 딥러닝 특강&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;골든래빗 출판사로부터 책을 제공받아 작성했습니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/54880474/198879959-31cc15bf-1ea5-457e-8a05-1b08fd7ca4fe.jpeg&quot; alt=&quot;XL&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;책 구매처&lt;br /&gt;
+&lt;a href=&quot;http://www.yes24.com/Product/Goods/111102197&quot;&gt;http://www.yes24.com/Product/Goods/111102197&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;일단 저는 딥러닝 학과 수업을 들은 학생의 관점으로 서평을 작성하였습니다.&lt;/p&gt;
+
+&lt;h1 id=&quot;왜-신청했나요&quot;&gt;왜 신청했나요?&lt;/h1&gt;
+
+&lt;p&gt;대학교 수업을 들으면서 대부분 Tensorflow를 사용하여 강의를 진행하였다.&lt;br /&gt;
+하지만 현업과 논문에서 Pytorch가 추세라는 이야기를 많이 들어 Pytorch를 공부하고 싶었다.&lt;br /&gt;
+하지만 대부분 Pytorch 혹은 딥러닝 책은 너무 이론에 치우치거나, Pytorch에 대한 설명이 부족했다.&lt;br /&gt;
+예를 들면, Dataloader에 관한 내용 설명 없이 Dataloader을 사용한다거나, “&lt;strong&gt;init&lt;/strong&gt;“이나 “forward”에 대한 설명 없이 모델을 만들곤한다.
+그래서 다양한 책을 찾아보다가 텐초의 파이토치 딥러닝 특강의 목차 구성이 인상깊어서 신청하게 되었다.&lt;/p&gt;
+
+&lt;h1 id=&quot;이-책의-구성&quot;&gt;이 책의 구성&lt;/h1&gt;
+
+&lt;p&gt;이 책은 코랩을 기본 개발환경으로 하고 실습을 진행한다.&lt;br /&gt;
+그 점이 다른 책과 다른 장점이라고 생각한다. 어떤 책들은 개발환경이 로컬이라 개발환경 설정에 많은 시간을 보내기 때문이다.&lt;br /&gt;
+또한 학생의 입장에서 그래픽카드를 보유하고 실습을 빠르게 진행하기에는 코랩 환경이 훨씬 합리적이라고 생각한다.&lt;/p&gt;
+
+&lt;h2 id=&quot;딥러닝-입문하기&quot;&gt;딥러닝 입문하기&lt;/h2&gt;
+
+&lt;p&gt;딥러닝 입문하기에서는 학교에서 배웠던 기본 개념을 복습이 가능했다는 점과 파이토치의 특징, 그리고 딥러닝 문제 해결에 중요한 프로세스나 시각화를 간단히 다시 살펴볼 수 있었다.&lt;br /&gt;
+마찬가지로 경사하강법, 오차역전파와 같은 내용들은 앞에 배치하여 딥러닝을 접해봤던 사람의 입장으로써 실습에 더 집중할 수 있다는 생각이 들었다.&lt;/p&gt;
+
+&lt;h2 id=&quot;본문&quot;&gt;본문&lt;/h2&gt;
+
+&lt;p&gt;이 책은 CNN, RNN부터 ResNet과 같은 알고리즘, 이미지 처리를 위한 U-Net과 오토인코더, 텍스트 처리를 위한 LSTM과 Attention, 그리고 GAN과 같은 내용이 담겨있었다.&lt;br /&gt;
+이러한 내용들은 딥러닝 입문 단계에서 배우는 퍼셉트론에서 한단계 진화한 내용들로 더 깊은 모델들을 배우기 위한 발판이 될 수 있는 내용들이라 생각되어 좋았다.&lt;/p&gt;
+
+&lt;h2 id=&quot;부록&quot;&gt;부록&lt;/h2&gt;
+&lt;p&gt;좀 더 고난이도의 내용인 트랜스포머, GPT, BERT, VIT에 대한 내용이 나오며 초심자에게 어려울 수 있는 오차 역전파 가중치 업데이트 과정이나 개발 환경 구축을 부록에 뺀 내용은 이 책이 타겟으로 하고있는 독자층이 분명하다는 것을 알수 있었다.&lt;/p&gt;
+
+&lt;h2 id=&quot;후기&quot;&gt;후기&lt;/h2&gt;
+&lt;p&gt;이 책은 분명히 초급자도 상급자도 타겟으로 하는 책이 아니다.&lt;br /&gt;
+딥러닝에 대해 한번쯤 인터넷에 있는 많은 기초 강의들 중 하나를 들었다면 거기서 부족했던 부분을 채울 수 있는 훌륭한 책이라고 생각된다.&lt;br /&gt;
+새로 나온 함수들에 대한 설명이 충분하며 각 코드들에 대한 설명이 구체적으로 나와있기 때문에 논리적 설명도 충분하다고 생각된다.&lt;/p&gt;
+
+&lt;p&gt;물론 “이 책이 초급자에게 권할 수 있는 책이냐?” 한다면 자신이 딥러닝에 대한 공부 의지가 있다면 교과서로 쓸 수 있을 정도의 내용이라고 생각한다.&lt;br /&gt;
+공부하면서 코드를 사용한 이유에 대한 궁금증을 잘 해결하지 못하는 학생이라면 이 책을 추천한다.&lt;/p&gt;</content><author><name>주건나</name></author><category term="study" /><summary type="html">서평 관련 글 텐초의 파이토치 딥러닝 특강</summary></entry><entry><title type="html">project 연습글</title><link href="https://keonju2.github.io/project-second" rel="alternate" type="text/html" title="project 연습글" /><published>2022-10-17T07:00:00+09:00</published><updated>2022-10-17T07:00:00+09:00</updated><id>https://keonju2.github.io/project-second</id><content type="html" xml:base="https://keonju2.github.io/project-second">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;project 게시글 목록&lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./project-first&quot;&gt;project 연습글&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -6821,16 +6870,4 @@ F-value가 작으면 p-value가 커지므로 이는 집단간 분산이 분모�
 &lt;/ul&gt;
 
 &lt;p&gt;ADSP를 준비하면서 공부한 내용을 정리한 글입니다.&lt;br /&gt;
-3과목 3장 정형 데이터 마이닝에 대한 부분을 정리한 글입니다.&lt;/p&gt;</content><author><name>주건나</name></author><category term="license" /><summary type="html">ADSP 관련 글 ADSP (1) 데이터의 이해 ADSP (2) 데이터의 가치와 미래 ADSP (3) 데이터 분석 기회의 이해 ADSP (4) 분석 마스터플랜 ADSP (5) R 기초와 데이터 마트 ADSP (6) 통계 분석 (1) ADSP (7) 통계 분석 (2)</summary></entry><entry><title type="html">ADSP (7) 통계 분석(2)</title><link href="https://keonju2.github.io/license-adsp7" rel="alternate" type="text/html" title="ADSP (7) 통계 분석(2)" /><published>2021-11-05T07:00:00+09:00</published><updated>2021-11-05T07:00:00+09:00</updated><id>https://keonju2.github.io/license-adsp7</id><content type="html" xml:base="https://keonju2.github.io/license-adsp7">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;ADSP 관련 글&lt;/span&gt;&lt;/p&gt;
-&lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./license-adsp1&quot;&gt;ADSP (1) 데이터의 이해&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./license-adsp2&quot;&gt;ADSP (2) 데이터의 가치와 미래&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./license-adsp3&quot;&gt;ADSP (3) 데이터 분석 기회의 이해&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./license-adsp4&quot;&gt;ADSP (4) 분석 마스터플랜&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./license-adsp5&quot;&gt;ADSP (5) R 기초와 데이터 마트&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./license-adsp6&quot;&gt;ADSP (6) 통계 분석 (1)&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./license-adsp7&quot;&gt;ADSP (7) 통계 분석 (2)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;ADSP를 준비하면서 공부한 내용을 정리한 글입니다.&lt;br /&gt;
-3과목 2장 통계분석에 대한 부분을 정리한 글입니다.&lt;/p&gt;</content><author><name>주건나</name></author><category term="license" /><summary type="html">ADSP 관련 글 ADSP (1) 데이터의 이해 ADSP (2) 데이터의 가치와 미래 ADSP (3) 데이터 분석 기회의 이해 ADSP (4) 분석 마스터플랜 ADSP (5) R 기초와 데이터 마트 ADSP (6) 통계 분석 (1) ADSP (7) 통계 분석 (2)</summary></entry></feed>
+3과목 3장 정형 데이터 마이닝에 대한 부분을 정리한 글입니다.&lt;/p&gt;</content><author><name>주건나</name></author><category term="license" /><summary type="html">ADSP 관련 글 ADSP (1) 데이터의 이해 ADSP (2) 데이터의 가치와 미래 ADSP (3) 데이터 분석 기회의 이해 ADSP (4) 분석 마스터플랜 ADSP (5) R 기초와 데이터 마트 ADSP (6) 통계 분석 (1) ADSP (7) 통계 분석 (2)</summary></entry></feed>
