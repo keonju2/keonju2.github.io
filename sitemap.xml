@@ -4,9 +4,9 @@
         xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
     <url>
-        <loc>https://keonju2.github.io/study-book1.html</loc>
+        <loc>https://keonju2.github.io/activity-first.html</loc>
         
-        <lastmod>2022-10-29T10:00:00+09:00</lastmod>
+        <lastmod>2022-12-11T07:00:00+09:00</lastmod>
         
 
         
@@ -20,9 +20,9 @@
     </url>
     
     <url>
-        <loc>https://keonju2.github.io/project-second.html</loc>
+        <loc>https://keonju2.github.io/study-book1.html</loc>
         
-        <lastmod>2022-10-17T07:00:00+09:00</lastmod>
+        <lastmod>2022-10-29T10:00:00+09:00</lastmod>
         
 
         
@@ -487,22 +487,6 @@
         <loc>https://keonju2.github.io/programming-webcrawling1.html</loc>
         
         <lastmod>2021-09-08T03:10:00+09:00</lastmod>
-        
-
-        
-        <changefreq>weekly</changefreq>
-        
-
-        
-        <priority>0.5</priority>
-        
-
-    </url>
-    
-    <url>
-        <loc>https://keonju2.github.io/project-first.html</loc>
-        
-        <lastmod>2021-09-07T07:00:00+09:00</lastmod>
         
 
         
