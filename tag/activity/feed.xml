@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://keonju2.github.io/tag/activity/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://keonju2.github.io/" rel="alternate" type="text/html" />
-  <updated>2023-03-13T22:40:22+09:00</updated>
+  <updated>2023-06-04T20:39:57+09:00</updated>
   <id>https://keonju2.github.io/tag/activity/feed.xml</id>
 
   
@@ -32,18 +32,153 @@
 
   
     <entry>
-      <title type="html">2023년 DEVOCEAN YOUNG 2기 합격 및 발대식 후기</title>
-      <link href="https://keonju2.github.io/activity-second" rel="alternate" type="text/html" title="2023년 DEVOCEAN YOUNG 2기 합격 및 발대식 후기" />
-      <published>2023-03-10T07:00:00+09:00</published>
-      <updated>2023-03-10T07:00:00+09:00</updated>
-      <id>https://keonju2.github.io/activity-second</id>
-      <content type="html" xml:base="https://keonju2.github.io/activity-second">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;대외활동 게시글 목록&lt;/span&gt;&lt;/p&gt;
+      <title type="html">DEVOCEAN 5월 Tech 세미나 - 클라우드 비용 최적화</title>
+      <link href="https://keonju2.github.io/activity-devocean3" rel="alternate" type="text/html" title="DEVOCEAN 5월 Tech 세미나 - 클라우드 비용 최적화" />
+      <published>2023-05-28T07:00:00+09:00</published>
+      <updated>2023-05-28T07:00:00+09:00</updated>
+      <id>https://keonju2.github.io/activity-devocean3</id>
+      <content type="html" xml:base="https://keonju2.github.io/activity-devocean3">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;대외활동 게시글 목록&lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./activity-first&quot;&gt; 2022년 마이데이터 국민참여단&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./activity-second&quot;&gt; 2023년 DEVOCEAN YOUNG 2기 합격 및 발대식 후기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./activity-devocean1&quot;&gt; DEVOCEAN YOUNG 2기 합격 및 발대식 후기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./activity-devocean2&quot;&gt; DEVOCEAN 5월 Tech 세미나 - 클라우드 비용 최적화&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&quot;2023년-devocean-young-2기-합격-및-발대식-후기&quot;&gt;2023년 DEVOCEAN YOUNG 2기 합격 및 발대식 후기&lt;/h1&gt;
+&lt;h1 id=&quot;devocean-5월-tech-세미나---클라우드-비용-최적화&quot;&gt;DEVOCEAN 5월 Tech 세미나 - 클라우드 비용 최적화&lt;/h1&gt;
+
+&lt;p&gt;DEVOCEAN 5월 Tech 세미나로 클라우드 비용 최적화에 관련된 주제를 들었습니다.&lt;br /&gt;
+1번 세션은 TANGO 비용최적화 운영 EC2/RDS Auto Stop/Start,&lt;br /&gt;
+2번 세션은 [Devocean 세미나] 클라우드 비용 최적화 - EKS 비용 최적화를 주제로 진행하였습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://devocean.sk.com/vlog/view.do?id=422&amp;amp;vcode=A03&quot;&gt;https://devocean.sk.com/vlog/view.do?id=422&amp;amp;vcode=A03&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;tango-비용최적화-운영-ec2rds-auto-stopstart&quot;&gt;TANGO 비용최적화 운영 EC2/RDS Auto Stop/Start&lt;/h1&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;TANGO on AWS&lt;/li&gt;
+  &lt;li&gt;Cloud 비용 최적화 사례, Off time 최적화
+    &lt;ul&gt;
+      &lt;li&gt;EC2, RDS는 되고&lt;/li&gt;
+      &lt;li&gt;MSK, DMS는 안되고&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Cloud 비용 최적화 사례, 그 외&lt;/li&gt;
+  &lt;li&gt;Cloud 운영 방식 – 자동화/IaC 그리고 시각화&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;tango-on-aws&quot;&gt;TANGO on AWS&lt;/h2&gt;
+&lt;p&gt;TANGO는 (T-Advanced Network Generation OSS) SKT 망 관리를 지원하는 통합 시스템으로 장비 관리, 감시, 분석 망 설계 구축 기능이 있다.&lt;/p&gt;
+
+&lt;p&gt;Dev account, Stg account, Prd account 목적으로 AWS 계정을 구분하여 활용하고 미사용 시간대에 리소스 최적화를 중점으로 고민하였다고 하였다.&lt;/p&gt;
+
+&lt;h2 id=&quot;cloud-비용-최적화-사례-off-time-최적화&quot;&gt;Cloud 비용 최적화 사례, Off time 최적화&lt;/h2&gt;
+
+&lt;p&gt;앞서 말했든 Dev/Stg AWS 계정은 Off time이 존재하고 EC2, RDS 리소스 Stop/Start를 적용한다.&lt;br /&gt;
+몇가지 주의사항을 두고 자체 Lambda를 구성하였다고 하였다.&lt;br /&gt;
+Stop 지원이 안되는 리소스는 Modifiy로 수동 관리한다고 하였다.&lt;/p&gt;
+
+&lt;h2 id=&quot;cloud-비용-최적화-사례-그-외&quot;&gt;Cloud 비용 최적화 사례, 그 외&lt;/h2&gt;
+&lt;p&gt;비용 절감 효과의 차이는 있었지만 유효했던 비용 최적화 추가 사례에 대해서 소개해주셨다.&lt;/p&gt;
+
+&lt;p&gt;▪ MSK 리소스 최적화
+▪ EC2, EKS, RDS Graviton 전환
+▪ RDS 설정 최적화
+▪ S3 스토리지 디렉토리 구조 단순화
+▪ Datadog에서 Cloudwatch 수집 주기 조정&lt;/p&gt;
+
+&lt;p&gt;다음 사례들을 통해 비용 최적화에 효과가 있었다고 합니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;cloud-운영-방식&quot;&gt;Cloud 운영 방식&lt;/h2&gt;
+&lt;p&gt;자동화/IaC 그리고 시각화에서는 Cloud의 모든 리소스는 Code 기반 관리라고 하였고, 자동화 관리를 통해 이를 시각화 하는 노력이 필요하다고 하였습니다.&lt;/p&gt;
+
+&lt;h1 id=&quot;클라우드-비용-최적화---eks-비용-최적화&quot;&gt;클라우드 비용 최적화 - EKS 비용 최적화&lt;/h1&gt;
+
+&lt;p&gt;위 세션은 개념 설명 느낌이었다면, 두번째 세션은 조금 더 실습 위주였다.&lt;/p&gt;
+
+&lt;p&gt;EKS 비용 최적화를 위해&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;불필요한  EKS 리소스를 최소화 하기&lt;/li&gt;
+  &lt;li&gt;EKS 가성비 향상시키기&lt;/li&gt;
+  &lt;li&gt;지속 가능한 EKS 비용 최적화 환경 구성하기&lt;br /&gt;
+를 주제로 소개해 주셨다.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;불필요한-eks-리소스-최소화-하기&quot;&gt;불필요한 EKS 리소스 최소화 하기&lt;/h2&gt;
+
+&lt;p&gt;Auto Scaling (Node, Pod)
+EKS Auto Stop &amp;amp; Start (kube-downscaler)
+Right Sizing (Node, Pod, Disk)
+미사용 리소스 제거&lt;/p&gt;
+
+&lt;h2 id=&quot;eks-auto-stop--start&quot;&gt;EKS Auto Stop &amp;amp; Start&lt;/h2&gt;
+
+&lt;p&gt;불필요한 시간대 개발/검증 환경 EKS 리소스 최소화&lt;br /&gt;
+새벽 시간대 (22:00~07:00) EKS Pod 를 0로 만들기 → kube-downscaler&lt;/p&gt;
+
+&lt;h4 id=&quot;kube-downscaler&quot;&gt;kube-downscaler&lt;/h4&gt;
+&lt;p&gt;원하는 시간대에 Kubernetes Workload Scale down 및 pause 할 수 있음&lt;br /&gt;
+Deployment, Statefulsets, HPA, CronJob 등 지원&lt;br /&gt;
+비용절감은 Node Scale-in 에 의해서 발생하므로, 사전에 Node Auto Scaling 구성이 필수&lt;br /&gt;
+Helm을 통한 설치&lt;/p&gt;
+
+&lt;p&gt;도입하기 위해 여러 고려사항이 필요하다.&lt;/p&gt;
+
+&lt;h2 id=&quot;eks-가성비-향상시키기&quot;&gt;EKS 가성비 향상시키기&lt;/h2&gt;
+
+&lt;p&gt;지속적으로 업데이트 하기 : Docker -&amp;gt; Containerd&lt;br /&gt;
+가격정책 활용하기 : RI(Reserved Instance) 과 Saving Plan&lt;br /&gt;
+가성비 좋은 Instance Type 사용하기 : Spot Instance, Burst Instance Type&lt;/p&gt;
+
+&lt;h2 id=&quot;지속-가능한-eks-비용-최적화-환경-구성하기-kubecost&quot;&gt;지속 가능한 EKS 비용 최적화 환경 구성하기 (kubecost)&lt;/h2&gt;
+&lt;p&gt;Application 기능 변경&lt;br /&gt;
+H/W(Instance Type, Disk 등) 변경&lt;br /&gt;
+오픈소스, 클러스터 업데이트&lt;br /&gt;
+데이터 변경&lt;/p&gt;
+
+&lt;h1 id=&quot;후기&quot;&gt;후기&lt;/h1&gt;
+&lt;p&gt;요즘 개발 동아리를 하면 항상 Devops에 관한 이야기가 나오고 클라우드에 관심이 있는 주변 사람들도 많이 생겼습니다. 그래서 저도 계속 관심이 가고 AI 개발과 서빙에도 클라우드를 사용하기 위해 공부를 하고 있습니다.&lt;br /&gt;
+많은 내용을 이해하지는 못했지만 앞세션에서 실제 클라우드를 어떻게 비용 최적화를 하는지 대략적으로 알수 있어서 좋았습니다..!! 내용적으로 TANGO가 무엇인지 비용 최적화 사례와 OFF TIME에는 어떻게 운영하는지 배울 수 있었습니다. 주로 시간에 따라 스케쥴을 정하고(워라벨이 좋다면 정하기가 쉽다) 자동화를 하지만 Slack같은 툴을 이용하여 가시성을 확보하셨다고 하였습니다.&lt;br /&gt;
+두번째에서는 실제로 적용 효과를 보여주시면서 설명해주시고 다양한 솔루션을 알수 있어서 좋았습니다..!! 앱 변경없이 인프라만으로 개선 사항할 수 있다는 점에 대해서 배울 수 있었습니다. &lt;br /&gt;
+사전질문에서 첫번째 질문도 많이 와닿아서 좋았으며 학생 입장에서의 질문들과 현업에서 여러 선택의 트레이드 오프가 있는 것 같아서 흥미로운 질문도 많았던 것 같습니다.&lt;br /&gt;
+Devocean 세미나는 현직자를 대상으로 하기에 항상 조금 어려운 감이 있지만 현업에서 어떻게 해결하는지 궁금증을 해결할 수 있는 좋은 세미나라고 생각합니다.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>주건나</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="activity" />
+      
+
+      
+        <summary type="html">대외활동 게시글 목록 DEVOCEAN YOUNG 2기 합격 및 발대식 후기 DEVOCEAN 5월 Tech 세미나 - 클라우드 비용 최적화</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">2023년 DEVOCEAN YOUNG 2기 합격 및 발대식 후기</title>
+      <link href="https://keonju2.github.io/activity-devocean1" rel="alternate" type="text/html" title="2023년 DEVOCEAN YOUNG 2기 합격 및 발대식 후기" />
+      <published>2023-03-10T07:00:00+09:00</published>
+      <updated>2023-03-10T07:00:00+09:00</updated>
+      <id>https://keonju2.github.io/activity-devocean1</id>
+      <content type="html" xml:base="https://keonju2.github.io/activity-devocean1">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;대외활동 게시글 목록&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./activity-devocean1&quot;&gt; DEVOCEAN YOUNG 2기 합격 및 발대식 후기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./activity-devocean2&quot;&gt; DEVOCEAN 5월 Tech 세미나 - 클라우드 비용 최적화&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;devocean-young-2기-합격-및-발대식-후기&quot;&gt;DEVOCEAN YOUNG 2기 합격 및 발대식 후기&lt;/h1&gt;
 
 &lt;p&gt;이제 4학년 2학기가 된 후 대면 수업은 하나밖에 없어서 여러 대외활동들을 또 찾아보고 있었다.&lt;br /&gt;
 특히 기업이 진행하고 있는 대외활동을 무작정 다 지원하고 있었는데 SKT에서 운영하고 있는 개발 커뮤니티인 DEVOCEAN에 대학생 개발 서포터즈를 모집한다는 홍보가 있길래 지원하게 되었다.&lt;br /&gt;
@@ -106,7 +241,7 @@ SK 그룹의 대표 개발자 커뮤니티이며 내/외부 개발자 간 소통
       
 
       
-        <summary type="html">대외활동 게시글 목록 2022년 마이데이터 국민참여단 2023년 DEVOCEAN YOUNG 2기 합격 및 발대식 후기</summary>
+        <summary type="html">대외활동 게시글 목록 DEVOCEAN YOUNG 2기 합격 및 발대식 후기 DEVOCEAN 5월 Tech 세미나 - 클라우드 비용 최적화 DEVOCEAN YOUNG 2기 합격 및 발대식 후기</summary>
       
 
       
