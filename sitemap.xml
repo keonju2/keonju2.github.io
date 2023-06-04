@@ -4,9 +4,73 @@
         xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
     <url>
-        <loc>https://keonju2.github.io/activity-devocean3.html</loc>
+        <loc>https://keonju2.github.io/activity-devocean6.html</loc>
         
         <lastmod>2023-05-28T07:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>https://keonju2.github.io/activity-devocean5.html</loc>
+        
+        <lastmod>2023-05-08T07:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>https://keonju2.github.io/activity-devocean4.html</loc>
+        
+        <lastmod>2023-04-22T07:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>https://keonju2.github.io/activity-devocean3.html</loc>
+        
+        <lastmod>2023-04-03T07:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>https://keonju2.github.io/activity-devocean2.html</loc>
+        
+        <lastmod>2023-03-26T07:00:00+09:00</lastmod>
         
 
         
