@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://keonju2.github.io/tag/activity/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://keonju2.github.io/" rel="alternate" type="text/html" />
-  <updated>2023-06-19T20:14:48+09:00</updated>
+  <updated>2023-06-30T15:58:10+09:00</updated>
   <id>https://keonju2.github.io/tag/activity/feed.xml</id>
 
   
@@ -32,6 +32,115 @@
 
   
     <entry>
+      <title type="html">DEVOCEAN 6월 Tech 세미나 - 웹 프론트엔드 성능 최적화 방법 및 적용 사례</title>
+      <link href="https://keonju2.github.io/activity-devocean9" rel="alternate" type="text/html" title="DEVOCEAN 6월 Tech 세미나 - 웹 프론트엔드 성능 최적화 방법 및 적용 사례" />
+      <published>2023-06-23T07:00:00+09:00</published>
+      <updated>2023-06-23T07:00:00+09:00</updated>
+      <id>https://keonju2.github.io/activity-devocean9</id>
+      <content type="html" xml:base="https://keonju2.github.io/activity-devocean9">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;대외활동 게시글 목록&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./activity-devocean1&quot;&gt; DEVOCEAN YOUNG 2기 합격 및 발대식 후기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./activity-devocean2&quot;&gt; DEVOCEAN 3월 Tech 세미나 - Datadog의 Front-End에서 Back-End까지의 여정&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./activity-devocean3&quot;&gt; DEVOCEAN YOUNG 2기 3월 활동 후기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./activity-devocean4&quot;&gt; DEVOCEAN 4월 Tech 세미나 - ChatGPT로 인한 새로운 패러다임&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./activity-devocean5&quot;&gt; DEVOCEAN YOUNG 2기 4월 활동 후기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./activity-devocean6&quot;&gt; DEVOCEAN 5월 Tech 세미나 - 클라우드 비용 최적화&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./activity-devocean7&quot;&gt; DEVOCEAN YOUNG 2기 5월 활동 후기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./activity-devocean8&quot;&gt; SKT AI Campus 본사 방문 투어 후기 &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./activity-devocean9&quot;&gt; DEVOCEAN 6월 Tech 세미나 - 웹 프론트엔드 성능 최적화 방법 및 적용 사례&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;웹-프론트엔드-성능-최적화-방법-및-적용-사례&quot;&gt;웹 프론트엔드 성능 최적화 방법 및 적용 사례&lt;/h1&gt;
+
+&lt;p&gt;6월 테크 세미나 주제는 웹 프론트엔드 성능 최적화 방법 및 적용 사례에 관한 내용이었습니다.&lt;/p&gt;
+
+&lt;p&gt;세션 1.  웹 프론트엔드 성능 최적화를 해야 하는 당위성&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;웹 성능 최적화를 수행하는 이유&lt;/li&gt;
+  &lt;li&gt;웹 성능 최적화 방법&lt;/li&gt;
+  &lt;li&gt;웹 성능 최적화 경험 및 팁 공유&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;세션 2 : ifland 웹 프론트엔드 성능 최적화 적용 사례&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;ifland 및 ifland studio 소개&lt;/li&gt;
+  &lt;li&gt;ifland studio 웹 성능 최적화 사례 공유&lt;/li&gt;
+  &lt;li&gt;웹 성능 최적화 경험 및 팁 공유&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;로 이루어진 세미나였습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://devocean.sk.com/vlog/view.do?id=423&amp;amp;vcode=A03&quot;&gt;https://devocean.sk.com/vlog/view.do?id=423&amp;amp;vcode=A03&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;세션-1-웹-프론트엔드-성능-최적화를-해야-하는-당위성&quot;&gt;세션 1. 웹 프론트엔드 성능 최적화를 해야 하는 당위성&lt;/h1&gt;
+
+&lt;p&gt;웹 프론트엔드 최적화는 사용자와 상호작용에 밀접한 관계를 가짐.&lt;br /&gt;
+Site speed가 0.1초 향상될 때 평균 주문 가치가 높아짐&lt;br /&gt;
+Largest Contentful Paint : 로딩 속도 측정&lt;br /&gt;
+First Input Delay : 상호작용성 측정&lt;br /&gt;
+Cumulative Layout Shift : 시각 안정성 측정&lt;/p&gt;
+
+&lt;p&gt;INP : FID의 대체로 전반적인 사용자와 상호작용을 관찰하여 페이지 민감도를 평가하는 요소&lt;/p&gt;
+
+&lt;p&gt;Core Web Vitals, Real User Monitoring, Page speed audit reports 등 다양한 Tool로 사용자 경험에 대한 평가를 진행할 수 있음&lt;/p&gt;
+
+&lt;p&gt;LCP 리소스는 HTML 소스에서 찾을 수 있도록 하며, 우선순위를 갖고 TTFB를 최적화하기 위한 CDN을 사용하여 최적화가 가능&lt;/p&gt;
+
+&lt;p&gt;CLS 최적화는 컨텐츠의 명시적 크기 설정, 레이아웃을 유발하는 CSS 사용 애니메이션 지양, bfcache에 대한 자격 요건 충족 등을 통해 가능&lt;/p&gt;
+
+&lt;p&gt;FID는 긴 작업을 피하고, 불필요한 Javascript와 대규모 렌더링 업데이트를 피함으로써 최적화 가능&lt;/p&gt;
+
+&lt;h1 id=&quot;세션-2--ifland-웹-프론트엔드-성능-최적화-적용-사례&quot;&gt;세션 2 : ifland 웹 프론트엔드 성능 최적화 적용 사례&lt;/h1&gt;
+
+&lt;p&gt;ifland : Social Metaverse Service (공동 공간 ifsquare + 개인 공간 ifhome)&lt;/p&gt;
+
+&lt;p&gt;서비스 진입점이 가장 많이 사용하는 지역 -&amp;gt; 최적화 대상&lt;/p&gt;
+
+&lt;p&gt;Measure -&amp;gt; Analyze -&amp;gt; Optimize의 반복&lt;/p&gt;
+
+&lt;p&gt;Measure : 최적화 적용 전 측정&lt;br /&gt;
+Render Blocking Resource, Script Loading option, Image 용량 등 다양한 문제&lt;br /&gt;
+-&amp;gt; 모바일 웹에서도 문제 발생 여부 확인&lt;/p&gt;
+
+&lt;p&gt;최적화 후 약 30% 이상의 감소 효과를 볼 수 있음&lt;/p&gt;
+
+&lt;h1 id=&quot;마무리&quot;&gt;마무리&lt;/h1&gt;
+&lt;p&gt;웹 프론트엔드 개발자는 성능 개선을 통해 서비스 향상과 비즈니스 향상에 기여할 수 있으며 측정 가능한 지표를 정의하고 사용자 중심 개선이 필요하다.&lt;br /&gt;
+항상 경량화를 염두해두고 개발 코드를 작성하자.&lt;/p&gt;
+
+&lt;h1 id=&quot;느낀점&quot;&gt;느낀점&lt;/h1&gt;
+&lt;p&gt;작년 고급 웹프로그래밍에서 프론트엔드와 백엔드를 경험할 때는 작동만 되게끔 코드를 작성하기 급했었는데 실제 현업에서는 이러한 고민들이 있다는 것을 알게 되었고 서비스에서 큰 영향을 미친다는 것을 배웠습니다.&lt;/p&gt;
+
+&lt;p&gt;실제로 웹 프로젝트는 아니었지만, AI 모델 서빙 프로젝트를 진행할 때마다 모델 추론 시간과 프론트엔드에서의 출력 시간을 줄이기 위해 고민했던 기억이 떠올랐습니다. 당시에 그래서 저는 모델을 최대한 경량화 시키고자 했으며 백엔드에서는 모델을 미리 저장해두고 출력을 진행하는 방식으로 진행했었습니다. 하지만 어느 정도가 적당한거야? 라는 의문을 가졌었는데 LCP, FID, CLS 등 이런 값들을 통해 웹 퍼포먼스를 측정한다는 것이 가장 인상 깊었습니다.&lt;/p&gt;
+
+&lt;p&gt;앞으로 프로젝트에서 개발 완성이 목표가 아닌 지속적인 개선을 위한 프로젝트도 진행하고 싶다는 생각이 들었습니다.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>주건나</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="activity" />
+      
+
+      
+        <summary type="html">대외활동 게시글 목록 DEVOCEAN YOUNG 2기 합격 및 발대식 후기 DEVOCEAN 3월 Tech 세미나 - Datadog의 Front-End에서 Back-End까지의 여정 DEVOCEAN YOUNG 2기 3월 활동 후기 DEVOCEAN 4월 Tech 세미나 - ChatGPT로 인한 새로운 패러다임 DEVOCEAN YOUNG 2기 4월 활동 후기 DEVOCEAN 5월 Tech 세미나 - 클라우드 비용 최적화 DEVOCEAN YOUNG 2기 5월 활동 후기 SKT AI Campus 본사 방문 투어 후기 DEVOCEAN 6월 Tech 세미나 - 웹 프론트엔드 성능 최적화 방법 및 적용 사례 웹 프론트엔드 성능 최적화 방법 및 적용 사례</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
       <title type="html">SKT AI Campus 본사 방문 투어 후기</title>
       <link href="https://keonju2.github.io/activity-devocean8" rel="alternate" type="text/html" title="SKT AI Campus 본사 방문 투어 후기" />
       <published>2023-06-19T07:00:00+09:00</published>
@@ -47,6 +156,7 @@
     &lt;li&gt;&lt;a href=&quot;./activity-devocean6&quot;&gt; DEVOCEAN 5월 Tech 세미나 - 클라우드 비용 최적화&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./activity-devocean7&quot;&gt; DEVOCEAN YOUNG 2기 5월 활동 후기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./activity-devocean8&quot;&gt; SKT AI Campus 본사 방문 투어 후기 &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./activity-devocean9&quot;&gt; DEVOCEAN 6월 Tech 세미나 - 웹 프론트엔드 성능 최적화 방법 및 적용 사례&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&quot;skt-ai-campus-본사-방문-투어-후기&quot;&gt;SKT AI Campus 본사 방문 투어 후기&lt;/h1&gt;
 
@@ -104,7 +214,7 @@
       
 
       
-        <summary type="html">대외활동 게시글 목록 DEVOCEAN YOUNG 2기 합격 및 발대식 후기 DEVOCEAN 3월 Tech 세미나 - Datadog의 Front-End에서 Back-End까지의 여정 DEVOCEAN YOUNG 2기 3월 활동 후기 DEVOCEAN 4월 Tech 세미나 - ChatGPT로 인한 새로운 패러다임 DEVOCEAN YOUNG 2기 4월 활동 후기 DEVOCEAN 5월 Tech 세미나 - 클라우드 비용 최적화 DEVOCEAN YOUNG 2기 5월 활동 후기 SKT AI Campus 본사 방문 투어 후기 SKT AI Campus 본사 방문 투어 후기</summary>
+        <summary type="html">대외활동 게시글 목록 DEVOCEAN YOUNG 2기 합격 및 발대식 후기 DEVOCEAN 3월 Tech 세미나 - Datadog의 Front-End에서 Back-End까지의 여정 DEVOCEAN YOUNG 2기 3월 활동 후기 DEVOCEAN 4월 Tech 세미나 - ChatGPT로 인한 새로운 패러다임 DEVOCEAN YOUNG 2기 4월 활동 후기 DEVOCEAN 5월 Tech 세미나 - 클라우드 비용 최적화 DEVOCEAN YOUNG 2기 5월 활동 후기 SKT AI Campus 본사 방문 투어 후기 DEVOCEAN 6월 Tech 세미나 - 웹 프론트엔드 성능 최적화 방법 및 적용 사례 SKT AI Campus 본사 방문 투어 후기</summary>
       
 
       
@@ -127,6 +237,7 @@
     &lt;li&gt;&lt;a href=&quot;./activity-devocean6&quot;&gt; DEVOCEAN 5월 Tech 세미나 - 클라우드 비용 최적화&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./activity-devocean7&quot;&gt; DEVOCEAN YOUNG 2기 5월 활동 후기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./activity-devocean8&quot;&gt; SKT AI Campus 본사 방문 투어 후기 &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./activity-devocean9&quot;&gt; DEVOCEAN 6월 Tech 세미나 - 웹 프론트엔드 성능 최적화 방법 및 적용 사례&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&quot;devocean-young-5월-후기&quot;&gt;DEVOCEAN YOUNG 5월 후기&lt;/h1&gt;
 
@@ -173,7 +284,7 @@
       
 
       
-        <summary type="html">대외활동 게시글 목록 DEVOCEAN YOUNG 2기 합격 및 발대식 후기 DEVOCEAN 3월 Tech 세미나 - Datadog의 Front-End에서 Back-End까지의 여정 DEVOCEAN YOUNG 2기 3월 활동 후기 DEVOCEAN 4월 Tech 세미나 - ChatGPT로 인한 새로운 패러다임 DEVOCEAN YOUNG 2기 4월 활동 후기 DEVOCEAN 5월 Tech 세미나 - 클라우드 비용 최적화 DEVOCEAN YOUNG 2기 5월 활동 후기 SKT AI Campus 본사 방문 투어 후기 DEVOCEAN YOUNG 5월 후기</summary>
+        <summary type="html">대외활동 게시글 목록 DEVOCEAN YOUNG 2기 합격 및 발대식 후기 DEVOCEAN 3월 Tech 세미나 - Datadog의 Front-End에서 Back-End까지의 여정 DEVOCEAN YOUNG 2기 3월 활동 후기 DEVOCEAN 4월 Tech 세미나 - ChatGPT로 인한 새로운 패러다임 DEVOCEAN YOUNG 2기 4월 활동 후기 DEVOCEAN 5월 Tech 세미나 - 클라우드 비용 최적화 DEVOCEAN YOUNG 2기 5월 활동 후기 SKT AI Campus 본사 방문 투어 후기 DEVOCEAN 6월 Tech 세미나 - 웹 프론트엔드 성능 최적화 방법 및 적용 사례 DEVOCEAN YOUNG 5월 후기</summary>
       
 
       
@@ -196,6 +307,7 @@
     &lt;li&gt;&lt;a href=&quot;./activity-devocean6&quot;&gt; DEVOCEAN 5월 Tech 세미나 - 클라우드 비용 최적화&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./activity-devocean7&quot;&gt; DEVOCEAN YOUNG 2기 5월 활동 후기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./activity-devocean8&quot;&gt; SKT AI Campus 본사 방문 투어 후기 &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./activity-devocean9&quot;&gt; DEVOCEAN 6월 Tech 세미나 - 웹 프론트엔드 성능 최적화 방법 및 적용 사례&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h1 id=&quot;devocean-5월-tech-세미나---클라우드-비용-최적화&quot;&gt;DEVOCEAN 5월 Tech 세미나 - 클라우드 비용 최적화&lt;/h1&gt;
@@ -315,7 +427,7 @@ Devocean 세미나는 현직자를 대상으로 하기에 항상 조금 어려�
       
 
       
-        <summary type="html">대외활동 게시글 목록 DEVOCEAN YOUNG 2기 합격 및 발대식 후기 DEVOCEAN 3월 Tech 세미나 - Datadog의 Front-End에서 Back-End까지의 여정 DEVOCEAN YOUNG 2기 3월 활동 후기 DEVOCEAN 4월 Tech 세미나 - ChatGPT로 인한 새로운 패러다임 DEVOCEAN YOUNG 2기 4월 활동 후기 DEVOCEAN 5월 Tech 세미나 - 클라우드 비용 최적화 DEVOCEAN YOUNG 2기 5월 활동 후기 SKT AI Campus 본사 방문 투어 후기</summary>
+        <summary type="html">대외활동 게시글 목록 DEVOCEAN YOUNG 2기 합격 및 발대식 후기 DEVOCEAN 3월 Tech 세미나 - Datadog의 Front-End에서 Back-End까지의 여정 DEVOCEAN YOUNG 2기 3월 활동 후기 DEVOCEAN 4월 Tech 세미나 - ChatGPT로 인한 새로운 패러다임 DEVOCEAN YOUNG 2기 4월 활동 후기 DEVOCEAN 5월 Tech 세미나 - 클라우드 비용 최적화 DEVOCEAN YOUNG 2기 5월 활동 후기 SKT AI Campus 본사 방문 투어 후기 DEVOCEAN 6월 Tech 세미나 - 웹 프론트엔드 성능 최적화 방법 및 적용 사례</summary>
       
 
       
@@ -338,6 +450,7 @@ Devocean 세미나는 현직자를 대상으로 하기에 항상 조금 어려�
     &lt;li&gt;&lt;a href=&quot;./activity-devocean6&quot;&gt; DEVOCEAN 5월 Tech 세미나 - 클라우드 비용 최적화&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./activity-devocean7&quot;&gt; DEVOCEAN YOUNG 2기 5월 활동 후기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./activity-devocean8&quot;&gt; SKT AI Campus 본사 방문 투어 후기 &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./activity-devocean9&quot;&gt; DEVOCEAN 6월 Tech 세미나 - 웹 프론트엔드 성능 최적화 방법 및 적용 사례&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&quot;devocean-young-4월-후기&quot;&gt;DEVOCEAN YOUNG 4월 후기&lt;/h1&gt;
 
@@ -387,7 +500,7 @@ AIfactory LangChain 세미나 후기 및 소개 - &lt;a href=&quot;https://skdev
       
 
       
-        <summary type="html">대외활동 게시글 목록 DEVOCEAN YOUNG 2기 합격 및 발대식 후기 DEVOCEAN 3월 Tech 세미나 - Datadog의 Front-End에서 Back-End까지의 여정 DEVOCEAN YOUNG 2기 3월 활동 후기 DEVOCEAN 4월 Tech 세미나 - ChatGPT로 인한 새로운 패러다임 DEVOCEAN YOUNG 2기 4월 활동 후기 DEVOCEAN 5월 Tech 세미나 - 클라우드 비용 최적화 DEVOCEAN YOUNG 2기 5월 활동 후기 SKT AI Campus 본사 방문 투어 후기 DEVOCEAN YOUNG 4월 후기</summary>
+        <summary type="html">대외활동 게시글 목록 DEVOCEAN YOUNG 2기 합격 및 발대식 후기 DEVOCEAN 3월 Tech 세미나 - Datadog의 Front-End에서 Back-End까지의 여정 DEVOCEAN YOUNG 2기 3월 활동 후기 DEVOCEAN 4월 Tech 세미나 - ChatGPT로 인한 새로운 패러다임 DEVOCEAN YOUNG 2기 4월 활동 후기 DEVOCEAN 5월 Tech 세미나 - 클라우드 비용 최적화 DEVOCEAN YOUNG 2기 5월 활동 후기 SKT AI Campus 본사 방문 투어 후기 DEVOCEAN 6월 Tech 세미나 - 웹 프론트엔드 성능 최적화 방법 및 적용 사례 DEVOCEAN YOUNG 4월 후기</summary>
       
 
       
@@ -410,6 +523,7 @@ AIfactory LangChain 세미나 후기 및 소개 - &lt;a href=&quot;https://skdev
     &lt;li&gt;&lt;a href=&quot;./activity-devocean6&quot;&gt; DEVOCEAN 5월 Tech 세미나 - 클라우드 비용 최적화&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./activity-devocean7&quot;&gt; DEVOCEAN YOUNG 2기 5월 활동 후기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./activity-devocean8&quot;&gt; SKT AI Campus 본사 방문 투어 후기 &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./activity-devocean9&quot;&gt; DEVOCEAN 6월 Tech 세미나 - 웹 프론트엔드 성능 최적화 방법 및 적용 사례&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&quot;devocean-4월-tech-세미나&quot;&gt;DEVOCEAN 4월 Tech 세미나&lt;/h1&gt;
 
@@ -460,7 +574,7 @@ Udemy와 함께하고 첫번째 세션에서는 “OpenAI의 최신 발전과 �
       
 
       
-        <summary type="html">대외활동 게시글 목록 DEVOCEAN YOUNG 2기 합격 및 발대식 후기 DEVOCEAN 3월 Tech 세미나 - Datadog의 Front-End에서 Back-End까지의 여정 DEVOCEAN YOUNG 2기 3월 활동 후기 DEVOCEAN 4월 Tech 세미나 - ChatGPT로 인한 새로운 패러다임 DEVOCEAN YOUNG 2기 4월 활동 후기 DEVOCEAN 5월 Tech 세미나 - 클라우드 비용 최적화 DEVOCEAN YOUNG 2기 5월 활동 후기 SKT AI Campus 본사 방문 투어 후기 DEVOCEAN 4월 Tech 세미나</summary>
+        <summary type="html">대외활동 게시글 목록 DEVOCEAN YOUNG 2기 합격 및 발대식 후기 DEVOCEAN 3월 Tech 세미나 - Datadog의 Front-End에서 Back-End까지의 여정 DEVOCEAN YOUNG 2기 3월 활동 후기 DEVOCEAN 4월 Tech 세미나 - ChatGPT로 인한 새로운 패러다임 DEVOCEAN YOUNG 2기 4월 활동 후기 DEVOCEAN 5월 Tech 세미나 - 클라우드 비용 최적화 DEVOCEAN YOUNG 2기 5월 활동 후기 SKT AI Campus 본사 방문 투어 후기 DEVOCEAN 6월 Tech 세미나 - 웹 프론트엔드 성능 최적화 방법 및 적용 사례 DEVOCEAN 4월 Tech 세미나</summary>
       
 
       
@@ -483,6 +597,7 @@ Udemy와 함께하고 첫번째 세션에서는 “OpenAI의 최신 발전과 �
     &lt;li&gt;&lt;a href=&quot;./activity-devocean6&quot;&gt; DEVOCEAN 5월 Tech 세미나 - 클라우드 비용 최적화&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./activity-devocean7&quot;&gt; DEVOCEAN YOUNG 2기 5월 활동 후기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./activity-devocean8&quot;&gt; SKT AI Campus 본사 방문 투어 후기 &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./activity-devocean9&quot;&gt; DEVOCEAN 6월 Tech 세미나 - 웹 프론트엔드 성능 최적화 방법 및 적용 사례&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&quot;devocean-young-3월-후기&quot;&gt;DEVOCEAN YOUNG 3월 후기&lt;/h1&gt;
 
@@ -532,7 +647,7 @@ Udemy와 함께하고 첫번째 세션에서는 “OpenAI의 최신 발전과 �
       
 
       
-        <summary type="html">대외활동 게시글 목록 DEVOCEAN YOUNG 2기 합격 및 발대식 후기 DEVOCEAN 3월 Tech 세미나 - Datadog의 Front-End에서 Back-End까지의 여정 DEVOCEAN YOUNG 2기 3월 활동 후기 DEVOCEAN 4월 Tech 세미나 - ChatGPT로 인한 새로운 패러다임 DEVOCEAN YOUNG 2기 4월 활동 후기 DEVOCEAN 5월 Tech 세미나 - 클라우드 비용 최적화 DEVOCEAN YOUNG 2기 5월 활동 후기 SKT AI Campus 본사 방문 투어 후기 DEVOCEAN YOUNG 3월 후기</summary>
+        <summary type="html">대외활동 게시글 목록 DEVOCEAN YOUNG 2기 합격 및 발대식 후기 DEVOCEAN 3월 Tech 세미나 - Datadog의 Front-End에서 Back-End까지의 여정 DEVOCEAN YOUNG 2기 3월 활동 후기 DEVOCEAN 4월 Tech 세미나 - ChatGPT로 인한 새로운 패러다임 DEVOCEAN YOUNG 2기 4월 활동 후기 DEVOCEAN 5월 Tech 세미나 - 클라우드 비용 최적화 DEVOCEAN YOUNG 2기 5월 활동 후기 SKT AI Campus 본사 방문 투어 후기 DEVOCEAN 6월 Tech 세미나 - 웹 프론트엔드 성능 최적화 방법 및 적용 사례 DEVOCEAN YOUNG 3월 후기</summary>
       
 
       
@@ -555,6 +670,7 @@ Udemy와 함께하고 첫번째 세션에서는 “OpenAI의 최신 발전과 �
     &lt;li&gt;&lt;a href=&quot;./activity-devocean6&quot;&gt; DEVOCEAN 5월 Tech 세미나 - 클라우드 비용 최적화&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./activity-devocean7&quot;&gt; DEVOCEAN YOUNG 2기 5월 활동 후기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./activity-devocean8&quot;&gt; SKT AI Campus 본사 방문 투어 후기 &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./activity-devocean9&quot;&gt; DEVOCEAN 6월 Tech 세미나 - 웹 프론트엔드 성능 최적화 방법 및 적용 사례&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&quot;devocean-3월-tech-세미나---datadog의-front-end에서-back-end까지의-여정&quot;&gt;DEVOCEAN 3월 Tech 세미나 - Datadog의 Front-End에서 Back-End까지의 여정&lt;/h1&gt;
 
@@ -605,7 +721,7 @@ DEVOCEAN 3월 Tech 세미나로는 Datadog이라는 End-to-End Full Stack 모니
       
 
       
-        <summary type="html">대외활동 게시글 목록 DEVOCEAN YOUNG 2기 합격 및 발대식 후기 DEVOCEAN 3월 Tech 세미나 - Datadog의 Front-End에서 Back-End까지의 여정 DEVOCEAN YOUNG 2기 3월 활동 후기 DEVOCEAN 4월 Tech 세미나 - ChatGPT로 인한 새로운 패러다임 DEVOCEAN YOUNG 2기 4월 활동 후기 DEVOCEAN 5월 Tech 세미나 - 클라우드 비용 최적화 DEVOCEAN YOUNG 2기 5월 활동 후기 SKT AI Campus 본사 방문 투어 후기 DEVOCEAN 3월 Tech 세미나 - Datadog의 Front-End에서 Back-End까지의 여정</summary>
+        <summary type="html">대외활동 게시글 목록 DEVOCEAN YOUNG 2기 합격 및 발대식 후기 DEVOCEAN 3월 Tech 세미나 - Datadog의 Front-End에서 Back-End까지의 여정 DEVOCEAN YOUNG 2기 3월 활동 후기 DEVOCEAN 4월 Tech 세미나 - ChatGPT로 인한 새로운 패러다임 DEVOCEAN YOUNG 2기 4월 활동 후기 DEVOCEAN 5월 Tech 세미나 - 클라우드 비용 최적화 DEVOCEAN YOUNG 2기 5월 활동 후기 SKT AI Campus 본사 방문 투어 후기 DEVOCEAN 6월 Tech 세미나 - 웹 프론트엔드 성능 최적화 방법 및 적용 사례 DEVOCEAN 3월 Tech 세미나 - Datadog의 Front-End에서 Back-End까지의 여정</summary>
       
 
       
@@ -628,6 +744,7 @@ DEVOCEAN 3월 Tech 세미나로는 Datadog이라는 End-to-End Full Stack 모니
     &lt;li&gt;&lt;a href=&quot;./activity-devocean6&quot;&gt; DEVOCEAN 5월 Tech 세미나 - 클라우드 비용 최적화&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./activity-devocean7&quot;&gt; DEVOCEAN YOUNG 2기 5월 활동 후기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./activity-devocean8&quot;&gt; SKT AI Campus 본사 방문 투어 후기 &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./activity-devocean9&quot;&gt; DEVOCEAN 6월 Tech 세미나 - 웹 프론트엔드 성능 최적화 방법 및 적용 사례&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&quot;devocean-young-2기-합격-및-발대식-후기&quot;&gt;DEVOCEAN YOUNG 2기 합격 및 발대식 후기&lt;/h1&gt;
 
@@ -692,7 +809,7 @@ SK 그룹의 대표 개발자 커뮤니티이며 내/외부 개발자 간 소통
       
 
       
-        <summary type="html">대외활동 게시글 목록 DEVOCEAN YOUNG 2기 합격 및 발대식 후기 DEVOCEAN 3월 Tech 세미나 - Datadog의 Front-End에서 Back-End까지의 여정 DEVOCEAN YOUNG 2기 3월 활동 후기 DEVOCEAN 4월 Tech 세미나 - ChatGPT로 인한 새로운 패러다임 DEVOCEAN YOUNG 2기 4월 활동 후기 DEVOCEAN 5월 Tech 세미나 - 클라우드 비용 최적화 DEVOCEAN YOUNG 2기 5월 활동 후기 SKT AI Campus 본사 방문 투어 후기 DEVOCEAN YOUNG 2기 합격 및 발대식 후기</summary>
+        <summary type="html">대외활동 게시글 목록 DEVOCEAN YOUNG 2기 합격 및 발대식 후기 DEVOCEAN 3월 Tech 세미나 - Datadog의 Front-End에서 Back-End까지의 여정 DEVOCEAN YOUNG 2기 3월 활동 후기 DEVOCEAN 4월 Tech 세미나 - ChatGPT로 인한 새로운 패러다임 DEVOCEAN YOUNG 2기 4월 활동 후기 DEVOCEAN 5월 Tech 세미나 - 클라우드 비용 최적화 DEVOCEAN YOUNG 2기 5월 활동 후기 SKT AI Campus 본사 방문 투어 후기 DEVOCEAN 6월 Tech 세미나 - 웹 프론트엔드 성능 최적화 방법 및 적용 사례 DEVOCEAN YOUNG 2기 합격 및 발대식 후기</summary>
       
 
       
