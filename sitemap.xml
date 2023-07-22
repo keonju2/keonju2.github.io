@@ -4,6 +4,22 @@
         xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
     <url>
+        <loc>https://keonju2.github.io/activity-ossca2.html</loc>
+        
+        <lastmod>2023-07-22T07:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
         <loc>https://keonju2.github.io/activity-ossca1.html</loc>
         
         <lastmod>2023-07-15T07:00:00+09:00</lastmod>

@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://keonju2.github.io/tag/activity/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://keonju2.github.io/" rel="alternate" type="text/html" />
-  <updated>2023-07-15T23:13:24+09:00</updated>
+  <updated>2023-07-22T23:33:43+09:00</updated>
   <id>https://keonju2.github.io/tag/activity/feed.xml</id>
 
   
@@ -32,6 +32,53 @@
 
   
     <entry>
+      <title type="html">OSSCA 오픈소스 컨트리뷰션 아카데미 Huggingface 한글화팀 2주차 후기</title>
+      <link href="https://keonju2.github.io/activity-ossca2" rel="alternate" type="text/html" title="OSSCA 오픈소스 컨트리뷰션 아카데미 Huggingface 한글화팀 2주차 후기" />
+      <published>2023-07-22T07:00:00+09:00</published>
+      <updated>2023-07-22T07:00:00+09:00</updated>
+      <id>https://keonju2.github.io/activity-ossca2</id>
+      <content type="html" xml:base="https://keonju2.github.io/activity-ossca2">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;대외활동 게시글 목록&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./activity-ossca1&quot;&gt; OSSCA 오픈소스 컨트리뷰션 아카데미 Huggingface 한글화팀 발대식 및 1주차 후기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./activity-ossca2&quot;&gt; OSSCA 오픈소스 컨트리뷰션 아카데미 Huggingface 한글화팀 2주차 후기&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;ossca-오픈소스-컨트리뷰션-아카데미-huggingface-한글화팀-2주차-활동-후기&quot;&gt;OSSCA 오픈소스 컨트리뷰션 아카데미 Huggingface 한글화팀 2주차 활동 후기&lt;/h1&gt;
+
+&lt;p&gt;본격적으로 2주차에 번역 업무를 맡아 진행하게 되었다. 솔직히 영어를 굉장히 못하는 입장에서 기술 문서를 번역하는 것은 꽤나 상당한 시간이 소비되는 일이었다. 안그래도 지난주 면접 등 다양한 일이 겹쳐 시간을 많이 할애할 수 없었는데 특히 표현적 어려움이 컸던 것 같다.&lt;/p&gt;
+
+&lt;p&gt;나는 &lt;a href=&quot;https://huggingface.co/docs/transformers/main/en/add_tensorflow_model&quot;&gt;https://huggingface.co/docs/transformers/main/en/add_tensorflow_model&lt;/a&gt; 해당 문서 번역을 도전했는데 상당히 내용도 길고, git, pytorch, tensorflow에 대한 내용들이 꽤나 들어있었다. 예를 들어 decorated라는 표현을 어떤 식으로 해석을 해야할까? wheel은 어떤 식으로 표현을 해야할까? 두 단어 모두 꾸며진, 바퀴 식으로 해석은 사용자에게 올바른 의미를 전달하지 못한다는 것이 문제였다. 이러한 몇가지 단어들에 대한 고민을 하고, 표현에 대한 고민을 하다보니 재미있었고 문서를 자주 읽게 되어 좋은 내용을 습득할 수 있었다.&lt;/p&gt;
+
+&lt;p&gt;다만, Git은 여전히 어려운 것 같다. PR만 4번 진행했는데 왜 미리보기 문서가 만들어지지 않을까…..라는 고민으로 거의 하루를 소비했다.&lt;/p&gt;
+
+&lt;p&gt;마무리로 번역과 Git 두 작업을 통해 많은 것을 배울 수 있었던 1주일이었다.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>주건나</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="activity" />
+      
+
+      
+        <summary type="html">대외활동 게시글 목록 OSSCA 오픈소스 컨트리뷰션 아카데미 Huggingface 한글화팀 발대식 및 1주차 후기 OSSCA 오픈소스 컨트리뷰션 아카데미 Huggingface 한글화팀 2주차 후기 OSSCA 오픈소스 컨트리뷰션 아카데미 Huggingface 한글화팀 2주차 활동 후기</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
       <title type="html">OSSCA 오픈소스 컨트리뷰션 아카데미 Huggingface 한글화팀 발대식 및 1주차 후기</title>
       <link href="https://keonju2.github.io/activity-ossca1" rel="alternate" type="text/html" title="OSSCA 오픈소스 컨트리뷰션 아카데미 Huggingface 한글화팀 발대식 및 1주차 후기" />
       <published>2023-07-15T07:00:00+09:00</published>
@@ -40,6 +87,7 @@
       <content type="html" xml:base="https://keonju2.github.io/activity-ossca1">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;대외활동 게시글 목록&lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./activity-ossca1&quot;&gt; OSSCA 오픈소스 컨트리뷰션 아카데미 Huggingface 한글화팀 발대식 및 1주차 후기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./activity-ossca2&quot;&gt; OSSCA 오픈소스 컨트리뷰션 아카데미 Huggingface 한글화팀 2주차 후기&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&quot;ossca-오픈소스-컨트리뷰션-아카데미-huggingface-한글화팀-합격-후기&quot;&gt;OSSCA 오픈소스 컨트리뷰션 아카데미 Huggingface 한글화팀 합격 후기&lt;/h1&gt;
 
@@ -94,7 +142,7 @@
       
 
       
-        <summary type="html">대외활동 게시글 목록 OSSCA 오픈소스 컨트리뷰션 아카데미 Huggingface 한글화팀 발대식 및 1주차 후기 OSSCA 오픈소스 컨트리뷰션 아카데미 Huggingface 한글화팀 합격 후기</summary>
+        <summary type="html">대외활동 게시글 목록 OSSCA 오픈소스 컨트리뷰션 아카데미 Huggingface 한글화팀 발대식 및 1주차 후기 OSSCA 오픈소스 컨트리뷰션 아카데미 Huggingface 한글화팀 2주차 후기 OSSCA 오픈소스 컨트리뷰션 아카데미 Huggingface 한글화팀 합격 후기</summary>
       
 
       
@@ -848,81 +896,6 @@ Udemy와 함께하고 첫번째 세션에서는 “OpenAI의 최신 발전과 �
 
       
         <summary type="html">대외활동 게시글 목록 DEVOCEAN YOUNG 2기 합격 및 발대식 후기 DEVOCEAN 3월 Tech 세미나 - Datadog의 Front-End에서 Back-End까지의 여정 DEVOCEAN YOUNG 2기 3월 활동 후기 DEVOCEAN 4월 Tech 세미나 - ChatGPT로 인한 새로운 패러다임 DEVOCEAN YOUNG 2기 4월 활동 후기 DEVOCEAN 5월 Tech 세미나 - 클라우드 비용 최적화 DEVOCEAN YOUNG 2기 5월 활동 후기 SKT AI Campus 본사 방문 투어 후기 DEVOCEAN 6월 Tech 세미나 - 웹 프론트엔드 성능 최적화 방법 및 적용 사례 DEVOCEAN YOUNG 7월 전용 밋업 대학생 세미나 후기 DEVOCEAN YOUNG 3월 후기</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">DEVOCEAN 3월 Tech 세미나 - Datadog의 Front-End에서 Back-End까지의 여정</title>
-      <link href="https://keonju2.github.io/activity-devocean2" rel="alternate" type="text/html" title="DEVOCEAN 3월 Tech 세미나 - Datadog의 Front-End에서 Back-End까지의 여정" />
-      <published>2023-03-26T07:00:00+09:00</published>
-      <updated>2023-03-26T07:00:00+09:00</updated>
-      <id>https://keonju2.github.io/activity-devocean2</id>
-      <content type="html" xml:base="https://keonju2.github.io/activity-devocean2">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;대외활동 게시글 목록&lt;/span&gt;&lt;/p&gt;
-&lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./activity-devocean1&quot;&gt; DEVOCEAN YOUNG 2기 합격 및 발대식 후기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./activity-devocean2&quot;&gt; DEVOCEAN 3월 Tech 세미나 - Datadog의 Front-End에서 Back-End까지의 여정&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./activity-devocean3&quot;&gt; DEVOCEAN YOUNG 2기 3월 활동 후기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./activity-devocean4&quot;&gt; DEVOCEAN 4월 Tech 세미나 - ChatGPT로 인한 새로운 패러다임&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./activity-devocean5&quot;&gt; DEVOCEAN YOUNG 2기 4월 활동 후기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./activity-devocean6&quot;&gt; DEVOCEAN 5월 Tech 세미나 - 클라우드 비용 최적화&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./activity-devocean7&quot;&gt; DEVOCEAN YOUNG 2기 5월 활동 후기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./activity-devocean8&quot;&gt; SKT AI Campus 본사 방문 투어 후기 &lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./activity-devocean9&quot;&gt; DEVOCEAN 6월 Tech 세미나 - 웹 프론트엔드 성능 최적화 방법 및 적용 사례&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./activity-devocean10&quot;&gt; DEVOCEAN YOUNG 7월 전용 밋업 대학생 세미나 후기&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&quot;devocean-3월-tech-세미나---datadog의-front-end에서-back-end까지의-여정&quot;&gt;DEVOCEAN 3월 Tech 세미나 - Datadog의 Front-End에서 Back-End까지의 여정&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://devocean.sk.com/vlog/view.do?id=417&amp;amp;vcode=A03&quot;&gt;https://devocean.sk.com/vlog/view.do?id=417&amp;amp;vcode=A03&lt;/a&gt;  &lt;br /&gt;
-DEVOCEAN 3월 Tech 세미나로는 Datadog이라는 End-to-End Full Stack 모니터링 솔루션을 소개하는 세미나를 들었다.&lt;/p&gt;
-
-&lt;p&gt;Datadog의 세가지 핵심 가치는 Traces, Metrics, Logs이며 각각 서비스 전반에 걸친 원인, Trends/Pattern 인식, 이슈 및 장애 분석을 주 목적으로 사용된다고 하였다.&lt;br /&gt;
-즉 클라우드 모니터링 시스템을 안정적이고 효과적으로 구축 및 운영하도록 지원하는 서비스이다.&lt;/p&gt;
-
-&lt;p&gt;1차는 Datadog에 대한 포괄적인 설명을 해주었으며 2차는 여러가지 활용 방안을 소개해주었다.&lt;/p&gt;
-
-&lt;p&gt;특징으로는&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;실시간 검색은 100% Trace 표시&lt;/li&gt;
-  &lt;li&gt;Github에 대한 소스 코드 통합 지원&lt;/li&gt;
-  &lt;li&gt;프로덕션 환경에서 상시 코드 프로파일링&lt;/li&gt;
-  &lt;li&gt;Request Level에서 코드 최적화&lt;/li&gt;
-  &lt;li&gt;코드 성능을 위한 자동화된 인사이트&lt;br /&gt;
-등이 있었다.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;DataDog은 클라우드 모니터링을 하는 서비스이며 운영부터 개발까지 모두 다루며 로그 정보, 서비스 전반의 Trace, 패턴과 트랜드같은 Metrics 세가지를 핵심으로 삼는다는 것이 가장 중요하다고 하였습니다.
-그래서 앞 부분은 Datadog에 대한 전반적인 소개, 특징 장점들에 대해 언급하셧으며 뒷부분에서는 개발에 조금 더 가까운, Front-End와 Back-End에서 어떤 식으로 사용하는 지에 대한 설명이었습니다.&lt;/p&gt;
-
-&lt;p&gt;클라우드 어플리케이션에서는  변화에 민감하여 다양한 특성들은 복원력과 확장력이 중요하다고 하셨습니다. 그래서 로그 분석의 이상 탐지나, 코드 최적화, API Test, 사용자 오류까지 넓은 분야를 하나의 어플리케이션에서 공유한다고 생각하였습니다.&lt;/p&gt;
-
-&lt;h1 id=&quot;후기&quot;&gt;후기&lt;/h1&gt;
-&lt;p&gt;아직은 운영부터 개발까지 참여하여 모니터링을 직접적으로 사용해본 경험이 없어 있었다면 더 많은 내용을 이해할 수 있었을 것 같다는 생각이 들었습니다. AI 모델 개발을 위해 몇번의 GCP와 같은 서비스에서 로그를 보면서 중요성을 잘 못느꼈지만 현업에서는 이런 클라우드 어플리케이션을 통한 유지가 중요하다는 것을 느꼈습니다.
-하지만 발표자분께서 저같은 개발 어린이들도 이해할만큼 재밌고 쉽게 설명해주신것 같습니다. 하지만 질문 타임은 아무래도 현업과 관련된 질문들이 많아 어렵다고 생각하였습니다..
-많은 것을 느낄 수 있었던 테크 세미나였습니다 :)&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>주건나</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="activity" />
-      
-
-      
-        <summary type="html">대외활동 게시글 목록 DEVOCEAN YOUNG 2기 합격 및 발대식 후기 DEVOCEAN 3월 Tech 세미나 - Datadog의 Front-End에서 Back-End까지의 여정 DEVOCEAN YOUNG 2기 3월 활동 후기 DEVOCEAN 4월 Tech 세미나 - ChatGPT로 인한 새로운 패러다임 DEVOCEAN YOUNG 2기 4월 활동 후기 DEVOCEAN 5월 Tech 세미나 - 클라우드 비용 최적화 DEVOCEAN YOUNG 2기 5월 활동 후기 SKT AI Campus 본사 방문 투어 후기 DEVOCEAN 6월 Tech 세미나 - 웹 프론트엔드 성능 최적화 방법 및 적용 사례 DEVOCEAN YOUNG 7월 전용 밋업 대학생 세미나 후기 DEVOCEAN 3월 Tech 세미나 - Datadog의 Front-End에서 Back-End까지의 여정</summary>
       
 
       
