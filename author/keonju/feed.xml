@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://keonju2.github.io/author/keonju/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://keonju2.github.io/" rel="alternate" type="text/html" />
-  <updated>2023-09-01T21:58:28+09:00</updated>
+  <updated>2023-09-10T22:35:45+09:00</updated>
   <id>https://keonju2.github.io/author/keonju/feed.xml</id>
 
   
@@ -52,8 +52,8 @@
     &lt;li&gt;&lt;a href=&quot;./activity-devocean11&quot;&gt; DEVOCEAN 7월 Tech 세미나 - 다가오는 Automated AI 시대, 그 기반 기술과 적용사례&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./activity-devocean12&quot;&gt; SKT AI 서비스 기획 CAMP&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./activity-devocean13&quot;&gt; DEVOCEAN YOUNG 8월 전용 밋업 대학생 세미나 후기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./activity-devocean14&quot;&gt; 다시듣는 ChatGPT로 인한 새로운 패러다임&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./activity-devocean15&quot;&gt; 다시듣는 다가오는 Automated AI 시대, 그 기반 기술과 적용사례&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./activity-devocean14&quot;&gt; 다시듣는 Tech 세미나 AI Agent 기반 문제 정의 방법과 해결 방안 모색&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./activity-devocean15&quot;&gt; 다시듣는 Tech 세미나 지식그래프 알아보기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./activity-devocean16&quot;&gt; DEVOCEAN 8월 Tech 세미나 - 업무 생산성 향상을 위한 생성형 AI 사용&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -102,7 +102,7 @@ LLM을 사용할 때 주의해야할 할루시네이션이나, 보안 문제에 
       
 
       
-        <summary type="html">대외활동 게시글 목록 DEVOCEAN YOUNG 2기 합격 및 발대식 후기 DEVOCEAN 3월 Tech 세미나 - Datadog의 Front-End에서 Back-End까지의 여정 DEVOCEAN YOUNG 2기 3월 활동 후기 DEVOCEAN 4월 Tech 세미나 - ChatGPT로 인한 새로운 패러다임 DEVOCEAN YOUNG 2기 4월 활동 후기 DEVOCEAN 5월 Tech 세미나 - 클라우드 비용 최적화 DEVOCEAN YOUNG 2기 5월 활동 후기 SKT AI Campus 본사 방문 투어 후기 DEVOCEAN 6월 Tech 세미나 - 웹 프론트엔드 성능 최적화 방법 및 적용 사례 DEVOCEAN YOUNG 7월 전용 밋업 대학생 세미나 후기 DEVOCEAN 7월 Tech 세미나 - 다가오는 Automated AI 시대, 그 기반 기술과 적용사례 SKT AI 서비스 기획 CAMP DEVOCEAN YOUNG 8월 전용 밋업 대학생 세미나 후기 다시듣는 ChatGPT로 인한 새로운 패러다임 다시듣는 다가오는 Automated AI 시대, 그 기반 기술과 적용사례 DEVOCEAN 8월 Tech 세미나 - 업무 생산성 향상을 위한 생성형 AI 사용</summary>
+        <summary type="html">대외활동 게시글 목록 DEVOCEAN YOUNG 2기 합격 및 발대식 후기 DEVOCEAN 3월 Tech 세미나 - Datadog의 Front-End에서 Back-End까지의 여정 DEVOCEAN YOUNG 2기 3월 활동 후기 DEVOCEAN 4월 Tech 세미나 - ChatGPT로 인한 새로운 패러다임 DEVOCEAN YOUNG 2기 4월 활동 후기 DEVOCEAN 5월 Tech 세미나 - 클라우드 비용 최적화 DEVOCEAN YOUNG 2기 5월 활동 후기 SKT AI Campus 본사 방문 투어 후기 DEVOCEAN 6월 Tech 세미나 - 웹 프론트엔드 성능 최적화 방법 및 적용 사례 DEVOCEAN YOUNG 7월 전용 밋업 대학생 세미나 후기 DEVOCEAN 7월 Tech 세미나 - 다가오는 Automated AI 시대, 그 기반 기술과 적용사례 SKT AI 서비스 기획 CAMP DEVOCEAN YOUNG 8월 전용 밋업 대학생 세미나 후기 다시듣는 Tech 세미나 AI Agent 기반 문제 정의 방법과 해결 방안 모색 다시듣는 Tech 세미나 지식그래프 알아보기 DEVOCEAN 8월 Tech 세미나 - 업무 생산성 향상을 위한 생성형 AI 사용</summary>
       
 
       
@@ -110,8 +110,130 @@ LLM을 사용할 때 주의해야할 할루시네이션이나, 보안 문제에 
     </entry>
   
     <entry>
-      <title type="html">다시듣는 다가오는 Automated AI 시대, 그 기반 기술과 적용사례</title>
-      <link href="https://keonju2.github.io/activity-devocean15" rel="alternate" type="text/html" title="다시듣는 다가오는 Automated AI 시대, 그 기반 기술과 적용사례" />
+      <title type="html">다시듣는 Tech 세미나 AI Agent 기반 문제 정의 방법과 해결 방안 모색</title>
+      <link href="https://keonju2.github.io/activity-devocean14" rel="alternate" type="text/html" title="다시듣는 Tech 세미나 AI Agent 기반 문제 정의 방법과 해결 방안 모색" />
+      <published>2023-08-31T08:00:00+09:00</published>
+      <updated>2023-08-31T08:00:00+09:00</updated>
+      <id>https://keonju2.github.io/activity-devocean14</id>
+      <content type="html" xml:base="https://keonju2.github.io/activity-devocean14">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;대외활동 게시글 목록&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./activity-devocean1&quot;&gt; DEVOCEAN YOUNG 2기 합격 및 발대식 후기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./activity-devocean2&quot;&gt; DEVOCEAN 3월 Tech 세미나 - Datadog의 Front-End에서 Back-End까지의 여정&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./activity-devocean3&quot;&gt; DEVOCEAN YOUNG 2기 3월 활동 후기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./activity-devocean4&quot;&gt; DEVOCEAN 4월 Tech 세미나 - ChatGPT로 인한 새로운 패러다임&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./activity-devocean5&quot;&gt; DEVOCEAN YOUNG 2기 4월 활동 후기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./activity-devocean6&quot;&gt; DEVOCEAN 5월 Tech 세미나 - 클라우드 비용 최적화&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./activity-devocean7&quot;&gt; DEVOCEAN YOUNG 2기 5월 활동 후기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./activity-devocean8&quot;&gt; SKT AI Campus 본사 방문 투어 후기 &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./activity-devocean9&quot;&gt; DEVOCEAN 6월 Tech 세미나 - 웹 프론트엔드 성능 최적화 방법 및 적용 사례&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./activity-devocean10&quot;&gt; DEVOCEAN YOUNG 7월 전용 밋업 대학생 세미나 후기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./activity-devocean11&quot;&gt; DEVOCEAN 7월 Tech 세미나 - 다가오는 Automated AI 시대, 그 기반 기술과 적용사례&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./activity-devocean12&quot;&gt; SKT AI 서비스 기획 CAMP&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./activity-devocean13&quot;&gt; DEVOCEAN YOUNG 8월 전용 밋업 대학생 세미나 후기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./activity-devocean14&quot;&gt; 다시듣는 Tech 세미나 AI Agent 기반 문제 정의 방법과 해결 방안 모색&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./activity-devocean15&quot;&gt; 다시듣는 Tech 세미나 지식그래프 알아보기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./activity-devocean16&quot;&gt; DEVOCEAN 8월 Tech 세미나 - 업무 생산성 향상을 위한 생성형 AI 사용&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;ai-agent-기반-문제-정의-방법과-해결-방안-모색&quot;&gt;AI Agent 기반 문제 정의 방법과 해결 방안 모색&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://devocean.sk.com/vlog/view.do?id=305&amp;amp;vcode=A03&quot;&gt;https://devocean.sk.com/vlog/view.do?id=305&amp;amp;vcode=A03&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;발표는 다음과 같은 순서로 진행되었습니다.&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;정의
+    &lt;ul&gt;
+      &lt;li&gt;Agent ⊂ AI&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;AI 배경 지식 (이론)
+    &lt;ul&gt;
+      &lt;li&gt;Symbolic AI vs. Machine Learning&lt;/li&gt;
+      &lt;li&gt;BDI (Belief Desire Intention) 이론&lt;/li&gt;
+      &lt;li&gt;BDI vs. FSM (Finite State Machine)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;PRS (Procedure Reasoing System) / IRS (Inteligent Reasoning System)
+    &lt;ul&gt;
+      &lt;li&gt;Examples&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;문제를 해결하는 방법
+    &lt;ul&gt;
+      &lt;li&gt;Agent-based Modeling vs. Equation-based Modeling&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;AI Agent의 정의는 굉장히 광범위하지만 학문적으로 어떻게 정의되고 응용하고 있는지를 다뤄주셨습니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;정의&quot;&gt;정의&lt;/h2&gt;
+&lt;p&gt;AI는 기계가 생각할 수 있는가?로 시작하여 생각하는 과정을 어떻게 모방할 수 있는가?를 고민하는 분야가 있다고 합니다.  &lt;br /&gt;
+Agent는 사용자를 대신하여 원하는 작업을 자동으로 해결하여 주는 시스템을 의미합니다. 즉 유기적으로 연관되어 있는 시스템을 의미하는데 광범위하기 때문에 자연어 처리나 지식표현같은 인지적 측면, 전문가 시스템, 분산 협동 같은 다양한 범위로 확장이 되고 있습니다. &lt;br /&gt;
+그래서 Agent는 AI와 시스템의 결합이라고 하셨습니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;ai-배경지식&quot;&gt;AI 배경지식&lt;/h2&gt;
+&lt;p&gt;보통 AI가 머신러닝을 포함하고 딥러닝이 그 안에 속한다고 배웠지만, 머신러닝은 데이터를 다루고 표현하는 분야, 딥러닝은 multi layer을 통해 더 많은 특징을 표현하지만 AI는 미생물 시스템을 통한 규칙 기반 intelligence입니다.&lt;/p&gt;
+
+&lt;p&gt;즉 조건과 명령의 조합으로 Rule을 만들지만 Heuristic Intelligence 분야도 있다고 하였습니다.&lt;br /&gt;
+그래서 여기서 지식에서 찾는 방법을 의미하고 여기서 Knowledge는 Symbolic AI에서 연구되고 있습니다.&lt;br /&gt;
+Symbolic AI는 Rule Engine이 핵심이고 대표적으로 Expert System이, Knowledge Graph를 통해 Symbol간의 관계를 컴퓨터에 매핑합니다.&lt;br /&gt;
+하지만 Symbol 자체의 의미가 없으며 Monotonic한 특성을 가지고 있습니다.&lt;/p&gt;
+
+&lt;p&gt;Agent의 특징으로 자율성, 지능, 협동성, 사교성이 있다고 합니다.&lt;br /&gt;
+사용자의 간섭이 없이 스스로 판단하고, 사용자의 의도를 파악하여 계획을 세우고 지식을 터득합니다. 공통의 목적을 달성하기 위한 프로토콜이 있어야하며, 통신을 통해 도움을 받을 수 있어야합니다.&lt;/p&gt;
+
+&lt;p&gt;여기서 확장되어 반응성, 의무, 의지, 목표, 지식을 가진 것을 BDI 에이전트의 특징입니다.&lt;/p&gt;
+
+&lt;p&gt;BDI Agent는 에이전트가 가진 가질 수 있는 정보를 의미하는 Belief, 도달하고자하는 상태인 Desire, 행위인 Intention, 트리거인 Events가 있습니다. 이를 통해 방대한 Agent 범위를 개발할 수 있는 구체화를 하는 단계로 만들어졌습니다.&lt;/p&gt;
+
+&lt;p&gt;그렇다면 FSM과의 차이는 FSM은 시스템 관점에서 결과를 제공하지만, BDI는 개인 행동 관점에서 결과를 제공합니다. 즉 시뮬레이션에서 BDI Agent 활용이 더 정확한 결과를 제공합니다. 다만 연산 시간이나 메모리가 더 많이 사용된다고 합니다.&lt;/p&gt;
+
+&lt;p&gt;FSM의 감성같이 인간의 행동을 표현하기 어려운 분야에 대해 BDI가 더 효과적이라고 합니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;prs-procedure-reasoing-system--irs-inteligent-reasoning-system&quot;&gt;PRS (Procedure Reasoing System) / IRS (Inteligent Reasoning System)&lt;/h2&gt;
+&lt;p&gt;BDI를 구동하기 위해 절차적으로 진행될 수 있고 이는 병렬적으로 구현하기 어렵다고 합니다. 여기서는 목표 달성을 위한 에이전트의 의사 결정 과정을 설명합니다. 실행 순서와 조건, 사용한 데이터가 됩니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;문제를-해결하는-방법&quot;&gt;문제를 해결하는 방법&lt;/h2&gt;
+
+&lt;p&gt;Agent-based Modeling vs. Equation-based Modeling는 결국 접근 방법의 차이라고 하였습니다. Agent는 행위에 대해 관찰하게 되고 Equation은 개체 수 변화, 성공률 등 관계 중심으로 관찰하게 됩니다.&lt;/p&gt;
+
+&lt;p&gt;즉 Symbol의 의미를 가지지 않고 지식은 Monotonic하고, 절차 지향성이라는 문제가 있다고 합니다. 다만 학습 단계에서 Heuristic한 관점들이 들어가고 이런 것들을 극복하기 위해 Symbolic AI는 가치가 있다고 합니다. Symbol에 의미를 부여하기 위해 Ontology라는 형식으로 극복하려는 노력도 있습니다. 이를 통해 버전을 관리하고 이는 Monotonic을 극복하려고 합니다.&lt;/p&gt;
+
+&lt;p&gt;다만 Equation 모델은 수식을 통해 증명이 되지만 Agent는 모델러의 역량과 경험에서 오는 것을 많이 필요로 한다는 단점이 있습니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;결론&quot;&gt;결론&lt;/h2&gt;
+&lt;p&gt;항상 수식으로만 보던 AI 모델 외에 Agent라는 새로운 분야에 대해서 들을 수 있는 재미있는 세미나였습니다. 여기서 약간 궁금한 점은 강화학습 분야의 Agent 또한 이런 형태의 Agent와 동일한 의미를 갖고 활용하는 용어인가? 라는 궁금증을 가지며 나중에 더 지식 그래프 같은 분야가 발전하게 된다면 어떤 AI 모델이 나올지 궁금하다는 생각이 들었습니다.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>주건나</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="activity" />
+      
+
+      
+        <summary type="html">대외활동 게시글 목록 DEVOCEAN YOUNG 2기 합격 및 발대식 후기 DEVOCEAN 3월 Tech 세미나 - Datadog의 Front-End에서 Back-End까지의 여정 DEVOCEAN YOUNG 2기 3월 활동 후기 DEVOCEAN 4월 Tech 세미나 - ChatGPT로 인한 새로운 패러다임 DEVOCEAN YOUNG 2기 4월 활동 후기 DEVOCEAN 5월 Tech 세미나 - 클라우드 비용 최적화 DEVOCEAN YOUNG 2기 5월 활동 후기 SKT AI Campus 본사 방문 투어 후기 DEVOCEAN 6월 Tech 세미나 - 웹 프론트엔드 성능 최적화 방법 및 적용 사례 DEVOCEAN YOUNG 7월 전용 밋업 대학생 세미나 후기 DEVOCEAN 7월 Tech 세미나 - 다가오는 Automated AI 시대, 그 기반 기술과 적용사례 SKT AI 서비스 기획 CAMP DEVOCEAN YOUNG 8월 전용 밋업 대학생 세미나 후기 다시듣는 Tech 세미나 AI Agent 기반 문제 정의 방법과 해결 방안 모색 다시듣는 Tech 세미나 지식그래프 알아보기 DEVOCEAN 8월 Tech 세미나 - 업무 생산성 향상을 위한 생성형 AI 사용</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">다시듣는 Tech 세미나 지식그래프 알아보기</title>
+      <link href="https://keonju2.github.io/activity-devocean15" rel="alternate" type="text/html" title="다시듣는 Tech 세미나 지식그래프 알아보기" />
       <published>2023-08-31T08:00:00+09:00</published>
       <updated>2023-08-31T08:00:00+09:00</updated>
       <id>https://keonju2.github.io/activity-devocean15</id>
@@ -130,45 +252,57 @@ LLM을 사용할 때 주의해야할 할루시네이션이나, 보안 문제에 
     &lt;li&gt;&lt;a href=&quot;./activity-devocean11&quot;&gt; DEVOCEAN 7월 Tech 세미나 - 다가오는 Automated AI 시대, 그 기반 기술과 적용사례&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./activity-devocean12&quot;&gt; SKT AI 서비스 기획 CAMP&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./activity-devocean13&quot;&gt; DEVOCEAN YOUNG 8월 전용 밋업 대학생 세미나 후기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./activity-devocean14&quot;&gt; 다시듣는 ChatGPT로 인한 새로운 패러다임&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./activity-devocean15&quot;&gt; 다시듣는 다가오는 Automated AI 시대, 그 기반 기술과 적용사례&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./activity-devocean14&quot;&gt; 다시듣는 Tech 세미나 AI Agent 기반 문제 정의 방법과 해결 방안 모색&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./activity-devocean15&quot;&gt; 다시듣는 Tech 세미나 지식그래프 알아보기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./activity-devocean16&quot;&gt; DEVOCEAN 8월 Tech 세미나 - 업무 생산성 향상을 위한 생성형 AI 사용&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&quot;다시듣는-다가오는-automated-ai-시대-그-기반-기술과-적용사례&quot;&gt;다시듣는 다가오는 Automated AI 시대, 그 기반 기술과 적용사례&lt;/h1&gt;
+&lt;h1 id=&quot;지식그래프-알아보기&quot;&gt;지식그래프 알아보기&lt;/h1&gt;
 
-&lt;p&gt;AutoML과 XAI에 대해 다시 한번 공부하고 싶어서 선정하게 되었습니다.&lt;br /&gt;
-AutoML을 이용한 Hyper parameter Optimization, XAI 두가지에 대해 공부해야할 자료를 다시 정리해보았습니다.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://devocean.sk.com/vlog/view.do?id=350&amp;amp;vcode=A03&quot;&gt;https://devocean.sk.com/vlog/view.do?id=350&amp;amp;vcode=A03&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;그래서 vertex AI의 AutoML을 공식문서를 참고하여 AutoML을 직접 체험해보았습니다. 모든 데이터가 수행되는 것이 아니라 각각 데이터 구조 요구사항에 적합하게 맞춘 데이터셋이 작동하며, 분류, 회귀 뿐만 아니라 텍스트, 동영상, 커스텀 학습, 벡터 유사성 검색과 같이 다양한 모델을 자동화해서 진행하는 것을 학습하였습니다.&lt;/p&gt;
+&lt;p&gt;발표 순서는 다음과 같았습니다.&lt;/p&gt;
 
-&lt;p&gt;코랩에서 실습을 진행하면&lt;/p&gt;
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;PROJECT_ID&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;[your-project-id]&quot;&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# @param {type:&quot;string&quot;}
-&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;# Set the project id
-&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;!&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;gcloud&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;config&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;set&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;project&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;PROJECT_ID&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;REGION&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;us-central1&quot;&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# @param {type: &quot;string&quot;}
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;다음과 같이 프로젝트 이름을 불러오고, 지역을 수정할 수 있습니다.&lt;/p&gt;
+&lt;p&gt;1부 지식그래프&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;지식표현&lt;/li&gt;
+  &lt;li&gt;지식그래프 소개&lt;/li&gt;
+  &lt;li&gt;지식그래프는 어떻게 구성되는가?&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;python
-BUCKET_URI = f&quot;gs://your-bucket-name-{PROJECT_ID}-unique&quot;  # @param {type:&quot;string&quot;}
+&lt;p&gt;2부 지식그래프와 정보 교환&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;데이터와 지식&lt;/li&gt;
+  &lt;li&gt;우리는 같은 것을 이야기하는가?&lt;/li&gt;
+  &lt;li&gt;지식그래프를 통한 정보 교환&lt;/li&gt;
+&lt;/ul&gt;
 
-import os
+&lt;h2 id=&quot;1부-지식그래프&quot;&gt;1부 지식그래프&lt;/h2&gt;
 
-from google.cloud import aiplatform
+&lt;p&gt;정보를 잘 표현하기 위해서는 내가 표현한 의미를 다른 사람들에게 의미가 올바르게 전달되는가?에 대한 논의가 필요하다고 하였습니다. 
+즉, 어떻게 구조화를 시키고 어떻게 중복되는 데이터를 잘 통합할 수 있을까?에 대한 고민이 필요하다고 하셨습니다. &lt;br /&gt;
+그런 하나의 방안으로 지식그래프가 활용된다고 하였습니다.&lt;/p&gt;
 
-aiplatform.init(project=PROJECT_ID, location=REGION)
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;Cloud Storage bucket을 불러와 데이터셋을 불러온 뒤, SKD를 import합니다. 그 뒤에는 자신의 데이터셋 형태에 맞는 방법을 적용하여 모델을 학습하고 deploy한 뒤, endpoint에서 예측을 수행합니다.&lt;/p&gt;
+&lt;p&gt;지식 그래프 : 지식을 표현하는 데이터로 그래프 형태를 가진다.&lt;/p&gt;
 
-&lt;p&gt;특히 AutoML은 Edge로 내보낼 AutoML 학습 이미지 객체 감지 모델 프로젝트 예제도 지원하여 TFLite 형식으로 배포할 수 있는 방법도 알려주는 것이 흥미로웠습니다..! 예전에 TFLite로 변환하는 것에서 애를 먹었던 기억이….&lt;/p&gt;
+&lt;p&gt;지식그래프는 하나의 그래프 안에 엑셀, csv 형태 등 다양한 형태가 저장되고, 이를 설명하기 위한 information model, 사람과 기계의 접근을 뜻하는 Access, 찾기위한 Find, 그래프 형태 분석의 Network Analysis 같은 특징이 있다고 합니다.&lt;/p&gt;
 
-&lt;p&gt;XAI는 Explainable AI라는 예시로 제공을 하고 있었고, Tensorflow 모델은 지원하지만, 트리기반과 Pytorch, XGBoost는 제공하지 않는다고 합니다. Shapely 값을 통해 지원한다고 하며 Gradient Method와 XRAI Method 또한 지원한다고 합니다.&lt;/p&gt;
+&lt;p&gt;구성 요소는 구조와 형태에 활용되는 의미망과 프레임, 정보 전달과 의미를 제공하는 체계화와 개념화로 구성됩니다. 이를 위해 온톨로지를 통해 만들어나간다고 합니다.&lt;br /&gt;
+의미망은 개체나 개념을 의미하는 노드와 노드 간의 관계를 보여주는 링크로 구성됩니다.&lt;br /&gt;
+프레임은 Network의 노드 대신에 프레임을 활용하여 대상의 특성 값을 저장하는 여러 slot을 구성합니다.&lt;/p&gt;
 
-&lt;p&gt;Gradient Method는 신경망과 같이 미분 가능한 모델에서 권장된다고 하며, XRAI는 이미지 입력을 허용하고 여러 객체를 표함하는 이미지에 권장된다고 합니다.&lt;/p&gt;
+&lt;p&gt;구성하는 기술로는 시맨틱웹을 통해 만들어진 표준을 활용한다고 합니다.&lt;br /&gt;
+구축하기 위해서 모델러가 다양한 데이터를 분석하여 모델링한 뒤, 엔지니어가 조회하여 TopBraid Composer을 통해 변환 규칙을 만들어 트리플 변환 엔진(RDFizer)에 매핑하여 변환한 뒤 트리플 저저장소에 저장한다고 합니다.&lt;/p&gt;
 
-&lt;p&gt;이번 다시 듣는 세미나는 세미나를 다시 듣고 직접 활용해보는 것을 중점으로 진행해보았습니다..!!&lt;/p&gt;</content>
+&lt;h2 id=&quot;지식그래프와-정보-교환&quot;&gt;지식그래프와 정보 교환&lt;/h2&gt;
+
+&lt;p&gt;지식이란 정보를 체계화하고 개념화 한 것 입니다.&lt;br /&gt;
+이를 공통적인 내용을 가지고 공유하기 위해 URI처럼 축약 표현을 사용하고, RDF를 통해 명칭과 표기를 통해 표현을 합니다.&lt;br /&gt;
+SKOS를 통해 타입같은 개념용어를 지정하는 어휘 체계를 표현합니다.&lt;br /&gt;
+SPARQL을 통해 CRUD를 진행합니다.&lt;/p&gt;
+
+&lt;h1 id=&quot;결론&quot;&gt;결론&lt;/h1&gt;
+&lt;p&gt;지식그래프라는 단어는 들어보고 어떻게 활용하는지는 접해봤지만 데보션영 워크샵을 통해 지식그래프를 실제 활용하려는 팀의 프로젝트를 보고 한번쯤 어떤 툴을 활용해서 적용할 수 있는지 궁금했습니다. 그래서 마침 예전 세미나가 있길래 들어봤는데 굉장히 쉽고 예시를 통해 설명해주셔서 전반적인 내용에 대해 정리할 수 있었던 좋은 내용이었던 것 같습니다.&lt;/p&gt;</content>
 
       
       
@@ -189,99 +323,7 @@ aiplatform.init(project=PROJECT_ID, location=REGION)
       
 
       
-        <summary type="html">대외활동 게시글 목록 DEVOCEAN YOUNG 2기 합격 및 발대식 후기 DEVOCEAN 3월 Tech 세미나 - Datadog의 Front-End에서 Back-End까지의 여정 DEVOCEAN YOUNG 2기 3월 활동 후기 DEVOCEAN 4월 Tech 세미나 - ChatGPT로 인한 새로운 패러다임 DEVOCEAN YOUNG 2기 4월 활동 후기 DEVOCEAN 5월 Tech 세미나 - 클라우드 비용 최적화 DEVOCEAN YOUNG 2기 5월 활동 후기 SKT AI Campus 본사 방문 투어 후기 DEVOCEAN 6월 Tech 세미나 - 웹 프론트엔드 성능 최적화 방법 및 적용 사례 DEVOCEAN YOUNG 7월 전용 밋업 대학생 세미나 후기 DEVOCEAN 7월 Tech 세미나 - 다가오는 Automated AI 시대, 그 기반 기술과 적용사례 SKT AI 서비스 기획 CAMP DEVOCEAN YOUNG 8월 전용 밋업 대학생 세미나 후기 다시듣는 ChatGPT로 인한 새로운 패러다임 다시듣는 다가오는 Automated AI 시대, 그 기반 기술과 적용사례 DEVOCEAN 8월 Tech 세미나 - 업무 생산성 향상을 위한 생성형 AI 사용</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">다시듣는 ChatGPT로 인한 새로운 패러다임</title>
-      <link href="https://keonju2.github.io/activity-devocean14" rel="alternate" type="text/html" title="다시듣는 ChatGPT로 인한 새로운 패러다임" />
-      <published>2023-08-30T08:00:00+09:00</published>
-      <updated>2023-08-30T08:00:00+09:00</updated>
-      <id>https://keonju2.github.io/activity-devocean14</id>
-      <content type="html" xml:base="https://keonju2.github.io/activity-devocean14">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;대외활동 게시글 목록&lt;/span&gt;&lt;/p&gt;
-&lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./activity-devocean1&quot;&gt; DEVOCEAN YOUNG 2기 합격 및 발대식 후기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./activity-devocean2&quot;&gt; DEVOCEAN 3월 Tech 세미나 - Datadog의 Front-End에서 Back-End까지의 여정&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./activity-devocean3&quot;&gt; DEVOCEAN YOUNG 2기 3월 활동 후기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./activity-devocean4&quot;&gt; DEVOCEAN 4월 Tech 세미나 - ChatGPT로 인한 새로운 패러다임&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./activity-devocean5&quot;&gt; DEVOCEAN YOUNG 2기 4월 활동 후기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./activity-devocean6&quot;&gt; DEVOCEAN 5월 Tech 세미나 - 클라우드 비용 최적화&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./activity-devocean7&quot;&gt; DEVOCEAN YOUNG 2기 5월 활동 후기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./activity-devocean8&quot;&gt; SKT AI Campus 본사 방문 투어 후기 &lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./activity-devocean9&quot;&gt; DEVOCEAN 6월 Tech 세미나 - 웹 프론트엔드 성능 최적화 방법 및 적용 사례&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./activity-devocean10&quot;&gt; DEVOCEAN YOUNG 7월 전용 밋업 대학생 세미나 후기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./activity-devocean11&quot;&gt; DEVOCEAN 7월 Tech 세미나 - 다가오는 Automated AI 시대, 그 기반 기술과 적용사례&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./activity-devocean12&quot;&gt; SKT AI 서비스 기획 CAMP&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./activity-devocean13&quot;&gt; DEVOCEAN YOUNG 8월 전용 밋업 대학생 세미나 후기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./activity-devocean14&quot;&gt; 다시듣는 ChatGPT로 인한 새로운 패러다임&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./activity-devocean15&quot;&gt; 다시듣는 다가오는 Automated AI 시대, 그 기반 기술과 적용사례&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./activity-devocean16&quot;&gt; DEVOCEAN 8월 Tech 세미나 - 업무 생산성 향상을 위한 생성형 AI 사용&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;다시듣는-chatgpt로-인한-새로운-패러다임&quot;&gt;다시듣는 ChatGPT로 인한 새로운 패러다임&lt;/h1&gt;
-
-&lt;p&gt;이번에는 Openai 패키지를 이용하여 실제로 실습을 진행해보았습니다.&lt;/p&gt;
-
-&lt;p&gt;아래 코드처럼 input을 주면,&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;os&lt;/span&gt;
-&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;openai&lt;/span&gt;
-
-&lt;span class=&quot;n&quot;&gt;openai&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;api_key&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;os&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;getenv&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;OPENAI_API_KEY&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-
-&lt;span class=&quot;n&quot;&gt;response&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;openai&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ChatCompletion&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;create&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;model&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;gpt-3.5-turbo&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;prompt&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&apos;가장 많이 보는 영화 2개를 추천해줘&apos;&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;temperature&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;max_tokens&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;256&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;response&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;choice&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;text&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;위 형태로 아웃풋을 받을 수 있다. 또한 response를 출력하면 어떻게 종료되었는지 출력 정보를 받을 수 있다.&lt;/p&gt;
-
-&lt;p&gt;이때 temperature은 0-2 사이의 값으로 대부분 0-1로 이루어져있습니다. 아웃풋의 randomness를 통제하며 높을수록 더 랜덤하게, 낮을수록 더 deterministic하게 나오게 됩니다.&lt;/p&gt;
-
-&lt;p&gt;임베딩을 이용하면 텍스트 표현을 얻을수 있으며 KNN같은 다양한 활용 방안을 가질 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;다음과 같이 openai의 예제를 따라, 자신만의 csv파일을 만들수도 있습니다.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;get_embedding&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;model&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;text-embedding-ada-002&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-   &lt;span class=&quot;n&quot;&gt;text&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;replace&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot; &quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-   &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;openai&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Embedding&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;create&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;input&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;model&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;model&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;data&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;embedding&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-
-&lt;span class=&quot;n&quot;&gt;df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;ada_embedding&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;combined&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;apply&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;lambda&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;get_embedding&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;model&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;text-embedding-ada-002&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;to_csv&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;output/embedded_1k_reviews.csv&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;index&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;지난번에는 시간상 실습을 진행해보지 못했지만 이번 과정을 통해 다시 한번 따라서 해봤던 것들에서 배울 수 있었던 것이 많았습니다.&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>주건나</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="activity" />
-      
-
-      
-        <summary type="html">대외활동 게시글 목록 DEVOCEAN YOUNG 2기 합격 및 발대식 후기 DEVOCEAN 3월 Tech 세미나 - Datadog의 Front-End에서 Back-End까지의 여정 DEVOCEAN YOUNG 2기 3월 활동 후기 DEVOCEAN 4월 Tech 세미나 - ChatGPT로 인한 새로운 패러다임 DEVOCEAN YOUNG 2기 4월 활동 후기 DEVOCEAN 5월 Tech 세미나 - 클라우드 비용 최적화 DEVOCEAN YOUNG 2기 5월 활동 후기 SKT AI Campus 본사 방문 투어 후기 DEVOCEAN 6월 Tech 세미나 - 웹 프론트엔드 성능 최적화 방법 및 적용 사례 DEVOCEAN YOUNG 7월 전용 밋업 대학생 세미나 후기 DEVOCEAN 7월 Tech 세미나 - 다가오는 Automated AI 시대, 그 기반 기술과 적용사례 SKT AI 서비스 기획 CAMP DEVOCEAN YOUNG 8월 전용 밋업 대학생 세미나 후기 다시듣는 ChatGPT로 인한 새로운 패러다임 다시듣는 다가오는 Automated AI 시대, 그 기반 기술과 적용사례 DEVOCEAN 8월 Tech 세미나 - 업무 생산성 향상을 위한 생성형 AI 사용</summary>
+        <summary type="html">대외활동 게시글 목록 DEVOCEAN YOUNG 2기 합격 및 발대식 후기 DEVOCEAN 3월 Tech 세미나 - Datadog의 Front-End에서 Back-End까지의 여정 DEVOCEAN YOUNG 2기 3월 활동 후기 DEVOCEAN 4월 Tech 세미나 - ChatGPT로 인한 새로운 패러다임 DEVOCEAN YOUNG 2기 4월 활동 후기 DEVOCEAN 5월 Tech 세미나 - 클라우드 비용 최적화 DEVOCEAN YOUNG 2기 5월 활동 후기 SKT AI Campus 본사 방문 투어 후기 DEVOCEAN 6월 Tech 세미나 - 웹 프론트엔드 성능 최적화 방법 및 적용 사례 DEVOCEAN YOUNG 7월 전용 밋업 대학생 세미나 후기 DEVOCEAN 7월 Tech 세미나 - 다가오는 Automated AI 시대, 그 기반 기술과 적용사례 SKT AI 서비스 기획 CAMP DEVOCEAN YOUNG 8월 전용 밋업 대학생 세미나 후기 다시듣는 Tech 세미나 AI Agent 기반 문제 정의 방법과 해결 방안 모색 다시듣는 Tech 세미나 지식그래프 알아보기 DEVOCEAN 8월 Tech 세미나 - 업무 생산성 향상을 위한 생성형 AI 사용</summary>
       
 
       
@@ -309,8 +351,8 @@ aiplatform.init(project=PROJECT_ID, location=REGION)
     &lt;li&gt;&lt;a href=&quot;./activity-devocean11&quot;&gt; DEVOCEAN 7월 Tech 세미나 - 다가오는 Automated AI 시대, 그 기반 기술과 적용사례&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./activity-devocean12&quot;&gt; SKT AI 서비스 기획 CAMP&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./activity-devocean13&quot;&gt; DEVOCEAN YOUNG 8월 전용 밋업 대학생 세미나 후기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./activity-devocean14&quot;&gt; 다시듣는 ChatGPT로 인한 새로운 패러다임&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./activity-devocean15&quot;&gt; 다시듣는 다가오는 Automated AI 시대, 그 기반 기술과 적용사례&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./activity-devocean14&quot;&gt; 다시듣는 Tech 세미나 AI Agent 기반 문제 정의 방법과 해결 방안 모색&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./activity-devocean15&quot;&gt; 다시듣는 Tech 세미나 지식그래프 알아보기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./activity-devocean16&quot;&gt; DEVOCEAN 8월 Tech 세미나 - 업무 생산성 향상을 위한 생성형 AI 사용&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -376,7 +418,7 @@ aiplatform.init(project=PROJECT_ID, location=REGION)
       
 
       
-        <summary type="html">대외활동 게시글 목록 DEVOCEAN YOUNG 2기 합격 및 발대식 후기 DEVOCEAN 3월 Tech 세미나 - Datadog의 Front-End에서 Back-End까지의 여정 DEVOCEAN YOUNG 2기 3월 활동 후기 DEVOCEAN 4월 Tech 세미나 - ChatGPT로 인한 새로운 패러다임 DEVOCEAN YOUNG 2기 4월 활동 후기 DEVOCEAN 5월 Tech 세미나 - 클라우드 비용 최적화 DEVOCEAN YOUNG 2기 5월 활동 후기 SKT AI Campus 본사 방문 투어 후기 DEVOCEAN 6월 Tech 세미나 - 웹 프론트엔드 성능 최적화 방법 및 적용 사례 DEVOCEAN YOUNG 7월 전용 밋업 대학생 세미나 후기 DEVOCEAN 7월 Tech 세미나 - 다가오는 Automated AI 시대, 그 기반 기술과 적용사례 SKT AI 서비스 기획 CAMP DEVOCEAN YOUNG 8월 전용 밋업 대학생 세미나 후기 다시듣는 ChatGPT로 인한 새로운 패러다임 다시듣는 다가오는 Automated AI 시대, 그 기반 기술과 적용사례 DEVOCEAN 8월 Tech 세미나 - 업무 생산성 향상을 위한 생성형 AI 사용</summary>
+        <summary type="html">대외활동 게시글 목록 DEVOCEAN YOUNG 2기 합격 및 발대식 후기 DEVOCEAN 3월 Tech 세미나 - Datadog의 Front-End에서 Back-End까지의 여정 DEVOCEAN YOUNG 2기 3월 활동 후기 DEVOCEAN 4월 Tech 세미나 - ChatGPT로 인한 새로운 패러다임 DEVOCEAN YOUNG 2기 4월 활동 후기 DEVOCEAN 5월 Tech 세미나 - 클라우드 비용 최적화 DEVOCEAN YOUNG 2기 5월 활동 후기 SKT AI Campus 본사 방문 투어 후기 DEVOCEAN 6월 Tech 세미나 - 웹 프론트엔드 성능 최적화 방법 및 적용 사례 DEVOCEAN YOUNG 7월 전용 밋업 대학생 세미나 후기 DEVOCEAN 7월 Tech 세미나 - 다가오는 Automated AI 시대, 그 기반 기술과 적용사례 SKT AI 서비스 기획 CAMP DEVOCEAN YOUNG 8월 전용 밋업 대학생 세미나 후기 다시듣는 Tech 세미나 AI Agent 기반 문제 정의 방법과 해결 방안 모색 다시듣는 Tech 세미나 지식그래프 알아보기 DEVOCEAN 8월 Tech 세미나 - 업무 생산성 향상을 위한 생성형 AI 사용</summary>
       
 
       
@@ -404,8 +446,8 @@ aiplatform.init(project=PROJECT_ID, location=REGION)
     &lt;li&gt;&lt;a href=&quot;./activity-devocean11&quot;&gt; DEVOCEAN 7월 Tech 세미나 - 다가오는 Automated AI 시대, 그 기반 기술과 적용사례&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./activity-devocean12&quot;&gt; SKT AI 서비스 기획 CAMP&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./activity-devocean13&quot;&gt; DEVOCEAN YOUNG 8월 전용 밋업 대학생 세미나 후기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./activity-devocean14&quot;&gt; 다시듣는 ChatGPT로 인한 새로운 패러다임&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./activity-devocean15&quot;&gt; 다시듣는 다가오는 Automated AI 시대, 그 기반 기술과 적용사례&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./activity-devocean14&quot;&gt; 다시듣는 Tech 세미나 AI Agent 기반 문제 정의 방법과 해결 방안 모색&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./activity-devocean15&quot;&gt; 다시듣는 Tech 세미나 지식그래프 알아보기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./activity-devocean16&quot;&gt; DEVOCEAN 8월 Tech 세미나 - 업무 생산성 향상을 위한 생성형 AI 사용&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -460,7 +502,7 @@ LLM을 공부하면서 어쩌면 코딩보다 나는 기획이 더 잘맞을 수
       
 
       
-        <summary type="html">대외활동 게시글 목록 DEVOCEAN YOUNG 2기 합격 및 발대식 후기 DEVOCEAN 3월 Tech 세미나 - Datadog의 Front-End에서 Back-End까지의 여정 DEVOCEAN YOUNG 2기 3월 활동 후기 DEVOCEAN 4월 Tech 세미나 - ChatGPT로 인한 새로운 패러다임 DEVOCEAN YOUNG 2기 4월 활동 후기 DEVOCEAN 5월 Tech 세미나 - 클라우드 비용 최적화 DEVOCEAN YOUNG 2기 5월 활동 후기 SKT AI Campus 본사 방문 투어 후기 DEVOCEAN 6월 Tech 세미나 - 웹 프론트엔드 성능 최적화 방법 및 적용 사례 DEVOCEAN YOUNG 7월 전용 밋업 대학생 세미나 후기 DEVOCEAN 7월 Tech 세미나 - 다가오는 Automated AI 시대, 그 기반 기술과 적용사례 SKT AI 서비스 기획 CAMP DEVOCEAN YOUNG 8월 전용 밋업 대학생 세미나 후기 다시듣는 ChatGPT로 인한 새로운 패러다임 다시듣는 다가오는 Automated AI 시대, 그 기반 기술과 적용사례 DEVOCEAN 8월 Tech 세미나 - 업무 생산성 향상을 위한 생성형 AI 사용</summary>
+        <summary type="html">대외활동 게시글 목록 DEVOCEAN YOUNG 2기 합격 및 발대식 후기 DEVOCEAN 3월 Tech 세미나 - Datadog의 Front-End에서 Back-End까지의 여정 DEVOCEAN YOUNG 2기 3월 활동 후기 DEVOCEAN 4월 Tech 세미나 - ChatGPT로 인한 새로운 패러다임 DEVOCEAN YOUNG 2기 4월 활동 후기 DEVOCEAN 5월 Tech 세미나 - 클라우드 비용 최적화 DEVOCEAN YOUNG 2기 5월 활동 후기 SKT AI Campus 본사 방문 투어 후기 DEVOCEAN 6월 Tech 세미나 - 웹 프론트엔드 성능 최적화 방법 및 적용 사례 DEVOCEAN YOUNG 7월 전용 밋업 대학생 세미나 후기 DEVOCEAN 7월 Tech 세미나 - 다가오는 Automated AI 시대, 그 기반 기술과 적용사례 SKT AI 서비스 기획 CAMP DEVOCEAN YOUNG 8월 전용 밋업 대학생 세미나 후기 다시듣는 Tech 세미나 AI Agent 기반 문제 정의 방법과 해결 방안 모색 다시듣는 Tech 세미나 지식그래프 알아보기 DEVOCEAN 8월 Tech 세미나 - 업무 생산성 향상을 위한 생성형 AI 사용</summary>
       
 
       
@@ -488,8 +530,8 @@ LLM을 공부하면서 어쩌면 코딩보다 나는 기획이 더 잘맞을 수
     &lt;li&gt;&lt;a href=&quot;./activity-devocean11&quot;&gt; DEVOCEAN 7월 Tech 세미나 - 다가오는 Automated AI 시대, 그 기반 기술과 적용사례&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./activity-devocean12&quot;&gt; SKT AI 서비스 기획 CAMP&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./activity-devocean13&quot;&gt; DEVOCEAN YOUNG 8월 전용 밋업 대학생 세미나 후기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./activity-devocean14&quot;&gt; 다시듣는 ChatGPT로 인한 새로운 패러다임&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./activity-devocean15&quot;&gt; 다시듣는 다가오는 Automated AI 시대, 그 기반 기술과 적용사례&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./activity-devocean14&quot;&gt; 다시듣는 Tech 세미나 AI Agent 기반 문제 정의 방법과 해결 방안 모색&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./activity-devocean15&quot;&gt; 다시듣는 Tech 세미나 지식그래프 알아보기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./activity-devocean16&quot;&gt; DEVOCEAN 8월 Tech 세미나 - 업무 생산성 향상을 위한 생성형 AI 사용&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -500,6 +542,8 @@ LLM을 공부하면서 어쩌면 코딩보다 나는 기획이 더 잘맞을 수
 &lt;p&gt;이번 테크 세미나 주제는 오랜만에..!!&lt;br /&gt;
 제가 가장 관심있어하는 AI와 관련된 주제가 나왔습니다. ㅎㅎ&lt;br /&gt;
 특히 Auto ML과 XAI에 관한 이야기로 진행되어 너무 재미있고 유익한 시간이었습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://devocean.sk.com/vlog/view.do?id=425&amp;amp;vcode=A03&quot;&gt;https://devocean.sk.com/vlog/view.do?id=425&amp;amp;vcode=A03&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;순서는&lt;/p&gt;
 &lt;ol&gt;
@@ -562,7 +606,7 @@ Auto ML과 XAI를 따로 배우지 않고 공부를 딥하게 해보진 못했�
       
 
       
-        <summary type="html">대외활동 게시글 목록 DEVOCEAN YOUNG 2기 합격 및 발대식 후기 DEVOCEAN 3월 Tech 세미나 - Datadog의 Front-End에서 Back-End까지의 여정 DEVOCEAN YOUNG 2기 3월 활동 후기 DEVOCEAN 4월 Tech 세미나 - ChatGPT로 인한 새로운 패러다임 DEVOCEAN YOUNG 2기 4월 활동 후기 DEVOCEAN 5월 Tech 세미나 - 클라우드 비용 최적화 DEVOCEAN YOUNG 2기 5월 활동 후기 SKT AI Campus 본사 방문 투어 후기 DEVOCEAN 6월 Tech 세미나 - 웹 프론트엔드 성능 최적화 방법 및 적용 사례 DEVOCEAN YOUNG 7월 전용 밋업 대학생 세미나 후기 DEVOCEAN 7월 Tech 세미나 - 다가오는 Automated AI 시대, 그 기반 기술과 적용사례 SKT AI 서비스 기획 CAMP DEVOCEAN YOUNG 8월 전용 밋업 대학생 세미나 후기 다시듣는 ChatGPT로 인한 새로운 패러다임 다시듣는 다가오는 Automated AI 시대, 그 기반 기술과 적용사례 DEVOCEAN 8월 Tech 세미나 - 업무 생산성 향상을 위한 생성형 AI 사용</summary>
+        <summary type="html">대외활동 게시글 목록 DEVOCEAN YOUNG 2기 합격 및 발대식 후기 DEVOCEAN 3월 Tech 세미나 - Datadog의 Front-End에서 Back-End까지의 여정 DEVOCEAN YOUNG 2기 3월 활동 후기 DEVOCEAN 4월 Tech 세미나 - ChatGPT로 인한 새로운 패러다임 DEVOCEAN YOUNG 2기 4월 활동 후기 DEVOCEAN 5월 Tech 세미나 - 클라우드 비용 최적화 DEVOCEAN YOUNG 2기 5월 활동 후기 SKT AI Campus 본사 방문 투어 후기 DEVOCEAN 6월 Tech 세미나 - 웹 프론트엔드 성능 최적화 방법 및 적용 사례 DEVOCEAN YOUNG 7월 전용 밋업 대학생 세미나 후기 DEVOCEAN 7월 Tech 세미나 - 다가오는 Automated AI 시대, 그 기반 기술과 적용사례 SKT AI 서비스 기획 CAMP DEVOCEAN YOUNG 8월 전용 밋업 대학생 세미나 후기 다시듣는 Tech 세미나 AI Agent 기반 문제 정의 방법과 해결 방안 모색 다시듣는 Tech 세미나 지식그래프 알아보기 DEVOCEAN 8월 Tech 세미나 - 업무 생산성 향상을 위한 생성형 AI 사용</summary>
       
 
       
@@ -708,8 +752,8 @@ Auto ML과 XAI를 따로 배우지 않고 공부를 딥하게 해보진 못했�
     &lt;li&gt;&lt;a href=&quot;./activity-devocean11&quot;&gt; DEVOCEAN 7월 Tech 세미나 - 다가오는 Automated AI 시대, 그 기반 기술과 적용사례&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./activity-devocean12&quot;&gt; SKT AI 서비스 기획 CAMP&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./activity-devocean13&quot;&gt; DEVOCEAN YOUNG 8월 전용 밋업 대학생 세미나 후기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./activity-devocean14&quot;&gt; 다시듣는 ChatGPT로 인한 새로운 패러다임&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./activity-devocean15&quot;&gt; 다시듣는 다가오는 Automated AI 시대, 그 기반 기술과 적용사례&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./activity-devocean14&quot;&gt; 다시듣는 Tech 세미나 AI Agent 기반 문제 정의 방법과 해결 방안 모색&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./activity-devocean15&quot;&gt; 다시듣는 Tech 세미나 지식그래프 알아보기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./activity-devocean16&quot;&gt; DEVOCEAN 8월 Tech 세미나 - 업무 생산성 향상을 위한 생성형 AI 사용&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -809,7 +853,7 @@ Auto ML과 XAI를 따로 배우지 않고 공부를 딥하게 해보진 못했�
       
 
       
-        <summary type="html">대외활동 게시글 목록 DEVOCEAN YOUNG 2기 합격 및 발대식 후기 DEVOCEAN 3월 Tech 세미나 - Datadog의 Front-End에서 Back-End까지의 여정 DEVOCEAN YOUNG 2기 3월 활동 후기 DEVOCEAN 4월 Tech 세미나 - ChatGPT로 인한 새로운 패러다임 DEVOCEAN YOUNG 2기 4월 활동 후기 DEVOCEAN 5월 Tech 세미나 - 클라우드 비용 최적화 DEVOCEAN YOUNG 2기 5월 활동 후기 SKT AI Campus 본사 방문 투어 후기 DEVOCEAN 6월 Tech 세미나 - 웹 프론트엔드 성능 최적화 방법 및 적용 사례 DEVOCEAN YOUNG 7월 전용 밋업 대학생 세미나 후기 DEVOCEAN 7월 Tech 세미나 - 다가오는 Automated AI 시대, 그 기반 기술과 적용사례 SKT AI 서비스 기획 CAMP DEVOCEAN YOUNG 8월 전용 밋업 대학생 세미나 후기 다시듣는 ChatGPT로 인한 새로운 패러다임 다시듣는 다가오는 Automated AI 시대, 그 기반 기술과 적용사례 DEVOCEAN 8월 Tech 세미나 - 업무 생산성 향상을 위한 생성형 AI 사용</summary>
+        <summary type="html">대외활동 게시글 목록 DEVOCEAN YOUNG 2기 합격 및 발대식 후기 DEVOCEAN 3월 Tech 세미나 - Datadog의 Front-End에서 Back-End까지의 여정 DEVOCEAN YOUNG 2기 3월 활동 후기 DEVOCEAN 4월 Tech 세미나 - ChatGPT로 인한 새로운 패러다임 DEVOCEAN YOUNG 2기 4월 활동 후기 DEVOCEAN 5월 Tech 세미나 - 클라우드 비용 최적화 DEVOCEAN YOUNG 2기 5월 활동 후기 SKT AI Campus 본사 방문 투어 후기 DEVOCEAN 6월 Tech 세미나 - 웹 프론트엔드 성능 최적화 방법 및 적용 사례 DEVOCEAN YOUNG 7월 전용 밋업 대학생 세미나 후기 DEVOCEAN 7월 Tech 세미나 - 다가오는 Automated AI 시대, 그 기반 기술과 적용사례 SKT AI 서비스 기획 CAMP DEVOCEAN YOUNG 8월 전용 밋업 대학생 세미나 후기 다시듣는 Tech 세미나 AI Agent 기반 문제 정의 방법과 해결 방안 모색 다시듣는 Tech 세미나 지식그래프 알아보기 DEVOCEAN 8월 Tech 세미나 - 업무 생산성 향상을 위한 생성형 AI 사용</summary>
       
 
       
@@ -837,8 +881,8 @@ Auto ML과 XAI를 따로 배우지 않고 공부를 딥하게 해보진 못했�
     &lt;li&gt;&lt;a href=&quot;./activity-devocean11&quot;&gt; DEVOCEAN 7월 Tech 세미나 - 다가오는 Automated AI 시대, 그 기반 기술과 적용사례&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./activity-devocean12&quot;&gt; SKT AI 서비스 기획 CAMP&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./activity-devocean13&quot;&gt; DEVOCEAN YOUNG 8월 전용 밋업 대학생 세미나 후기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./activity-devocean14&quot;&gt; 다시듣는 ChatGPT로 인한 새로운 패러다임&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./activity-devocean15&quot;&gt; 다시듣는 다가오는 Automated AI 시대, 그 기반 기술과 적용사례&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./activity-devocean14&quot;&gt; 다시듣는 Tech 세미나 AI Agent 기반 문제 정의 방법과 해결 방안 모색&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./activity-devocean15&quot;&gt; 다시듣는 Tech 세미나 지식그래프 알아보기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./activity-devocean16&quot;&gt; DEVOCEAN 8월 Tech 세미나 - 업무 생산성 향상을 위한 생성형 AI 사용&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&quot;웹-프론트엔드-성능-최적화-방법-및-적용-사례&quot;&gt;웹 프론트엔드 성능 최적화 방법 및 적용 사례&lt;/h1&gt;
@@ -925,7 +969,7 @@ Render Blocking Resource, Script Loading option, Image 용량 등 다양한 문�
       
 
       
-        <summary type="html">대외활동 게시글 목록 DEVOCEAN YOUNG 2기 합격 및 발대식 후기 DEVOCEAN 3월 Tech 세미나 - Datadog의 Front-End에서 Back-End까지의 여정 DEVOCEAN YOUNG 2기 3월 활동 후기 DEVOCEAN 4월 Tech 세미나 - ChatGPT로 인한 새로운 패러다임 DEVOCEAN YOUNG 2기 4월 활동 후기 DEVOCEAN 5월 Tech 세미나 - 클라우드 비용 최적화 DEVOCEAN YOUNG 2기 5월 활동 후기 SKT AI Campus 본사 방문 투어 후기 DEVOCEAN 6월 Tech 세미나 - 웹 프론트엔드 성능 최적화 방법 및 적용 사례 DEVOCEAN YOUNG 7월 전용 밋업 대학생 세미나 후기 DEVOCEAN 7월 Tech 세미나 - 다가오는 Automated AI 시대, 그 기반 기술과 적용사례 SKT AI 서비스 기획 CAMP DEVOCEAN YOUNG 8월 전용 밋업 대학생 세미나 후기 다시듣는 ChatGPT로 인한 새로운 패러다임 다시듣는 다가오는 Automated AI 시대, 그 기반 기술과 적용사례 DEVOCEAN 8월 Tech 세미나 - 업무 생산성 향상을 위한 생성형 AI 사용 웹 프론트엔드 성능 최적화 방법 및 적용 사례</summary>
+        <summary type="html">대외활동 게시글 목록 DEVOCEAN YOUNG 2기 합격 및 발대식 후기 DEVOCEAN 3월 Tech 세미나 - Datadog의 Front-End에서 Back-End까지의 여정 DEVOCEAN YOUNG 2기 3월 활동 후기 DEVOCEAN 4월 Tech 세미나 - ChatGPT로 인한 새로운 패러다임 DEVOCEAN YOUNG 2기 4월 활동 후기 DEVOCEAN 5월 Tech 세미나 - 클라우드 비용 최적화 DEVOCEAN YOUNG 2기 5월 활동 후기 SKT AI Campus 본사 방문 투어 후기 DEVOCEAN 6월 Tech 세미나 - 웹 프론트엔드 성능 최적화 방법 및 적용 사례 DEVOCEAN YOUNG 7월 전용 밋업 대학생 세미나 후기 DEVOCEAN 7월 Tech 세미나 - 다가오는 Automated AI 시대, 그 기반 기술과 적용사례 SKT AI 서비스 기획 CAMP DEVOCEAN YOUNG 8월 전용 밋업 대학생 세미나 후기 다시듣는 Tech 세미나 AI Agent 기반 문제 정의 방법과 해결 방안 모색 다시듣는 Tech 세미나 지식그래프 알아보기 DEVOCEAN 8월 Tech 세미나 - 업무 생산성 향상을 위한 생성형 AI 사용 웹 프론트엔드 성능 최적화 방법 및 적용 사례</summary>
       
 
       
